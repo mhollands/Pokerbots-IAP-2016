@@ -130,6 +130,3 @@ def isBetterHand(handType1,handType2):
 			return -1
 	
 	return 0
-	
-if __name__ == '__main__':
-	print findBestHand([(12,"h"),(12,"d"), (7,"c"), (12,"s")],[(14,"h"),(3,"h"),(7,"d"),(5,"c"),(2,"s")])
