@@ -4,23 +4,24 @@ import sys
 import time
 
 class Player:
-    iAgreeWithBet = False
+    #when both players agree with bet it is moved into the pot
+    iAgreeWithBet = False 
     opponentAgreesWithBet = False
     myName = ''
     opponentName = ''
     myStackSize = 0 #this may not always be up to date
     opponentStackSize = 0 #this may not always be up to date
-    bigBlind = 0
-    totalNumHands = 0
-    handId = 0
-    myHand = list()
-    potSize = 0
-    numBoardCards = 0
-    boardCards = list()
-    myPot = 0
-    opponentPot = 0
-    myBet = 0
-    opponentBet = 0
+    bigBlind = 0 #big blind specified by engine
+    totalNumHands = 0 #the total number of hands to be played this game
+    handId = 0 #the hand Id specified by the engine
+    myHand = list() #list of tuples representing cards in my hand
+    potSize = 0 #the potSize specified by the engine (should equal sum of pots and bets)
+    numBoardCards = 0 #the number of cards of the board
+    boardCards = list() #list of tuples representing cards on the board
+    myPot = 0 #keeps track of my pot (should be the same as opponentPot)
+    opponentPot = 0 #keeps track of opponent pot
+    myBet = 0 #keeps track of my current bet
+    opponentBet = 0 #keeps track of current opponent bet
     
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
@@ -239,7 +240,7 @@ class Player:
         self.opponentPot = 0 #reset opponentPot
         del self.boardCards[:] #reset boardCards
         self.numBoardCards = 0 
-        self.potSize = 0; #reset potSize
+        self.potSize = 0 #reset potSize
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
         
