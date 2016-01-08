@@ -25,4 +25,4 @@ def findBestHand(ourHand, tableHand):
 
 	#Sort the hands by value and then return the best
 	sortedByValue = sorted(handsTuples, key = lambda x: (x[0][0], x[0][1], x[0][2], x[0][3], x[0][4], x[0][5]), reverse = True)
-	return sortedByValue[0][1]
+	return sortedByValue[0]
