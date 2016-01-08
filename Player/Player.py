@@ -2,6 +2,7 @@ import argparse
 import socket
 import sys
 import time
+import PokerPhysics as PP
 
 class Player:
     #when both players agree with bet it is moved into the pot
@@ -122,7 +123,7 @@ class Player:
                 canRaise = True
                 minRaise = int(subWords[1])
                 maxRaise = int(subWords[2])
-                next
+                next    
 
         #print out details that will be used to make decision on move
         print "Pot Size: ", self.potSize
@@ -131,12 +132,15 @@ class Player:
         print "My Pot: ", self.myPot
         print "Opponent Pot: ", self.opponentPot
         print "My Hand: ", self.myHand
+        print "Num Board Cards: ", self.numBoardCards
         print "Board Cards: ", self.boardCards
         print "Can Bet: ", canBet, ":", minBet, ":", maxBet
         print "Can Call: ", canCall
         print "Can Fold: ", canFold
         print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
         print "Can Check: ", canCheck
+
+        s.send(self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise)+"\n")
 
         #check that the pots and bets agree with the specified pot size
         if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
@@ -147,7 +151,7 @@ class Player:
         #s.send(x+"\n")
 
         #s.send("CHECK\n") #default behaviour of the example player
-        s.send("RAISE:4\n") #default behaviour of the example player
+        #s.send("RAISE:4\n") #default behaviour of the example player
         
     #handles actions performed between GetAction packets
     def parsePerformedAction(self, performedAction):
@@ -264,6 +268,30 @@ class Player:
         if(number == "A"):
             number = 14
         return (int(number), cardString[1])
+
+    def choosePlay(self, canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise):
+        if(self.numBoardCards == 0):
+            if(canCall):
+                return "CALL"
+            if(canCheck):
+                return "CHECK"
+
+        if(self.numBoardCards >= 3):
+            bestHand = PP.findBestHand(self.myHand, self.boardCards)
+            if(bestHand[0][0] == 0):
+                if(canCheck):
+                    return "CHECK"
+                return "FOLD"
+            if(bestHand[0][0] == 1):
+                if(canCall):
+                    return "CALL"
+                if(canCheck):
+                    return "CHECK"
+            if(bestHand[0][0] >= 4):
+                raiseVal = (minRaise + maxRaise)/2
+            else:
+                raiseVal = maxRaise
+            return "RAISE:"+str(raiseVal)
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
