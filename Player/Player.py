@@ -4,6 +4,8 @@ import sys
 import time
 
 class Player:
+    iAgreeWithBet = False
+    opponentAgreesWithBet = False
     myName = ''
     opponentName = ''
     myStackSize = 0 #this may not always be up to date
@@ -15,6 +17,8 @@ class Player:
     potSize = 0
     numBoardCards = 0
     boardCards = list()
+    myPot = 0
+    opponentPot = 0
     myBet = 0
     opponentBet = 0
     
@@ -41,9 +45,19 @@ class Player:
             # When sending responses, terminate each response with a newline
             # character (\n) or your bot will hang!
             self.parsePacket(data) #parse the packet
-            time.sleep(2)
+            #time.sleep(2)
         # Clean up the socket.
         s.close()
+
+    #if both players agree on bet, moves bet to pot
+    def updatePot(self):
+        if(self.iAgreeWithBet and self.opponentAgreesWithBet):
+            self.myPot = self.myPot + self.myBet
+            self.myBet = 0
+            self.opponentPot = self.opponentPot + self.opponentBet
+            self.opponentBet = 0
+            self.iAgreeWithBet = False
+            self.opponentAgreesWithBet = False
 
     #acts on given packet
     def parsePacket(self, data):
@@ -73,8 +87,9 @@ class Player:
         
         numPerformedActions = int(words[3 + self.numBoardCards]) #get the number of actions performed since my last action
         for word in range(4 + self.numBoardCards, 4 + self.numBoardCards + numPerformedActions): #parse every performed action
-            self.parsePerformedAction(words[word])
-
+            self.parsePerformedAction(words[word]) #update variables depending on performedActions
+            self.updatePot() #update the pot
+            
         canBet = False
         minBet = 0
         maxBet = 0
@@ -84,6 +99,7 @@ class Player:
         canRaise = False
         minRaise = 0
         maxRaise = 0
+        #parse all legal actions
         numLegalActions = int(words[4 + self.numBoardCards + numPerformedActions])
         for word in range(5 + self.numBoardCards + numPerformedActions, 5 + self.numBoardCards + numPerformedActions + numLegalActions):
             subWords = words[word].split(':')
@@ -107,17 +123,31 @@ class Player:
                 maxRaise = int(subWords[2])
                 next
 
+        #print out details that will be used to make decision on move
         print "Pot Size: ", self.potSize
         print "My Bet: ", self.myBet
         print "Opponent Bet: ", self.opponentBet
+        print "My Pot: ", self.myPot
+        print "Opponent Pot: ", self.opponentPot
+        print "My Hand: ", self.myHand
+        print "Board Cards: ", self.boardCards
         print "Can Bet: ", canBet, ":", minBet, ":", maxBet
         print "Can Call: ", canCall
         print "Can Fold: ", canFold
         print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
         print "Can Check: ", canCheck
 
-        s.send("CHECK\n") #default behaviour of the example player
-    
+        #check that the pots and bets agree with the specified pot size
+        if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
+            print "ERROR IN POT SIZES"
+            raw_input("Press anykey to continue")
+        
+        #x = raw_input('Response: ') #uncomment to enter responses by hand
+        #s.send(x+"\n")
+
+        #s.send("CHECK\n") #default behaviour of the example player
+        s.send("RAISE:4\n") #default behaviour of the example player
+        
     #handles actions performed between GetAction packets
     def parsePerformedAction(self, performedAction):
         words = performedAction.split(':')
@@ -133,34 +163,55 @@ class Player:
         if(words[0] == "BET"):
             self.handlePerformedActionBet(words)
             return
+        if(words[0] == "CHECK"):
+            self.handlePerformedActionCheck(words)
+            return
+
+    def handlePerformedActionCheck(self, words):
+        if(words[1] == self.myName):
+            self.iAgreeWithBet = True
+            return
+        self.opponentAgreesWithBet = True
     
     #updates myBet or opponentBet
     def handlePerformedActionBet(self, words):
         if(words[2] == self.myName):
-            self.myBet = self.myBet + int(words[1])
+            self.myBet = int(words[1])
+            self.iAgreeWithBet = True
+            self.opponentAgreesWithBet = False
             return
-        self.opponentBet = self.opponentBet + int(words[1])
+        self.opponentBet = int(words[1])
+        self.iAgreeWithBet = False
+        self.opponentAgreesWithBet = True
         
     #updates myBet or opponentBet
     def handlePerformedActionRaise(self, words):
         if(words[2] == self.myName):
             self.myBet = int(words[1])
+            self.iAgreeWithBet = True
+            self.opponentAgreesWithBet = False
             return
         self.opponentBet = int(words[1])
+        self.iAgreeWithBet = False
+        self.opponentAgreesWithBet = True
 
     #updates myBet or opponentBet - but doesn't agree with documentation
     def handlePerformedActionCall(self, words):
         if(words[1] == self.myName):
             self.myBet = self.opponentBet
+            self.iAgreeWithBet = True
             return
         self.opponentBet = self.myBet
+        self.opponentAgreesWithBet = True
 
     #updates either myBet or opponentBet based on the blinds
     def handlePerformedActionPost(self, words):
         if(words[2] == self.myName):
             self.myBet = int(words[1])
+            self.iAgreeWithBet = False
             return
         self.opponentBet = int(words[1])
+        self.opponentAgreesWithBet = False
 
     #updates myName, opponentName, myStackSize, bigBlind, totalNumHands
     def handlePacketNewGame(self, words):
@@ -169,6 +220,8 @@ class Player:
         self.myStackSize = int(words[3])
         self.bigBlind = int(words[4])
         self.totalNumHands = int(words[5])
+        self.iAgreeWithBet = False
+        self.opponentAgreesWithBet = False
 
     #updates handId, myHand, myStack, opponentStack, myBet
     def handlePacketNewHand(self, words):
@@ -182,10 +235,13 @@ class Player:
         self.opponentStack = int(words[8]) #update opponentStack
         self.myBet = 0 #reset myBet
         self.opponentBet = 0 #reset opponentBet
-        del self.myHand[:] #reset myHand
+        self.myPot = 0 #reset myPot
+        self.opponentPot = 0 #reset opponentPot
         del self.boardCards[:] #reset boardCards
         self.numBoardCards = 0 
         self.potSize = 0; #reset potSize
+        self.iAgreeWithBet = False
+        self.opponentAgreesWithBet = False
         
     def handlePacketRequestKeyValues(self):
         s.send("FINISH\n") #default behaviour of example player
@@ -198,7 +254,7 @@ class Player:
         number = cardString[0]
         if(number == "T"):
             number = 10
-        if(numbesr == "J"):
+        if(number == "J"):
             number = 11
         if(number == "Q"):
             number = 12
