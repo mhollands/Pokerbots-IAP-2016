@@ -263,7 +263,7 @@ class Player:
             number = 13
         if(number == "A"):
             number = 14
-        return (number, cardString[1])
+        return (int(number), cardString[1])
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
