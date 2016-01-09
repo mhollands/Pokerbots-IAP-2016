@@ -121,6 +121,16 @@ def pickRandomCard(cardSet):
         card = (cardNum, cardSuit)
         if card not in cardSet: return card
 
+#Picks a random hand of cards of size numCards
+def generateTestHand(numCards):
+	cardSet = set()
+	hand = []
+	for x in range(0,numCards):
+		card = pickRandomCard(cardSet)
+		cardSet.add(card)
+		hand.append(card)
+	return hand
+
 def isBetterHand(handType1,handType2):
 	'''
 	This function takes an input of two hands in an array of tuples and 
