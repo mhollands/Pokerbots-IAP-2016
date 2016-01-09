@@ -3,6 +3,7 @@ import socket
 import sys
 import time
 import PokerPhysics as PP
+import random
 
 class Player:
     #when both players agree with bet it is moved into the pot
@@ -291,7 +292,69 @@ class Player:
                 raiseVal = (minRaise + maxRaise)/2
             else:
                 raiseVal = maxRaise
-            return "RAISE:"+str(raiseVal)
+            return "RAISE:" + str(raiseVal)
+
+    def simulate(self, numSimulations):
+        #Picks random cards to fill out the table and runs multiple simulations to find an approximation for the win probability
+
+        if(self.numBoardCards == 3):
+            wins = 0
+            for x in range(0,numSimulations):
+                cardSet = set(self.boardCards)
+                for card in self.myHand: cardSet.add(card)
+                newCards = []
+                for i in range(0,6):
+                    card = self.pickRandomCard(cardSet)
+                    cardSet.add(card)
+                    newCards.append(card)
+                fakeBoard = self.boardCards + newCards[0:2]
+                fakeOpponent = newCards[2:]
+                myBest = PP.findBestHand(self.myHand, fakeBoard)
+                opponentBest = PP.findBestHand(fakeOpponent, fakeBoard)
+                if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+            winPercentage = 1.0*wins/numSimulations
+            return winPercentage
+
+        if(self.numBoardCards == 4):
+            wins = 0
+            for x in range(0,numSimulations):
+                cardSet = set(self.boardCards)
+                for card in self.myHand: cardSet.add(card)
+                newCards = []
+                for i in range(0,5):
+                    card = self.pickRandomCard(cardSet)
+                    cardSet.add(card)
+                    newCards.append(card)
+                fakeBoard = self.boardCards + newCards[0:1]
+                fakeOpponent = newCards[1:]
+                myBest = PP.findBestHand(self.myHand, fakeBoard)
+                opponentBest = PP.findBestHand(fakeOpponent, fakeBoard)
+                if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+            winPercentage = 1.0*wins/numSimulations
+            return winPercentage
+
+        if(self.numBoardCards == 5):
+            wins = 0
+            myBest = PP.findBestHand(self.myHand, self.boardCards)
+            for x in range(0,numSimulations):
+                cardSet = set(self.boardCards)
+                for card in self.myHand: cardSet.add(card)
+                fakeOpponent = []
+                for i in range(0,4):
+                    card = self.pickRandomCard(cardSet)
+                    cardSet.add(card)
+                    fakeOpponent.append(card)
+                opponentBest = PP.findBestHand(fakeOpponent, self.boardCards)
+                if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+            winPercentage = 1.0*wins/numSimulations
+            return winPercentage
+
+    def pickRandomCard(self, cardSet):
+        while True:
+            cardNum = random.randint(2,14)
+            cardSuit = random.choice(['h','s','c','d'])
+            card = (cardNum, cardSuit)
+            if card not in cardSet: return card
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
@@ -306,6 +369,6 @@ if __name__ == '__main__':
     except socket.error as e:
         print 'Error connecting! Aborting'
         exit()
-
     bot = Player()
     bot.run(s)
+    
