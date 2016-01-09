@@ -279,21 +279,18 @@ class Player:
             if(pokeriniRank < 50):
                 return self.checkCall(canCheck, canCall)
             return "RAISE:"+str(maxRaise)
-            
+
         if(self.numBoardCards >= 3):
-            bestHand = PP.findBestHand(self.myHand, self.boardCards)
-            if(bestHand[0][0] == 0):
-                self.checkFold(canCheck)
-            if(bestHand[0][0] == 1):
-                if(canCall):
-                    return "CALL"
-                if(canCheck):
-                    return "CHECK"
-            if(bestHand[0][0] >= 4):
-                raiseVal = (minRaise + maxRaise)/2
-            else:
-                raiseVal = maxRaise
-            return "RAISE:"+str(raiseVal)
+            winChance = self.simulate(100)
+            print winChance
+            if winChance < 0.4:
+                return self.checkFold(canCheck)
+            if(winChance < 0.6):
+                return self.checkCall(canCheck, canCall)
+            if(winChance > 0.8):
+                return "RAISE:"+str(maxRaise)
+            raiseTo = int(minRaise + (0.8-winChance)*(maxRaise - minRaise)/0.2)
+            return "RAISE:"+str(raiseTo)
 
         #Picks random cards to fill out the table and runs multiple simulations to find an approximation for the win probability
     def simulate(self, numSimulations):
