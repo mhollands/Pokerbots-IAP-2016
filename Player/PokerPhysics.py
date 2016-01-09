@@ -76,7 +76,7 @@ def findHandValue(hand):
 		return [4, 5, 4, 3, 2, 1]
 	#Checks for any other straight
 	straight = True
-	for i in range(4):
+	for i in xrange(4):
 		if not sortedNum[i] == sortedNum[i+1] + 1:
 			straight = False
 			break
@@ -100,7 +100,7 @@ def findHandValue(hand):
 		return [2, sortedNum[1], sortedNum[3], sortedNum[0], 0, 0]
 	
 	#Checks for a pair
-	for i in range(4):
+	for i in xrange(4):
 		if sortedNum[i] == sortedNum[i+1]:
 			handType = [1, sortedNum[i]]
 			for j in xrange(5):
