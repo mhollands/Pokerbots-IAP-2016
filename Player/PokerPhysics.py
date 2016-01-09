@@ -1,6 +1,6 @@
 from itertools import combinations
 from operator import itemgetter
-
+import random
 #Chooses the optimal hand given the hold cards and the cards on the table
 def findBestHand(ourHand, tableHand):
 
