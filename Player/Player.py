@@ -304,7 +304,7 @@ class Player:
                 for card in self.myHand: cardSet.add(card)
                 newCards = []
                 for i in range(0,6):
-                    card = self.pickRandomCard(cardSet)
+                    card = PP.pickRandomCard(cardSet)
                     cardSet.add(card)
                     newCards.append(card)
                 fakeBoard = self.boardCards + newCards[0:2]
@@ -322,7 +322,7 @@ class Player:
                 for card in self.myHand: cardSet.add(card)
                 newCards = []
                 for i in range(0,5):
-                    card = self.pickRandomCard(cardSet)
+                    card = PP.pickRandomCard(cardSet)
                     cardSet.add(card)
                     newCards.append(card)
                 fakeBoard = self.boardCards + newCards[0:1]
@@ -341,20 +341,13 @@ class Player:
                 for card in self.myHand: cardSet.add(card)
                 fakeOpponent = []
                 for i in range(0,4):
-                    card = self.pickRandomCard(cardSet)
+                    card = PP.pickRandomCard(cardSet)
                     cardSet.add(card)
                     fakeOpponent.append(card)
                 opponentBest = PP.findBestHand(fakeOpponent, self.boardCards)
                 if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
             winPercentage = 1.0*wins/numSimulations
             return winPercentage
-
-    def pickRandomCard(self, cardSet):
-        while True:
-            cardNum = random.randint(2,14)
-            cardSuit = random.choice(['h','s','c','d'])
-            card = (cardNum, cardSuit)
-            if card not in cardSet: return card
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
