@@ -110,10 +110,10 @@ def findHandValue(hand):
 			handType.append(0)
 			return handType
 	
-	
 	#Returns the cards in descending order along with the information that there is only a high card
 	return [0] + sortedNum
 
+#Picks a random card that is not in the current cardSet
 def pickRandomCard(cardSet):
     while True:
         cardNum = random.randint(2,14)
@@ -121,7 +121,6 @@ def pickRandomCard(cardSet):
         card = (cardNum, cardSuit)
         if card not in cardSet: return card
 
-#isBetterHand is currently not used
 def isBetterHand(handType1,handType2):
 	'''
 	This function takes an input of two hands in an array of tuples and 

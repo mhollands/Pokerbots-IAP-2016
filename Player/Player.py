@@ -294,9 +294,9 @@ class Player:
                 raiseVal = maxRaise
             return "RAISE:" + str(raiseVal)
 
+    #Picks random cards to fill out the table and runs multiple simulations to find an approximation for the win probability
     def simulate(self, numSimulations):
-        #Picks random cards to fill out the table and runs multiple simulations to find an approximation for the win probability
-
+        
         if(self.numBoardCards == 3):
             wins = 0
             for x in range(0,numSimulations):
