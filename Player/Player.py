@@ -41,8 +41,8 @@ class Player:
             if not data:
                 print "Gameover, engine disconnected."
                 break
-
-            #print data
+            if self.debugPrint:
+                print data
             # When sending responses, terminate each response with a newline
             # character (\n) or your bot will hang!
             self.parsePacket(data)
@@ -301,7 +301,7 @@ class Player:
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
                 if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
             if(self.numBoardCards >= 3):
-                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 100)
+                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 50)
                 if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
         self.cardsChanged = False
 
