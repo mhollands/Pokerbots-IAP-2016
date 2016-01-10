@@ -25,7 +25,10 @@ class Player:
     opponentPot = 0 #keeps track of opponent pot
     myBet = 0 #keeps track of my current bet
     opponentBet = 0 #keeps track of current opponent bet
-    
+    cardsChanged = True
+    simulationWinChance = 0
+    pokeriniRank = 0
+
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
         # Using this ensures that you get exactly one packet per read.
@@ -111,21 +114,21 @@ class Player:
                 canBet = True
                 minBet = int(subWords[1])
                 maxBet = int(subWords[2])
-                next
+                continue
             if(subWords[0] == "CALL"):
                 canCall = True
-                next
+                continue
             if(subWords[0] == "CHECK"):
                 canCheck = True
-                next
+                continue
             if(subWords[0] == "FOLD"):
                 canFold = True
-                next
+                continue
             if(subWords[0] == "RAISE"):
                 canRaise = True
                 minRaise = int(subWords[1])
                 maxRaise = int(subWords[2])
-                next    
+                continue 
 
         #print out details that will be used to make decision on move
         print "Pot Size: ", self.potSize
@@ -173,6 +176,12 @@ class Player:
         if(words[0] == "CHECK"):
             self.handlePerformedActionCheck(words)
             return
+        if(words[0] == "DEAL"):
+            self.handlePerformedActionDeal(words)
+            return
+
+    def handlePerformedActionDeal(self, words):
+        self.cardsChanged = True
 
     def handlePerformedActionCheck(self, words):
         if(words[1] == self.myName):
@@ -249,6 +258,7 @@ class Player:
         self.potSize = 0 #reset potSize
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
+        self.cardsChanged = True
         
     def handlePacketRequestKeyValues(self):
         s.send("FINISH\n") #default behaviour of example player
@@ -272,26 +282,34 @@ class Player:
         return (int(number), cardString[1])
 
     def choosePlay(self, canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise):
+        self.updateHandRanking() #update hand rankings
+
         if(self.numBoardCards == 0):
-            pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
-            print pokeriniRank
-            if(pokeriniRank < 30):
+            if(self.pokeriniRank < 30):
                 return self.checkFold(canCheck)
-            if(pokeriniRank < 50):
+            if(self.pokeriniRank < 50):
                 return self.checkCall(canCheck, canCall)
             return "RAISE:"+str(maxRaise)
 
         if(self.numBoardCards >= 3):
-            winChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 100)
-            print winChance
-            if winChance < 0.4:
+            if self.simulationWinChance < 0.4:
                 return self.checkFold(canCheck)
-            if(winChance < 0.6):
+            if(self.simulationWinChance < 0.6):
                 return self.checkCall(canCheck, canCall)
-            if(winChance > 0.8):
+            if(self.simulationWinChance > 0.8):
                 return "RAISE:"+str(maxRaise)
-            raiseTo = int(minRaise + (0.8-winChance)*(maxRaise - minRaise)/0.2)
+            raiseTo = int(minRaise + (0.8-self.simulationWinChance)*(maxRaise - minRaise)/0.2)
             return "RAISE:"+str(raiseTo)
+
+    def updateHandRanking(self):
+        if(self.cardsChanged == True):
+            if(self.numBoardCards == 0):
+                self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
+                print "Pokerini Rank: " + str(self.pokeriniRank)
+            if(self.numBoardCards >= 3):
+                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 100)
+                print "Simulation Win Chance: " + str(self.simulationWinChance)
+        self.cardsChanged = False
 
     def checkFold(self, canCheck):
         if(canCheck):
