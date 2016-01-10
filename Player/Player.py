@@ -8,7 +8,7 @@ import Simulation
 
 class Player:
     #when both players agree with bet it is moved into the pot
-    debugPrint = True
+    debugPrint = False
     iAgreeWithBet = False 
     opponentAgreesWithBet = False
     myName = ''
@@ -42,17 +42,10 @@ class Player:
                 print "Gameover, engine disconnected."
                 break
 
-            # Here is where you should implement code to parse the packets from
-            # the engine and act on it. We are just printing it instead.
-            print data
-
-            # When appropriate, reply to the engine with a legal action.
-            # The engine will ignore all spurious responses.
-            # The engine will also check/fold for you if you return an
-            # illegal action.
+            #print data
             # When sending responses, terminate each response with a newline
             # character (\n) or your bot will hang!
-            self.parsePacket(data) #parse the packet
+            self.parsePacket(data)
             #time.sleep(2)
         # Clean up the socket.
         s.close()
@@ -265,7 +258,7 @@ class Player:
         s.send("FINISH\n") #default behaviour of example player
 
     def handlePacketUnknownType(self):
-        print "Unhandled packet"
+        if self.debugPrint: print "Unhandled packet"
 
     #takes string such as "Qs" and returns tuple of (11,s)
     def parseCard(self, cardString):
