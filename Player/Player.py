@@ -290,7 +290,7 @@ class Player:
                 return self.checkFold(canCheck)
             if(self.pokeriniRank < 50):
                 return self.checkCall(canCheck, canCall)
-            return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise) #raise/bet max
+            return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
 
         if(self.numBoardCards >= 3):
             if self.simulationWinChance < 0.4:
@@ -298,9 +298,9 @@ class Player:
             if(self.simulationWinChance < 0.6):
                 return self.checkCall(canCheck, canCall)
             if(self.simulationWinChance > 0.8):
-                return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise) #raise/bet max
+                return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             raisePercentage = ((0.8-self.simulationWinChance)/0.2)
-            return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise) #raise/bet by correct percentage
+            return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
     def updateHandRanking(self):
         if(self.cardsChanged == True):
@@ -312,11 +312,12 @@ class Player:
                 print "Simulation Win Chance: " + str(self.simulationWinChance)
         self.cardsChanged = False
 
-    def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise):
+    def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
         if(canBet):
             return "BET:"+str(int(percentage*(maxBet - minBet) + minBet))
         if(canRaise):
             return "RAISE:"+str(int(percentage*(maxRaise - minRaise) + minRaise))
+        return self.checkCall(canCheck, canCall) #if you cant betRaise, checkCall
 
     def checkFold(self, canCheck):
         if(canCheck):
@@ -328,6 +329,7 @@ class Player:
             return "CALL"
         if(canCheck):
             return "CHECK"
+        return self.checkFold(canCheck) #if you can't checkCall, checkFold
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
