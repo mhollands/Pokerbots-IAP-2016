@@ -8,6 +8,7 @@ import Simulation
 
 class Player:
     #when both players agree with bet it is moved into the pot
+    debugPrint = True
     iAgreeWithBet = False 
     opponentAgreesWithBet = False
     myName = ''
@@ -130,24 +131,26 @@ class Player:
                 maxRaise = int(subWords[2])
                 continue 
 
-        #print out details that will be used to make decision on move
-        print "Pot Size: ", self.potSize
-        print "My Bet: ", self.myBet
-        print "Opponent Bet: ", self.opponentBet
-        print "My Pot: ", self.myPot
-        print "Opponent Pot: ", self.opponentPot
-        print "My Hand: ", self.myHand
-        print "Num Board Cards: ", self.numBoardCards
-        print "Board Cards: ", self.boardCards
-        print "Can Bet: ", canBet, ":", minBet, ":", maxBet
-        print "Can Call: ", canCall
-        print "Can Fold: ", canFold
-        print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
-        print "Can Check: ", canCheck
-
         response = self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise)
         s.send(response+"\n")
-        print "Response: "+response
+
+        #print out details that will be used to make decision on move
+        if self.debugPrint:
+            print "Pot Size: ", self.potSize
+            print "My Bet: ", self.myBet
+            print "Opponent Bet: ", self.opponentBet
+            print "My Pot: ", self.myPot
+            print "Opponent Pot: ", self.opponentPot
+            print "My Hand: ", self.myHand
+            print "Num Board Cards: ", self.numBoardCards
+            print "Board Cards: ", self.boardCards
+            print "Can Bet: ", canBet, ":", minBet, ":", maxBet
+            print "Can Call: ", canCall
+            print "Can Fold: ", canFold
+            print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
+            print "Can Check: ", canCheck
+            print "Response: " + response
+
         #check that the pots and bets agree with the specified pot size
         if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
             print "ERROR IN POT SIZES"
@@ -155,9 +158,6 @@ class Player:
         
         #x = raw_input('Response: ') #uncomment to enter responses by hand
         #s.send(x+"\n")
-
-        #s.send("CHECK\n") #default behaviour of the example player
-        #s.send("RAISE:4\n") #default behaviour of the example player
         
     #handles actions performed between GetAction packets
     def parsePerformedAction(self, performedAction):
@@ -306,10 +306,10 @@ class Player:
         if(self.cardsChanged == True):
             if(self.numBoardCards == 0):
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
-                print "Pokerini Rank: " + str(self.pokeriniRank)
+                if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
             if(self.numBoardCards >= 3):
                 self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 100)
-                print "Simulation Win Chance: " + str(self.simulationWinChance)
+                if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
         self.cardsChanged = False
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
