@@ -145,8 +145,9 @@ class Player:
         print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
         print "Can Check: ", canCheck
 
-        s.send(self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise)+"\n")
-
+        response = self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise)
+        s.send(response+"\n")
+        print "Response: "+response
         #check that the pots and bets agree with the specified pot size
         if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
             print "ERROR IN POT SIZES"
@@ -289,7 +290,7 @@ class Player:
                 return self.checkFold(canCheck)
             if(self.pokeriniRank < 50):
                 return self.checkCall(canCheck, canCall)
-            return "RAISE:"+str(maxRaise)
+            return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise) #raise/bet max
 
         if(self.numBoardCards >= 3):
             if self.simulationWinChance < 0.4:
@@ -297,9 +298,9 @@ class Player:
             if(self.simulationWinChance < 0.6):
                 return self.checkCall(canCheck, canCall)
             if(self.simulationWinChance > 0.8):
-                return "RAISE:"+str(maxRaise)
-            raiseTo = int(minRaise + (0.8-self.simulationWinChance)*(maxRaise - minRaise)/0.2)
-            return "RAISE:"+str(raiseTo)
+                return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise) #raise/bet max
+            raisePercentage = ((0.8-self.simulationWinChance)/0.2)
+            return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise) #raise/bet by correct percentage
 
     def updateHandRanking(self):
         if(self.cardsChanged == True):
@@ -310,6 +311,12 @@ class Player:
                 self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 100)
                 print "Simulation Win Chance: " + str(self.simulationWinChance)
         self.cardsChanged = False
+
+    def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise):
+        if(canBet):
+            return "BET:"+str(int(percentage*(maxBet - minBet) + minBet))
+        if(canRaise):
+            return "RAISE:"+str(int(percentage*(maxRaise - minRaise) + minRaise))
 
     def checkFold(self, canCheck):
         if(canCheck):
