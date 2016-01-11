@@ -123,8 +123,7 @@ def pickRandomCard(cardSet):
         if card not in cardSet: return card
 
 #Picks a random hand of cards of size numCards
-def generateTestHand(numCards):
-	cardSet = set()
+def generateHand(numCards, cardSet):
 	hand = []
 	for x in range(0,numCards):
 		card = pickRandomCard(cardSet)
