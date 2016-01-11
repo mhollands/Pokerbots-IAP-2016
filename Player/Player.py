@@ -347,6 +347,9 @@ class Player:
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
     
 if __name__ == '__main__':
+
+    pokeriniDict = Pokerini.pokeriniInitialise()
+
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
     parser.add_argument('-h', dest='host', type=str, default='localhost', help='Host to connect to, defaults to localhost')
     parser.add_argument('port', metavar='PORT', type=int, help='Port on host to connect to')
@@ -359,8 +362,6 @@ if __name__ == '__main__':
     except socket.error as e:
         print 'Error connecting! Aborting'
         exit()
-
-    pokeriniDict = Pokerini.pokeriniInitialise()
 
     bot = Player()
     bot.run(s)
