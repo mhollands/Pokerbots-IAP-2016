@@ -324,6 +324,10 @@ class Player:
         self.cardsChanged = False
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
+        if(percentage > 1.0):
+            percentage = 1.0
+        if(percentage < 0.0):
+            percentage = 0.0
         if(canBet):
             return "BET:"+str(int(percentage*(maxBet - minBet) + minBet))
         if(canRaise):
