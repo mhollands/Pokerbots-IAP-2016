@@ -8,7 +8,7 @@ import Simulation
 
 class Player:
     #when both players agree with bet it is moved into the pot
-    debugPrint = False
+    debugPrint = True
     iAgreeWithBet = False 
     opponentAgreesWithBet = False
     myName = ''
@@ -17,6 +17,7 @@ class Player:
     opponentStackSize = 0 #this may not always be up to date
     bigBlind = 0 #big blind specified by engine
     totalNumHands = 0 #the total number of hands to be played this game
+    totalTime = 0 #updated on NewGame packet, stores total time allocated for game
     handId = 0 #the hand Id specified by the engine
     myHand = list() #list of tuples representing cards in my hand
     potSize = 0 #the potSize specified by the engine (should equal sum of pots and bets)
@@ -29,6 +30,8 @@ class Player:
     cardsChanged = True
     simulationWinChance = 0
     pokeriniRank = 0
+    expectedTimePerHand = 0 #calculated on NewGame packet. = original time bank / total num hands to play
+    timeBank = 0
 
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
@@ -46,6 +49,8 @@ class Player:
             # When sending responses, terminate each response with a newline
             # character (\n) or your bot will hang!
             self.parsePacket(data)
+            if self.debugPrint:
+                print ""
             #time.sleep(2)
         # Clean up the socket.
         s.close()
@@ -59,6 +64,9 @@ class Player:
             self.opponentBet = 0
             self.iAgreeWithBet = False
             self.opponentAgreesWithBet = False
+
+    def getExpectedTimeBank(self): #returns what the time bank should be at the end of the hand if we are playing exactly to time
+        return self.totalTime - self.expectedTimePerHand * self.handId
 
     #acts on given packet
     def parsePacket(self, data):
@@ -80,6 +88,7 @@ class Player:
 
     #updates potSize, numBoardCards, boardCards, myBet, opponentBet
     def handlePacketGetAction(self, words):
+        actionStartTime = time.time() #store the time that the request was made
         self.potSize = int(words[1])
         self.numBoardCards = int(words[2])
         del self.boardCards[:] #clear board cards list
@@ -90,7 +99,7 @@ class Player:
         for word in range(4 + self.numBoardCards, 4 + self.numBoardCards + numPerformedActions): #parse every performed action
             self.parsePerformedAction(words[word]) #update variables depending on performedActions
             self.updatePot() #update the pot
-            
+
         canBet = False
         minBet = 0
         maxBet = 0
@@ -124,9 +133,11 @@ class Player:
                 maxRaise = int(subWords[2])
                 continue 
 
-        response = self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise)
-        s.send(response+"\n")
+        self.timeBank = float(words[5 + self.numBoardCards + numPerformedActions + numLegalActions])
 
+        response = self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise, actionStartTime)
+        s.send(response+"\n")
+        actionFinishTime = time.time() #store the time that we responsed
         #print out details that will be used to make decision on move
         if self.debugPrint:
             print "Pot Size: ", self.potSize
@@ -142,6 +153,9 @@ class Player:
             print "Can Fold: ", canFold
             print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
             print "Can Check: ", canCheck
+            print "Timebank: ", self.timeBank
+            print "Expected Timebank: ", self.getExpectedTimeBank()
+            print "Response time: ", (actionFinishTime - actionStartTime)
             print "Response: " + response
 
         #check that the pots and bets agree with the specified pot size
@@ -230,6 +244,9 @@ class Player:
         self.myStackSize = int(words[3])
         self.bigBlind = int(words[4])
         self.totalNumHands = int(words[5])
+        self.timeBank = float(words[6])
+        self.totalTime = self.timeBank
+        self.expectedTimePerHand = self.timeBank / self.totalNumHands # calculate the expected time per hand
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
 
@@ -243,6 +260,7 @@ class Player:
         self.myHand.append(self.parseCard(words[6]))
         self.myStack = int(words[7]) #update myStack
         self.opponentStack = int(words[8]) #update opponentStack
+        self.timeBank = float(words[9])
         self.myBet = 0 #reset myBet
         self.opponentBet = 0 #reset opponentBet
         self.myPot = 0 #reset myPot
@@ -275,7 +293,7 @@ class Player:
             number = 14
         return (int(number), cardString[1])
 
-    def choosePlay(self, canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise):
+    def choosePlay(self, canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise, actionStartTime):
         self.updateHandRanking() #update hand rankings
 
         if(self.numBoardCards == 0):
