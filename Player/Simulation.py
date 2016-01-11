@@ -7,7 +7,7 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
         for x in range(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
-            newCards = generateHand(6, cardSet)
+            newCards = PP.generateHand(6, cardSet)
             fakeBoard = boardCards + newCards[0:2]
             fakeOpponent = newCards[2:]
             myBest = PP.findBestHand(myHand, fakeBoard)
@@ -20,7 +20,7 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
         for x in range(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
-            newCards = generateHand(5, cardSet)
+            newCards = PP.generateHand(5, cardSet)
             fakeBoard = boardCards + newCards[0:1]
             fakeOpponent = newCards[1:]
             myBest = PP.findBestHand(myHand, fakeBoard)
@@ -34,7 +34,7 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
         for x in range(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
-            fakeOpponent = generateHand(4, cardSet)
+            fakeOpponent = PP.generateHand(4, cardSet)
             opponentBest = PP.findBestHand(fakeOpponent, boardCards)
             if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
         winPercentage = 1.0*wins/numSimulations
