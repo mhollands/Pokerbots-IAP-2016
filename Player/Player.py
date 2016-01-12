@@ -140,19 +140,12 @@ class Player:
         actionFinishTime = time.time() #store the time that we responsed
         #print out details that will be used to make decision on move
         if self.debugPrint:
-            print "Pot Size: ", self.potSize
             print "My Bet: ", self.myBet
             print "Opponent Bet: ", self.opponentBet
             print "My Pot: ", self.myPot
             print "Opponent Pot: ", self.opponentPot
             print "My Hand: ", self.myHand
-            print "Num Board Cards: ", self.numBoardCards
             print "Board Cards: ", self.boardCards
-            print "Can Bet: ", canBet, ":", minBet, ":", maxBet
-            print "Can Call: ", canCall
-            print "Can Fold: ", canFold
-            print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
-            print "Can Check: ", canCheck
             print "Timebank: ", self.timeBank
             print "Expected Timebank: ", self.getExpectedTimeBank()
             print "Response time: ", (actionFinishTime - actionStartTime)
@@ -297,6 +290,7 @@ class Player:
         self.updateHandRanking() #update hand rankings
 
         if(self.numBoardCards == 0):
+            if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
             if(self.pokeriniRank < 30):
                 return self.checkFold(canCheck)
             if(self.pokeriniRank < 50):
@@ -304,8 +298,9 @@ class Player:
             return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
 
         if(self.numBoardCards >= 3):
+            if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
             if self.simulationWinChance < 0.4:
-                return self.checkFold(canCheck)
+                return self.checkCallFold(canCheck, canCall)
             if(self.simulationWinChance < 0.6):
                 return self.checkCall(canCheck, canCall)
             if(self.simulationWinChance > 0.8):
@@ -317,10 +312,8 @@ class Player:
         if(self.cardsChanged == True):
             if(self.numBoardCards == 0):
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
-                if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
             if(self.numBoardCards >= 3):
                 self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 50)
-                if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
         self.cardsChanged = False
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
@@ -337,6 +330,17 @@ class Player:
     def checkFold(self, canCheck):
         if(canCheck):
             return "CHECK"
+        return "FOLD"
+
+    # this function will check if possible, otheriwise, call up to a limit, otherwise fold
+    def checkCallFold(self, canCheck, canCall):
+        if(canCheck):
+            return "CHECK"
+        currentRound = self.numBoardCards - 3
+        maxCall = 0.05 * currentRound * (self.myPot + self.opponentPot)
+        if(self.opponentBet <= maxCall):
+            print "dog"
+            return "CALL"
         return "FOLD"
 
     def checkCall(self, canCheck, canCall):
