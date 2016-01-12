@@ -37,7 +37,14 @@ def loadHandEval():
 		reader = csv.reader(csvfile)
 		for row in reader:
 			#print row[0]
-			handEvalDict[row[0]]  = row[1]
+			keyList = []
+			handValue = row[1]
+			keyString = row[0]
+			for i in xrange(5):
+				num = reverseRoyaltyConvert(keyString[2*i])
+				keyList.append((int(num), keyString[2*i +1] ))
+				handEvalDict[tuple(keyList)] = handValue
+			#handEvalDict[row[0]]  = row[1]
 	return handEvalDict
 
 def generateHandString(hand):
@@ -50,8 +57,12 @@ def generateHandString(hand):
 	return handString
 
 def evaluateHand(hand):
+	'''
 	handString = generateHandString(hand)
 	handValue = handEvalDict[handString]
+	'''
+	hand = tuple(sorted(hand, key= lambda x: (x[0], x[1]), reverse = True))
+	handValue = handEvalDict[hand]
 	return handValue
 
 
