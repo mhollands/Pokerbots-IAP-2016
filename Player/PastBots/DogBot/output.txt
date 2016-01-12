@@ -1,0 +1,47 @@
+Connecting to localhost:3001
+NEWGAME newBot oldBot 200 2 500 100.000000
+
+NEWHAND 1 false 4d 6d 8s 7d 0 0 100.000000
+
+GETACTION 4 0 3 POST:1:oldBot POST:2:newBot CALL:oldBot 2 CHECK RAISE:4:6 100.0
+Pokerini Rank: 44.41832
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'd'), (6, 'd'), (8, 's'), (7, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Timebank:  100.0
+Expected Timebank:  99.8
+Response time:  0.000999927520752
+Response: CHECK
+
+GETACTION 4 3 8h Jd 2h 2 CHECK:newBot DEAL:FLOP 2 CHECK BET:2:4 99.999119107
+Simulation Win Chance: 0.4
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 'd'), (6, 'd'), (8, 's'), (7, 'd')]
+Num Board Cards:  3
+Board Cards:  [(8, 'h'), (11, 'd'), (2, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Timebank:  99.999119107
+Expected Timebank:  99.8
+Response time:  0.0819997787476
+Response: CHECK
+
+GETACTION 4 4 8h Jd 2h 9h 3 CHECK:newBot CHECK:oldBot DEAL:TURN 2 CHECK BET:2:4 99.917466491
+Simulation Win Chance: 0.26
