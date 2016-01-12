@@ -33,6 +33,13 @@ class Player:
     expectedTimePerHand = 0 #calculated on NewGame packet. = original time bank / total num hands to play
     timeBank = 0
 
+    checkCallThresh = 0.4
+    raiseLinearlyThresh = 0.6
+    raiseFullThresh = 0.8
+    round0CheckCallThresh = 0.3
+    round0RaiseLinearlyThresh = 0.50
+    round0RaiseFullThresh = 0.65
+
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
         # Using this ensures that you get exactly one packet per read.
@@ -291,21 +298,26 @@ class Player:
 
         if(self.numBoardCards == 0):
             if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
-            if(self.pokeriniRank < 30):
+            if(self.pokeriniRank < self.round0CheckCallThresh): #if we are in the checkFold region
                 return self.checkFold(canCheck)
-            if(self.pokeriniRank < 50):
+            if(self.pokeriniRank < self.round0RaiseLinearlyThresh): #if we are in the checkCall region
                 return self.checkCall(canCheck, canCall)
-            return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
+            if(self.pokeriniRank > self.round0RaiseFullThresh): #if we are in the raise full region (above 65%) 
+                return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
+            #we are in the raise linearly region
+            raisePercentage = ((self.pokeriniRank - self.round0RaiseLinearlyThresh)/(self.round0RaiseFullThresh-self.round0RaiseLinearlyThresh))
+            return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
-            if self.simulationWinChance < 0.4:
+            if self.simulationWinChance < self.checkCallThresh: #if we are in the checkCallFold region
                 return self.checkCallFold(canCheck, canCall)
-            if(self.simulationWinChance < 0.6):
+            if(self.simulationWinChance < self.raiseLinearlyThresh): #if we are in the raise linearly region
                 return self.checkCall(canCheck, canCall)
-            if(self.simulationWinChance > 0.8):
+            if(self.simulationWinChance > self.raiseFullThresh): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
-            raisePercentage = ((0.8-self.simulationWinChance)/0.2)
+            #we are in the raise linearly region
+            raisePercentage = ((self.simulationWinChance - self.raiseLinearlyThresh)/(self.raiseFullThresh - self.raiseLinearlyThresh))
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
     def updateHandRanking(self):

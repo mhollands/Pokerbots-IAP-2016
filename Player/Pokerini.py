@@ -49,7 +49,7 @@ def pokeriniLookup(cards, pokeriniDictionary):
                         searchString = searchString + number + card[1]
                     result = pokeriniDictionary.get(searchString)
                     if(result != None):
-                        return result
+                        return (result/100.0)
     
 '''
 def pokeriniLookup(cards):
