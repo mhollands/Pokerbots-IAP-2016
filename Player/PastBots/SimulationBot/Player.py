@@ -17,7 +17,6 @@ class Player:
     opponentStackSize = 0 #this may not always be up to date
     bigBlind = 0 #big blind specified by engine
     totalNumHands = 0 #the total number of hands to be played this game
-    totalTime = 0 #updated on NewGame packet, stores total time allocated for game
     handId = 0 #the hand Id specified by the engine
     myHand = list() #list of tuples representing cards in my hand
     potSize = 0 #the potSize specified by the engine (should equal sum of pots and bets)
@@ -30,8 +29,6 @@ class Player:
     cardsChanged = True
     simulationWinChance = 0
     pokeriniRank = 0
-    expectedTimePerHand = 0 #calculated on NewGame packet. = original time bank / total num hands to play
-    timeBank = 0
 
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
@@ -49,8 +46,6 @@ class Player:
             # When sending responses, terminate each response with a newline
             # character (\n) or your bot will hang!
             self.parsePacket(data)
-            if self.debugPrint:
-                print ""
             #time.sleep(2)
         # Clean up the socket.
         s.close()
@@ -64,9 +59,6 @@ class Player:
             self.opponentBet = 0
             self.iAgreeWithBet = False
             self.opponentAgreesWithBet = False
-
-    def getExpectedTimeBank(self): #returns what the time bank should be at the end of the hand if we are playing exactly to time
-        return self.totalTime - self.expectedTimePerHand * self.handId
 
     #acts on given packet
     def parsePacket(self, data):
@@ -88,7 +80,6 @@ class Player:
 
     #updates potSize, numBoardCards, boardCards, myBet, opponentBet
     def handlePacketGetAction(self, words):
-        actionStartTime = time.time() #store the time that the request was made
         self.potSize = int(words[1])
         self.numBoardCards = int(words[2])
         del self.boardCards[:] #clear board cards list
@@ -99,7 +90,7 @@ class Player:
         for word in range(4 + self.numBoardCards, 4 + self.numBoardCards + numPerformedActions): #parse every performed action
             self.parsePerformedAction(words[word]) #update variables depending on performedActions
             self.updatePot() #update the pot
-
+            
         canBet = False
         minBet = 0
         maxBet = 0
@@ -133,22 +124,24 @@ class Player:
                 maxRaise = int(subWords[2])
                 continue 
 
-        self.timeBank = float(words[5 + self.numBoardCards + numPerformedActions + numLegalActions])
-
-        response = self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise, actionStartTime)
+        response = self.choosePlay(canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise)
         s.send(response+"\n")
-        actionFinishTime = time.time() #store the time that we responsed
+
         #print out details that will be used to make decision on move
         if self.debugPrint:
+            print "Pot Size: ", self.potSize
             print "My Bet: ", self.myBet
             print "Opponent Bet: ", self.opponentBet
             print "My Pot: ", self.myPot
             print "Opponent Pot: ", self.opponentPot
             print "My Hand: ", self.myHand
+            print "Num Board Cards: ", self.numBoardCards
             print "Board Cards: ", self.boardCards
-            print "Timebank: ", self.timeBank
-            print "Expected Timebank: ", self.getExpectedTimeBank()
-            print "Response time: ", (actionFinishTime - actionStartTime)
+            print "Can Bet: ", canBet, ":", minBet, ":", maxBet
+            print "Can Call: ", canCall
+            print "Can Fold: ", canFold
+            print "Can Raise: ", canRaise, ":", minRaise, ":", maxRaise
+            print "Can Check: ", canCheck
             print "Response: " + response
 
         #check that the pots and bets agree with the specified pot size
@@ -237,9 +230,6 @@ class Player:
         self.myStackSize = int(words[3])
         self.bigBlind = int(words[4])
         self.totalNumHands = int(words[5])
-        self.timeBank = float(words[6])
-        self.totalTime = self.timeBank
-        self.expectedTimePerHand = self.timeBank / self.totalNumHands # calculate the expected time per hand
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
 
@@ -253,7 +243,6 @@ class Player:
         self.myHand.append(self.parseCard(words[6]))
         self.myStack = int(words[7]) #update myStack
         self.opponentStack = int(words[8]) #update opponentStack
-        self.timeBank = float(words[9])
         self.myBet = 0 #reset myBet
         self.opponentBet = 0 #reset opponentBet
         self.myPot = 0 #reset myPot
@@ -286,11 +275,10 @@ class Player:
             number = 14
         return (int(number), cardString[1])
 
-    def choosePlay(self, canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise, actionStartTime):
+    def choosePlay(self, canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise):
         self.updateHandRanking() #update hand rankings
 
         if(self.numBoardCards == 0):
-            if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
             if(self.pokeriniRank < 30):
                 return self.checkFold(canCheck)
             if(self.pokeriniRank < 50):
@@ -298,9 +286,8 @@ class Player:
             return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
 
         if(self.numBoardCards >= 3):
-            if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
             if self.simulationWinChance < 0.4:
-                return self.checkCallFold(canCheck, canCall)
+                return self.checkFold(canCheck)
             if(self.simulationWinChance < 0.6):
                 return self.checkCall(canCheck, canCall)
             if(self.simulationWinChance > 0.8):
@@ -312,15 +299,13 @@ class Player:
         if(self.cardsChanged == True):
             if(self.numBoardCards == 0):
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
+                if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
             if(self.numBoardCards >= 3):
                 self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 50)
+                if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
         self.cardsChanged = False
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
-        if(percentage > 1.0):
-            percentage = 1.0
-        if(percentage < 0.0):
-            percentage = 0.0
         if(canBet):
             return "BET:"+str(int(percentage*(maxBet - minBet) + minBet))
         if(canRaise):
@@ -332,17 +317,6 @@ class Player:
             return "CHECK"
         return "FOLD"
 
-    # this function will check if possible, otheriwise, call up to a limit, otherwise fold
-    def checkCallFold(self, canCheck, canCall):
-        if(canCheck):
-            return "CHECK"
-        currentRound = self.numBoardCards - 3
-        maxCall = 0.05 * currentRound * (self.myPot + self.opponentPot)
-        if(self.opponentBet <= maxCall):
-            print "dog"
-            return "CALL"
-        return "FOLD"
-
     def checkCall(self, canCheck, canCall):
         if(canCall):
             return "CALL"
@@ -351,9 +325,6 @@ class Player:
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
     
 if __name__ == '__main__':
-
-    pokeriniDict = Pokerini.pokeriniInitialise()
-
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
     parser.add_argument('-h', dest='host', type=str, default='localhost', help='Host to connect to, defaults to localhost')
     parser.add_argument('port', metavar='PORT', type=int, help='Port on host to connect to')
@@ -366,6 +337,8 @@ if __name__ == '__main__':
     except socket.error as e:
         print 'Error connecting! Aborting'
         exit()
+
+    pokeriniDict = Pokerini.pokeriniInitialise()
 
     bot = Player()
     bot.run(s)

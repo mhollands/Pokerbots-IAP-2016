@@ -1,0 +1,6050 @@
+Connecting to localhost:3000
+NEWGAME oldBot2 newBot2 200 2 100 10.000000
+NEWHAND 1 false Jd 3s 6s Qs 0 0 10.000000
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 10.0
+Pokerini Rank: 47.77021
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'd'), (3, 's'), (6, 's'), (12, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 Ks 9s Tc 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 9.999107057
+Simulation Win Chance: 0.82
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (3, 's'), (6, 's'), (12, 's')]
+Num Board Cards:  3
+Board Cards:  [(13, 's'), (9, 's'), (10, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+GETACTION 67 3 Ks 9s Tc 2 BET:12:oldBot2 RAISE:43:newBot2 3 FOLD CALL RAISE:74:141 9.907880968
+Pot Size:  67
+My Bet:  12
+Opponent Bet:  43
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (3, 's'), (6, 's'), (12, 's')]
+Num Board Cards:  3
+Board Cards:  [(13, 's'), (9, 's'), (10, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 74 : 141
+Can Check:  False
+Response: RAISE:141
+GETACTION 347 3 Ks 9s Tc 2 RAISE:141:oldBot2 RAISE:194:newBot2 2 FOLD CALL 9.907601170000001
+Pot Size:  347
+My Bet:  141
+Opponent Bet:  194
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (3, 's'), (6, 's'), (12, 's')]
+Num Board Cards:  3
+Board Cards:  [(13, 's'), (9, 's'), (10, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER 200 -200 5 Ks 9s Tc Ah 4s 6 CALL:oldBot2 DEAL:TURN DEAL:RIVER SHOW:9d:3h:9c:5d:newBot2 SHOW:Jd:3s:6s:Qs:oldBot2 WIN:400:oldBot2 9.907269161000002
+Unhandled packet
+NEWHAND 2 true 2d 4c 7d Qd 200 -200 9.907269
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 9.907269161000002
+Pokerini Rank: 40.029
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'd'), (4, 'c'), (7, 'd'), (12, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 9.906512770000003
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'd'), (4, 'c'), (7, 'd'), (12, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 20 3 Td 3c 9h 3 CALL:oldBot2 DEAL:FLOP BET:8:newBot2 3 FOLD CALL RAISE:16:36 9.906210214000003
+Simulation Win Chance: 0.16
+Pot Size:  20
+My Bet:  0
+Opponent Bet:  8
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'd'), (4, 'c'), (7, 'd'), (12, 'd')]
+Num Board Cards:  3
+Board Cards:  [(10, 'd'), (3, 'c'), (9, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 16 : 36
+Can Check:  False
+Response: FOLD
+HANDOVER 194 -194 3 Td 3c 9h 3 FOLD:oldBot2 REFUND:8:newBot2 WIN:12:newBot2 9.791922906000003
+Unhandled packet
+NEWHAND 3 false 4h Ks 5s 7h 194 -194 9.791923
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 9.791922906000003
+Pokerini Rank: 50.97162
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (13, 's'), (5, 's'), (7, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 9.791499416000004
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (13, 's'), (5, 's'), (7, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL 9.791147773000004
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (13, 's'), (5, 's'), (7, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -6 6 5 Qs 4s 9c 2c Qd 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Kh:Qh:3s:Js:newBot2 SHOW:4h:Ks:5s:7h:oldBot2 WIN:400:newBot2 9.790568096000005
+Unhandled packet
+NEWHAND 4 true Ks 9s 2s 5d -6 6 9.790568
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 9.790568096000005
+Pokerini Rank: 45.4164
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 's'), (9, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 9.790170489000005
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 's'), (9, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 Ts 8h 6c 3 CALL:oldBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 9.789854992000004
+Simulation Win Chance: 0.3
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 's'), (9, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  3
+Board Cards:  [(10, 's'), (8, 'h'), (6, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Ts 8h 6c 9c 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 9.623896596000003
+Simulation Win Chance: 0.26
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 's'), (9, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  4
+Board Cards:  [(10, 's'), (8, 'h'), (6, 'c'), (9, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 Ts 8h 6c 9c Jc 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:12 9.532801257000003
+Simulation Win Chance: 0.18
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 's'), (9, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  5
+Board Cards:  [(10, 's'), (8, 'h'), (6, 'c'), (9, 'c'), (11, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -12 12 5 Ts 8h 6c 9c Jc 4 CHECK:oldBot2 SHOW:Ks:9s:2s:5d:oldBot2 SHOW:Kc:Js:Ad:9h:newBot2 WIN:12:newBot2 9.470978913000003
+Unhandled packet
+NEWHAND 5 false 5c Js 9s Jh -12 12 9.470979
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 9.470978913000003
+Pokerini Rank: 58.362
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'c'), (11, 's'), (9, 's'), (11, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 9h 6d Th 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 9.470562117000004
+Simulation Win Chance: 0.36
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'c'), (11, 's'), (9, 's'), (11, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (6, 'd'), (10, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 21 3 9h 6d Th 2 CHECK:oldBot2 BET:9:newBot2 3 FOLD CALL RAISE:18:39 9.360222321000004
+Pot Size:  21
+My Bet:  0
+Opponent Bet:  9
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'c'), (11, 's'), (9, 's'), (11, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (6, 'd'), (10, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 18 : 39
+Can Check:  False
+Response: FOLD
+HANDOVER -18 18 3 9h 6d Th 3 FOLD:oldBot2 REFUND:9:newBot2 WIN:12:newBot2 9.359911286000004
+Unhandled packet
+NEWHAND 6 true 7s Th 6d Jc -18 18 9.359911
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 9.359911286000004
+Pokerini Rank: 48.339
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 's'), (10, 'h'), (6, 'd'), (11, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 3s 6h 9c 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 9.359232988000004
+Simulation Win Chance: 0.54
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(7, 's'), (10, 'h'), (6, 'd'), (11, 'c')]
+Num Board Cards:  3
+Board Cards:  [(3, 's'), (6, 'h'), (9, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 3s 6h 9c Kc 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 9.258303675000004
+Simulation Win Chance: 0.46
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(7, 's'), (10, 'h'), (6, 'd'), (11, 'c')]
+Num Board Cards:  4
+Board Cards:  [(3, 's'), (6, 'h'), (9, 'c'), (13, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 3s 6h 9c Kc 8d 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:4 9.137164225000005
+Simulation Win Chance: 0.96
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(7, 's'), (10, 'h'), (6, 'd'), (11, 'c')]
+Num Board Cards:  5
+Board Cards:  [(3, 's'), (6, 'h'), (9, 'c'), (13, 'c'), (8, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:4
+HANDOVER -16 16 5 3s 6h 9c Kc 8d 4 BET:4:oldBot2 FOLD:newBot2 REFUND:4:oldBot2 WIN:4:oldBot2 9.083760801000004
+Unhandled packet
+NEWHAND 7 false Ts Jc 6c Qc -16 16 9.083761
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 9.083760801000004
+Pokerini Rank: 50.8318
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 's'), (11, 'c'), (6, 'c'), (12, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 6s 8s 2d 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 9.083120435000003
+Simulation Win Chance: 0.36
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 's'), (11, 'c'), (6, 'c'), (12, 'c')]
+Num Board Cards:  3
+Board Cards:  [(6, 's'), (8, 's'), (2, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 6s 8s 2d Qd 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 8.968945135000004
+Simulation Win Chance: 0.7
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 's'), (11, 'c'), (6, 'c'), (12, 'c')]
+Num Board Cards:  4
+Board Cards:  [(6, 's'), (8, 's'), (2, 'd'), (12, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:7
+HANDOVER -10 10 4 6s 8s 2d Qd 4 BET:7:oldBot2 FOLD:newBot2 REFUND:7:oldBot2 WIN:12:oldBot2 8.847428605000005
+Unhandled packet
+NEWHAND 8 true Kc Jh 9h Qs -10 10 8.847429
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 8.847428605000005
+Pokerini Rank: 54.907
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (11, 'h'), (9, 'h'), (12, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 8.846686940000005
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (11, 'h'), (9, 'h'), (12, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 8.846255418000005
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (11, 'h'), (9, 'h'), (12, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER -210 210 5 6s Ad Ah 9s Tc 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Kc:Jh:9h:Qs:oldBot2 SHOW:5h:Qh:8h:Ac:newBot2 WIN:400:newBot2 8.845946614000006
+Unhandled packet
+NEWHAND 9 false Th Qd 2h Ah -210 210 8.845947
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 8.845946614000006
+Pokerini Rank: 52.4626
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 'h'), (12, 'd'), (2, 'h'), (14, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 Jd 4h Js 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 8.844975577000007
+Simulation Win Chance: 0.44
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 'h'), (12, 'd'), (2, 'h'), (14, 'h')]
+Num Board Cards:  3
+Board Cards:  [(11, 'd'), (4, 'h'), (11, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 24 3 Jd 4h Js 2 CHECK:oldBot2 BET:12:newBot2 3 FOLD CALL RAISE:24:48 8.757937974000006
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 'h'), (12, 'd'), (2, 'h'), (14, 'h')]
+Num Board Cards:  3
+Board Cards:  [(11, 'd'), (4, 'h'), (11, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: CALL
+GETACTION 36 4 Jd 4h Js 3c 2 CALL:oldBot2 DEAL:TURN 2 CHECK BET:2:36 8.757623369000006
+Simulation Win Chance: 0.28
+Pot Size:  36
+My Bet:  0
+Opponent Bet:  0
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(10, 'h'), (12, 'd'), (2, 'h'), (14, 'h')]
+Num Board Cards:  4
+Board Cards:  [(11, 'd'), (4, 'h'), (11, 's'), (3, 'c')]
+Can Bet:  True : 2 : 36
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 72 4 Jd 4h Js 3c 2 CHECK:oldBot2 BET:36:newBot2 3 FOLD CALL RAISE:72:144 8.671480047000006
+Pot Size:  72
+My Bet:  0
+Opponent Bet:  36
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(10, 'h'), (12, 'd'), (2, 'h'), (14, 'h')]
+Num Board Cards:  4
+Board Cards:  [(11, 'd'), (4, 'h'), (11, 's'), (3, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 72 : 144
+Can Check:  False
+Response: FOLD
+HANDOVER -228 228 4 Jd 4h Js 3c 3 FOLD:oldBot2 REFUND:36:newBot2 WIN:36:newBot2 8.671184184000007
+Unhandled packet
+NEWHAND 10 true 4c Qs 2s 6s -228 228 8.671184
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 8.671184184000007
+Pokerini Rank: 41.2028
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'c'), (12, 's'), (2, 's'), (6, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 4d Kh 8c 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 8.670914203000006
+Simulation Win Chance: 0.3
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 'c'), (12, 's'), (2, 's'), (6, 's')]
+Num Board Cards:  3
+Board Cards:  [(4, 'd'), (13, 'h'), (8, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 4d Kh 8c 9s 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 8.586071695000006
+Simulation Win Chance: 0.34
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 'c'), (12, 's'), (2, 's'), (6, 's')]
+Num Board Cards:  4
+Board Cards:  [(4, 'd'), (13, 'h'), (8, 'c'), (9, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 4d Kh 8c 9s 6d 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:4 8.495095058000006
+Simulation Win Chance: 0.42
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 'c'), (12, 's'), (2, 's'), (6, 's')]
+Num Board Cards:  5
+Board Cards:  [(4, 'd'), (13, 'h'), (8, 'c'), (9, 's'), (6, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -226 226 5 4d Kh 8c 9s 6d 4 CHECK:oldBot2 SHOW:4c:Qs:2s:6s:oldBot2 SHOW:3d:Tc:9c:3s:newBot2 WIN:4:oldBot2 8.449121222000006
+Unhandled packet
+NEWHAND 11 false Jd 2s 7d 9d -226 226 8.449121
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 8.449121222000006
+Pokerini Rank: 44.6833
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'd'), (2, 's'), (7, 'd'), (9, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 9h Jh 8s 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 8.448533067000005
+Simulation Win Chance: 0.48
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 'd'), (2, 's'), (7, 'd'), (9, 'd')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (11, 'h'), (8, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 9h Jh 8s 8c 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:4 8.354279630000004
+Simulation Win Chance: 0.52
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 'd'), (2, 's'), (7, 'd'), (9, 'd')]
+Num Board Cards:  4
+Board Cards:  [(9, 'h'), (11, 'h'), (8, 's'), (8, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 9h Jh 8s 8c Qh 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:4 8.263322628000004
+Simulation Win Chance: 0.16
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 'd'), (2, 's'), (7, 'd'), (9, 'd')]
+Num Board Cards:  5
+Board Cards:  [(9, 'h'), (11, 'h'), (8, 's'), (8, 'c'), (12, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 6 5 9h Jh 8s 8c Qh 2 CHECK:oldBot2 BET:2:newBot2 3 FOLD CALL RAISE:4:10 8.219311838000005
+Pot Size:  6
+My Bet:  0
+Opponent Bet:  2
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 'd'), (2, 's'), (7, 'd'), (9, 'd')]
+Num Board Cards:  5
+Board Cards:  [(9, 'h'), (11, 'h'), (8, 's'), (8, 'c'), (12, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 10
+Can Check:  False
+Response: FOLD
+HANDOVER -228 228 5 9h Jh 8s 8c Qh 3 FOLD:oldBot2 REFUND:2:newBot2 WIN:4:newBot2 8.219050336000004
+Unhandled packet
+NEWHAND 12 true 6h Qc 4d Jd -228 228 8.219050
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 8.219050336000004
+Pokerini Rank: 50.313
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(6, 'h'), (12, 'c'), (4, 'd'), (11, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 7s Th Ah 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 8.217755323000004
+Simulation Win Chance: 0.26
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(6, 'h'), (12, 'c'), (4, 'd'), (11, 'd')]
+Num Board Cards:  3
+Board Cards:  [(7, 's'), (10, 'h'), (14, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 7s Th Ah Qh 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 8.132464782000003
+Simulation Win Chance: 0.48
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(6, 'h'), (12, 'c'), (4, 'd'), (11, 'd')]
+Num Board Cards:  4
+Board Cards:  [(7, 's'), (10, 'h'), (14, 'h'), (12, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 7s Th Ah Qh 2c 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:12 8.050758060000003
+Simulation Win Chance: 0.16
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(6, 'h'), (12, 'c'), (4, 'd'), (11, 'd')]
+Num Board Cards:  5
+Board Cards:  [(7, 's'), (10, 'h'), (14, 'h'), (12, 'h'), (2, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -222 222 5 7s Th Ah Qh 2c 4 CHECK:oldBot2 SHOW:6h:Qc:4d:Jd:oldBot2 SHOW:2d:5d:3s:Kc:newBot2 WIN:12:oldBot2 8.004583412000004
+Unhandled packet
+NEWHAND 13 false 3d 4s Kh 7s -222 222 8.004583
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 8.004583412000004
+Pokerini Rank: 44.0157
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(3, 'd'), (4, 's'), (13, 'h'), (7, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 7c 4h Qh 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 8.004270146000005
+Simulation Win Chance: 0.58
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'd'), (4, 's'), (13, 'h'), (7, 's')]
+Num Board Cards:  3
+Board Cards:  [(7, 'c'), (4, 'h'), (12, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 23 3 7c 4h Qh 2 CHECK:oldBot2 BET:11:newBot2 3 FOLD CALL RAISE:22:45 7.815803432000005
+Pot Size:  23
+My Bet:  0
+Opponent Bet:  11
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'd'), (4, 's'), (13, 'h'), (7, 's')]
+Num Board Cards:  3
+Board Cards:  [(7, 'c'), (4, 'h'), (12, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 22 : 45
+Can Check:  False
+Response: CALL
+GETACTION 34 4 7c 4h Qh Tc 2 CALL:oldBot2 DEAL:TURN 2 CHECK BET:2:34 7.815211707000006
+Simulation Win Chance: 0.54
+Pot Size:  34
+My Bet:  0
+Opponent Bet:  0
+My Pot:  17
+Opponent Pot:  17
+My Hand:  [(3, 'd'), (4, 's'), (13, 'h'), (7, 's')]
+Num Board Cards:  4
+Board Cards:  [(7, 'c'), (4, 'h'), (12, 'h'), (10, 'c')]
+Can Bet:  True : 2 : 34
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 34 5 7c 4h Qh Tc Th 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:34 7.688109041000006
+Simulation Win Chance: 0.36
+Pot Size:  34
+My Bet:  0
+Opponent Bet:  0
+My Pot:  17
+Opponent Pot:  17
+My Hand:  [(3, 'd'), (4, 's'), (13, 'h'), (7, 's')]
+Num Board Cards:  5
+Board Cards:  [(7, 'c'), (4, 'h'), (12, 'h'), (10, 'c'), (10, 'h')]
+Can Bet:  True : 2 : 34
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 64 5 7c 4h Qh Tc Th 2 CHECK:oldBot2 BET:30:newBot2 3 FOLD CALL RAISE:60:124 7.641136947000006
+Pot Size:  64
+My Bet:  0
+Opponent Bet:  30
+My Pot:  17
+Opponent Pot:  17
+My Hand:  [(3, 'd'), (4, 's'), (13, 'h'), (7, 's')]
+Num Board Cards:  5
+Board Cards:  [(7, 'c'), (4, 'h'), (12, 'h'), (10, 'c'), (10, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 60 : 124
+Can Check:  False
+Response: FOLD
+HANDOVER -239 239 5 7c 4h Qh Tc Th 3 FOLD:oldBot2 REFUND:30:newBot2 WIN:34:newBot2 7.640786196000006
+Unhandled packet
+NEWHAND 14 true 3s 4s 3d 4h -239 239 7.640786
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 7.640786196000006
+Pokerini Rank: 45.70408
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(3, 's'), (4, 's'), (3, 'd'), (4, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 9d 8c 5s 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 7.640531834000006
+Simulation Win Chance: 0.2
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(3, 's'), (4, 's'), (3, 'd'), (4, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'd'), (8, 'c'), (5, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 9d 8c 5s 4d 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 7.546925902000006
+Simulation Win Chance: 0.72
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(3, 's'), (4, 's'), (3, 'd'), (4, 'h')]
+Num Board Cards:  4
+Board Cards:  [(9, 'd'), (8, 'c'), (5, 's'), (4, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:2
+GETACTION 8 5 9d 8c 5s 4d 2d 4 BET:2:oldBot2 CALL:newBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:8 7.459658481000006
+Simulation Win Chance: 0.62
+Pot Size:  8
+My Bet:  0
+Opponent Bet:  0
+My Pot:  4
+Opponent Pot:  4
+My Hand:  [(3, 's'), (4, 's'), (3, 'd'), (4, 'h')]
+Num Board Cards:  5
+Board Cards:  [(9, 'd'), (8, 'c'), (5, 's'), (4, 'd'), (2, 'd')]
+Can Bet:  True : 2 : 8
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:7
+HANDOVER -235 235 5 9d 8c 5s 4d 2d 4 BET:7:oldBot2 FOLD:newBot2 REFUND:7:oldBot2 WIN:8:oldBot2 7.415286230000006
+Unhandled packet
+NEWHAND 15 false 2c 8d 9h Qh -235 235 7.415286
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 7.415286230000006
+Pokerini Rank: 47.483
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'c'), (8, 'd'), (9, 'h'), (12, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 Qd 3c Ad 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 7.414406675000006
+Simulation Win Chance: 0.44
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'c'), (8, 'd'), (9, 'h'), (12, 'h')]
+Num Board Cards:  3
+Board Cards:  [(12, 'd'), (3, 'c'), (14, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Qd 3c Ad Ah 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 7.329163882000006
+Simulation Win Chance: 0.46
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'c'), (8, 'd'), (9, 'h'), (12, 'h')]
+Num Board Cards:  4
+Board Cards:  [(12, 'd'), (3, 'c'), (14, 'd'), (14, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 Qd 3c Ad Ah 4h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 7.238872236000006
+Simulation Win Chance: 0.62
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'c'), (8, 'd'), (9, 'h'), (12, 'h')]
+Num Board Cards:  5
+Board Cards:  [(12, 'd'), (3, 'c'), (14, 'd'), (14, 'h'), (4, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:11
+HANDOVER -229 229 5 Qd 3c Ad Ah 4h 4 BET:11:oldBot2 FOLD:newBot2 REFUND:11:oldBot2 WIN:12:oldBot2 7.191903713000006
+Unhandled packet
+NEWHAND 16 true 8d 2h 7s 3d -229 229 7.191904
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 7.191903713000006
+Pokerini Rank: 39.443
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (2, 'h'), (7, 's'), (3, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 7.191557870000006
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (2, 'h'), (7, 's'), (3, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 As 2s 8h 3 CALL:oldBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 7.191142413000006
+Simulation Win Chance: 0.52
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (2, 'h'), (7, 's'), (3, 'd')]
+Num Board Cards:  3
+Board Cards:  [(14, 's'), (2, 's'), (8, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 As 2s 8h Tc 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 7.104348015000006
+Simulation Win Chance: 0.62
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (2, 'h'), (7, 's'), (3, 'd')]
+Num Board Cards:  4
+Board Cards:  [(14, 's'), (2, 's'), (8, 'h'), (10, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:11
+GETACTION 34 5 As 2s 8h Tc Td 4 BET:11:oldBot2 CALL:newBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:34 7.0198268060000055
+Simulation Win Chance: 0.36
+Pot Size:  34
+My Bet:  0
+Opponent Bet:  0
+My Pot:  17
+Opponent Pot:  17
+My Hand:  [(8, 'd'), (2, 'h'), (7, 's'), (3, 'd')]
+Num Board Cards:  5
+Board Cards:  [(14, 's'), (2, 's'), (8, 'h'), (10, 'c'), (10, 'd')]
+Can Bet:  True : 2 : 34
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -246 246 5 As 2s 8h Tc Td 4 CHECK:oldBot2 SHOW:8d:2h:7s:3d:oldBot2 SHOW:Ks:Kc:7c:9c:newBot2 WIN:34:newBot2 6.973567371000006
+Unhandled packet
+NEWHAND 17 false 8h Ts Kd 6h -246 246 6.973567
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 6.973567371000006
+Pokerini Rank: 52.2056
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'h'), (10, 's'), (13, 'd'), (6, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 6.973020716000006
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'h'), (10, 's'), (13, 'd'), (6, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL 6.972744488000006
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'h'), (10, 's'), (13, 'd'), (6, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -446 446 5 2s Ad Ac 6s Jc 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Qh:Qs:Jh:2h:newBot2 SHOW:8h:Ts:Kd:6h:oldBot2 WIN:400:newBot2 6.972466921000006
+Unhandled packet
+NEWHAND 18 true Ah 4d Ks 2d -446 446 6.972467
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 6.972466921000006
+Pokerini Rank: 49.5367
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 'h'), (4, 'd'), (13, 's'), (2, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 6d 8h 7c 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 6.971877873000006
+Simulation Win Chance: 0.22
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(14, 'h'), (4, 'd'), (13, 's'), (2, 'd')]
+Num Board Cards:  3
+Board Cards:  [(6, 'd'), (8, 'h'), (7, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 6d 8h 7c 6h 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 6.888333948000006
+Simulation Win Chance: 0.18
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(14, 'h'), (4, 'd'), (13, 's'), (2, 'd')]
+Num Board Cards:  4
+Board Cards:  [(6, 'd'), (8, 'h'), (7, 'c'), (6, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 6d 8h 7c 6h 2h 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:4 6.801262430000006
+Simulation Win Chance: 0.16
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(14, 'h'), (4, 'd'), (13, 's'), (2, 'd')]
+Num Board Cards:  5
+Board Cards:  [(6, 'd'), (8, 'h'), (7, 'c'), (6, 'h'), (2, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -448 448 5 6d 8h 7c 6h 2h 4 CHECK:oldBot2 SHOW:Ah:4d:Ks:2d:oldBot2 SHOW:4s:7s:4c:As:newBot2 WIN:4:newBot2 6.755402833000006
+Unhandled packet
+NEWHAND 19 false Kc Kh Ah Td -448 448 6.755403
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 6.755402833000006
+Pokerini Rank: 65.3049
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (13, 'h'), (14, 'h'), (10, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 9h 2d 8d 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 6.754124331000006
+Simulation Win Chance: 0.44
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (13, 'h'), (14, 'h'), (10, 'd')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (2, 'd'), (8, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 9h 2d 8d 3h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 6.666328106000006
+Simulation Win Chance: 0.56
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (13, 'h'), (14, 'h'), (10, 'd')]
+Num Board Cards:  4
+Board Cards:  [(9, 'h'), (2, 'd'), (8, 'd'), (3, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 9h 2d 8d 3h 3c 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 6.575006520000006
+Simulation Win Chance: 0.72
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (13, 'h'), (14, 'h'), (10, 'd')]
+Num Board Cards:  5
+Board Cards:  [(9, 'h'), (2, 'd'), (8, 'd'), (3, 'h'), (3, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:6
+HANDOVER -442 442 5 9h 2d 8d 3h 3c 4 BET:6:oldBot2 FOLD:newBot2 REFUND:6:oldBot2 WIN:12:oldBot2 6.531059097000006
+Unhandled packet
+NEWHAND 20 true 7s Jh Js As -442 442 6.531059
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 6.531059097000006
+Pokerini Rank: 59.463
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 's'), (11, 'h'), (11, 's'), (14, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 22 3 8d 4h 5s 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP BET:10:newBot2 3 FOLD CALL RAISE:20:42 6.530806520000006
+Simulation Win Chance: 0.38
+Pot Size:  22
+My Bet:  0
+Opponent Bet:  10
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 's'), (11, 'h'), (11, 's'), (14, 's')]
+Num Board Cards:  3
+Board Cards:  [(8, 'd'), (4, 'h'), (5, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 20 : 42
+Can Check:  False
+Response: FOLD
+HANDOVER -448 448 3 8d 4h 5s 3 FOLD:oldBot2 REFUND:10:newBot2 WIN:12:newBot2 6.445265187000006
+Unhandled packet
+NEWHAND 21 false 4h 6s 3d Jd -448 448 6.445265
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 6.445265187000006
+Pokerini Rank: 42.1844
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (6, 's'), (3, 'd'), (11, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 5h 2h Qc 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 6.444768513000006
+Simulation Win Chance: 0.5
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 'h'), (6, 's'), (3, 'd'), (11, 'd')]
+Num Board Cards:  3
+Board Cards:  [(5, 'h'), (2, 'h'), (12, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 5h 2h Qc 3c 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:4 6.361708767000006
+Simulation Win Chance: 0.88
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 'h'), (6, 's'), (3, 'd'), (11, 'd')]
+Num Board Cards:  4
+Board Cards:  [(5, 'h'), (2, 'h'), (12, 'c'), (3, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:4
+HANDOVER -446 446 4 5h 2h Qc 3c 4 BET:4:oldBot2 FOLD:newBot2 REFUND:4:oldBot2 WIN:4:oldBot2 6.275345891000006
+Unhandled packet
+NEWHAND 22 true Jc 8d 9h Th -446 446 6.275346
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 6.275345891000006
+Pokerini Rank: 52.6899
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'c'), (8, 'd'), (9, 'h'), (10, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 2s Td Qc 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 6.274793436000006
+Simulation Win Chance: 0.6
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'c'), (8, 'd'), (9, 'h'), (10, 'h')]
+Num Board Cards:  3
+Board Cards:  [(2, 's'), (10, 'd'), (12, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+HANDOVER -440 440 3 2s Td Qc 4 BET:12:oldBot2 FOLD:newBot2 REFUND:12:oldBot2 WIN:12:oldBot2 6.1893699130000055
+Unhandled packet
+NEWHAND 23 false Kc 7d As 6d -440 440 6.189370
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 6.1893699130000055
+Pokerini Rank: 54.5191
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (7, 'd'), (14, 's'), (6, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 6.188789344000005
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (7, 'd'), (14, 's'), (6, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL 6.188417619000005
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (7, 'd'), (14, 's'), (6, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -240 240 5 Jc Ts 4c Qd 4h 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Tc:6c:Ah:Js:newBot2 SHOW:Kc:7d:As:6d:oldBot2 WIN:400:oldBot2 6.188150316000005
+Unhandled packet
+NEWHAND 24 true 2c Td 3s 8s -240 240 6.188150
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 6.188150316000005
+Pokerini Rank: 41.65263
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'c'), (10, 'd'), (3, 's'), (8, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 7 3 Js Kd 9s 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP BET:3:newBot2 3 FOLD CALL RAISE:6:13 6.187825001000005
+Simulation Win Chance: 0.48
+Pot Size:  7
+My Bet:  0
+Opponent Bet:  3
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(2, 'c'), (10, 'd'), (3, 's'), (8, 's')]
+Num Board Cards:  3
+Board Cards:  [(11, 's'), (13, 'd'), (9, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 6 : 13
+Can Check:  False
+Response: CALL
+GETACTION 10 4 Js Kd 9s 8c 3 CALL:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:10 6.088939060000005
+Simulation Win Chance: 0.62
+Pot Size:  10
+My Bet:  0
+Opponent Bet:  0
+My Pot:  5
+Opponent Pot:  5
+My Hand:  [(2, 'c'), (10, 'd'), (3, 's'), (8, 's')]
+Num Board Cards:  4
+Board Cards:  [(11, 's'), (13, 'd'), (9, 's'), (8, 'c')]
+Can Bet:  True : 2 : 10
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:9
+GETACTION 28 5 Js Kd 9s 8c 5s 4 BET:9:oldBot2 CALL:newBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:28 6.0056517270000045
+Simulation Win Chance: 0.94
+Pot Size:  28
+My Bet:  0
+Opponent Bet:  0
+My Pot:  14
+Opponent Pot:  14
+My Hand:  [(2, 'c'), (10, 'd'), (3, 's'), (8, 's')]
+Num Board Cards:  5
+Board Cards:  [(11, 's'), (13, 'd'), (9, 's'), (8, 'c'), (5, 's')]
+Can Bet:  True : 2 : 28
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:28
+HANDOVER -198 198 5 Js Kd 9s 8c 5s 5 BET:28:oldBot2 CALL:newBot2 SHOW:2c:Td:3s:8s:oldBot2 SHOW:4c:4s:9d:Jc:newBot2 WIN:84:oldBot2 5.946276162000005
+Unhandled packet
+NEWHAND 25 false 5h 5d 7s 9c -198 198 5.946276
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 5.946276162000005
+Pokerini Rank: 45.5994
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'h'), (5, 'd'), (7, 's'), (9, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 8s 2s 3c 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 5.945785289000004
+Simulation Win Chance: 0.28
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'h'), (5, 'd'), (7, 's'), (9, 'c')]
+Num Board Cards:  3
+Board Cards:  [(8, 's'), (2, 's'), (3, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 8s 2s 3c 5c 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 5.853575669000004
+Simulation Win Chance: 0.66
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'h'), (5, 'd'), (7, 's'), (9, 'c')]
+Num Board Cards:  4
+Board Cards:  [(8, 's'), (2, 's'), (3, 'c'), (5, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:9
+HANDOVER -192 192 4 8s 2s 3c 5c 4 BET:9:oldBot2 FOLD:newBot2 REFUND:9:oldBot2 WIN:12:oldBot2 5.723867359000004
+Unhandled packet
+NEWHAND 26 true Ac 4c 5c 6s -192 192 5.723867
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 5.723867359000004
+Pokerini Rank: 48.1733
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 'c'), (4, 'c'), (5, 'c'), (6, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 Th 3h Jh 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 5.722696850000005
+Simulation Win Chance: 0.12
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(14, 'c'), (4, 'c'), (5, 'c'), (6, 's')]
+Num Board Cards:  3
+Board Cards:  [(10, 'h'), (3, 'h'), (11, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 Th 3h Jh 2c 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 5.627458096000004
+Simulation Win Chance: 0.24
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(14, 'c'), (4, 'c'), (5, 'c'), (6, 's')]
+Num Board Cards:  4
+Board Cards:  [(10, 'h'), (3, 'h'), (11, 'h'), (2, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 Th 3h Jh 2c As 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:4 5.544660744000004
+Simulation Win Chance: 0.56
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(14, 'c'), (4, 'c'), (5, 'c'), (6, 's')]
+Num Board Cards:  5
+Board Cards:  [(10, 'h'), (3, 'h'), (11, 'h'), (2, 'c'), (14, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -190 190 5 Th 3h Jh 2c As 4 CHECK:oldBot2 SHOW:Ac:4c:5c:6s:oldBot2 SHOW:7h:7s:5d:7c:newBot2 WIN:4:oldBot2 5.497386986000004
+Unhandled packet
+NEWHAND 27 false Ac 6s 9c 3d -190 190 5.497387
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 5.497386986000004
+Pokerini Rank: 48.7289
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 'c'), (6, 's'), (9, 'c'), (3, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 As 7s 4d 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 5.496593110000004
+Simulation Win Chance: 0.68
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(14, 'c'), (6, 's'), (9, 'c'), (3, 'd')]
+Num Board Cards:  3
+Board Cards:  [(14, 's'), (7, 's'), (4, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:3
+GETACTION 10 4 As 7s 4d 8c 3 BET:3:oldBot2 CALL:newBot2 DEAL:TURN 2 CHECK BET:2:10 5.403147827000003
+Simulation Win Chance: 0.64
+Pot Size:  10
+My Bet:  0
+Opponent Bet:  0
+My Pot:  5
+Opponent Pot:  5
+My Hand:  [(14, 'c'), (6, 's'), (9, 'c'), (3, 'd')]
+Num Board Cards:  4
+Board Cards:  [(14, 's'), (7, 's'), (4, 'd'), (8, 'c')]
+Can Bet:  True : 2 : 10
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:8
+GETACTION 26 5 As 7s 4d 8c 9h 3 BET:8:oldBot2 CALL:newBot2 DEAL:RIVER 2 CHECK BET:2:26 5.311881129000003
+Simulation Win Chance: 0.7
+Pot Size:  26
+My Bet:  0
+Opponent Bet:  0
+My Pot:  13
+Opponent Pot:  13
+My Hand:  [(14, 'c'), (6, 's'), (9, 'c'), (3, 'd')]
+Num Board Cards:  5
+Board Cards:  [(14, 's'), (7, 's'), (4, 'd'), (8, 'c'), (9, 'h')]
+Can Bet:  True : 2 : 26
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:14
+HANDOVER -163 163 5 As 7s 4d 8c 9h 5 BET:14:oldBot2 CALL:newBot2 SHOW:7h:Kd:3c:4h:newBot2 SHOW:Ac:6s:9c:3d:oldBot2 WIN:54:oldBot2 5.266607456000004
+Unhandled packet
+NEWHAND 28 true 8c 4c 8s 2d -163 163 5.266607
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 5.266607456000004
+Pokerini Rank: 48.399
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'c'), (4, 'c'), (8, 's'), (2, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 5h 2c 3d 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 5.266127293000004
+Simulation Win Chance: 0.68
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(8, 'c'), (4, 'c'), (8, 's'), (2, 'd')]
+Num Board Cards:  3
+Board Cards:  [(5, 'h'), (2, 'c'), (3, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:3
+GETACTION 10 4 5h 2c 3d Kd 4 BET:3:oldBot2 CALL:newBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:10 5.1736793760000035
+Simulation Win Chance: 0.3
+Pot Size:  10
+My Bet:  0
+Opponent Bet:  0
+My Pot:  5
+Opponent Pot:  5
+My Hand:  [(8, 'c'), (4, 'c'), (8, 's'), (2, 'd')]
+Num Board Cards:  4
+Board Cards:  [(5, 'h'), (2, 'c'), (3, 'd'), (13, 'd')]
+Can Bet:  True : 2 : 10
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 10 5 5h 2c 3d Kd As 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:10 5.082395274000003
+Simulation Win Chance: 0.82
+Pot Size:  10
+My Bet:  0
+Opponent Bet:  0
+My Pot:  5
+Opponent Pot:  5
+My Hand:  [(8, 'c'), (4, 'c'), (8, 's'), (2, 'd')]
+Num Board Cards:  5
+Board Cards:  [(5, 'h'), (2, 'c'), (3, 'd'), (13, 'd'), (14, 's')]
+Can Bet:  True : 2 : 10
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:10
+HANDOVER -148 148 5 5h 2c 3d Kd As 5 BET:10:oldBot2 CALL:newBot2 SHOW:8c:4c:8s:2d:oldBot2 SHOW:Qh:5d:Td:2s:newBot2 WIN:30:oldBot2 5.032623864000003
+Unhandled packet
+NEWHAND 29 false Qs Qh 9s 6s -148 148 5.032624
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 5.032623864000003
+Pokerini Rank: 60.0
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(12, 's'), (12, 'h'), (9, 's'), (6, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 Tc Kd 9h 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 5.032141916000003
+Simulation Win Chance: 0.56
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(12, 's'), (12, 'h'), (9, 's'), (6, 's')]
+Num Board Cards:  3
+Board Cards:  [(10, 'c'), (13, 'd'), (9, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Tc Kd 9h Ah 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 4.942951611000003
+Simulation Win Chance: 0.5
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(12, 's'), (12, 'h'), (9, 's'), (6, 's')]
+Num Board Cards:  4
+Board Cards:  [(10, 'c'), (13, 'd'), (9, 'h'), (14, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 Tc Kd 9h Ah 3h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 4.853295870000004
+Simulation Win Chance: 0.4
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(12, 's'), (12, 'h'), (9, 's'), (6, 's')]
+Num Board Cards:  5
+Board Cards:  [(10, 'c'), (13, 'd'), (9, 'h'), (14, 'h'), (3, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -142 142 5 Tc Kd 9h Ah 3h 5 CHECK:oldBot2 CHECK:newBot2 SHOW:6c:Jd:4s:2d:newBot2 SHOW:Qs:Qh:9s:6s:oldBot2 WIN:12:oldBot2 4.807471973000004
+Unhandled packet
+NEWHAND 30 true Qc 5d 5h 4c -142 142 4.807472
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 4.807471973000004
+Pokerini Rank: 47.601
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(12, 'c'), (5, 'd'), (5, 'h'), (4, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 4.806937813000004
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(12, 'c'), (5, 'd'), (5, 'h'), (4, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 24 3 As Ac 7s 3 CALL:oldBot2 DEAL:FLOP BET:12:newBot2 3 FOLD CALL RAISE:24:48 4.806561180000004
+Simulation Win Chance: 0.4
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(12, 'c'), (5, 'd'), (5, 'h'), (4, 'c')]
+Num Board Cards:  3
+Board Cards:  [(14, 's'), (14, 'c'), (7, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: CALL
+GETACTION 72 4 As Ac 7s Tc 3 CALL:oldBot2 DEAL:TURN BET:36:newBot2 3 FOLD CALL RAISE:72:144 4.696569011000004
+Simulation Win Chance: 0.28
+Pot Size:  72
+My Bet:  0
+Opponent Bet:  36
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(12, 'c'), (5, 'd'), (5, 'h'), (4, 'c')]
+Num Board Cards:  4
+Board Cards:  [(14, 's'), (14, 'c'), (7, 's'), (10, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 72 : 144
+Can Check:  False
+Response: FOLD
+HANDOVER -160 160 4 As Ac 7s Tc 3 FOLD:oldBot2 REFUND:36:newBot2 WIN:36:newBot2 4.519156760000004
+Unhandled packet
+NEWHAND 31 false Th 6d 7h 3h -160 160 4.519157
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 4.519156760000004
+Pokerini Rank: 43.7895
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 'h'), (6, 'd'), (7, 'h'), (3, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 Kh Ts As 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 4.518280775000004
+Simulation Win Chance: 0.34
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(10, 'h'), (6, 'd'), (7, 'h'), (3, 'h')]
+Num Board Cards:  3
+Board Cards:  [(13, 'h'), (10, 's'), (14, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 Kh Ts As 6h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:4 4.398529603000004
+Simulation Win Chance: 0.6
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(10, 'h'), (6, 'd'), (7, 'h'), (3, 'h')]
+Num Board Cards:  4
+Board Cards:  [(13, 'h'), (10, 's'), (14, 's'), (6, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:4
+GETACTION 12 5 Kh Ts As 6h Kd 3 BET:4:oldBot2 CALL:newBot2 DEAL:RIVER 2 CHECK BET:2:12 4.172051461000003
+Simulation Win Chance: 0.4
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 'h'), (6, 'd'), (7, 'h'), (3, 'h')]
+Num Board Cards:  5
+Board Cards:  [(13, 'h'), (10, 's'), (14, 's'), (6, 'h'), (13, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -154 154 5 Kh Ts As 6h Kd 5 CHECK:oldBot2 CHECK:newBot2 SHOW:3s:8h:4c:8s:newBot2 SHOW:Th:6d:7h:3h:oldBot2 WIN:12:oldBot2 4.124494781000004
+Unhandled packet
+NEWHAND 32 true 9d 3s Qc Qh -154 154 4.124495
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 4.124494781000004
+Pokerini Rank: 55.897
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(9, 'd'), (3, 's'), (12, 'c'), (12, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 5h Tc 2s 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 4.123978025000004
+Simulation Win Chance: 0.44
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'd'), (3, 's'), (12, 'c'), (12, 'h')]
+Num Board Cards:  3
+Board Cards:  [(5, 'h'), (10, 'c'), (2, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 5h Tc 2s 7d 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 4.042918364000004
+Simulation Win Chance: 0.54
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'd'), (3, 's'), (12, 'c'), (12, 'h')]
+Num Board Cards:  4
+Board Cards:  [(5, 'h'), (10, 'c'), (2, 's'), (7, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 24 5 5h Tc 2s 7d 3c 3 CHECK:oldBot2 DEAL:RIVER BET:12:newBot2 3 FOLD CALL RAISE:24:48 3.9458133990000035
+Simulation Win Chance: 0.44
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'd'), (3, 's'), (12, 'c'), (12, 'h')]
+Num Board Cards:  5
+Board Cards:  [(5, 'h'), (10, 'c'), (2, 's'), (7, 'd'), (3, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: CALL
+HANDOVER -172 172 5 5h Tc 2s 7d 3c 4 CALL:oldBot2 SHOW:9d:3s:Qc:Qh:oldBot2 SHOW:4h:Jd:Kc:6s:newBot2 WIN:36:newBot2 3.8995146940000036
+Unhandled packet
+NEWHAND 33 false 4c 7s Qd 3s -172 172 3.899515
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 3.8995146940000036
+Pokerini Rank: 42.47933
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'c'), (7, 's'), (12, 'd'), (3, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 8s Qc 5s 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 3.8990666610000035
+Simulation Win Chance: 0.74
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 'c'), (7, 's'), (12, 'd'), (3, 's')]
+Num Board Cards:  3
+Board Cards:  [(8, 's'), (12, 'c'), (5, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:2
+HANDOVER -170 170 3 8s Qc 5s 4 BET:2:oldBot2 FOLD:newBot2 REFUND:2:oldBot2 WIN:4:oldBot2 3.8142112120000036
+Unhandled packet
+NEWHAND 34 true 4s 3s Qs 2s -170 170 3.814211
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 3.8142112120000036
+Pokerini Rank: 38.794
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 's'), (3, 's'), (12, 's'), (2, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 3.8139260590000035
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 's'), (3, 's'), (12, 's'), (2, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 24 3 5h 7s 6c 3 CALL:oldBot2 DEAL:FLOP BET:12:newBot2 3 FOLD CALL RAISE:24:48 3.8136074370000035
+Simulation Win Chance: 0.56
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(4, 's'), (3, 's'), (12, 's'), (2, 's')]
+Num Board Cards:  3
+Board Cards:  [(5, 'h'), (7, 's'), (6, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: CALL
+GETACTION 72 4 5h 7s 6c 4d 3 CALL:oldBot2 DEAL:TURN BET:36:newBot2 3 FOLD CALL RAISE:72:144 3.7265738500000034
+Simulation Win Chance: 0.7
+Pot Size:  72
+My Bet:  0
+Opponent Bet:  36
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(4, 's'), (3, 's'), (12, 's'), (2, 's')]
+Num Board Cards:  4
+Board Cards:  [(5, 'h'), (7, 's'), (6, 'c'), (4, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 72 : 144
+Can Check:  False
+Response: RAISE:108
+GETACTION 326 4 5h 7s 6c 4d 2 RAISE:108:oldBot2 RAISE:182:newBot2 2 FOLD CALL 3.6365553080000033
+Pot Size:  326
+My Bet:  108
+Opponent Bet:  182
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(4, 's'), (3, 's'), (12, 's'), (2, 's')]
+Num Board Cards:  4
+Board Cards:  [(5, 'h'), (7, 's'), (6, 'c'), (4, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -370 370 5 5h 7s 6c 4d 8c 5 CALL:oldBot2 DEAL:RIVER SHOW:4s:3s:Qs:2s:oldBot2 SHOW:9d:Ts:8s:Qc:newBot2 WIN:400:newBot2 3.636281312000003
+Unhandled packet
+NEWHAND 35 false 2d 5h 2h 8h -370 370 3.636281
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 3.636281312000003
+Pokerini Rank: 41.131
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'd'), (5, 'h'), (2, 'h'), (8, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 9h 6c Jd 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 3.635594089000003
+Simulation Win Chance: 0.3
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'd'), (5, 'h'), (2, 'h'), (8, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (6, 'c'), (11, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 23 3 9h 6c Jd 2 CHECK:oldBot2 BET:11:newBot2 3 FOLD CALL RAISE:22:45 3.5509122300000033
+Pot Size:  23
+My Bet:  0
+Opponent Bet:  11
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'd'), (5, 'h'), (2, 'h'), (8, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (6, 'c'), (11, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 22 : 45
+Can Check:  False
+Response: FOLD
+HANDOVER -376 376 3 9h 6c Jd 3 FOLD:oldBot2 REFUND:11:newBot2 WIN:12:newBot2 3.5506565290000034
+Unhandled packet
+NEWHAND 36 true 7d Kh Js 4d -376 376 3.550657
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 3.5506565290000034
+Pokerini Rank: 50.28494
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'd'), (13, 'h'), (11, 's'), (4, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 23 3 5h Ad Ts 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP BET:11:newBot2 3 FOLD CALL RAISE:22:45 3.5502174210000033
+Simulation Win Chance: 0.36
+Pot Size:  23
+My Bet:  0
+Opponent Bet:  11
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'd'), (13, 'h'), (11, 's'), (4, 'd')]
+Num Board Cards:  3
+Board Cards:  [(5, 'h'), (14, 'd'), (10, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 22 : 45
+Can Check:  False
+Response: FOLD
+HANDOVER -382 382 3 5h Ad Ts 3 FOLD:oldBot2 REFUND:11:newBot2 WIN:12:newBot2 3.450281903000003
+Unhandled packet
+NEWHAND 37 false Js 5c Ad 4h -382 382 3.450282
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 3.450281903000003
+Pokerini Rank: 48.4408
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 's'), (5, 'c'), (14, 'd'), (4, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 Qc 3s 9d 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 3.4496290420000033
+Simulation Win Chance: 0.34
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 's'), (5, 'c'), (14, 'd'), (4, 'h')]
+Num Board Cards:  3
+Board Cards:  [(12, 'c'), (3, 's'), (9, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 Qc 3s 9d 6d 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:4 3.3637762280000034
+Simulation Win Chance: 0.26
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 's'), (5, 'c'), (14, 'd'), (4, 'h')]
+Num Board Cards:  4
+Board Cards:  [(12, 'c'), (3, 's'), (9, 'd'), (6, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 Qc 3s 9d 6d 4d 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:4 3.2719941130000034
+Simulation Win Chance: 0.1
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 's'), (5, 'c'), (14, 'd'), (4, 'h')]
+Num Board Cards:  5
+Board Cards:  [(12, 'c'), (3, 's'), (9, 'd'), (6, 'd'), (4, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -384 384 5 Qc 3s 9d 6d 4d 5 CHECK:oldBot2 CHECK:newBot2 SHOW:5d:3h:Jh:5h:newBot2 SHOW:Js:5c:Ad:4h:oldBot2 WIN:4:newBot2 3.2274656750000035
+Unhandled packet
+NEWHAND 38 true As Td Ac 7s -384 384 3.227466
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 3.2274656750000035
+Pokerini Rank: 66.975
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 's'), (10, 'd'), (14, 'c'), (7, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 3.2270752080000036
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 's'), (10, 'd'), (14, 'c'), (7, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 3.2265517590000035
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 's'), (10, 'd'), (14, 'c'), (7, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER -184 184 5 Th 4c 9h Qc 2h 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:As:Td:Ac:7s:oldBot2 SHOW:Kd:3h:5c:Ks:newBot2 WIN:400:oldBot2 3.2258877410000033
+Unhandled packet
+NEWHAND 39 false 8d 6s 3s Ad -184 184 3.225888
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 3.2258877410000033
+Pokerini Rank: 51.072355
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (6, 's'), (3, 's'), (14, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 Jd Ks As 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 3.225338856000003
+Simulation Win Chance: 0.64
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (6, 's'), (3, 's'), (14, 'd')]
+Num Board Cards:  3
+Board Cards:  [(11, 'd'), (13, 's'), (14, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:10
+GETACTION 50 3 Jd Ks As 2 BET:10:oldBot2 RAISE:28:newBot2 3 FOLD CALL RAISE:46:96 3.1421925380000033
+Pot Size:  50
+My Bet:  10
+Opponent Bet:  28
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (6, 's'), (3, 's'), (14, 'd')]
+Num Board Cards:  3
+Board Cards:  [(11, 'd'), (13, 's'), (14, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 46 : 96
+Can Check:  False
+Response: RAISE:86
+GETACTION 262 3 Jd Ks As 2 RAISE:86:oldBot2 RAISE:164:newBot2 3 FOLD CALL RAISE:194:194 3.141769940000003
+Pot Size:  262
+My Bet:  86
+Opponent Bet:  164
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (6, 's'), (3, 's'), (14, 'd')]
+Num Board Cards:  3
+Board Cards:  [(11, 'd'), (13, 's'), (14, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 194 : 194
+Can Check:  False
+Response: RAISE:194
+HANDOVER -384 384 5 Jd Ks As 5d Kc 7 RAISE:194:oldBot2 CALL:newBot2 DEAL:TURN DEAL:RIVER SHOW:Ah:Qh:3c:2s:newBot2 SHOW:8d:6s:3s:Ad:oldBot2 WIN:400:newBot2 3.141405801000003
+Unhandled packet
+NEWHAND 40 true 5h Ac 3c 8s -384 384 3.141406
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 3.141405801000003
+Pokerini Rank: 48.0532
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'h'), (14, 'c'), (3, 'c'), (8, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 3.140733305000003
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'h'), (14, 'c'), (3, 'c'), (8, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 21 3 2h Tc Jc 3 CALL:oldBot2 DEAL:FLOP BET:9:newBot2 3 FOLD CALL RAISE:18:39 3.140357564000003
+Simulation Win Chance: 0.4
+Pot Size:  21
+My Bet:  0
+Opponent Bet:  9
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'h'), (14, 'c'), (3, 'c'), (8, 's')]
+Num Board Cards:  3
+Board Cards:  [(2, 'h'), (10, 'c'), (11, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 18 : 39
+Can Check:  False
+Response: CALL
+GETACTION 30 4 2h Tc Jc 8c 3 CALL:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:30 3.012714491000003
+Simulation Win Chance: 0.92
+Pot Size:  30
+My Bet:  0
+Opponent Bet:  0
+My Pot:  15
+Opponent Pot:  15
+My Hand:  [(5, 'h'), (14, 'c'), (3, 'c'), (8, 's')]
+Num Board Cards:  4
+Board Cards:  [(2, 'h'), (10, 'c'), (11, 'c'), (8, 'c')]
+Can Bet:  True : 2 : 30
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:30
+GETACTION 109 5 2h Tc Jc 8c Qd 4 BET:30:oldBot2 CALL:newBot2 DEAL:RIVER BET:19:newBot2 3 FOLD CALL RAISE:38:147 2.9090885010000034
+Simulation Win Chance: 1.0
+Pot Size:  109
+My Bet:  0
+Opponent Bet:  19
+My Pot:  45
+Opponent Pot:  45
+My Hand:  [(5, 'h'), (14, 'c'), (3, 'c'), (8, 's')]
+Num Board Cards:  5
+Board Cards:  [(2, 'h'), (10, 'c'), (11, 'c'), (8, 'c'), (12, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 38 : 147
+Can Check:  False
+Response: RAISE:147
+GETACTION 392 5 2h Tc Jc 8c Qd 2 RAISE:147:oldBot2 RAISE:155:newBot2 2 FOLD CALL 2.845465099000003
+Pot Size:  392
+My Bet:  147
+Opponent Bet:  155
+My Pot:  45
+Opponent Pot:  45
+My Hand:  [(5, 'h'), (14, 'c'), (3, 'c'), (8, 's')]
+Num Board Cards:  5
+Board Cards:  [(2, 'h'), (10, 'c'), (11, 'c'), (8, 'c'), (12, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -184 184 5 2h Tc Jc 8c Qd 4 CALL:oldBot2 SHOW:5h:Ac:3c:8s:oldBot2 SHOW:Kc:Js:2s:As:newBot2 WIN:400:oldBot2 2.8451402300000033
+Unhandled packet
+NEWHAND 41 false 2s 4s Ah 5c -184 184 2.845140
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 2.8451402300000033
+Pokerini Rank: 44.607
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 's'), (4, 's'), (14, 'h'), (5, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 8h 9h Qd 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 2.8447252190000034
+Simulation Win Chance: 0.06
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 's'), (4, 's'), (14, 'h'), (5, 'c')]
+Num Board Cards:  3
+Board Cards:  [(8, 'h'), (9, 'h'), (12, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 8h 9h Qd 4h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 2.7291067530000035
+Simulation Win Chance: 0.24
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 's'), (4, 's'), (14, 'h'), (5, 'c')]
+Num Board Cards:  4
+Board Cards:  [(8, 'h'), (9, 'h'), (12, 'd'), (4, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 8h 9h Qd 4h 5h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 2.6385603000000035
+Simulation Win Chance: 0.4
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 's'), (4, 's'), (14, 'h'), (5, 'c')]
+Num Board Cards:  5
+Board Cards:  [(8, 'h'), (9, 'h'), (12, 'd'), (4, 'h'), (5, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -178 178 5 8h 9h Qd 4h 5h 5 CHECK:oldBot2 CHECK:newBot2 SHOW:3s:7s:7c:Tc:newBot2 SHOW:2s:4s:Ah:5c:oldBot2 WIN:12:oldBot2 2.5936427330000034
+Unhandled packet
+NEWHAND 42 true 8d 9s Qh 2d -178 178 2.593643
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 2.5936427330000034
+Pokerini Rank: 46.8184
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (9, 's'), (12, 'h'), (2, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 2.5932112100000033
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (9, 's'), (12, 'h'), (2, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 9c 9h As 3 CALL:oldBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 2.5929934410000035
+Simulation Win Chance: 0.86
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (9, 's'), (12, 'h'), (2, 'd')]
+Num Board Cards:  3
+Board Cards:  [(9, 'c'), (9, 'h'), (14, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+HANDOVER -172 172 3 9c 9h As 4 BET:12:oldBot2 FOLD:newBot2 REFUND:12:oldBot2 WIN:12:oldBot2 2.5104535740000036
+Unhandled packet
+NEWHAND 43 false 9c 3h Jh Js -172 172 2.510454
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 2.5104535740000036
+Pokerini Rank: 57.008
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(9, 'c'), (3, 'h'), (11, 'h'), (11, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 4d 2d 9s 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 2.5099925990000034
+Simulation Win Chance: 0.38
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'c'), (3, 'h'), (11, 'h'), (11, 's')]
+Num Board Cards:  3
+Board Cards:  [(4, 'd'), (2, 'd'), (9, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 4d 2d 9s Ah 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 2.425401329000003
+Simulation Win Chance: 0.34
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'c'), (3, 'h'), (11, 'h'), (11, 's')]
+Num Board Cards:  4
+Board Cards:  [(4, 'd'), (2, 'd'), (9, 's'), (14, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 4d 2d 9s Ah Jc 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 2.335648305000003
+Simulation Win Chance: 0.94
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'c'), (3, 'h'), (11, 'h'), (11, 's')]
+Num Board Cards:  5
+Board Cards:  [(4, 'd'), (2, 'd'), (9, 's'), (14, 'h'), (11, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+HANDOVER -166 166 5 4d 2d 9s Ah Jc 4 BET:12:oldBot2 FOLD:newBot2 REFUND:12:oldBot2 WIN:12:oldBot2 2.287184849000003
+Unhandled packet
+NEWHAND 44 true Ts 6c 6h Ah -166 166 2.287185
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 2.287184849000003
+Pokerini Rank: 53.6167
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 's'), (6, 'c'), (6, 'h'), (14, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 2.286815355000003
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 's'), (6, 'c'), (6, 'h'), (14, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 2.286400791000003
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 's'), (6, 'c'), (6, 'h'), (14, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER -366 366 5 Jc 2d 7h 2h Qc 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Ts:6c:6h:Ah:oldBot2 SHOW:Ac:9s:Ad:2c:newBot2 WIN:400:newBot2 2.2861084990000027
+Unhandled packet
+NEWHAND 45 false Jd Qc Kc 4h -366 366 2.286108
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 2.2861084990000027
+Pokerini Rank: 52.3251
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'd'), (12, 'c'), (13, 'c'), (4, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 2.285349430000003
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'd'), (12, 'c'), (13, 'c'), (4, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL 2.285108456000003
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'd'), (12, 'c'), (13, 'c'), (4, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -166 166 5 9s 4d Kh 2d 6c 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Tc:4c:3h:Ah:newBot2 SHOW:Jd:Qc:Kc:4h:oldBot2 WIN:400:oldBot2 2.284834013000003
+Unhandled packet
+NEWHAND 46 true 9d 2c 7h 3h -166 166 2.284834
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 2.284834013000003
+Pokerini Rank: 40.111
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(9, 'd'), (2, 'c'), (7, 'h'), (3, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 2.284224884000003
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(9, 'd'), (2, 'c'), (7, 'h'), (3, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 Qs 4h Ac 3 CALL:oldBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 2.283890198000003
+Simulation Win Chance: 0.28
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'd'), (2, 'c'), (7, 'h'), (3, 'h')]
+Num Board Cards:  3
+Board Cards:  [(12, 's'), (4, 'h'), (14, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Qs 4h Ac 5h 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 2.197860224000003
+Simulation Win Chance: 0.8
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'd'), (2, 'c'), (7, 'h'), (3, 'h')]
+Num Board Cards:  4
+Board Cards:  [(12, 's'), (4, 'h'), (14, 'c'), (5, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:2
+GETACTION 26 5 Qs 4h Ac 5h As 4 BET:2:oldBot2 CALL:newBot2 DEAL:RIVER BET:10:newBot2 3 FOLD CALL RAISE:20:46 2.116190096000003
+Simulation Win Chance: 0.8
+Pot Size:  26
+My Bet:  0
+Opponent Bet:  10
+My Pot:  8
+Opponent Pot:  8
+My Hand:  [(9, 'd'), (2, 'c'), (7, 'h'), (3, 'h')]
+Num Board Cards:  5
+Board Cards:  [(12, 's'), (4, 'h'), (14, 'c'), (5, 'h'), (14, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 20 : 46
+Can Check:  False
+Response: RAISE:20
+GETACTION 93 5 Qs 4h Ac 5h As 2 RAISE:20:oldBot2 RAISE:57:newBot2 3 FOLD CALL RAISE:94:187 2.070003845000003
+Pot Size:  93
+My Bet:  20
+Opponent Bet:  57
+My Pot:  8
+Opponent Pot:  8
+My Hand:  [(9, 'd'), (2, 'c'), (7, 'h'), (3, 'h')]
+Num Board Cards:  5
+Board Cards:  [(12, 's'), (4, 'h'), (14, 'c'), (5, 'h'), (14, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 94 : 187
+Can Check:  False
+Response: RAISE:94
+GETACTION 277 5 Qs 4h Ac 5h As 2 RAISE:94:oldBot2 RAISE:167:newBot2 3 FOLD CALL RAISE:192:192 2.069778043000003
+Pot Size:  277
+My Bet:  94
+Opponent Bet:  167
+My Pot:  8
+Opponent Pot:  8
+My Hand:  [(9, 'd'), (2, 'c'), (7, 'h'), (3, 'h')]
+Num Board Cards:  5
+Board Cards:  [(12, 's'), (4, 'h'), (14, 'c'), (5, 'h'), (14, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 192 : 192
+Can Check:  False
+Response: RAISE:192
+HANDOVER 34 -34 5 Qs 4h Ac 5h As 5 RAISE:192:oldBot2 CALL:newBot2 SHOW:9d:2c:7h:3h:oldBot2 SHOW:5d:6c:Js:Qd:newBot2 WIN:400:oldBot2 2.069407211000003
+Unhandled packet
+NEWHAND 47 false Jh 8s 6s Qc 34 -34 2.069407
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 2.069407211000003
+Pokerini Rank: 51.4906
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'h'), (8, 's'), (6, 's'), (12, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 2h 5c Jc 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 2.068910983000003
+Simulation Win Chance: 0.36
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'h'), (8, 's'), (6, 's'), (12, 'c')]
+Num Board Cards:  3
+Board Cards:  [(2, 'h'), (5, 'c'), (11, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 2h 5c Jc Ad 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 1.971829223000003
+Simulation Win Chance: 0.52
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'h'), (8, 's'), (6, 's'), (12, 'c')]
+Num Board Cards:  4
+Board Cards:  [(2, 'h'), (5, 'c'), (11, 'c'), (14, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 2h 5c Jc Ad 6d 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 1.8783495790000029
+Simulation Win Chance: 0.7
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'h'), (8, 's'), (6, 's'), (12, 'c')]
+Num Board Cards:  5
+Board Cards:  [(2, 'h'), (5, 'c'), (11, 'c'), (14, 'd'), (6, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:7
+HANDOVER 47 -47 5 2h 5c Jc Ad 6d 5 BET:7:oldBot2 CALL:newBot2 SHOW:2d:Kh:8d:6c:newBot2 SHOW:Jh:8s:6s:Qc:oldBot2 WIN:26:oldBot2 1.831474767000003
+Unhandled packet
+NEWHAND 48 true Js Tc 5h 8s 47 -47 1.831475
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 1.831474767000003
+Pokerini Rank: 50.3523
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 's'), (10, 'c'), (5, 'h'), (8, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 3 Jh Qc 3d 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP BET:12:newBot2 3 FOLD CALL RAISE:24:48 1.830971845000003
+Simulation Win Chance: 0.48
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 's'), (10, 'c'), (5, 'h'), (8, 's')]
+Num Board Cards:  3
+Board Cards:  [(11, 'h'), (12, 'c'), (3, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: CALL
+GETACTION 36 4 Jh Qc 3d Td 3 CALL:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:36 1.736749644000003
+Simulation Win Chance: 0.56
+Pot Size:  36
+My Bet:  0
+Opponent Bet:  0
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(11, 's'), (10, 'c'), (5, 'h'), (8, 's')]
+Num Board Cards:  4
+Board Cards:  [(11, 'h'), (12, 'c'), (3, 'd'), (10, 'd')]
+Can Bet:  True : 2 : 36
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 36 5 Jh Qc 3d Td Jc 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:36 1.650907540000003
+Simulation Win Chance: 0.96
+Pot Size:  36
+My Bet:  0
+Opponent Bet:  0
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(11, 's'), (10, 'c'), (5, 'h'), (8, 's')]
+Num Board Cards:  5
+Board Cards:  [(11, 'h'), (12, 'c'), (3, 'd'), (10, 'd'), (11, 'c')]
+Can Bet:  True : 2 : 36
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:36
+HANDOVER 101 -101 5 Jh Qc 3d Td Jc 5 BET:36:oldBot2 CALL:newBot2 SHOW:Js:Tc:5h:8s:oldBot2 SHOW:As:Qh:5c:4d:newBot2 WIN:108:oldBot2 1.605194312000003
+Unhandled packet
+NEWHAND 49 false 2c 3h 5d Ah 101 -101 1.605194
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 1.605194312000003
+Pokerini Rank: 44.183
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'c'), (3, 'h'), (5, 'd'), (14, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 Ad 6c 2d 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 1.604162140000003
+Simulation Win Chance: 0.66
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(2, 'c'), (3, 'h'), (5, 'd'), (14, 'h')]
+Num Board Cards:  3
+Board Cards:  [(14, 'd'), (6, 'c'), (2, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:3
+GETACTION 16 3 Ad 6c 2d 2 BET:3:oldBot2 RAISE:9:newBot2 3 FOLD CALL RAISE:15:31 1.490227369000003
+Pot Size:  16
+My Bet:  3
+Opponent Bet:  9
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(2, 'c'), (3, 'h'), (5, 'd'), (14, 'h')]
+Num Board Cards:  3
+Board Cards:  [(14, 'd'), (6, 'c'), (2, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 15 : 31
+Can Check:  False
+Response: RAISE:26
+GETACTION 92 3 Ad 6c 2d 2 RAISE:26:oldBot2 RAISE:62:newBot2 3 FOLD CALL RAISE:98:190 1.489954266000003
+Pot Size:  92
+My Bet:  26
+Opponent Bet:  62
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(2, 'c'), (3, 'h'), (5, 'd'), (14, 'h')]
+Num Board Cards:  3
+Board Cards:  [(14, 'd'), (6, 'c'), (2, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 98 : 190
+Can Check:  False
+Response: RAISE:162
+GETACTION 364 3 Ad 6c 2d 2 RAISE:162:oldBot2 RAISE:198:newBot2 2 FOLD CALL 1.489641892000003
+Pot Size:  364
+My Bet:  162
+Opponent Bet:  198
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(2, 'c'), (3, 'h'), (5, 'd'), (14, 'h')]
+Num Board Cards:  3
+Board Cards:  [(14, 'd'), (6, 'c'), (2, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER 301 -301 5 Ad 6c 2d 8c 5s 6 CALL:oldBot2 DEAL:TURN DEAL:RIVER SHOW:2s:5c:6h:Js:newBot2 SHOW:2c:3h:5d:Ah:oldBot2 WIN:400:oldBot2 1.489371019000003
+Unhandled packet
+NEWHAND 50 true Kc 7h 9s Ad 301 -301 1.489371
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 1.489371019000003
+Pokerini Rank: 52.0843
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (7, 'h'), (9, 's'), (14, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 4c 5s 6s 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 1.4886962920000029
+Simulation Win Chance: 0.18
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (7, 'h'), (9, 's'), (14, 'd')]
+Num Board Cards:  3
+Board Cards:  [(4, 'c'), (5, 's'), (6, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 21 4 4c 5s 6s 2c 3 CHECK:oldBot2 DEAL:TURN BET:9:newBot2 3 FOLD CALL RAISE:18:39 1.4045619800000029
+Simulation Win Chance: 0.22
+Pot Size:  21
+My Bet:  0
+Opponent Bet:  9
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (7, 'h'), (9, 's'), (14, 'd')]
+Num Board Cards:  4
+Board Cards:  [(4, 'c'), (5, 's'), (6, 's'), (2, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 18 : 39
+Can Check:  False
+Response: FOLD
+HANDOVER 295 -295 4 4c 5s 6s 2c 3 FOLD:oldBot2 REFUND:9:newBot2 WIN:12:newBot2 1.3136081020000028
+Unhandled packet
+NEWHAND 51 false 5c 3s 4h 2c 295 -295 1.313608
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 1.3136081020000028
+Pokerini Rank: 36.999
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'c'), (3, 's'), (4, 'h'), (2, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 2s 2h Jc 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 1.3129427460000027
+Simulation Win Chance: 0.92
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'c'), (3, 's'), (4, 'h'), (2, 'c')]
+Num Board Cards:  3
+Board Cards:  [(2, 's'), (2, 'h'), (11, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+GETACTION 55 3 2s 2h Jc 2 BET:12:oldBot2 RAISE:31:newBot2 3 FOLD CALL RAISE:50:105 1.2058043350000027
+Pot Size:  55
+My Bet:  12
+Opponent Bet:  31
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'c'), (3, 's'), (4, 'h'), (2, 'c')]
+Num Board Cards:  3
+Board Cards:  [(2, 's'), (2, 'h'), (11, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 50 : 105
+Can Check:  False
+Response: RAISE:105
+GETACTION 300 3 2s 2h Jc 2 RAISE:105:oldBot2 RAISE:183:newBot2 3 FOLD CALL RAISE:194:194 1.2054036040000027
+Pot Size:  300
+My Bet:  105
+Opponent Bet:  183
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'c'), (3, 's'), (4, 'h'), (2, 'c')]
+Num Board Cards:  3
+Board Cards:  [(2, 's'), (2, 'h'), (11, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 194 : 194
+Can Check:  False
+Response: RAISE:194
+HANDOVER 95 -95 5 2s 2h Jc Js 9h 7 RAISE:194:oldBot2 CALL:newBot2 DEAL:TURN DEAL:RIVER SHOW:6s:Jh:As:Qs:newBot2 SHOW:5c:3s:4h:2c:oldBot2 WIN:400:newBot2 1.2049176400000028
+Unhandled packet
+NEWHAND 52 true 7h Kh 2h Ks 95 -95 1.204918
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 1.2049176400000028
+Pokerini Rank: 58.7318
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'h'), (13, 'h'), (2, 'h'), (13, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 1.2040514720000028
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'h'), (13, 'h'), (2, 'h'), (13, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 1.2037542710000029
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'h'), (13, 'h'), (2, 'h'), (13, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER -105 105 5 3s 6c Qd 5s 2c 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:7h:Kh:2h:Ks:oldBot2 SHOW:5c:4d:Jh:Ah:newBot2 WIN:400:newBot2 1.2034490370000028
+Unhandled packet
+NEWHAND 53 false 4h 9d Qc Qd -105 105 1.203449
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 1.2034490370000028
+Pokerini Rank: 59.116
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (9, 'd'), (12, 'c'), (12, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 1.2027046950000029
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (9, 'd'), (12, 'c'), (12, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL 1.2023918750000029
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (9, 'd'), (12, 'c'), (12, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -305 305 5 7d 9h 7s Jh 9c 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Ts:5h:8h:Ad:newBot2 SHOW:4h:9d:Qc:Qd:oldBot2 WIN:400:newBot2 1.201909480000003
+Unhandled packet
+NEWHAND 54 true 8s Ah Jc Js -305 305 1.201909
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 1.201909480000003
+Pokerini Rank: 60.664
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 's'), (14, 'h'), (11, 'c'), (11, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 1.2015207980000029
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 's'), (14, 'h'), (11, 'c'), (11, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 1.201245909000003
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 's'), (14, 'h'), (11, 'c'), (11, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER -105 105 5 4h 6d 2s Kc 8h 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:8s:Ah:Jc:Js:oldBot2 SHOW:7s:Qs:9c:As:newBot2 WIN:400:oldBot2 1.200966111000003
+Unhandled packet
+NEWHAND 55 false 7c 5d Qh 6h -105 105 1.200966
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 1.200966111000003
+Pokerini Rank: 47.7152
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'c'), (5, 'd'), (12, 'h'), (6, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 9c Ac Ts 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 1.200136982000003
+Simulation Win Chance: 0.32
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(7, 'c'), (5, 'd'), (12, 'h'), (6, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'c'), (14, 'c'), (10, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 7 3 9c Ac Ts 2 CHECK:oldBot2 BET:3:newBot2 3 FOLD CALL RAISE:6:13 1.112313090000003
+Pot Size:  7
+My Bet:  0
+Opponent Bet:  3
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(7, 'c'), (5, 'd'), (12, 'h'), (6, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'c'), (14, 'c'), (10, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 6 : 13
+Can Check:  False
+Response: FOLD
+HANDOVER -107 107 3 9c Ac Ts 3 FOLD:oldBot2 REFUND:3:newBot2 WIN:4:newBot2 1.1120466800000028
+Unhandled packet
+NEWHAND 56 true 6h 3s 2s 5d -107 107 1.112047
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 1.1120466800000028
+Pokerini Rank: 39.392
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(6, 'h'), (3, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 Jc 8c Qs 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 1.1116914660000028
+Simulation Win Chance: 0.08
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(6, 'h'), (3, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  3
+Board Cards:  [(11, 'c'), (8, 'c'), (12, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 Jc 8c Qs 8s 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 1.0082203240000027
+Simulation Win Chance: 0.2
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(6, 'h'), (3, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  4
+Board Cards:  [(11, 'c'), (8, 'c'), (12, 's'), (8, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 Jc 8c Qs 8s Kc 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:4 0.9228208980000028
+Simulation Win Chance: 0.0
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(6, 'h'), (3, 's'), (2, 's'), (5, 'd')]
+Num Board Cards:  5
+Board Cards:  [(11, 'c'), (8, 'c'), (12, 's'), (8, 's'), (13, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -109 109 5 Jc 8c Qs 8s Kc 4 CHECK:oldBot2 SHOW:6h:3s:2s:5d:oldBot2 SHOW:2h:Ac:7s:6d:newBot2 WIN:4:newBot2 0.8782607770000028
+Unhandled packet
+NEWHAND 57 false Kh Qc 5d Qs -109 109 0.878261
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 0.8782607770000028
+Pokerini Rank: 58.779
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'h'), (12, 'c'), (5, 'd'), (12, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 Js 3c As 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 0.8777377740000029
+Simulation Win Chance: 0.48
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'h'), (12, 'c'), (5, 'd'), (12, 's')]
+Num Board Cards:  3
+Board Cards:  [(11, 's'), (3, 'c'), (14, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Js 3c As Ac 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 0.7921397680000029
+Simulation Win Chance: 0.68
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'h'), (12, 'c'), (5, 'd'), (12, 's')]
+Num Board Cards:  4
+Board Cards:  [(11, 's'), (3, 'c'), (14, 's'), (14, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:8
+GETACTION 28 5 Js 3c As Ac 4d 3 BET:8:oldBot2 CALL:newBot2 DEAL:RIVER 2 CHECK BET:2:28 0.7037986740000028
+Simulation Win Chance: 0.82
+Pot Size:  28
+My Bet:  0
+Opponent Bet:  0
+My Pot:  14
+Opponent Pot:  14
+My Hand:  [(13, 'h'), (12, 'c'), (5, 'd'), (12, 's')]
+Num Board Cards:  5
+Board Cards:  [(11, 's'), (3, 'c'), (14, 's'), (14, 'c'), (4, 'd')]
+Can Bet:  True : 2 : 28
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:28
+HANDOVER -67 67 5 Js 3c As Ac 4d 5 BET:28:oldBot2 CALL:newBot2 SHOW:4s:5s:7c:7d:newBot2 SHOW:Kh:Qc:5d:Qs:oldBot2 WIN:84:oldBot2 0.6622627760000028
+Unhandled packet
+NEWHAND 58 true Qd 6s 9c 7s -67 67 0.662263
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 0.6622627760000028
+Pokerini Rank: 50.2673
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(12, 'd'), (6, 's'), (9, 'c'), (7, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 Ac 6c 4c 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 0.6619620040000028
+Simulation Win Chance: 0.26
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(12, 'd'), (6, 's'), (9, 'c'), (7, 's')]
+Num Board Cards:  3
+Board Cards:  [(14, 'c'), (6, 'c'), (4, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Ac 6c 4c Th 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 0.5774921140000028
+Simulation Win Chance: 0.38
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(12, 'd'), (6, 's'), (9, 'c'), (7, 's')]
+Num Board Cards:  4
+Board Cards:  [(14, 'c'), (6, 'c'), (4, 'c'), (10, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 Ac 6c 4c Th 2s 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:12 0.4679899260000028
+Simulation Win Chance: 0.26
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(12, 'd'), (6, 's'), (9, 'c'), (7, 's')]
+Num Board Cards:  5
+Board Cards:  [(14, 'c'), (6, 'c'), (4, 'c'), (10, 'h'), (2, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -73 73 5 Ac 6c 4c Th 2s 4 CHECK:oldBot2 SHOW:Qd:6s:9c:7s:oldBot2 SHOW:Ks:6h:Jc:3d:newBot2 WIN:12:newBot2 0.4083345640000028
+Unhandled packet
+NEWHAND 59 false 5d 9h 3c Td -73 73 0.408335
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 0.4083345640000028
+Pokerini Rank: 46.6135
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'd'), (9, 'h'), (3, 'c'), (10, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 7d 8d Kh 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 0.4073479090000028
+Simulation Win Chance: 0.48
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'd'), (9, 'h'), (3, 'c'), (10, 'd')]
+Num Board Cards:  3
+Board Cards:  [(7, 'd'), (8, 'd'), (13, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 16 3 7d 8d Kh 2 CHECK:oldBot2 BET:4:newBot2 3 FOLD CALL RAISE:8:24 0.2984570810000028
+Pot Size:  16
+My Bet:  0
+Opponent Bet:  4
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 'd'), (9, 'h'), (3, 'c'), (10, 'd')]
+Num Board Cards:  3
+Board Cards:  [(7, 'd'), (8, 'd'), (13, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 8 : 24
+Can Check:  False
+Response: CALL
+GETACTION 20 4 7d 8d Kh 7s 2 CALL:oldBot2 DEAL:TURN 2 CHECK BET:2:20 0.29798807400000277
+Simulation Win Chance: 0.28
+Pot Size:  20
+My Bet:  0
+Opponent Bet:  0
+My Pot:  10
+Opponent Pot:  10
+My Hand:  [(5, 'd'), (9, 'h'), (3, 'c'), (10, 'd')]
+Num Board Cards:  4
+Board Cards:  [(7, 'd'), (8, 'd'), (13, 'h'), (7, 's')]
+Can Bet:  True : 2 : 20
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 27 4 7d 8d Kh 7s 2 CHECK:oldBot2 BET:7:newBot2 3 FOLD CALL RAISE:14:41 0.20283901600000276
+Pot Size:  27
+My Bet:  0
+Opponent Bet:  7
+My Pot:  10
+Opponent Pot:  10
+My Hand:  [(5, 'd'), (9, 'h'), (3, 'c'), (10, 'd')]
+Num Board Cards:  4
+Board Cards:  [(7, 'd'), (8, 'd'), (13, 'h'), (7, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 14 : 41
+Can Check:  False
+Response: FOLD
+HANDOVER -83 83 4 7d 8d Kh 7s 3 FOLD:oldBot2 REFUND:7:newBot2 WIN:20:newBot2 0.20249629700000277
+Unhandled packet
+NEWHAND 60 true 5d 9s 2h Kd -83 83 0.202496
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 0.20249629700000277
+Pokerini Rank: 46.47246
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'd'), (9, 's'), (2, 'h'), (13, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 6 3 9c 7s Td 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP BET:2:newBot2 3 FOLD CALL RAISE:4:10 0.20198132600000276
+Simulation Win Chance: 0.54
+Pot Size:  6
+My Bet:  0
+Opponent Bet:  2
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(5, 'd'), (9, 's'), (2, 'h'), (13, 'd')]
+Num Board Cards:  3
+Board Cards:  [(9, 'c'), (7, 's'), (10, 'd')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 10
+Can Check:  False
+Response: CALL
+GETACTION 16 4 9c 7s Td 7c 3 CALL:oldBot2 DEAL:TURN BET:8:newBot2 3 FOLD CALL RAISE:16:32 0.11487455400000277
+Simulation Win Chance: 0.34
+Pot Size:  16
+My Bet:  0
+Opponent Bet:  8
+My Pot:  4
+Opponent Pot:  4
+My Hand:  [(5, 'd'), (9, 's'), (2, 'h'), (13, 'd')]
+Num Board Cards:  4
+Board Cards:  [(9, 'c'), (7, 's'), (10, 'd'), (7, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 16 : 32
+Can Check:  False
+Response: FOLD
+HANDOVER -87 87 4 9c 7s Td 7c 3 FOLD:oldBot2 REFUND:8:newBot2 WIN:8:newBot2 0.030280606000002763
+Unhandled packet
+NEWHAND 61 false 4h 3c Jd Ac -87 87 0.030281
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 0.030280606000002763
+Pokerini Rank: 50.1276
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (3, 'c'), (11, 'd'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 0.029605878000002764
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (3, 'c'), (11, 'd'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL 0.029248434000002765
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (3, 'c'), (11, 'd'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER 113 -113 5 Qc Ts 5h 3d 4s 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:8c:7s:Js:8h:newBot2 SHOW:4h:3c:Jd:Ac:oldBot2 WIN:400:oldBot2 0.028946770000002765
+Unhandled packet
+NEWHAND 62 true Th Qh 2c 3c 113 -113 0.028947
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 0.028946770000002765
+Pokerini Rank: 49.173
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 'h'), (12, 'h'), (2, 'c'), (3, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 6 3 3d 7d 6s 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP BET:2:newBot2 3 FOLD CALL RAISE:4:10 0.028284538000002767
+Simulation Win Chance: 0.28
+Pot Size:  6
+My Bet:  0
+Opponent Bet:  2
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(10, 'h'), (12, 'h'), (2, 'c'), (3, 'c')]
+Num Board Cards:  3
+Board Cards:  [(3, 'd'), (7, 'd'), (6, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 10
+Can Check:  False
+Response: FOLD
+HANDOVER 111 -111 3 3d 7d 6s 3 FOLD:oldBot2 REFUND:2:newBot2 WIN:4:newBot2 -0.05765930999999724
+Unhandled packet
+NEWHAND 63 false 2c Kh Qh Jh 111 -111 -0.057659
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -0.05765930999999724
+Pokerini Rank: 50.623
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'c'), (13, 'h'), (12, 'h'), (11, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 9d 7c 7h 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -0.05813277999999723
+Simulation Win Chance: 0.3
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'c'), (13, 'h'), (12, 'h'), (11, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'd'), (7, 'c'), (7, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 9d 7c 7h 2d 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -0.14168562999999723
+Simulation Win Chance: 0.2
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'c'), (13, 'h'), (12, 'h'), (11, 'h')]
+Num Board Cards:  4
+Board Cards:  [(9, 'd'), (7, 'c'), (7, 'h'), (2, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 9d 7c 7h 2d 4h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 -0.22749381899999724
+Simulation Win Chance: 0.16
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'c'), (13, 'h'), (12, 'h'), (11, 'h')]
+Num Board Cards:  5
+Board Cards:  [(9, 'd'), (7, 'c'), (7, 'h'), (2, 'd'), (4, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 117 -117 5 9d 7c 7h 2d 4h 5 CHECK:oldBot2 CHECK:newBot2 SHOW:5d:Ts:3h:8h:newBot2 SHOW:2c:Kh:Qh:Jh:oldBot2 WIN:12:oldBot2 -0.27406919799999724
+Unhandled packet
+NEWHAND 64 true 5c 4h Ks Ac 117 -117 -0.274069
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -0.27406919799999724
+Pokerini Rank: 54.2439
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'c'), (4, 'h'), (13, 's'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 -0.27447439199999724
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'c'), (4, 'h'), (13, 's'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 -0.27475418999999723
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 'c'), (4, 'h'), (13, 's'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER 317 -317 5 Kd Kc 8c 7d Jd 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:5c:4h:Ks:Ac:oldBot2 SHOW:4c:Ah:7c:Tc:newBot2 WIN:400:oldBot2 -0.27504023499999725
+Unhandled packet
+NEWHAND 65 false 2h 4c 8h 5h 317 -317 -0.275040
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -0.27504023499999725
+Pokerini Rank: 40.0358
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'h'), (4, 'c'), (8, 'h'), (5, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 9h Jh Qh 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 -0.27555699099999725
+Simulation Win Chance: 0.88
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'h'), (4, 'c'), (8, 'h'), (5, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (11, 'h'), (12, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+GETACTION 36 4 9h Jh Qh 8c 3 BET:12:oldBot2 CALL:newBot2 DEAL:TURN 2 CHECK BET:2:36 -0.3591558049999972
+Simulation Win Chance: 0.94
+Pot Size:  36
+My Bet:  0
+Opponent Bet:  0
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(2, 'h'), (4, 'c'), (8, 'h'), (5, 'h')]
+Num Board Cards:  4
+Board Cards:  [(9, 'h'), (11, 'h'), (12, 'h'), (8, 'c')]
+Can Bet:  True : 2 : 36
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:36
+HANDOVER 335 -335 4 9h Jh Qh 8c 4 BET:36:oldBot2 FOLD:newBot2 REFUND:36:oldBot2 WIN:36:oldBot2 -0.44160552999999725
+Unhandled packet
+NEWHAND 66 true 3h 5s Jh Js 335 -335 -0.441606
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -0.44160552999999725
+Pokerini Rank: 59.375
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(3, 'h'), (5, 's'), (11, 'h'), (11, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 8s 4c Ts 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 -0.4418407029999972
+Simulation Win Chance: 0.44
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'h'), (5, 's'), (11, 'h'), (11, 's')]
+Num Board Cards:  3
+Board Cards:  [(8, 's'), (4, 'c'), (10, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 8s 4c Ts Kh 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 -0.5457969169999972
+Simulation Win Chance: 0.58
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'h'), (5, 's'), (11, 'h'), (11, 's')]
+Num Board Cards:  4
+Board Cards:  [(8, 's'), (4, 'c'), (10, 's'), (13, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 8s 4c Ts Kh 6d 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:12 -0.6327265279999972
+Simulation Win Chance: 0.32
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'h'), (5, 's'), (11, 'h'), (11, 's')]
+Num Board Cards:  5
+Board Cards:  [(8, 's'), (4, 'c'), (10, 's'), (13, 'h'), (6, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 341 -341 5 8s 4c Ts Kh 6d 4 CHECK:oldBot2 SHOW:3h:5s:Jh:Js:oldBot2 SHOW:2h:7c:Qc:Jc:newBot2 WIN:12:oldBot2 -0.6842369669999971
+Unhandled packet
+NEWHAND 67 false Jh Ts 8s 8c 341 -341 -0.684237
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -0.6842369669999971
+Pokerini Rank: 56.6811
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'h'), (10, 's'), (8, 's'), (8, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 -0.6845555879999972
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'h'), (10, 's'), (8, 's'), (8, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL -0.6847938849999972
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'h'), (10, 's'), (8, 's'), (8, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER 541 -541 5 Ah 3s 3d 6c 5c 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:6s:Ks:Qs:5s:newBot2 SHOW:Jh:Ts:8s:8c:oldBot2 WIN:400:oldBot2 -0.6850411069999972
+Unhandled packet
+NEWHAND 68 true 4h Tc Qs Td 541 -541 -0.685041
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -0.6850411069999972
+Pokerini Rank: 54.17
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (10, 'c'), (12, 's'), (10, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 -0.6854217569999972
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (10, 'c'), (12, 's'), (10, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 -0.6856997689999972
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 'h'), (10, 'c'), (12, 's'), (10, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER 341 -341 5 9h 5d 8h Kc 6h 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:4h:Tc:Qs:Td:oldBot2 SHOW:7c:7s:Kh:Qc:newBot2 WIN:400:newBot2 -0.6859996479999971
+Unhandled packet
+NEWHAND 69 false 7d Kd 2c Ad 341 -341 -0.686000
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -0.6859996479999971
+Pokerini Rank: 49.238
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'd'), (13, 'd'), (2, 'c'), (14, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 Qc 4d 8h 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 -0.6865463019999971
+Simulation Win Chance: 0.26
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'd'), (13, 'd'), (2, 'c'), (14, 'd')]
+Num Board Cards:  3
+Board Cards:  [(12, 'c'), (4, 'd'), (8, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Qc 4d 8h 6h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -0.7829685059999971
+Simulation Win Chance: 0.18
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'd'), (13, 'd'), (2, 'c'), (14, 'd')]
+Num Board Cards:  4
+Board Cards:  [(12, 'c'), (4, 'd'), (8, 'h'), (6, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 Qc 4d 8h 6h 3d 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 -0.8722761739999971
+Simulation Win Chance: 0.0
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'd'), (13, 'd'), (2, 'c'), (14, 'd')]
+Num Board Cards:  5
+Board Cards:  [(12, 'c'), (4, 'd'), (8, 'h'), (6, 'h'), (3, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 335 -335 5 Qc 4d 8h 6h 3d 5 CHECK:oldBot2 CHECK:newBot2 SHOW:As:3c:7s:Jc:newBot2 SHOW:7d:Kd:2c:Ad:oldBot2 WIN:12:newBot2 -0.9170795009999971
+Unhandled packet
+NEWHAND 70 true 8h Qd 6h Ts 335 -335 -0.917080
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -0.9170795009999971
+Pokerini Rank: 52.2122
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'h'), (12, 'd'), (6, 'h'), (10, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 14 3 6c 2h 2s 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP BET:2:newBot2 3 FOLD CALL RAISE:4:18 -0.9175038829999971
+Simulation Win Chance: 0.4
+Pot Size:  14
+My Bet:  0
+Opponent Bet:  2
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'h'), (12, 'd'), (6, 'h'), (10, 's')]
+Num Board Cards:  3
+Board Cards:  [(6, 'c'), (2, 'h'), (2, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 18
+Can Check:  False
+Response: CALL
+GETACTION 32 4 6c 2h 2s As 3 CALL:oldBot2 DEAL:TURN BET:16:newBot2 3 FOLD CALL RAISE:32:64 -1.007626399999997
+Simulation Win Chance: 0.26
+Pot Size:  32
+My Bet:  0
+Opponent Bet:  16
+My Pot:  8
+Opponent Pot:  8
+My Hand:  [(8, 'h'), (12, 'd'), (6, 'h'), (10, 's')]
+Num Board Cards:  4
+Board Cards:  [(6, 'c'), (2, 'h'), (2, 's'), (14, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 32 : 64
+Can Check:  False
+Response: FOLD
+HANDOVER 327 -327 4 6c 2h 2s As 3 FOLD:oldBot2 REFUND:16:newBot2 WIN:16:newBot2 -1.099439305999997
+Unhandled packet
+NEWHAND 71 false 7h 9s 3h As 327 -327 -1.099439
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -1.099439305999997
+Pokerini Rank: 53.196
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'h'), (9, 's'), (3, 'h'), (14, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 8c 6s 7d 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -1.099785147999997
+Simulation Win Chance: 0.34
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'h'), (9, 's'), (3, 'h'), (14, 's')]
+Num Board Cards:  3
+Board Cards:  [(8, 'c'), (6, 's'), (7, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 8c 6s 7d 8s 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -1.1870494449999969
+Simulation Win Chance: 0.5
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'h'), (9, 's'), (3, 'h'), (14, 's')]
+Num Board Cards:  4
+Board Cards:  [(8, 'c'), (6, 's'), (7, 'd'), (8, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 24 4 8c 6s 7d 8s 2 CHECK:oldBot2 BET:12:newBot2 3 FOLD CALL RAISE:24:48 -1.382740917999997
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'h'), (9, 's'), (3, 'h'), (14, 's')]
+Num Board Cards:  4
+Board Cards:  [(8, 'c'), (6, 's'), (7, 'd'), (8, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: CALL
+GETACTION 36 5 8c 6s 7d 8s Qs 2 CALL:oldBot2 DEAL:RIVER 2 CHECK BET:2:36 -1.383055522999997
+Simulation Win Chance: 0.92
+Pot Size:  36
+My Bet:  0
+Opponent Bet:  0
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(7, 'h'), (9, 's'), (3, 'h'), (14, 's')]
+Num Board Cards:  5
+Board Cards:  [(8, 'c'), (6, 's'), (7, 'd'), (8, 's'), (12, 's')]
+Can Bet:  True : 2 : 36
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:36
+GETACTION 216 5 8c 6s 7d 8s Qs 2 BET:36:oldBot2 RAISE:144:newBot2 3 FOLD CALL RAISE:182:182 -1.445227725999997
+Pot Size:  216
+My Bet:  36
+Opponent Bet:  144
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(7, 'h'), (9, 's'), (3, 'h'), (14, 's')]
+Num Board Cards:  5
+Board Cards:  [(8, 'c'), (6, 's'), (7, 'd'), (8, 's'), (12, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 182 : 182
+Can Check:  False
+Response: RAISE:182
+HANDOVER 127 -127 5 8c 6s 7d 8s Qs 5 RAISE:182:oldBot2 CALL:newBot2 SHOW:8h:Jc:7s:3c:newBot2 SHOW:7h:9s:3h:As:oldBot2 WIN:400:newBot2 -1.445588293999997
+Unhandled packet
+NEWHAND 72 true 7c 8h 8c 5h 127 -127 -1.445588
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -1.445588293999997
+Pokerini Rank: 55.1765
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'c'), (8, 'h'), (8, 'c'), (5, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 -1.446423669999997
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'c'), (8, 'h'), (8, 'c'), (5, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 -1.446743629999997
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'c'), (8, 'h'), (8, 'c'), (5, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER -73 73 5 9c Ah Ks 2d Qs 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:7c:8h:8c:5h:oldBot2 SHOW:2h:Ts:2c:Td:newBot2 WIN:400:newBot2 -1.447334015999997
+Unhandled packet
+NEWHAND 73 false 9h 8d 6d 8h -73 73 -1.447334
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -1.447334015999997
+Pokerini Rank: 56.359
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(9, 'h'), (8, 'd'), (6, 'd'), (8, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 9d 9s Ad 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -1.449135073999997
+Simulation Win Chance: 0.8
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(9, 'h'), (8, 'd'), (6, 'd'), (8, 'h')]
+Num Board Cards:  3
+Board Cards:  [(9, 'd'), (9, 's'), (14, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:2
+HANDOVER -67 67 3 9d 9s Ad 4 BET:2:oldBot2 FOLD:newBot2 REFUND:2:oldBot2 WIN:12:oldBot2 -1.565289930999997
+Unhandled packet
+NEWHAND 74 true Jh 2c Qs 5s -67 67 -1.565290
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -1.565289930999997
+Pokerini Rank: 47.9515
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'h'), (2, 'c'), (12, 's'), (5, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 Qd 9s 6h 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 -1.565618368999997
+Simulation Win Chance: 0.62
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 'h'), (2, 'c'), (12, 's'), (5, 's')]
+Num Board Cards:  3
+Board Cards:  [(12, 'd'), (9, 's'), (6, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:3
+GETACTION 10 4 Qd 9s 6h 2s 4 BET:3:oldBot2 CALL:newBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:10 -1.688206786999997
+Simulation Win Chance: 0.66
+Pot Size:  10
+My Bet:  0
+Opponent Bet:  0
+My Pot:  5
+Opponent Pot:  5
+My Hand:  [(11, 'h'), (2, 'c'), (12, 's'), (5, 's')]
+Num Board Cards:  4
+Board Cards:  [(12, 'd'), (9, 's'), (6, 'h'), (2, 's')]
+Can Bet:  True : 2 : 10
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:7
+GETACTION 48 5 Qd 9s 6h 2s 5c 4 BET:7:oldBot2 CALL:newBot2 DEAL:RIVER BET:24:newBot2 3 FOLD CALL RAISE:48:96 -1.778000418999997
+Simulation Win Chance: 0.68
+Pot Size:  48
+My Bet:  0
+Opponent Bet:  24
+My Pot:  12
+Opponent Pot:  12
+My Hand:  [(11, 'h'), (2, 'c'), (12, 's'), (5, 's')]
+Num Board Cards:  5
+Board Cards:  [(12, 'd'), (9, 's'), (6, 'h'), (2, 's'), (5, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 48 : 96
+Can Check:  False
+Response: RAISE:76
+GETACTION 288 5 Qd 9s 6h 2s 5c 2 RAISE:76:oldBot2 RAISE:188:newBot2 2 FOLD CALL -1.8379864519999969
+Pot Size:  288
+My Bet:  76
+Opponent Bet:  188
+My Pot:  12
+Opponent Pot:  12
+My Hand:  [(11, 'h'), (2, 'c'), (12, 's'), (5, 's')]
+Num Board Cards:  5
+Board Cards:  [(12, 'd'), (9, 's'), (6, 'h'), (2, 's'), (5, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -267 267 5 Qd 9s 6h 2s 5c 4 CALL:oldBot2 SHOW:Jh:2c:Qs:5s:oldBot2 SHOW:3d:9d:7d:4d:newBot2 WIN:400:newBot2 -1.838268480999997
+Unhandled packet
+NEWHAND 75 false 2c Ks Ts 4c -267 267 -1.838268
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -1.838268480999997
+Pokerini Rank: 49.7551
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(2, 'c'), (13, 's'), (10, 's'), (4, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 8s Kh 5s 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 -1.838623694999997
+Simulation Win Chance: 0.6
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(2, 'c'), (13, 's'), (10, 's'), (4, 'c')]
+Num Board Cards:  3
+Board Cards:  [(8, 's'), (13, 'h'), (5, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:4
+GETACTION 12 4 8s Kh 5s Qd 3 BET:4:oldBot2 CALL:newBot2 DEAL:TURN 2 CHECK BET:2:12 -1.927451199999997
+Simulation Win Chance: 0.6
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(2, 'c'), (13, 's'), (10, 's'), (4, 'c')]
+Num Board Cards:  4
+Board Cards:  [(8, 's'), (13, 'h'), (5, 's'), (12, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+HANDOVER -261 261 4 8s Kh 5s Qd 4 BET:12:oldBot2 FOLD:newBot2 REFUND:12:oldBot2 WIN:12:oldBot2 -2.012309325999997
+Unhandled packet
+NEWHAND 76 true As 8s 7d 2d -261 261 -2.012309
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -2.012309325999997
+Pokerini Rank: 52.1164
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 's'), (8, 's'), (7, 'd'), (2, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 8d 2c 9d 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 -2.012685066999997
+Simulation Win Chance: 0.7
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(14, 's'), (8, 's'), (7, 'd'), (2, 'd')]
+Num Board Cards:  3
+Board Cards:  [(8, 'd'), (2, 'c'), (9, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:7
+HANDOVER -255 255 3 8d 2c 9d 4 BET:7:oldBot2 FOLD:newBot2 REFUND:7:oldBot2 WIN:12:oldBot2 -2.0981991789999968
+Unhandled packet
+NEWHAND 77 false Kc Ks Th 9c -255 255 -2.098199
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -2.0981991789999968
+Pokerini Rank: 65.033
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (13, 's'), (10, 'h'), (9, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: RAISE:18
+GETACTION 72 0 2 RAISE:18:oldBot2 RAISE:54:newBot2 3 FOLD CALL RAISE:90:162 -2.0986677389999966
+Pot Size:  72
+My Bet:  18
+Opponent Bet:  54
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (13, 's'), (10, 'h'), (9, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 90 : 162
+Can Check:  False
+Response: RAISE:162
+GETACTION 362 0 2 RAISE:162:oldBot2 RAISE:200:newBot2 2 FOLD CALL -2.0989618169999966
+Pot Size:  362
+My Bet:  162
+Opponent Bet:  200
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (13, 's'), (10, 'h'), (9, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER -55 55 5 7h 9h Ts 4d 7c 7 CALL:oldBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:As:2d:Td:Qd:newBot2 SHOW:Kc:Ks:Th:9c:oldBot2 WIN:400:oldBot2 -2.0992335819999965
+Unhandled packet
+NEWHAND 78 true Jd Th Ah Ad -55 55 -2.099234
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -2.0992335819999965
+Pokerini Rank: 70.585
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'd'), (10, 'h'), (14, 'h'), (14, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 4d 4c Qs 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 -2.0998061179999965
+Simulation Win Chance: 0.82
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (10, 'h'), (14, 'h'), (14, 'd')]
+Num Board Cards:  3
+Board Cards:  [(4, 'd'), (4, 'c'), (12, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+HANDOVER -49 49 3 4d 4c Qs 4 BET:12:oldBot2 FOLD:newBot2 REFUND:12:oldBot2 WIN:12:oldBot2 -2.1892829149999966
+Unhandled packet
+NEWHAND 79 false 3d 9c Qs 9d -49 49 -2.189283
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -2.1892829149999966
+Pokerini Rank: 53.1081
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(3, 'd'), (9, 'c'), (12, 's'), (9, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 5c Jh Qh 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -2.1897898529999966
+Simulation Win Chance: 0.38
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'd'), (9, 'c'), (12, 's'), (9, 'd')]
+Num Board Cards:  3
+Board Cards:  [(5, 'c'), (11, 'h'), (12, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 5c Jh Qh 2s 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -2.2747818539999964
+Simulation Win Chance: 0.38
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'd'), (9, 'c'), (12, 's'), (9, 'd')]
+Num Board Cards:  4
+Board Cards:  [(5, 'c'), (11, 'h'), (12, 'h'), (2, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 5c Jh Qh 2s 2c 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 -2.3591040359999966
+Simulation Win Chance: 0.5
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(3, 'd'), (9, 'c'), (12, 's'), (9, 'd')]
+Num Board Cards:  5
+Board Cards:  [(5, 'c'), (11, 'h'), (12, 'h'), (2, 's'), (2, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -43 43 5 5c Jh Qh 2s 2c 5 CHECK:oldBot2 CHECK:newBot2 SHOW:7s:4c:Td:9h:newBot2 SHOW:3d:9c:Qs:9d:oldBot2 WIN:12:oldBot2 -2.4030719869999966
+Unhandled packet
+NEWHAND 80 true Kc 4c 7c 2d -43 43 -2.403072
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -2.4030719869999966
+Pokerini Rank: 41.8137
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (4, 'c'), (7, 'c'), (2, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -2.4035427779999967
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (4, 'c'), (7, 'c'), (2, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 19 3 9h 6c Jh 3 CALL:oldBot2 DEAL:FLOP BET:7:newBot2 3 FOLD CALL RAISE:14:33 -2.4038176669999967
+Simulation Win Chance: 0.18
+Pot Size:  19
+My Bet:  0
+Opponent Bet:  7
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (4, 'c'), (7, 'c'), (2, 'd')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (6, 'c'), (11, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 14 : 33
+Can Check:  False
+Response: FOLD
+HANDOVER -49 49 3 9h 6c Jh 3 FOLD:oldBot2 REFUND:7:newBot2 WIN:12:newBot2 -2.489756606999997
+Unhandled packet
+NEWHAND 81 false 6d 4c 7c 8h -49 49 -2.489757
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -2.489756606999997
+Pokerini Rank: 45.0963
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(6, 'd'), (4, 'c'), (7, 'c'), (8, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 Td 5h Jd 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 -2.4903661819999967
+Simulation Win Chance: 0.26
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(6, 'd'), (4, 'c'), (7, 'c'), (8, 'h')]
+Num Board Cards:  3
+Board Cards:  [(10, 'd'), (5, 'h'), (11, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 Td 5h Jd Qh 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:4 -2.570448558999997
+Simulation Win Chance: 0.04
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(6, 'd'), (4, 'c'), (7, 'c'), (8, 'h')]
+Num Board Cards:  4
+Board Cards:  [(10, 'd'), (5, 'h'), (11, 'd'), (12, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 8 4 Td 5h Jd Qh 2 CHECK:oldBot2 BET:4:newBot2 3 FOLD CALL RAISE:8:16 -2.6511141829999967
+Pot Size:  8
+My Bet:  0
+Opponent Bet:  4
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(6, 'd'), (4, 'c'), (7, 'c'), (8, 'h')]
+Num Board Cards:  4
+Board Cards:  [(10, 'd'), (5, 'h'), (11, 'd'), (12, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 8 : 16
+Can Check:  False
+Response: FOLD
+HANDOVER -51 51 4 Td 5h Jd Qh 3 FOLD:oldBot2 REFUND:4:newBot2 WIN:4:newBot2 -2.6513680979999967
+Unhandled packet
+NEWHAND 82 true 8d Kd 3s 9d -51 51 -2.651368
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -2.6513680979999967
+Pokerini Rank: 46.9685
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (13, 'd'), (3, 's'), (9, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -2.6517465169999968
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (13, 'd'), (3, 's'), (9, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 4s Jh 8h 3 CALL:oldBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 -2.6520428259999966
+Simulation Win Chance: 0.3
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (13, 'd'), (3, 's'), (9, 'd')]
+Num Board Cards:  3
+Board Cards:  [(4, 's'), (11, 'h'), (8, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 4s Jh 8h 7d 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 -2.7343988389999967
+Simulation Win Chance: 0.46
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (13, 'd'), (3, 's'), (9, 'd')]
+Num Board Cards:  4
+Board Cards:  [(4, 's'), (11, 'h'), (8, 'h'), (7, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 4s Jh 8h 7d Js 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:12 -2.817072133999997
+Simulation Win Chance: 0.48
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (13, 'd'), (3, 's'), (9, 'd')]
+Num Board Cards:  5
+Board Cards:  [(4, 's'), (11, 'h'), (8, 'h'), (7, 'd'), (11, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -45 45 5 4s Jh 8h 7d Js 4 CHECK:oldBot2 SHOW:8d:Kd:3s:9d:oldBot2 SHOW:4h:Ac:Qh:6c:newBot2 WIN:12:oldBot2 -2.861063734999997
+Unhandled packet
+NEWHAND 83 false 7d 8s Qh 3s -45 45 -2.861064
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -2.861063734999997
+Pokerini Rank: 44.505
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 'd'), (8, 's'), (12, 'h'), (3, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 6h 8d 2s 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 -2.861584506999997
+Simulation Win Chance: 0.52
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'd'), (8, 's'), (12, 'h'), (3, 's')]
+Num Board Cards:  3
+Board Cards:  [(6, 'h'), (8, 'd'), (2, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 6h 8d 2s 2c 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -2.9496676699999966
+Simulation Win Chance: 0.54
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'd'), (8, 's'), (12, 'h'), (3, 's')]
+Num Board Cards:  4
+Board Cards:  [(6, 'h'), (8, 'd'), (2, 's'), (2, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 6h 8d 2s 2c 6d 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 -3.030782665999997
+Simulation Win Chance: 0.42
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 'd'), (8, 's'), (12, 'h'), (3, 's')]
+Num Board Cards:  5
+Board Cards:  [(6, 'h'), (8, 'd'), (2, 's'), (2, 'c'), (6, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER -39 39 5 6h 8d 2s 2c 6d 5 CHECK:oldBot2 CHECK:newBot2 SHOW:Jc:Kc:7h:7s:newBot2 SHOW:7d:8s:Qh:3s:oldBot2 WIN:12:oldBot2 -3.0832819909999967
+Unhandled packet
+NEWHAND 84 true 8d 4d Tc Td -39 39 -3.083282
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -3.0832819909999967
+Pokerini Rank: 54.5445
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'd'), (4, 'd'), (10, 'c'), (10, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 6d 8c 7d 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 -3.0838366769999968
+Simulation Win Chance: 0.62
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'd'), (4, 'd'), (10, 'c'), (10, 'd')]
+Num Board Cards:  3
+Board Cards:  [(6, 'd'), (8, 'c'), (7, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:11
+GETACTION 34 4 6d 8c 7d 2s 4 BET:11:oldBot2 CALL:newBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:34 -3.1858396629999968
+Simulation Win Chance: 0.64
+Pot Size:  34
+My Bet:  0
+Opponent Bet:  0
+My Pot:  17
+Opponent Pot:  17
+My Hand:  [(8, 'd'), (4, 'd'), (10, 'c'), (10, 'd')]
+Num Board Cards:  4
+Board Cards:  [(6, 'd'), (8, 'c'), (7, 'd'), (2, 's')]
+Can Bet:  True : 2 : 34
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:27
+GETACTION 88 5 6d 8c 7d 2s Ac 4 BET:27:oldBot2 CALL:newBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:88 -3.269536204999997
+Simulation Win Chance: 0.26
+Pot Size:  88
+My Bet:  0
+Opponent Bet:  0
+My Pot:  44
+Opponent Pot:  44
+My Hand:  [(8, 'd'), (4, 'd'), (10, 'c'), (10, 'd')]
+Num Board Cards:  5
+Board Cards:  [(6, 'd'), (8, 'c'), (7, 'd'), (2, 's'), (14, 'c')]
+Can Bet:  True : 2 : 88
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 5 -5 5 6d 8c 7d 2s Ac 4 CHECK:oldBot2 SHOW:8d:4d:Tc:Td:oldBot2 SHOW:3s:Kc:8s:4s:newBot2 WIN:88:oldBot2 -3.315472556999997
+Unhandled packet
+NEWHAND 85 false 8c 5s Td Qd 5 -5 -3.315473
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -3.315472556999997
+Pokerini Rank: 50.9557
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'c'), (5, 's'), (10, 'd'), (12, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 6d 3d Kd 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -3.316250367999997
+Simulation Win Chance: 0.98
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'c'), (5, 's'), (10, 'd'), (12, 'd')]
+Num Board Cards:  3
+Board Cards:  [(6, 'd'), (3, 'd'), (13, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+GETACTION 36 4 6d 3d Kd 2c 3 BET:12:oldBot2 CALL:newBot2 DEAL:TURN 2 CHECK BET:2:36 -3.398519361999997
+Simulation Win Chance: 0.92
+Pot Size:  36
+My Bet:  0
+Opponent Bet:  0
+My Pot:  18
+Opponent Pot:  18
+My Hand:  [(8, 'c'), (5, 's'), (10, 'd'), (12, 'd')]
+Num Board Cards:  4
+Board Cards:  [(6, 'd'), (3, 'd'), (13, 'd'), (2, 'c')]
+Can Bet:  True : 2 : 36
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:36
+HANDOVER 23 -23 4 6d 3d Kd 2c 4 BET:36:oldBot2 FOLD:newBot2 REFUND:36:oldBot2 WIN:36:oldBot2 -3.481322068999997
+Unhandled packet
+NEWHAND 86 true Jh 5h 9h 2h 23 -23 -3.481322
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -3.481322068999997
+Pokerini Rank: 44.2007
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'h'), (5, 'h'), (9, 'h'), (2, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 8d 3s 5d 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 -3.4816995949999967
+Simulation Win Chance: 0.38
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 'h'), (5, 'h'), (9, 'h'), (2, 'h')]
+Num Board Cards:  3
+Board Cards:  [(8, 'd'), (3, 's'), (5, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 8d 3s 5d Js 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 -3.5638182029999967
+Simulation Win Chance: 0.66
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(11, 'h'), (5, 'h'), (9, 'h'), (2, 'h')]
+Num Board Cards:  4
+Board Cards:  [(8, 'd'), (3, 's'), (5, 'd'), (11, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:3
+GETACTION 10 5 8d 3s 5d Js Qh 4 BET:3:oldBot2 CALL:newBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:10 -3.6626452399999967
+Simulation Win Chance: 0.74
+Pot Size:  10
+My Bet:  0
+Opponent Bet:  0
+My Pot:  5
+Opponent Pot:  5
+My Hand:  [(11, 'h'), (5, 'h'), (9, 'h'), (2, 'h')]
+Num Board Cards:  5
+Board Cards:  [(8, 'd'), (3, 's'), (5, 'd'), (11, 's'), (12, 'h')]
+Can Bet:  True : 2 : 10
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:4
+HANDOVER 32 -32 5 8d 3s 5d Js Qh 5 BET:4:oldBot2 CALL:newBot2 SHOW:Jh:5h:9h:2h:oldBot2 SHOW:Jc:7s:9c:3c:newBot2 WIN:18:oldBot2 -3.7046206919999967
+Unhandled packet
+NEWHAND 87 false 5s Ks Jh Kc 32 -32 -3.704621
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -3.7046206919999967
+Pokerini Rank: 62.473
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(5, 's'), (13, 's'), (11, 'h'), (13, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 7h 6d 9d 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -3.7050709559999966
+Simulation Win Chance: 0.44
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 's'), (13, 's'), (11, 'h'), (13, 'c')]
+Num Board Cards:  3
+Board Cards:  [(7, 'h'), (6, 'd'), (9, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 7h 6d 9d Td 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -3.785814226999997
+Simulation Win Chance: 0.26
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 's'), (13, 's'), (11, 'h'), (13, 'c')]
+Num Board Cards:  4
+Board Cards:  [(7, 'h'), (6, 'd'), (9, 'd'), (10, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 7h 6d 9d Td 4s 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 -3.867122001999997
+Simulation Win Chance: 0.34
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(5, 's'), (13, 's'), (11, 'h'), (13, 'c')]
+Num Board Cards:  5
+Board Cards:  [(7, 'h'), (6, 'd'), (9, 'd'), (10, 'd'), (4, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 26 -26 5 7h 6d 9d Td 4s 5 CHECK:oldBot2 CHECK:newBot2 SHOW:Ts:3s:Qs:6s:newBot2 SHOW:5s:Ks:Jh:Kc:oldBot2 WIN:12:newBot2 -3.9101171309999967
+Unhandled packet
+NEWHAND 88 true Tc 3h Ah Jh 26 -26 -3.910117
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -3.9101171309999967
+Pokerini Rank: 53.5564
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 'c'), (3, 'h'), (14, 'h'), (11, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 Th 5h 2s 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 -3.9105553469999967
+Simulation Win Chance: 0.74
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 'c'), (3, 'h'), (14, 'h'), (11, 'h')]
+Num Board Cards:  3
+Board Cards:  [(10, 'h'), (5, 'h'), (2, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:5
+GETACTION 22 4 Th 5h 2s Td 4 BET:5:oldBot2 CALL:newBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:22 -3.9919630819999967
+Simulation Win Chance: 0.94
+Pot Size:  22
+My Bet:  0
+Opponent Bet:  0
+My Pot:  11
+Opponent Pot:  11
+My Hand:  [(10, 'c'), (3, 'h'), (14, 'h'), (11, 'h')]
+Num Board Cards:  4
+Board Cards:  [(10, 'h'), (5, 'h'), (2, 's'), (10, 'd')]
+Can Bet:  True : 2 : 22
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:22
+GETACTION 66 5 Th 5h 2s Td 5c 4 BET:22:oldBot2 CALL:newBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:66 -4.080841458999997
+Simulation Win Chance: 0.88
+Pot Size:  66
+My Bet:  0
+Opponent Bet:  0
+My Pot:  33
+Opponent Pot:  33
+My Hand:  [(10, 'c'), (3, 'h'), (14, 'h'), (11, 'h')]
+Num Board Cards:  5
+Board Cards:  [(10, 'h'), (5, 'h'), (2, 's'), (10, 'd'), (5, 'c')]
+Can Bet:  True : 2 : 66
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:66
+HANDOVER 125 -125 5 Th 5h 2s Td 5c 5 BET:66:oldBot2 CALL:newBot2 SHOW:Tc:3h:Ah:Jh:oldBot2 SHOW:8d:9c:8h:8c:newBot2 WIN:198:oldBot2 -4.134551455999997
+Unhandled packet
+NEWHAND 89 false Kc Ah 5h 6h 125 -125 -4.134551
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -4.134551455999997
+Pokerini Rank: 53.6546
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (14, 'h'), (5, 'h'), (6, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 Qd 4d 9h 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -4.135311416999997
+Simulation Win Chance: 0.3
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (14, 'h'), (5, 'h'), (6, 'h')]
+Num Board Cards:  3
+Board Cards:  [(12, 'd'), (4, 'd'), (9, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 Qd 4d 9h 6s 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -4.216756190999997
+Simulation Win Chance: 0.36
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (14, 'h'), (5, 'h'), (6, 'h')]
+Num Board Cards:  4
+Board Cards:  [(12, 'd'), (4, 'd'), (9, 'h'), (6, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 Qd 4d 9h 6s 2s 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 -4.300855248999997
+Simulation Win Chance: 0.36
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (14, 'h'), (5, 'h'), (6, 'h')]
+Num Board Cards:  5
+Board Cards:  [(12, 'd'), (4, 'd'), (9, 'h'), (6, 's'), (2, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 119 -119 5 Qd 4d 9h 6s 2s 5 CHECK:oldBot2 CHECK:newBot2 SHOW:4s:2c:8d:As:newBot2 SHOW:Kc:Ah:5h:6h:oldBot2 WIN:12:newBot2 -4.344102061999997
+Unhandled packet
+NEWHAND 90 true As Ts 8s 9h 119 -119 -4.344102
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -4.344102061999997
+Pokerini Rank: 55.012
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(14, 's'), (10, 's'), (8, 's'), (9, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 12 3 8d Td 7d 4 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:12 -4.3443831979999965
+Simulation Win Chance: 0.5
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(14, 's'), (10, 's'), (8, 's'), (9, 'h')]
+Num Board Cards:  3
+Board Cards:  [(8, 'd'), (10, 'd'), (7, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 8d Td 7d 6s 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:12 -4.425087645999996
+Simulation Win Chance: 0.68
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(14, 's'), (10, 's'), (8, 's'), (9, 'h')]
+Num Board Cards:  4
+Board Cards:  [(8, 'd'), (10, 'd'), (7, 'd'), (6, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:8
+HANDOVER 125 -125 4 8d Td 7d 6s 4 BET:8:oldBot2 FOLD:newBot2 REFUND:8:oldBot2 WIN:12:oldBot2 -4.508170150999996
+Unhandled packet
+NEWHAND 91 false 9c 6s 3c 7d 125 -125 -4.508170
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -4.508170150999996
+Pokerini Rank: 44.7422
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(9, 'c'), (6, 's'), (3, 'c'), (7, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 Ac Ad 2h 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 -4.508751166999996
+Simulation Win Chance: 0.18
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(9, 'c'), (6, 's'), (3, 'c'), (7, 'd')]
+Num Board Cards:  3
+Board Cards:  [(14, 'c'), (14, 'd'), (2, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 Ac Ad 2h 6h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:4 -4.602228132999996
+Simulation Win Chance: 0.3
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(9, 'c'), (6, 's'), (3, 'c'), (7, 'd')]
+Num Board Cards:  4
+Board Cards:  [(14, 'c'), (14, 'd'), (2, 'h'), (6, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 Ac Ad 2h 6h 5c 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:4 -4.682743817999996
+Simulation Win Chance: 0.28
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(9, 'c'), (6, 's'), (3, 'c'), (7, 'd')]
+Num Board Cards:  5
+Board Cards:  [(14, 'c'), (14, 'd'), (2, 'h'), (6, 'h'), (5, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 127 -127 5 Ac Ad 2h 6h 5c 5 CHECK:oldBot2 CHECK:newBot2 SHOW:Jh:Th:5h:7h:newBot2 SHOW:9c:6s:3c:7d:oldBot2 WIN:4:oldBot2 -4.726369049999996
+Unhandled packet
+NEWHAND 92 true Kd 2h 3s Qs 127 -127 -4.726369
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -4.726369049999996
+Pokerini Rank: 47.9569
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'd'), (2, 'h'), (3, 's'), (12, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 4 3 9h Ah Tc 4 CALL:oldBot2 CHECK:newBot2 DEAL:FLOP CHECK:newBot2 2 CHECK BET:2:4 -4.726749698999996
+Simulation Win Chance: 0.36
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(13, 'd'), (2, 'h'), (3, 's'), (12, 's')]
+Num Board Cards:  3
+Board Cards:  [(9, 'h'), (14, 'h'), (10, 'c')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 4 9h Ah Tc Qd 3 CHECK:oldBot2 DEAL:TURN CHECK:newBot2 2 CHECK BET:2:4 -4.818188648999996
+Simulation Win Chance: 0.5
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(13, 'd'), (2, 'h'), (3, 's'), (12, 's')]
+Num Board Cards:  4
+Board Cards:  [(9, 'h'), (14, 'h'), (10, 'c'), (12, 'd')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 4 5 9h Ah Tc Qd 5s 3 CHECK:oldBot2 DEAL:RIVER CHECK:newBot2 2 CHECK BET:2:4 -4.901590220999996
+Simulation Win Chance: 0.38
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(13, 'd'), (2, 'h'), (3, 's'), (12, 's')]
+Num Board Cards:  5
+Board Cards:  [(9, 'h'), (14, 'h'), (10, 'c'), (12, 'd'), (5, 's')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 129 -129 5 9h Ah Tc Qd 5s 4 CHECK:oldBot2 SHOW:Kd:2h:3s:Qs:oldBot2 SHOW:7d:8s:3c:6d:newBot2 WIN:4:oldBot2 -4.947566288999996
+Unhandled packet
+NEWHAND 93 false 4s Js 5c 7c 129 -129 -4.947566
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -4.947566288999996
+Pokerini Rank: 49.5227
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(4, 's'), (11, 's'), (5, 'c'), (7, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: CHECK
+GETACTION 4 3 2d 6d Jh 2 CHECK:oldBot2 DEAL:FLOP 2 CHECK BET:2:4 -4.947893834999996
+Simulation Win Chance: 0.7
+Pot Size:  4
+My Bet:  0
+Opponent Bet:  0
+My Pot:  2
+Opponent Pot:  2
+My Hand:  [(4, 's'), (11, 's'), (5, 'c'), (7, 'c')]
+Num Board Cards:  3
+Board Cards:  [(2, 'd'), (6, 'd'), (11, 'h')]
+Can Bet:  True : 2 : 4
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:3
+HANDOVER 131 -131 3 2d 6d Jh 4 BET:3:oldBot2 FOLD:newBot2 REFUND:3:oldBot2 WIN:4:oldBot2 -5.032640844999996
+Unhandled packet
+NEWHAND 94 true 7s 2c Kd 6h 131 -131 -5.032641
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -5.032640844999996
+Pokerini Rank: 41.0013
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 's'), (2, 'c'), (13, 'd'), (6, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -5.033222306999996
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(7, 's'), (2, 'c'), (13, 'd'), (6, 'h')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 24 3 8s 9d 3h 3 CALL:oldBot2 DEAL:FLOP BET:12:newBot2 3 FOLD CALL RAISE:24:48 -5.033456140999997
+Simulation Win Chance: 0.28
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(7, 's'), (2, 'c'), (13, 'd'), (6, 'h')]
+Num Board Cards:  3
+Board Cards:  [(8, 's'), (9, 'd'), (3, 'h')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: FOLD
+HANDOVER 125 -125 3 8s 9d 3h 3 FOLD:oldBot2 REFUND:12:newBot2 WIN:12:newBot2 -5.113764319999997
+Unhandled packet
+NEWHAND 95 false Kd 8d 3c 4c 125 -125 -5.113764
+GETACTION 8 0 3 POST:1:newBot2 POST:2:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -5.113764319999997
+Pokerini Rank: 47.0166
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'd'), (8, 'd'), (3, 'c'), (4, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 12 3 5c Qd 2c 2 CALL:oldBot2 DEAL:FLOP 2 CHECK BET:2:12 -5.114302941999997
+Simulation Win Chance: 0.58
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'd'), (8, 'd'), (3, 'c'), (4, 'c')]
+Num Board Cards:  3
+Board Cards:  [(5, 'c'), (12, 'd'), (2, 'c')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 4 5c Qd 2c 9h 3 CHECK:oldBot2 CHECK:newBot2 DEAL:TURN 2 CHECK BET:2:12 -5.195771365999996
+Simulation Win Chance: 0.24
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'd'), (8, 'd'), (3, 'c'), (4, 'c')]
+Num Board Cards:  4
+Board Cards:  [(5, 'c'), (12, 'd'), (2, 'c'), (9, 'h')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+GETACTION 12 5 5c Qd 2c 9h 8s 3 CHECK:oldBot2 CHECK:newBot2 DEAL:RIVER 2 CHECK BET:2:12 -5.274488223999996
+Simulation Win Chance: 0.24
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'd'), (8, 'd'), (3, 'c'), (4, 'c')]
+Num Board Cards:  5
+Board Cards:  [(5, 'c'), (12, 'd'), (2, 'c'), (9, 'h'), (8, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: CHECK
+HANDOVER 119 -119 5 5c Qd 2c 9h 8s 5 CHECK:oldBot2 CHECK:newBot2 SHOW:Ks:6d:6h:9d:newBot2 SHOW:Kd:8d:3c:4c:oldBot2 WIN:12:newBot2 -5.333144882999997
+Unhandled packet
+NEWHAND 96 true Td 9s Jh Ac 119 -119 -5.333145
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -5.333144882999997
+Pokerini Rank: 53.7779
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 'd'), (9, 's'), (11, 'h'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: RAISE:6
+GETACTION 24 0 2 RAISE:6:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:30:54 -5.333931171999996
+Pot Size:  24
+My Bet:  6
+Opponent Bet:  18
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 'd'), (9, 's'), (11, 'h'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 30 : 54
+Can Check:  False
+Response: RAISE:54
+GETACTION 216 0 2 RAISE:54:oldBot2 RAISE:162:newBot2 3 FOLD CALL RAISE:200:200 -5.3342172179999965
+Pot Size:  216
+My Bet:  54
+Opponent Bet:  162
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 'd'), (9, 's'), (11, 'h'), (14, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 200 : 200
+Can Check:  False
+Response: RAISE:200
+HANDOVER 319 -319 5 Ks 2h 9c Jd 4c 8 RAISE:200:oldBot2 CALL:newBot2 DEAL:FLOP DEAL:TURN DEAL:RIVER SHOW:Td:9s:Jh:Ac:oldBot2 SHOW:5h:9h:8d:7d:newBot2 WIN:400:oldBot2 -5.3344577459999964
+Unhandled packet
+NEWHAND 97 false Jd Kc 6s 5d 319 -319 -5.334458
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -5.3344577459999964
+Pokerini Rank: 51.8865
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(11, 'd'), (13, 'c'), (6, 's'), (5, 'd')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 Ac Jh Ks 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -5.335061965999996
+Simulation Win Chance: 0.74
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (13, 'c'), (6, 's'), (5, 'd')]
+Num Board Cards:  3
+Board Cards:  [(14, 'c'), (11, 'h'), (13, 's')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:5
+GETACTION 35 3 Ac Jh Ks 2 BET:5:oldBot2 RAISE:18:newBot2 3 FOLD CALL RAISE:31:66 -5.416345643999996
+Pot Size:  35
+My Bet:  5
+Opponent Bet:  18
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (13, 'c'), (6, 's'), (5, 'd')]
+Num Board Cards:  3
+Board Cards:  [(14, 'c'), (11, 'h'), (13, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 31 : 66
+Can Check:  False
+Response: RAISE:41
+GETACTION 152 3 Ac Jh Ks 2 RAISE:41:oldBot2 RAISE:99:newBot2 3 FOLD CALL RAISE:157:194 -5.416596880999996
+Pot Size:  152
+My Bet:  41
+Opponent Bet:  99
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (13, 'c'), (6, 's'), (5, 'd')]
+Num Board Cards:  3
+Board Cards:  [(14, 'c'), (11, 'h'), (13, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 157 : 194
+Can Check:  False
+Response: RAISE:168
+GETACTION 374 3 Ac Jh Ks 2 RAISE:168:oldBot2 RAISE:194:newBot2 2 FOLD CALL -5.4169324599999955
+Pot Size:  374
+My Bet:  168
+Opponent Bet:  194
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(11, 'd'), (13, 'c'), (6, 's'), (5, 'd')]
+Num Board Cards:  3
+Board Cards:  [(14, 'c'), (11, 'h'), (13, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  False : 0 : 0
+Can Check:  False
+Response: CALL
+HANDOVER 519 -519 5 Ac Jh Ks Ts 6c 6 CALL:oldBot2 DEAL:TURN DEAL:RIVER SHOW:9c:Kh:5s:3h:newBot2 SHOW:Jd:Kc:6s:5d:oldBot2 WIN:400:oldBot2 -5.417251527999995
+Unhandled packet
+NEWHAND 98 true Ts 2h Qs 9s 519 -519 -5.417252
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -5.417251527999995
+Pokerini Rank: 48.838
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 's'), (2, 'h'), (12, 's'), (9, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -5.417563454999995
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(10, 's'), (2, 'h'), (12, 's'), (9, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 24 3 Qh Jd Ks 3 CALL:oldBot2 DEAL:FLOP BET:12:newBot2 3 FOLD CALL RAISE:24:48 -5.4178392369999955
+Simulation Win Chance: 0.84
+Pot Size:  24
+My Bet:  0
+Opponent Bet:  12
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 's'), (2, 'h'), (12, 's'), (9, 's')]
+Num Board Cards:  3
+Board Cards:  [(12, 'h'), (11, 'd'), (13, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 24 : 48
+Can Check:  False
+Response: RAISE:48
+GETACTION 216 3 Qh Jd Ks 2 RAISE:48:oldBot2 RAISE:156:newBot2 3 FOLD CALL RAISE:194:194 -5.500894966999995
+Pot Size:  216
+My Bet:  48
+Opponent Bet:  156
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(10, 's'), (2, 'h'), (12, 's'), (9, 's')]
+Num Board Cards:  3
+Board Cards:  [(12, 'h'), (11, 'd'), (13, 's')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 194 : 194
+Can Check:  False
+Response: RAISE:194
+HANDOVER 319 -319 5 Qh Jd Ks 2c 9h 7 RAISE:194:oldBot2 CALL:newBot2 DEAL:TURN DEAL:RIVER SHOW:Ts:2h:Qs:9s:oldBot2 SHOW:8h:Ad:Td:7h:newBot2 WIN:400:newBot2 -5.501114967999995
+Unhandled packet
+NEWHAND 99 false Kc Kh 3c 5c 319 -319 -5.501115
+GETACTION 4 0 3 POST:1:newBot2 POST:2:oldBot2 CALL:newBot2 2 CHECK RAISE:4:6 -5.501114967999995
+Pokerini Rank: 61.142
+Pot Size:  4
+My Bet:  2
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(13, 'c'), (13, 'h'), (3, 'c'), (5, 'c')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  False
+Can Fold:  False
+Can Raise:  True : 4 : 6
+Can Check:  True
+Response: RAISE:6
+GETACTION 12 3 Ks Kd 9d 3 RAISE:6:oldBot2 CALL:newBot2 DEAL:FLOP 2 CHECK BET:2:12 -5.5017026769999955
+Simulation Win Chance: 1.0
+Pot Size:  12
+My Bet:  0
+Opponent Bet:  0
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(13, 'c'), (13, 'h'), (3, 'c'), (5, 'c')]
+Num Board Cards:  3
+Board Cards:  [(13, 's'), (13, 'd'), (9, 'd')]
+Can Bet:  True : 2 : 12
+Can Call:  False
+Can Fold:  False
+Can Raise:  False : 0 : 0
+Can Check:  True
+Response: BET:12
+HANDOVER 325 -325 3 Ks Kd 9d 4 BET:12:oldBot2 FOLD:newBot2 REFUND:12:oldBot2 WIN:12:oldBot2 -5.584366600999996
+Unhandled packet
+NEWHAND 100 true 8c 3c Qd Ts 325 -325 -5.584367
+GETACTION 3 0 2 POST:1:oldBot2 POST:2:newBot2 3 CALL FOLD RAISE:4:6 -5.584366600999996
+Pokerini Rank: 48.0517
+Pot Size:  3
+My Bet:  1
+Opponent Bet:  2
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'c'), (3, 'c'), (12, 'd'), (10, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 4 : 6
+Can Check:  False
+Response: CALL
+GETACTION 8 0 2 CALL:oldBot2 RAISE:6:newBot2 3 FOLD CALL RAISE:10:18 -5.585077919999995
+Pot Size:  8
+My Bet:  2
+Opponent Bet:  6
+My Pot:  0
+Opponent Pot:  0
+My Hand:  [(8, 'c'), (3, 'c'), (12, 'd'), (10, 's')]
+Num Board Cards:  0
+Board Cards:  []
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 10 : 18
+Can Check:  False
+Response: CALL
+GETACTION 22 3 4s 4d Ac 3 CALL:oldBot2 DEAL:FLOP BET:10:newBot2 3 FOLD CALL RAISE:20:42 -5.5853733359999955
+Simulation Win Chance: 0.22
+Pot Size:  22
+My Bet:  0
+Opponent Bet:  10
+My Pot:  6
+Opponent Pot:  6
+My Hand:  [(8, 'c'), (3, 'c'), (12, 'd'), (10, 's')]
+Num Board Cards:  3
+Board Cards:  [(4, 's'), (4, 'd'), (14, 'c')]
+Can Bet:  False : 0 : 0
+Can Call:  True
+Can Fold:  True
+Can Raise:  True : 20 : 42
+Can Check:  False
+Response: FOLD
+HANDOVER 319 -319 3 4s 4d Ac 3 FOLD:oldBot2 REFUND:10:newBot2 WIN:12:newBot2 -5.668904320999996
+Unhandled packet
+REQUESTKEYVALUES 2000
+Gameover, engine disconnected.
