@@ -36,9 +36,9 @@ class Player:
     checkCallThresh = 0.4
     raiseLinearlyThresh = 0.6
     raiseFullThresh = 0.8
-    round0CheckCallThresh = 30
-    round0RaiseLinearlyThresh = 50
-    round0RaiseFullThresh = 65
+    round0CheckCallThresh = 0.3
+    round0RaiseLinearlyThresh = 0.50
+    round0RaiseFullThresh = 0.65
 
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
@@ -305,7 +305,7 @@ class Player:
             if(self.pokeriniRank > self.round0RaiseFullThresh): #if we are in the raise full region (above 65%) 
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = ((self.round0RaiseFullThresh-self.simulationWinChance)/(self.round0RaiseFullThresh-self.round0RaiseLinearlyThresh))
+            raisePercentage = ((self.pokeriniRank - self.round0RaiseLinearlyThresh)/(self.round0RaiseFullThresh-self.round0RaiseLinearlyThresh))
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
@@ -317,7 +317,7 @@ class Player:
             if(self.simulationWinChance > self.raiseFullThresh): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = ((self.raiseFullThresh-self.simulationWinChance)/(self.raiseFullThresh - self.raiseLinearlyThresh))
+            raisePercentage = ((self.simulationWinChance - self.raiseLinearlyThresh)/(self.raiseFullThresh - self.raiseLinearlyThresh))
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
     def updateHandRanking(self):
