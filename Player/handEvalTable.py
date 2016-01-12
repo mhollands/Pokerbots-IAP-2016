@@ -141,7 +141,7 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
 def simulate2(myHand, boardCards, numBoardCards, numSimulations):
     wins = 0
     if(numBoardCards == 3):
-        for x in range(0,numSimulations):
+        for x in xrange(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
             newCards = PP.generateHand(6, cardSet)
@@ -154,7 +154,7 @@ def simulate2(myHand, boardCards, numBoardCards, numSimulations):
         return winPercentage
 
     if(numBoardCards == 4):
-        for x in range(0,numSimulations):
+        for x in xrange(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
             newCards = PP.generateHand(5, cardSet)
@@ -168,7 +168,7 @@ def simulate2(myHand, boardCards, numBoardCards, numSimulations):
 
     if(numBoardCards == 5):
         myBest = PP.findBestHand(myHand, boardCards)
-        for x in range(0,numSimulations):
+        for x in xrange(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
             fakeOpponent = PP.generateHand(4, cardSet)
@@ -217,5 +217,13 @@ if __name__ == '__main__':
 	print end -start
 	start =time.time()
 	simulate2([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h")],3,1000)
+	end =time.time()
+	print end -start
+	start =time.time()
+	simulate2([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h"),(11,"d")],4,1000)
+	end =time.time()
+	print end -start
+	start =time.time()
+	simulate2([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h"),(11,"d"),(10,"s")],5,1000)
 	end =time.time()
 	print end -start

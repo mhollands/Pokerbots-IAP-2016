@@ -4,7 +4,7 @@ import PokerPhysics as PP
 def simulate(myHand, boardCards, numBoardCards, numSimulations):
     wins = 0
     if(numBoardCards == 3):
-        for x in range(0,numSimulations):
+        for x in xrange(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
             newCards = PP.generateHand(6, cardSet)
@@ -17,7 +17,7 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
         return winPercentage
 
     if(numBoardCards == 4):
-        for x in range(0,numSimulations):
+        for x in xrange(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
             newCards = PP.generateHand(5, cardSet)
@@ -31,7 +31,7 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
 
     if(numBoardCards == 5):
         myBest = PP.findBestHand(myHand, boardCards)
-        for x in range(0,numSimulations):
+        for x in xrange(0,numSimulations):
             cardSet = set(boardCards)
             for card in myHand: cardSet.add(card)
             fakeOpponent = PP.generateHand(4, cardSet)

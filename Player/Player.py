@@ -312,7 +312,7 @@ class Player:
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
             if self.simulationWinChance < self.checkCallThresh: #if we are in the checkCallFold region
                 return self.checkCallFold(canCheck, canCall)
-            if(self.simulationWinChance < self.raiseLinearlyThresh): #if we are in the raise linearly region
+            if(self.simulationWinChance < self.raiseLinearlyThresh): #if we are in the checkCall region
                 return self.checkCall(canCheck, canCall)
             if(self.simulationWinChance > self.raiseFullThresh): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
