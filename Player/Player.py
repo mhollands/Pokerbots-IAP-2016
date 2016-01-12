@@ -40,6 +40,29 @@ class Player:
     round0RaiseLinearlyThresh = 0.50
     round0RaiseFullThresh = 0.65
 
+    def loadParametersFromFile(self):
+        with open('PlayParameters.txt') as f:
+            for x in f:
+                if(x[0:15] == "checkCallThresh"):
+                    self.checkCallThresh = float(x[15:-1])
+                    print "checkCallThresh " + str(self.checkCallThresh)
+                if(x[0:19] == "raiseLinearlyThresh"):
+                    self.raiseLinearlyThresh = float(x[19:-1])
+                    print "raiseLinearlyThresh " + str(self.raiseLinearlyThresh)
+                if(x[0:15] == "raiseFullThresh"):
+                    self.raiseFullThresh = float(x[15:-1])
+                    print "raiseFullThresh " + str(self.raiseFullThresh)
+                if(x[0:21] == "round0CheckCallThresh"):
+                    self.round0CheckCallThresh = float(x[21:-1])
+                    print "round0CheckCallThresh " + str(self.round0CheckCallThresh)
+                if(x[0:25] == "round0RaiseLinearlyThresh"):
+                    self.round0RaiseLinearlyThresh = float(x[25:-1])
+                    print "round0RaiseLinearlyThresh " + str(self.round0RaiseLinearlyThresh)
+                if(x[0:21] == "round0RaiseFullThresh"):
+                    self.round0RaiseFullThresh = float(x[21:-1])
+                    print "round0RaiseFullThresh " + str(self.round0RaiseFullThresh)
+            f.close()
+
     def run(self, input_socket):
         # Get a file-object for reading packets from the socket.
         # Using this ensures that you get exactly one packet per read.
@@ -364,6 +387,8 @@ class Player:
     
 if __name__ == '__main__':
 
+    bot = Player()
+    bot.loadParametersFromFile()
     pokeriniDict = Pokerini.pokeriniInitialise()
 
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
@@ -379,5 +404,4 @@ if __name__ == '__main__':
         print 'Error connecting! Aborting'
         exit()
 
-    bot = Player()
     bot.run(s)
