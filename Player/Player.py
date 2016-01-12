@@ -32,6 +32,7 @@ class Player:
     pokeriniRank = 0
     expectedTimePerHand = 0 #calculated on NewGame packet. = original time bank / total num hands to play
     timeBank = 0
+    preflopBetLimit = 0
 
     checkCallThresh = 0.4
     raiseLinearlyThresh = 0.6
@@ -39,6 +40,8 @@ class Player:
     round0CheckCallThresh = 0.3
     round0RaiseLinearlyThresh = 0.50
     round0RaiseFullThresh = 0.65
+    preflopMinRaiseLimit = 50 #these should be loaded from file, but aren't atm
+    preflopMaxRaiseLimit = 200
 
     def loadParametersFromFile(self):
         with open('PlayParameters.txt') as f:
@@ -180,6 +183,7 @@ class Player:
             print "Expected Timebank: ", self.getExpectedTimeBank()
             print "Response time: ", (actionFinishTime - actionStartTime)
             print "Response: " + response
+            print "Preflop bet limit: ", self.preflopBetLimit
 
         #check that the pots and bets agree with the specified pot size
         if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
@@ -345,21 +349,39 @@ class Player:
 
     def updateHandRanking(self):
         if(self.cardsChanged == True):
-            if(self.numBoardCards == 0):
+            if(self.numBoardCards == 0): #preflop
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
-            if(self.numBoardCards >= 3):
+                self.calculatePreflopBetLimit()
+            if(self.numBoardCards >= 3):#postflop
                 self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 50)
         self.cardsChanged = False
+
+    def calculatePreflopBetLimit(self): #calculate maximum raise/bet in preflop stage
+        if(self.pokeriniRank >= self.round0RaiseLinearlyThresh):
+            self.preflopBetLimit = int(self.preflopMinRaiseLimit + (self.preflopMaxRaiseLimit - self.preflopMinRaiseLimit) 
+                                    * (self.pokeriniRank - self.round0RaiseLinearlyThresh) / (self.round0RaiseFullThresh - self.round0RaiseLinearlyThresh))
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
         if(percentage > 1.0):
             percentage = 1.0
         if(percentage < 0.0):
             percentage = 0.0
+
         if(canBet):
-            return "BET:"+str(int(percentage*(maxBet - minBet) + minBet))
+            betAmount = int(percentage*(maxBet - minBet) + minBet)
+            if(self.numBoardCards == 0 and betAmount >= self.preflopBetLimit): #make sure our bet is not above our preflop limit
+                betAmount == self.preflopBetLimit
+            if(betAmount < minBet):
+                return self.checkCall(canCheck, canCall)
+            return "BET:"+str(betAmount)
+
         if(canRaise):
-            return "RAISE:"+str(int(percentage*(maxRaise - minRaise) + minRaise))
+            raiseAmount = int(percentage*(maxRaise - minRaise) + minRaise)
+            if(self.numBoardCards == 0 and raiseAmount >= self.preflopBetLimit): #make sure our raise is not above our preflop limit
+                raiseAmount == self.preflopBetLimit
+            if(raiseAmount < minBet):
+                return self.checkCall(canCheck, canCall)
+            return "RAISE:"+str(raiseAmount)
         return self.checkCall(canCheck, canCall) #if you cant betRaise, checkCall
 
     def checkFold(self, canCheck):
