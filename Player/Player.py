@@ -336,10 +336,10 @@ class Player:
     def checkCallFold(self, canCheck, canCall):
         if(canCheck):
             return "CHECK"
-        currentRound = self.numBoardCards - 3
+        currentRound = self.numBoardCards - 2
         maxCall = 0.05 * currentRound * (self.myPot + self.opponentPot)
         if(self.opponentBet <= maxCall):
-            print "dog"
+            print "dogBot never folds!"
             return "CALL"
         return "FOLD"
 
