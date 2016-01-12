@@ -37,7 +37,7 @@ def findHandValue(hand):
 	
 	and returns the hand value in the following format:
 	
-	return [handType,most_important_card_number,..,..,..,least_important_car_number]
+	return [handType,most_important_card_number,..,..,..,least_important_card_number]
 	
 	handType: 8 = straight flush, 7 = 4 of a kind, 6 = full house, 5 = flush, 4 = straight
 	3 = 3 of a kind, 2 = 2 pair, 1 = pair, 0 = high card
