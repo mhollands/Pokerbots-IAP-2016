@@ -1,44 +1,65 @@
 import PokerPhysics as PP
 from itertools import combinations
 from operator import itemgetter
+import csv
 import time
 
-def createHandEval():
-
-	#creates a list of all possible cards
-	#allCards = [(2,"h"),(3,"s"),(4,"d"),(12,"c"),(1,"h")]
+def createEvalCSV():
 	allCards = []
 
-	
 	for num in xrange(2,15):
 		for suit in ['h','c','d','s']:
 			allCards.append((num, suit))
 
-	#creates a generator of all possible 5 card hands
+
 	allHands = combinations(allCards,5)
 
-	handFile = open('allHands.txt', 'w')
-
+	handFile = open('handFile.csv', 'wt')
+	writer = csv.writer(handFile)
 	for hand in allHands:
 		hand = sorted(hand, key= lambda x: (x[0], x[1]), reverse = True)
 		handValue = PP.findHandValue(hand)
-	
-		line = ''
+		handString = ''
 		for card in hand:
 			card = convertRoyaltyTP(card)
-			line += (str(card[0]) + card[1])
+			handString += (str(card[0]) + card[1])
+		handValueString = ''
 		for num in handValue:
-			line += str(convertRoyaltyNum(num))
-		#handFile.write((hand, handValue)
-		line += '\n'
-		handFile.write(line)
-	
+			handValueString += str(convertRoyaltyNum(num))
 
-	handFile.close()
+		writer.writerow((handString , handValueString))
 
-	#handFile.open('allHands.txt', 'r)
-	#numLines = sum(1 for line in open('allHands.txt'))
 	return 0
+
+def loadHandEval():
+	handEvalDict = dict()
+	with open('handFile.csv') as csvfile:
+		reader = csv.reader(csvfile)
+		for row in reader:
+			#print row[0]
+			handEvalDict[row[0]]  = row[1]
+	return handEvalDict
+
+def generateHandString(hand):
+	hand = sorted(hand, key= lambda x: (x[0], x[1]), reverse = True)
+	handString = ''
+	for card in hand:
+		card = convertRoyaltyTP(card)
+		num = str(card[0])
+		handString += (num + card[1])
+	return handString
+
+def evaluateHand(hand):
+	handString = generateHandString(hand)
+	handValue = handEvalDict[handString]
+	return handValue
+
+
+def convertRoyaltyTP(card):
+	cardValue = convertRoyaltyNum(card[0])
+	card = (cardValue, card[1])
+	return card
+
 
 def convertRoyaltyNum(num):
 	if num == 10:
@@ -67,52 +88,123 @@ def reverseRoyaltyConvert(num):
 	return num
 
 
-def convertRoyaltyTP(card):
-	cardValue = convertRoyaltyNum(card[0])
-	card = (cardValue, card[1])
+def simulate(myHand, boardCards, numBoardCards, numSimulations):
+    wins = 0
+    if(numBoardCards == 3):
+        for x in range(0,numSimulations):
+            cardSet = set(boardCards)
+            for card in myHand: cardSet.add(card)
+            newCards = PP.generateHand(6, cardSet)
+            fakeBoard = boardCards + newCards[0:2]
+            fakeOpponent = newCards[2:]
+            myBest = PP.findBestHand(myHand, fakeBoard)
+            opponentBest = PP.findBestHand(fakeOpponent, fakeBoard)
+            if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+        winPercentage = 1.0*wins/numSimulations
+        return winPercentage
 
-	return card
+    if(numBoardCards == 4):
+        for x in range(0,numSimulations):
+            cardSet = set(boardCards)
+            for card in myHand: cardSet.add(card)
+            newCards = PP.generateHand(5, cardSet)
+            fakeBoard = boardCards + newCards[0:1]
+            fakeOpponent = newCards[1:]
+            myBest = PP.findBestHand(myHand, fakeBoard)
+            opponentBest = PP.findBestHand(fakeOpponent, fakeBoard)
+            if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+        winPercentage = 1.0*wins/numSimulations
+        return winPercentage
 
-def loadHandEval():
-    handEvalDict = dict()
-    with open('allHands.txt') as handFile:
-        for line in handFile:
-        	evaluation = line[10:-1]
-        	handValue = []
-        	for num in evaluation:
-        		value = int(reverseRoyaltyConvert(num))
-        		handValue.append(value)
-        	keyString = line[0:10]
-        	keyList = []
-        	for i in xrange(5):
-        		num = reverseRoyaltyConvert(keyString[2*i])
-        		keyList.append((int(num), keyString[2*i +1] ))
-			handEvalDict[tuple(keyList)] = handValue
-    return handEvalDict
+    if(numBoardCards == 5):
+        myBest = PP.findBestHand(myHand, boardCards)
+        for x in range(0,numSimulations):
+            cardSet = set(boardCards)
+            for card in myHand: cardSet.add(card)
+            fakeOpponent = PP.generateHand(4, cardSet)
+            opponentBest = PP.findBestHand(fakeOpponent, boardCards)
+            if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+        winPercentage = 1.0*wins/numSimulations
+        return winPercentage
+
+def simulate2(myHand, boardCards, numBoardCards, numSimulations):
+    wins = 0
+    if(numBoardCards == 3):
+        for x in range(0,numSimulations):
+            cardSet = set(boardCards)
+            for card in myHand: cardSet.add(card)
+            newCards = PP.generateHand(6, cardSet)
+            fakeBoard = boardCards + newCards[0:2]
+            fakeOpponent = newCards[2:]
+            myBest = findBestHand(myHand, fakeBoard)
+            opponentBest = findBestHand(fakeOpponent, fakeBoard)
+            if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+        winPercentage = 1.0*wins/numSimulations
+        return winPercentage
+
+    if(numBoardCards == 4):
+        for x in range(0,numSimulations):
+            cardSet = set(boardCards)
+            for card in myHand: cardSet.add(card)
+            newCards = PP.generateHand(5, cardSet)
+            fakeBoard = boardCards + newCards[0:1]
+            fakeOpponent = newCards[1:]
+            myBest = findBestHand(myHand, fakeBoard)
+            opponentBest = findBestHand(fakeOpponent, fakeBoard)
+            if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+        winPercentage = 1.0*wins/numSimulations
+        return winPercentage
+
+    if(numBoardCards == 5):
+        myBest = PP.findBestHand(myHand, boardCards)
+        for x in range(0,numSimulations):
+            cardSet = set(boardCards)
+            for card in myHand: cardSet.add(card)
+            fakeOpponent = PP.generateHand(4, cardSet)
+            opponentBest = findBestHand(fakeOpponent, boardCards)
+            if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
+        winPercentage = 1.0*wins/numSimulations
+        return winPercentage
+
+def findBestHand(ourHand, tableHand):
+
+	#Generate all appropriate length combinations from the tableHand and ourHand
+	ourCardsList = list(combinations(ourHand, 2))
+	tableCardsList = list(combinations(tableHand, 3))
+	
+	#Combine the combinations into all possible hands and determine their values
+	possibleHands = []
+	currentMax = 0
+	for ourCombo in ourCardsList:
+		for tableCombo in tableCardsList:
+			hand = ourCombo + tableCombo
+			handValue = evaluateHand(hand)
+			if handValue[0] >= currentMax:
+				currentMax = handValue[0]
+				possibleHands.append((handValue,hand))
+
+	#Cut the sortable list down to just maximum category hands
+	sortHands = []
+	for hand in possibleHands:
+		if hand[0][0] == currentMax:
+			sortHands.append(hand)
+
+	#Sort the hands by value and then return the best
+	sortedByValue = sorted(sortHands, key = lambda x: (x[0][0], x[0][1], x[0][2], x[0][3], x[0][4], x[0][5]), reverse = True)
+	return sortedByValue[0]
+
 
 if __name__ == '__main__':
-	#createHandEval()
+	#createEvalCSV()
+	start =time.time()
 	handEvalDict = loadHandEval()
-
-	#print handEvalDict['2h2c2d2s3h']
-	testHands = []
-	for i in xrange(10000):
-		testHand = PP.generateTestHand(5)
-		testHands.append(testHand)
-	start = time.time()
-	for j in xrange(10000):
-		testHands[j] = tuple(sorted(testHands[j], key= lambda x: (x[0], x[1]), reverse = True))
-	end = time.time()
-	print(end - start)
-	start = time.time()
-	for hand in testHands:
-		handValue = handEvalDict[hand]
-	end = time.time()
-	print(end - start)
-	start = time.time()
-	for hand in testHands:
-		handValue = PP.findHandValue(hand)
-	end = time.time()
+	end =time.time()
 	print end -start
-
-	#print testHand
+	start =time.time()
+	simulate([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h")],3,1000)
+	end =time.time()
+	print end -start
+	start =time.time()
+	simulate2([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h")],3,1000)
+	end =time.time()
+	print end -start
