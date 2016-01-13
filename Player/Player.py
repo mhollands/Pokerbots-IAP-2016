@@ -7,7 +7,6 @@ import Pokerini
 import Simulation
 
 class Player:
-    #when both players agree with bet it is moved into the pot
     debugPrint = True
     iAgreeWithBet = False 
     opponentAgreesWithBet = False
@@ -34,13 +33,14 @@ class Player:
     timeBank = 0
     preflopBetLimit = 0
 
+    #These should be loaded from file, but aren't atm
     checkCallThresh = 0.4
     raiseLinearlyThresh = 0.6
     raiseFullThresh = 0.8
     round0CheckCallThresh = 0.3
     round0RaiseLinearlyThresh = 0.50
     round0RaiseFullThresh = 0.65
-    preflopMinRaiseLimit = 50 #these should be loaded from file, but aren't atm
+    preflopMinRaiseLimit = 50
     preflopMaxRaiseLimit = 200
 
     def loadParametersFromFile(self):
@@ -79,16 +79,13 @@ class Player:
                 break
             if self.debugPrint:
                 print data
-            # When sending responses, terminate each response with a newline
-            # character (\n) or your bot will hang!
+            # When sending responses, terminate each response with a newline character (\n) or your bot will hang!
             self.parsePacket(data)
-            if self.debugPrint:
-                print ""
-            #time.sleep(2)
+            if self.debugPrint: print ""
         # Clean up the socket.
         s.close()
 
-    #if both players agree on bet, moves bet to pot
+    #If both players agree on bet, moves bet to pot
     def updatePot(self):
         if(self.iAgreeWithBet and self.opponentAgreesWithBet):
             self.myPot = self.myPot + self.myBet

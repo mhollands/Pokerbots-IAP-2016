@@ -2,6 +2,15 @@ import PokerPhysics as PP
 import Pokerini
 import Simulation
 
+def median(lst):
+    lst = sorted(lst)
+    if len(lst) < 1:
+            return None
+    if len(lst) %2 == 1:
+            return lst[((len(lst)+1)/2)-1]
+    else:
+            return float(sum(lst[(len(lst)/2)-1:(len(lst)/2)+1]))/2.0
+
 def parseCard(cardString):
     number = cardString[0]
     if(number == "T"):
@@ -30,19 +39,19 @@ def parseHand(words, length):
         hand.append(parseCard(words[x]))
     return hand
 
+#Pokerini initialised
 pokeriniDict = Pokerini.pokeriniInitialise()
 
+#Open and process the file
 f = open('process.txt', 'r')
 x = f.readlines()
 
+#Split the lines into each hand
 start = 0
 end = 0
 hand = 1
-
 handsDict = {}
-
 lineNum = len(x)
-
 for i in range(0,lineNum):
     line = x[i]
     if line == '\n':
@@ -51,21 +60,63 @@ for i in range(0,lineNum):
         start = i+1
         hand += 1
 
-team1 = "oldBot"
-team2 = "currentBot"
+#Rip team names from line 1
+team1 = x[0].split()[4]
+team2 = x[0].split()[6]
 
-handInfo = {}
+#Will use this again at some point
+"""handInfo = {}
 for hand in handsDict:
     handInfo[hand] = {}
     handInfo[hand][team1] = {"round0":{"hand":None,"betSize":0,"winProb":None}, "round1":{"hand":None,"betSize":0,"winProb":None}, "round2":{"hand":None,"betSize":0,"winProb":None}, "round3":{"hand":None,"betSize":0,"winProb":None}}
     handInfo[hand][team2] = {"round0":{"hand":None,"betSize":0,"winProb":None}, "round1":{"hand":None,"betSize":0,"winProb":None}, "round2":{"hand":None,"betSize":0,"winProb":None}, "round3":{"hand":None,"betSize":0,"winProb":None}}
+"""
 
+#Initialise exit and win dictionarys 
+team1Exits = {"showdown": 0, "round0fold": 0, "round1fold": 0, "round2fold": 0, "round3fold": 0}
+team2Exits = {"showdown": 0, "round0fold": 0, "round1fold": 0, "round2fold": 0, "round3fold": 0}
+team1Wins = {'wins': 0, 'totalScore': 0, "listWins": []}
+team2Wins = {'wins': 0, 'totalScore': 0, "listWins": []}
 
+#Parse the data from hands into a useful format
 for hand in handsDict:
     roundNum = 0
     for line in handsDict[hand]:
         split = line.split()
-        #print split
+
+        if split[1] == "folds":
+            team = split[0]
+            if team == team1: team1Exits["round" + str(roundNum) + "fold"] += 1
+            if team == team2: team2Exits["round" + str(roundNum) + "fold"] += 1
+            continue
+        if split[1] == "wins":
+            team = split[0]
+            if team == team1: 
+                team1Wins["wins"] += 1
+                team1Wins["totalScore"] += int(split[4][1:-1])
+                team1Wins["listWins"].append(int(split[4][1:-1]))
+            if team == team2: 
+                team2Wins["wins"] += 1
+                team2Wins["totalScore"] += int(split[4][1:-1])
+                team2Wins["listWins"].append(int(split[4][1:-1]))
+            continue
+        if split[1] == "shows":
+            team = split[0]
+            if team == team1: team1Exits["showdown"] += 1
+            if team == team2: team2Exits["showdown"] += 1
+            continue
+        if split[1] == "FLOP":
+            roundNum = 1
+            continue
+        if split[1] == "TURN":
+            roundNum = 2
+            continue
+        if split[1] == "RIVER":
+            roundNum = 3
+            continue
+
+        #Previous code that calculated win probabilities - will use again later
+        """        
         if split[0] == "Dealt":
             handParse = parseHand(split[3:], 4)
             team = split[2]
@@ -121,10 +172,32 @@ for hand in handsDict:
             handInfo[hand][team2]["round3"]["hand"] = team2Hand[1]
             handInfo[hand][team2]["round3"]["winProb"] = Simulation.simulate(handInfo[hand][team2]["round0"]["hand"], handParse, 4, 50)
             continue
+        """
 
-print handInfo[10]["currentBot"]
+#Print useful statistics in a readable manner - add a comparison with win probabilities
+print
+print team1 + " Stats:"
+print "Number of wins: " + str(team1Wins["wins"])
+print "Total winning pots: " + str(team1Wins["totalScore"])
+print "Mean win: " + str(team1Wins["totalScore"]*1.0/team1Wins["wins"])
+print "Median win: " + str(median(team1Wins["listWins"]))
+print "Round 0 folds : " + str(team1Exits["round0fold"])
+print "Round 1 folds : " + str(team1Exits["round1fold"])
+print "Round 2 folds : " + str(team1Exits["round2fold"])
+print "Round 3 folds : " + str(team1Exits["round3fold"])
+print "Showdown exits: " + str(team1Exits["showdown"])
+print
+print "----------"
+print
+print team2 + " Stats:"
+print "Number of wins: " + str(team2Wins["wins"])
+print "Total winning pots: " + str(team2Wins["totalScore"])
+print "Mean win: " + str(team2Wins["totalScore"]*1.0/team2Wins["wins"])
+print "Median win: " + str(median(team2Wins["listWins"]))
+print "Round 0 folds : " + str(team2Exits["round0fold"])
+print "Round 1 folds : " + str(team2Exits["round1fold"])
+print "Round 2 folds : " + str(team2Exits["round2fold"])
+print "Round 3 folds : " + str(team2Exits["round3fold"])
+print "Showdown exits: " + str(team2Exits["showdown"])
 
-#Currently ignored - x calls, x checks, x shows, x wins, x folds
-#Fix betsize and include calls?
-#Generate a graph for each team, each round, winProb vs betSize
 
