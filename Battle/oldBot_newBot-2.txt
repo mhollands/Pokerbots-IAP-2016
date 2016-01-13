@@ -1,0 +1,1102 @@
+6.176 MIT Pokerbots - newBot2 vs oldBot2 (stack=200, bb=2)
+Hand #1, newBot2 (0), oldBot2 (0)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [3d 8s 5d Ks]
+Dealt to oldBot2 [As Jh 9c 7c]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [4d Td 9d]
+oldBot2 checks
+newBot2 bets 3
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #2, oldBot2 (-2), newBot2 (2)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [4s Ks 7d 8h]
+Dealt to newBot2 [Jc Qd Ac 6c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #3, newBot2 (3), oldBot2 (-3)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [6c Qh 9d Ks]
+Dealt to oldBot2 [9h Kd Th Qs]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #4, oldBot2 (-5), newBot2 (5)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [7h Kd 2s 2c]
+Dealt to newBot2 [4h Ks 8d 6c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #5, newBot2 (6), oldBot2 (-6)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [2c 7c Ts 3s]
+Dealt to oldBot2 [3h Jd Ad 9s]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [9d Qd 9c]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [9d Qd 9c] [Ks]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [9d Qd 9c Ks] [6h]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [2c 7c Ts 3s]
+oldBot2 shows [3h Jd Ad 9s]
+oldBot2 wins the pot (4)
+
+Hand #6, oldBot2 (-4), newBot2 (4)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [8d Kd 9c 2d]
+Dealt to newBot2 [5d Jd Qd 2c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #7, newBot2 (5), oldBot2 (-5)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jh Tc 9d 4h]
+Dealt to oldBot2 [3d Jc 6d Ad]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Qc 9s 9c]
+oldBot2 checks
+newBot2 bets 3
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #8, oldBot2 (-7), newBot2 (7)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Qc 2c 8d Kd]
+Dealt to newBot2 [Ts 9d Ah 6h]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #9, newBot2 (8), oldBot2 (-8)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jh 6c Ts 5s]
+Dealt to oldBot2 [Qh Ac 4d 7h]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [7c 2h 3d]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [7c 2h 3d] [Th]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [7c 2h 3d Th] [Js]
+oldBot2 checks
+newBot2 bets 3
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #10, oldBot2 (-10), newBot2 (10)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Qd Ts 6c Tc]
+Dealt to newBot2 [Js Jd 9h Qc]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #11, newBot2 (11), oldBot2 (-11)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jd 2d Qc 7c]
+Dealt to oldBot2 [Ts Kd 9s 8d]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [As Js 7h]
+oldBot2 checks
+newBot2 bets 2
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #12, oldBot2 (-13), newBot2 (13)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Jh 8h Jc 5c]
+Dealt to newBot2 [6d 3h 9h Th]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #13, newBot2 (14), oldBot2 (-14)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [9c Ac Qd Td]
+Dealt to oldBot2 [4s 8s Jc 6s]
+newBot2 raises to 5
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #14, oldBot2 (-16), newBot2 (16)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [7c 2h 6c 8s]
+Dealt to newBot2 [4h 7d Td Ad]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #15, newBot2 (17), oldBot2 (-17)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [4h Th Ac 4s]
+Dealt to oldBot2 [8c Ad 5s 3h]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #16, oldBot2 (-19), newBot2 (19)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Th 7s Ts 5c]
+Dealt to newBot2 [Ah Kc Js 2c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #17, newBot2 (20), oldBot2 (-20)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [8h Ah 2s Kh]
+Dealt to oldBot2 [8c Qh Ts 6c]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [2c 4s Ks]
+oldBot2 checks
+newBot2 bets 4
+oldBot2 folds
+Uncalled bet of 4 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #18, oldBot2 (-22), newBot2 (22)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [2h 6d Jd 8h]
+Dealt to newBot2 [5s 7c Kc 8d]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #19, newBot2 (23), oldBot2 (-23)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Kd 5d 9h 7s]
+Dealt to oldBot2 [2d Ts 3s 8s]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #20, oldBot2 (-25), newBot2 (25)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [9h 6s Td 8d]
+Dealt to newBot2 [Qs 7c Js Qh]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #21, newBot2 (26), oldBot2 (-26)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [4d 2s Tc Ah]
+Dealt to oldBot2 [Ac Kc 5d 3h]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [4s 9c 2d]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [4s 9c 2d] [2h]
+oldBot2 checks
+newBot2 bets 4
+oldBot2 folds
+Uncalled bet of 4 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #22, oldBot2 (-28), newBot2 (28)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [4c 2s 8s 3s]
+Dealt to newBot2 [4s 4d 3c 9s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #23, newBot2 (29), oldBot2 (-29)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Tc Js 9h 6d]
+Dealt to oldBot2 [Jh 4d Kh 3h]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [4s Jd 8d]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [4s Jd 8d] [9d]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [4s Jd 8d 9d] [Ks]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [Tc Js 9h 6d]
+oldBot2 shows [Jh 4d Kh 3h]
+oldBot2 wins the pot (4)
+
+Hand #24, oldBot2 (-27), newBot2 (27)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [6d Qh Ad 9s]
+Dealt to newBot2 [8s 5s Kc 2c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #25, newBot2 (28), oldBot2 (-28)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [3s As 3c Kh]
+Dealt to oldBot2 [4s 4d 3h 2h]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #26, oldBot2 (-30), newBot2 (30)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Qc Jh 6c 5d]
+Dealt to newBot2 [Th 8h 4h 5s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #27, newBot2 (31), oldBot2 (-31)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [6h 8s 9h 7d]
+Dealt to oldBot2 [Kc Ts Qc 3h]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [2d 5s 6c]
+oldBot2 checks
+newBot2 bets 2
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #28, oldBot2 (-33), newBot2 (33)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Ac Ks Jd 8c]
+Dealt to newBot2 [Th 5c 5d Qs]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #29, newBot2 (34), oldBot2 (-34)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [4c 3h Kh 7d]
+Dealt to oldBot2 [2c 7c Td Ac]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [7s 6s 5c]
+oldBot2 checks
+newBot2 bets 3
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #30, oldBot2 (-36), newBot2 (36)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [9h Qd 4c 6s]
+Dealt to newBot2 [Ah 7d 6d Ac]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #31, newBot2 (37), oldBot2 (-37)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [8d 7c 4h Qd]
+Dealt to oldBot2 [As 9s 6s Jd]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [5c 3d Kh]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [5c 3d Kh] [2d]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [5c 3d Kh 2d] [Js]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [8d 7c 4h Qd]
+oldBot2 shows [As 9s 6s Jd]
+oldBot2 wins the pot (4)
+
+Hand #32, oldBot2 (-35), newBot2 (35)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Jh 3s Td 4c]
+Dealt to newBot2 [8d 9h 6c Kd]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #33, newBot2 (36), oldBot2 (-36)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [6d Ac Tc Ad]
+Dealt to oldBot2 [Qs Th 4d 2h]
+newBot2 raises to 6
+oldBot2 folds
+Uncalled bet of 4 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #34, oldBot2 (-38), newBot2 (38)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Jc 5s 7h 7d]
+Dealt to newBot2 [As 2h 8d 5h]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #35, newBot2 (39), oldBot2 (-39)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [2h 2s 7c 3s]
+Dealt to oldBot2 [Th 4c As 4d]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Jh Ac 2c]
+oldBot2 checks
+newBot2 bets 4
+oldBot2 folds
+Uncalled bet of 4 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #36, oldBot2 (-41), newBot2 (41)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Qd 3s Tc 8c]
+Dealt to newBot2 [Td Ks 5c 7s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #37, newBot2 (42), oldBot2 (-42)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jh 6d 4s 8h]
+Dealt to oldBot2 [7h 7s Js Kd]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Tc Ts 6h]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [Tc Ts 6h] [6c]
+oldBot2 checks
+newBot2 bets 4
+oldBot2 folds
+Uncalled bet of 4 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #38, oldBot2 (-44), newBot2 (44)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Ks Jc 8h 3d]
+Dealt to newBot2 [Qd Th Tc 6s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #39, newBot2 (45), oldBot2 (-45)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [6d Ad Ac 8s]
+Dealt to oldBot2 [4d Jc 3c 3s]
+newBot2 raises to 6
+oldBot2 folds
+Uncalled bet of 4 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #40, oldBot2 (-47), newBot2 (47)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Qh 4c 6c 7s]
+Dealt to newBot2 [5s Kc 6s 8s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #41, newBot2 (48), oldBot2 (-48)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [2h 9s 3d 7s]
+Dealt to oldBot2 [Ks 8h Qh 6s]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Tc 2c Kh]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [Tc 2c Kh] [Ad]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [Tc 2c Kh Ad] [Ac]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [2h 9s 3d 7s]
+oldBot2 shows [Ks 8h Qh 6s]
+oldBot2 wins the pot (4)
+
+Hand #42, oldBot2 (-46), newBot2 (46)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [8s 8c Tc Qh]
+Dealt to newBot2 [2s Qs Kc Jc]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #43, newBot2 (47), oldBot2 (-47)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [6d 6s Ts 8h]
+Dealt to oldBot2 [5d 9s 4s 9c]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #44, oldBot2 (-49), newBot2 (49)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [9h 4s As 5s]
+Dealt to newBot2 [9c 2c 2d 9d]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #45, newBot2 (50), oldBot2 (-50)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [5c 3c 7h 9h]
+Dealt to oldBot2 [2h Kc 6c Jh]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [3h 8c Qh]
+oldBot2 checks
+newBot2 bets 2
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #46, oldBot2 (-52), newBot2 (52)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [6c 8s 8c 4s]
+Dealt to newBot2 [Ts 3h 6d 3c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #47, newBot2 (53), oldBot2 (-53)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jd 8s 8d Ad]
+Dealt to oldBot2 [Kd Ah 8h 7s]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #48, oldBot2 (-55), newBot2 (55)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Qh 7s Qs 4h]
+Dealt to newBot2 [4s 2h 7d Kh]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #49, newBot2 (56), oldBot2 (-56)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [9s Th Jd 9d]
+Dealt to oldBot2 [3c Td 7s Qc]
+newBot2 raises to 5
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #50, oldBot2 (-58), newBot2 (58)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [9d 9s 8s Jd]
+Dealt to newBot2 [5s 5h Qd Kc]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #51, newBot2 (59), oldBot2 (-59)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [2d 8s 4s 3d]
+Dealt to oldBot2 [6h Jh As 9c]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Qs Kh Ac]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [Qs Kh Ac] [2h]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [Qs Kh Ac 2h] [3c]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [2d 8s 4s 3d]
+oldBot2 shows [6h Jh As 9c]
+newBot2 wins the pot (4)
+
+Hand #52, oldBot2 (-61), newBot2 (61)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [2d 4h Qc Jh]
+Dealt to newBot2 [7h 2s 9h Kd]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #53, newBot2 (62), oldBot2 (-62)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jc 5d Ts Qd]
+Dealt to oldBot2 [4d 3c 5h Ks]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #54, oldBot2 (-64), newBot2 (64)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Qd Th 3c 6s]
+Dealt to newBot2 [7c 2d Ac 8c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #55, newBot2 (65), oldBot2 (-65)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jd 4d 6d Qh]
+Dealt to oldBot2 [Ts 2s Jc Th]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [8c 3c 9s]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [8c 3c 9s] [6c]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [8c 3c 9s 6c] [8d]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [Jd 4d 6d Qh]
+oldBot2 shows [Ts 2s Jc Th]
+oldBot2 wins the pot (4)
+
+Hand #56, oldBot2 (-63), newBot2 (63)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [7d 3s Js 8c]
+Dealt to newBot2 [4h 8s 4c Qs]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #57, newBot2 (64), oldBot2 (-64)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Th 8c 3d 2d]
+Dealt to oldBot2 [Ac 4d 4h 9s]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [4c 2h Qh]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [4c 2h Qh] [6d]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [4c 2h Qh 6d] [9c]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [Th 8c 3d 2d]
+oldBot2 shows [Ac 4d 4h 9s]
+oldBot2 wins the pot (4)
+
+Hand #58, oldBot2 (-62), newBot2 (62)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Jc Tc 5d 5c]
+Dealt to newBot2 [3h 6d 4c 4s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #59, newBot2 (63), oldBot2 (-63)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [7h 8s 2h Qh]
+Dealt to oldBot2 [3s 7s 2c Qc]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Ah 9d 3h]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [Ah 9d 3h] [2s]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [Ah 9d 3h 2s] [Ad]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [7h 8s 2h Qh]
+oldBot2 shows [3s 7s 2c Qc]
+oldBot2 wins the pot (4)
+
+Hand #60, oldBot2 (-61), newBot2 (61)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [9d 3s 2d Ks]
+Dealt to newBot2 [9c 7h 6h 7c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #61, newBot2 (62), oldBot2 (-62)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [5h 7s 8d 9d]
+Dealt to oldBot2 [5c 4h 7d Ad]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Js 8s As]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [Js 8s As] [Jc]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [Js 8s As Jc] [7h]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [5h 7s 8d 9d]
+oldBot2 shows [5c 4h 7d Ad]
+oldBot2 wins the pot (4)
+
+Hand #62, oldBot2 (-60), newBot2 (60)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [2d Js 9s Kd]
+Dealt to newBot2 [7s Qh 5s 8c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #63, newBot2 (61), oldBot2 (-61)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [4c Jd Ad 8c]
+Dealt to oldBot2 [8h 6h 6c 6d]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #64, oldBot2 (-63), newBot2 (63)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Th 8d 5c 2c]
+Dealt to newBot2 [7c Ks 4c 3d]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #65, newBot2 (64), oldBot2 (-64)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [2s 9c 8h Tc]
+Dealt to oldBot2 [5c 4h Qh Ad]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [7h As 2h]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [7h As 2h] [2d]
+oldBot2 checks
+newBot2 bets 3
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #66, oldBot2 (-66), newBot2 (66)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Kc 9c 9s 2c]
+Dealt to newBot2 [Ks Qh 4c 6c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #67, newBot2 (67), oldBot2 (-67)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Td 5d Jc Kc]
+Dealt to oldBot2 [Jh 3s 3d Ad]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #68, oldBot2 (-69), newBot2 (69)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Td 4d Jc Jd]
+Dealt to newBot2 [5d Ts 9h 6h]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #69, newBot2 (70), oldBot2 (-70)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [3s 2h 2d Jc]
+Dealt to oldBot2 [9s 4h 6h Ad]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [Ah Ac Kc]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [Ah Ac Kc] [6s]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [Ah Ac Kc 6s] [5h]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [3s 2h 2d Jc]
+oldBot2 shows [9s 4h 6h Ad]
+oldBot2 wins the pot (4)
+
+Hand #70, oldBot2 (-68), newBot2 (68)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [4h 3c As Js]
+Dealt to newBot2 [6h 6c Kh 7c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #71, newBot2 (69), oldBot2 (-69)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [5d 9c 3c Jd]
+Dealt to oldBot2 [5s 4d 8c 2s]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #72, oldBot2 (-71), newBot2 (71)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [4h 5d Ks 5h]
+Dealt to newBot2 [4d 5s Js Ah]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #73, newBot2 (72), oldBot2 (-72)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [5h 7s Jc 6s]
+Dealt to oldBot2 [3d Kc 8s 2c]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [6d 4h Qs]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [6d 4h Qs] [3c]
+oldBot2 checks
+newBot2 bets 4
+oldBot2 folds
+Uncalled bet of 4 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #74, oldBot2 (-74), newBot2 (74)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [5c 6h Qd 9h]
+Dealt to newBot2 [9c 7s 2d Ac]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #75, newBot2 (75), oldBot2 (-75)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Ac 2c Ah Ad]
+Dealt to oldBot2 [6d 2h 7s 5c]
+newBot2 raises to 5
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #76, oldBot2 (-77), newBot2 (77)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Ts 9d 9s 9h]
+Dealt to newBot2 [Ac Jd 8c Ah]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #77, newBot2 (78), oldBot2 (-78)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [8s 8h 7s Qd]
+Dealt to oldBot2 [5s 2c As 6d]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #78, oldBot2 (-80), newBot2 (80)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Js Ad Qh 7h]
+Dealt to newBot2 [Kh 5s 9s Qd]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #79, newBot2 (81), oldBot2 (-81)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [3d Th 7d Jc]
+Dealt to oldBot2 [4c 9s Ac Ad]
+newBot2 calls
+oldBot2 raises to 6
+newBot2 calls
+*** FLOP *** (12) [3s 9d Ks]
+oldBot2 bets 12
+newBot2 calls
+*** TURN *** (36) [3s 9d Ks] [7s]
+oldBot2 bets 36
+newBot2 folds
+Uncalled bet of 36 returned to oldBot2
+oldBot2 wins the pot (36)
+
+Hand #80, oldBot2 (-63), newBot2 (63)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [9d Th 9c 6s]
+Dealt to newBot2 [Qc 8s 5h Qd]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #81, newBot2 (64), oldBot2 (-64)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [8d 8s 7h 5h]
+Dealt to oldBot2 [3d 8h 6h Jc]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #82, oldBot2 (-66), newBot2 (66)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Js 9c 3d Qs]
+Dealt to newBot2 [5c 7d 7c 6d]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #83, newBot2 (67), oldBot2 (-67)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Ah 9d Kc Th]
+Dealt to oldBot2 [6s 5s Ad 3c]
+newBot2 raises to 5
+oldBot2 folds
+Uncalled bet of 3 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #84, oldBot2 (-69), newBot2 (69)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [2c 7h 5h Ac]
+Dealt to newBot2 [5d Th 6d 9d]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #85, newBot2 (70), oldBot2 (-70)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [3d 8h 7c Jh]
+Dealt to oldBot2 [4s 3s Kd Js]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [5s Qh As]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [5s Qh As] [7h]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [5s Qh As 7h] [4d]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [3d 8h 7c Jh]
+oldBot2 shows [4s 3s Kd Js]
+newBot2 wins the pot (4)
+
+Hand #86, oldBot2 (-72), newBot2 (72)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [2c Kh Qd Ah]
+Dealt to newBot2 [Th 9c Ad Qh]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #87, newBot2 (73), oldBot2 (-73)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Jc As Ks 4s]
+Dealt to oldBot2 [Ts 8s 2d 8d]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #88, oldBot2 (-75), newBot2 (75)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [8h 4h Ks As]
+Dealt to newBot2 [6d 3s 5d 4s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #89, newBot2 (76), oldBot2 (-76)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [5s Ad Js 4c]
+Dealt to oldBot2 [3d 6d 6h Kh]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #90, oldBot2 (-78), newBot2 (78)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Ts Jc Kh 9s]
+Dealt to newBot2 [6s 3c 7d 7c]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #91, newBot2 (79), oldBot2 (-79)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [8d 5h 6c 3h]
+Dealt to oldBot2 [8h Jd 5s 9s]
+newBot2 calls
+oldBot2 checks
+*** FLOP *** (4) [8c Qs Kc]
+oldBot2 checks
+newBot2 checks
+*** TURN *** (4) [8c Qs Kc] [Qc]
+oldBot2 checks
+newBot2 checks
+*** RIVER *** (4) [8c Qs Kc Qc] [2c]
+oldBot2 checks
+newBot2 checks
+newBot2 shows [8d 5h 6c 3h]
+oldBot2 shows [8h Jd 5s 9s]
+oldBot2 wins the pot (4)
+
+Hand #92, oldBot2 (-77), newBot2 (77)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [4h Ad 3c Qd]
+Dealt to newBot2 [4d Jh 7c 2h]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #93, newBot2 (78), oldBot2 (-78)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [Js Th 5d Kh]
+Dealt to oldBot2 [Jd 4c 2c 9c]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #94, oldBot2 (-80), newBot2 (80)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Kh 9d 4d Th]
+Dealt to newBot2 [5d 8c 2h 7s]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #95, newBot2 (81), oldBot2 (-81)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [8c 3c Qh Td]
+Dealt to oldBot2 [Ah Js 5s As]
+newBot2 calls
+oldBot2 raises to 6
+newBot2 calls
+*** FLOP *** (12) [2d 9h 6h]
+oldBot2 bets 12
+newBot2 folds
+Uncalled bet of 12 returned to oldBot2
+oldBot2 wins the pot (12)
+
+Hand #96, oldBot2 (-75), newBot2 (75)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [9c Qh 6d 7c]
+Dealt to newBot2 [8c Kh 4c Jd]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #97, newBot2 (76), oldBot2 (-76)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [6h Th 7c Qc]
+Dealt to oldBot2 [Tc 2d 3c Qd]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #98, oldBot2 (-78), newBot2 (78)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [4d 9c Jc 5h]
+Dealt to newBot2 [Qh Kd Kh 7d]
+oldBot2 folds
+newBot2 wins the pot (3)
+
+Hand #99, newBot2 (79), oldBot2 (-79)
+newBot2 posts the blind of 1
+oldBot2 posts the blind of 2
+Dealt to newBot2 [3s 2d As Td]
+Dealt to oldBot2 [2c 8h 8c 9s]
+newBot2 raises to 4
+oldBot2 folds
+Uncalled bet of 2 returned to newBot2
+newBot2 wins the pot (4)
+
+Hand #100, oldBot2 (-81), newBot2 (81)
+oldBot2 posts the blind of 1
+newBot2 posts the blind of 2
+Dealt to oldBot2 [Ac Td Ts 6s]
+Dealt to newBot2 [Kh 3s Qs 8c]
+oldBot2 folds
+newBot2 wins the pot (3)
+

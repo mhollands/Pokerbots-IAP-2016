@@ -1,0 +1,7 @@
+checkCallThresh0.4
+raiseLinearlyThresh0.6
+raiseFullThresh0.8
+round0CheckCallThresh0.25
+round0RaiseLinearlyThresh0.5
+round0RaiseFullThresh0.65
+MUST HAVE THIS LINE AT THE END :)
