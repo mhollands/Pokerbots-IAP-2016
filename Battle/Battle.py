@@ -1,6 +1,6 @@
 import os
 
-numMatches = 13
+numMatches = 30
 
 def getResult():
 	f = open("competitor/result.txt")
