@@ -39,8 +39,8 @@ class Player:
     round0CheckCallThresh = 0.3
     round0RaiseLinearlyThresh = 0.50
     round0RaiseFullThresh = 0.65
-    preflopMinRaiseLimit = 25     #These should be loaded from file, but aren't atm
-    preflopMaxRaiseLimit = 100      #These should be loaded from file, but aren't atm
+    preflopMinRaiseLimit = 50
+    preflopMaxRaiseLimit = 200
 
     def loadParametersFromFile(self):
         with open('PlayParameters.txt') as f:
@@ -63,6 +63,12 @@ class Player:
                 if(x[0:21] == "round0RaiseFullThresh"):
                     self.round0RaiseFullThresh = float(x[21:-1])
                     print "round0RaiseFullThresh " + str(self.round0RaiseFullThresh)
+                if(x[0:20] == "preflopMinRaiseLimit"):
+                    self.preflopMinRaiseLimit = int(x[20:-1])
+                    print "preflopMinRaiseLimit " + str(self.preflopMinRaiseLimit)
+                if(x[0:20] == "preflopMaxRaiseLimit"):
+                    self.preflopMaxRaiseLimit = int(x[20:-1])
+                    print "preflopMaxRaiseLimit " + str(self.preflopMaxRaiseLimit)
             f.close()
 
     def run(self, input_socket):
