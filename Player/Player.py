@@ -33,15 +33,14 @@ class Player:
     timeBank = 0
     preflopBetLimit = 0
 
-    #These should be loaded from file, but aren't atm
     checkCallThresh = 0.4
     raiseLinearlyThresh = 0.6
     raiseFullThresh = 0.8
     round0CheckCallThresh = 0.3
     round0RaiseLinearlyThresh = 0.50
     round0RaiseFullThresh = 0.65
-    preflopMinRaiseLimit = 50
-    preflopMaxRaiseLimit = 200
+    preflopMinRaiseLimit = 25     #These should be loaded from file, but aren't atm
+    preflopMaxRaiseLimit = 100      #These should be loaded from file, but aren't atm
 
     def loadParametersFromFile(self):
         with open('PlayParameters.txt') as f:
@@ -357,6 +356,8 @@ class Player:
         if(self.pokeriniRank >= self.round0RaiseLinearlyThresh):
             self.preflopBetLimit = int(self.preflopMinRaiseLimit + (self.preflopMaxRaiseLimit - self.preflopMinRaiseLimit) 
                                     * (self.pokeriniRank - self.round0RaiseLinearlyThresh) / (self.round0RaiseFullThresh - self.round0RaiseLinearlyThresh))
+            if(self.pokeriniRank >= self.round0RaiseFullThresh):
+                self.preflopBetLimit = 200
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
         if(percentage > 1.0):
