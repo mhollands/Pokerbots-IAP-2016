@@ -1,0 +1,9 @@
+checkCallThresh0.4
+raiseLinearlyThresh0.6
+raiseFullThresh0.8
+round0CheckCallThresh0.4
+round0RaiseLinearlyThresh0.65
+round0RaiseFullThresh0.69
+preflopMaxRaise200
+preflopMinRaise200
+MUST HAVE THIS LINE AT THE END :)

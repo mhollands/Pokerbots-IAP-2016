@@ -4,6 +4,6 @@ raiseFullThresh0.8
 round0CheckCallThresh0.4
 round0RaiseLinearlyThresh0.6
 round0RaiseFullThersh0.69
-preflopMaxRaise100
-preflopMinRaise50
+preflopMaxRaiseLimit100
+preflopMinRaiseLimit50
 MUST HAVE THIS LINE AT THE END :)

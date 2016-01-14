@@ -7,7 +7,6 @@ import Pokerini
 import Simulation
 
 class Player:
-    #when both players agree with bet it is moved into the pot
     debugPrint = True
     iAgreeWithBet = False 
     opponentAgreesWithBet = False
@@ -40,7 +39,7 @@ class Player:
     round0CheckCallThresh = 0.3
     round0RaiseLinearlyThresh = 0.50
     round0RaiseFullThresh = 0.65
-    preflopMinRaiseLimit = 50 #these should be loaded from file, but aren't atm
+    preflopMinRaiseLimit = 50
     preflopMaxRaiseLimit = 200
 
     def loadParametersFromFile(self):
@@ -64,6 +63,12 @@ class Player:
                 if(x[0:21] == "round0RaiseFullThresh"):
                     self.round0RaiseFullThresh = float(x[21:-1])
                     print "round0RaiseFullThresh " + str(self.round0RaiseFullThresh)
+                if(x[0:20] == "preflopMinRaiseLimit"):
+                    self.preflopMinRaiseLimit = int(x[20:-1])
+                    print "preflopMinRaiseLimit " + str(self.preflopMinRaiseLimit)
+                if(x[0:20] == "preflopMaxRaiseLimit"):
+                    self.preflopMaxRaiseLimit = int(x[20:-1])
+                    print "preflopMaxRaiseLimit " + str(self.preflopMaxRaiseLimit)
             f.close()
 
     def run(self, input_socket):
@@ -79,16 +84,13 @@ class Player:
                 break
             if self.debugPrint:
                 print data
-            # When sending responses, terminate each response with a newline
-            # character (\n) or your bot will hang!
+            # When sending responses, terminate each response with a newline character (\n) or your bot will hang!
             self.parsePacket(data)
-            if self.debugPrint:
-                print ""
-            #time.sleep(2)
+            if self.debugPrint: print ""
         # Clean up the socket.
         s.close()
 
-    #if both players agree on bet, moves bet to pot
+    #If both players agree on bet, moves bet to pot
     def updatePot(self):
         if(self.iAgreeWithBet and self.opponentAgreesWithBet):
             self.myPot = self.myPot + self.myBet
@@ -360,6 +362,8 @@ class Player:
         if(self.pokeriniRank >= self.round0RaiseLinearlyThresh):
             self.preflopBetLimit = int(self.preflopMinRaiseLimit + (self.preflopMaxRaiseLimit - self.preflopMinRaiseLimit) 
                                     * (self.pokeriniRank - self.round0RaiseLinearlyThresh) / (self.round0RaiseFullThresh - self.round0RaiseLinearlyThresh))
+            if(self.pokeriniRank >= self.round0RaiseFullThresh):
+                self.preflopBetLimit = 200
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
         if(percentage > 1.0):
@@ -370,7 +374,7 @@ class Player:
         if(canBet):
             betAmount = int(percentage*(maxBet - minBet) + minBet)
             if(self.numBoardCards == 0 and betAmount >= self.preflopBetLimit): #make sure our bet is not above our preflop limit
-                betAmount == self.preflopBetLimit
+                betAmount = self.preflopBetLimit
             if(betAmount < minBet):
                 return self.checkCall(canCheck, canCall)
             return "BET:"+str(betAmount)
@@ -378,8 +382,8 @@ class Player:
         if(canRaise):
             raiseAmount = int(percentage*(maxRaise - minRaise) + minRaise)
             if(self.numBoardCards == 0 and raiseAmount >= self.preflopBetLimit): #make sure our raise is not above our preflop limit
-                raiseAmount == self.preflopBetLimit
-            if(raiseAmount < minBet):
+                raiseAmount = self.preflopBetLimit
+            if(raiseAmount < minRaise):
                 return self.checkCall(canCheck, canCall)
             return "RAISE:"+str(raiseAmount)
         return self.checkCall(canCheck, canCall) #if you cant betRaise, checkCall
