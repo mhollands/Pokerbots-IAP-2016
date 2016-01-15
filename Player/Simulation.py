@@ -38,24 +38,24 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations, handEvalTable, t
     boardString = ''
     for card in myHand: handString += (str(evalTable.convertRoyaltyNum(card[0])) + card[1])
     for card in boardCards: boardString += (str(evalTable.convertRoyaltyNum(card[0])) + card[1])
-    handString = evalTable.translateHand(handString)
-    boardString = evalTable.translateHand(boardString)
+    handString = evalTable.translateHand(handString, translationDict)
+    boardString = evalTable.translateHand(boardString, translationDict)
     if (numBoardCards == 3 or numBoardCards == 4):
         for x in xrange(0,numSimulations): 
-            newCards = generateHandString(9-numBoardCards, handString + boardString)
+            newCards = evalTable.generateHandString(9-numBoardCards, handString + boardString)
             fakeBoard = boardString + newCards[0:5-numBoardCards]
             fakeOpponent = newCards[5-numBoardCards:]
-            myBest = findBestHand(handString, fakeBoard)
-            opponentBest = findBestHand(fakeOpponent, fakeBoard)
+            myBest = findBestHand(handString, fakeBoard, handEvalTable)
+            opponentBest = findBestHand(fakeOpponent, fakeBoard, handEvalTable)
             #if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
             if myBest[0] > opponentBest[0]: wins+=1
         winPercentage = 1.0*wins/numSimulations
         return winPercentage
     
     if numBoardCards == 5:
-        myBest = findBestHand(handString, boardString)
+        myBest = findBestHand(handString, boardString, handEvalTable)
         for x in xrange(0,numSimulations): 
-            fakeOpponent = generateHandString(4, handString + boardString)
+            fakeOpponent = evalTable.generateHandString(4, handString + boardString)
             opponentBest = findBestHand(fakeOpponent, boardString, handEvalTable)
             #if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
             if myBest[0] > opponentBest[0]: wins+=1
@@ -74,7 +74,7 @@ def findBestHand(ourHand, tableHand, handEvalTable):
     for ourCombo in ourCardsList:
         for tableCombo in tableCardsList:
             hand = ourCombo + tableCombo
-            handValue = evalTable.evaluateHand(hand)
+            handValue = evalTable.evaluateHand(hand, handEvalTable)
             possibleHands.append((handValue,hand))
 
     bestVal = max(possibleHands, key = lambda x: x[0])
