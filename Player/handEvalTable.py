@@ -4,6 +4,7 @@ import random
 import csv
 import time
 import string
+import PokerPhysics as PP
 
 def createEvalCSV():
 	allCards = []
@@ -62,11 +63,9 @@ def generateHandString(numCards,cardString):
 		cardString += card
 	return handString
 
-def evaluateHand(hand):
+def evaluateHand(hand, handEvalDict):
 	hand = ''.join(sorted(hand, reverse = True))
-	#print hand
 	handValue = handEvalDict[hand]
-	#print handValue
 	return handValue
 
 def convertRoyaltyTP(card):
@@ -105,29 +104,10 @@ def reverseRoyaltyConvert(num):
 		return 14
 	return num
 
-def translateHand(hand):
+def translateHand(hand, translationDict):
 	numCards = len(hand)/2
 	handString = ''
 	for i in range(numCards):
 		key = str(reverseRoyaltyConvert(hand[2*i])) + hand[2*i + 1]
 		handString += translationDict[key]
 	return handString
-'''
-if __name__ == '__main__':
-	translationDict = loadTranslationDict()
-	#createEvalCSV()
-	start =time.time()
-	handEvalDict = loadHandEval()
-	end =time.time()
-	print end -start
-	hand = [(3,"h"),(3,"s"),(4,"d"),(8,"c")]
-	board = [(14,"d"),(14,"s"),(12,"d")]
-	start =time.time()
-	print Simulation.simulate(hand, board,3,5000)
-	end =time.time()
-	print end - start
-	start =time.time()
-	print simulate2(hand, board,3,5000)
-	end =time.time()
-	print end - start
-'''
