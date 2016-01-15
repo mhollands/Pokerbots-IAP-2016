@@ -1,0 +1,9 @@
+checkCallThresh 0.4
+raiseLinearlyThresh 0.6
+raiseFullThresh 0.8
+round0CheckCallThresh 0.4
+round0RaiseLinearlyThresh 0.55
+round0RaiseFullThresh 0.69
+preflopMaxRaiseLimit 100
+preflopMinRaiseLimit 25
+Connecting to localhost:3001
