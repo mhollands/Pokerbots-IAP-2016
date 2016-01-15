@@ -1,5 +1,6 @@
 import PokerPhysics as PP
 import handEvalTable as evalTable
+from itertools import combinations
 
 #Picks random cards to fill out the table and runs multiple simulations to find an approximation for the win probability
 '''
@@ -31,7 +32,7 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
         return winPercentage
 '''
 #Picks random cards to fill out the table and runs multiple simulations to find an approximation for the win probability using eval table
-def simulate(myHand, boardCards, numBoardCards, numSimulations):
+def simulate(myHand, boardCards, numBoardCards, numSimulations, handEvalTable, translationDict):
     wins = 0
     handString = ''
     boardString = ''
@@ -52,18 +53,16 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations):
         return winPercentage
     
     if numBoardCards == 5:
-        myBest = findBestHand(handString, boardCards)
+        myBest = findBestHand(handString, boardString)
         for x in xrange(0,numSimulations): 
-            newCards = generateHandString(4, handString + boardString)
-            fakeOpponent = newCards
-            opponentBest = findBestHand(fakeOpponent, fakeBoard)
+            fakeOpponent = generateHandString(4, handString + boardString)
+            opponentBest = findBestHand(fakeOpponent, boardString, handEvalTable)
             #if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
             if myBest[0] > opponentBest[0]: wins+=1
         winPercentage = 1.0*wins/numSimulations
         return winPercentage
 
-
-def findBestHand(ourHand, tableHand):
+def findBestHand(ourHand, tableHand, handEvalTable):
     #Generate all appropriate length combinations from the tableHand and ourHand
     #ourHandString = translateHand(ourHand)
     #tableString = translateHand(tableHand)
@@ -84,4 +83,3 @@ def findBestHand(ourHand, tableHand):
     #sortedByValue = sorted(sortHands, key = lambda x: (x[0][0], x[0][1], x[0][2], x[0][3], x[0][4], x[0][5]), reverse = True)
     #print sortedByValue[0]
     return bestVal
-

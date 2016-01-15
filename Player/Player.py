@@ -356,7 +356,7 @@ class Player:
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
                 self.calculatePreflopBetLimit()
             if(self.numBoardCards >= 3):#postflop
-                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 50)
+                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 50, handEvalDict, translationDict)
         self.cardsChanged = False
 
     def calculatePreflopBetLimit(self): #calculate maximum raise/bet in preflop stage
@@ -422,9 +422,10 @@ if __name__ == '__main__':
 
     start =time.time()
     handEvalDict = evalTable.loadHandEval()
+    translationDict = evalTable.loadTranslationDict()
     end =time.time()
     print end -start
-    
+
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
     parser.add_argument('-h', dest='host', type=str, default='localhost', help='Host to connect to, defaults to localhost')
     parser.add_argument('port', metavar='PORT', type=int, help='Port on host to connect to')

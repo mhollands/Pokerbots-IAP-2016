@@ -65,11 +65,9 @@ def generateHandString(numCards,cardString):
 		cardString += card
 	return handString
 
-def evaluateHand(hand):
+def evaluateHand(hand, handEvalDict):
 	hand = ''.join(sorted(hand, reverse = True))
-	#print hand
 	handValue = handEvalDict[hand]
-	#print handValue
 	return handValue
 
 def convertRoyaltyTP(card):
@@ -108,10 +106,11 @@ def reverseRoyaltyConvert(num):
 		return 14
 	return num
 
-def translateHand(hand):
+def translateHand(hand, translationDict):
 	numCards = len(hand)/2
 	handString = ''
 	for i in range(numCards):
 		key = str(reverseRoyaltyConvert(hand[2*i])) + hand[2*i + 1]
 		handString += translationDict[key]
+
 	return handString
