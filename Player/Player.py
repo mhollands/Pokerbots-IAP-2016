@@ -36,9 +36,9 @@ class Player:
     checkCallThresh = 0.4
     raiseLinearlyThresh = 0.6
     raiseFullThresh = 0.8
-    round0CheckCallThresh = 0.3
-    round0RaiseLinearlyThresh = 0.50
-    round0RaiseFullThresh = 0.65
+    round0CheckCallThresh = 0.4
+    round0RaiseLinearlyThresh = 0.60
+    round0RaiseFullThresh = 0.69
     preflopMinRaiseLimit = 50
     preflopMaxRaiseLimit = 200
 
