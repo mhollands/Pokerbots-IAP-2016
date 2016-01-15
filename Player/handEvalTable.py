@@ -64,7 +64,7 @@ def generateHandString(numCards,cardString):
 		cardString += card
 		#print cardString
 		#print handString
-	handString = ''.join(sorted(handString))
+	handString = ''.join(handString)
 	return handString
 
 def evaluateHand(hand):
@@ -152,7 +152,6 @@ def simulate2(myHand, boardCards, numBoardCards, numSimulations):
 	wins = 0
 
 	for x in xrange(0,numSimulations): 
-		#print handString + boardString
 		handString = ''
 		boardString = ''
 		for card in myHand: handString += (str(convertRoyaltyNum(card[0])) + card[1])
@@ -160,12 +159,14 @@ def simulate2(myHand, boardCards, numBoardCards, numSimulations):
 		handString = translateHand(handString)
 		boardString = translateHand(boardString)
 		newCards = generateHandString(9-numBoardCards, handString + boardString)
-		'''
+
+		"""
 		newCardList = PP.generateHand(9-numBoardCards, set(myHand + boardCards))
 		newCards = ''
 		for card in newCardList:
 			newCards +=translateHand((str(convertRoyaltyNum(card[0])) + card[1]))
-		'''
+		"""
+
 		fakeBoard = boardString + newCards[0:5-numBoardCards]
 		fakeOpponent = newCards[5-numBoardCards:]
 		myBest = findBestHand(handString, fakeBoard)
@@ -181,17 +182,17 @@ if __name__ == '__main__':
 	start =time.time()
 	handEvalDict = loadHandEval()
 	end =time.time()
-	print end -start
+	#print end -start
 	hand = [(3,"h"),(3,"s"),(4,"d"),(8,"c")]
 	board = [(14,"d"),(14,"s"),(12,"d")]
 	start =time.time()
-	print Simulation.simulate(hand, board,3,1000)
+	print Simulation.simulate(hand, board,3,5000)
 	end =time.time()
-	print end - start
+	#print end - start
 	start =time.time()
-	print simulate2(hand, board,3,1000)
+	print simulate2(hand, board,3,5000)
 	end =time.time()
-	print end - start
+	#print end - start
 
 
 
