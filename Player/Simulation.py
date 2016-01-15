@@ -52,10 +52,10 @@ def simulate(myHand, boardCards, numBoardCards, numSimulations, handEvalTable, t
         return winPercentage
     
     if numBoardCards == 5:
-        myBest = findBestHand(handString, boardCards, handEvalTable)
+        myBest = findBestHand(handString, boardString, handEvalTable)
         for x in xrange(0,numSimulations): 
             fakeOpponent = evalTable.generateHandString(4, handString + boardString)
-            opponentBest = findBestHand(fakeOpponent, fakeBoard, handEvalTable)
+            opponentBest = findBestHand(fakeOpponent, boardString, handEvalTable)
             if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
         winPercentage = 1.0*wins/numSimulations
         return winPercentage
