@@ -363,7 +363,7 @@ class Player:
             self.preflopBetLimit = int(self.preflopMinRaiseLimit + (self.preflopMaxRaiseLimit - self.preflopMinRaiseLimit) 
                                     * (self.pokeriniRank - self.round0RaiseLinearlyThresh) / (self.round0RaiseFullThresh - self.round0RaiseLinearlyThresh))
             if(self.pokeriniRank >= self.round0RaiseFullThresh):
-                self.preflopBetLimit = 200
+                self.preflopBetLimit = 400
 
     def betRaise(self, percentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall):
         if(percentage > 1.0):
