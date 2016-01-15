@@ -22,9 +22,6 @@ def createEvalCSV():
 		handValue = PP.findHandValue(hand)
 		handString = ''
 		for card in hand:
-			'''
-			handString += (str(card[0]) + card[1])
-			'''
 			key = str(card[0]) + card[1]
 			handString += translationDict[key]
 		handValueString = ''
@@ -41,12 +38,17 @@ def generateCardList():
 			allCards.append(str(num) + suit)
 	return allCards
 
+def pickRandomCard(cardString):
+	while True:
+		card = random.choice(string.ascii_letters)
+		if card not in cardString:
+			return card
+
 def loadHandEval():
 	handEvalDict = dict()
 	with open('handFile.csv') as csvfile:
 		reader = csv.reader(csvfile)
 		for row in reader:
-			#print row[0]
 			handValue = []
 			for num in row[1]:
 				handValue.append(int(reverseRoyaltyConvert(num)))
@@ -64,15 +66,6 @@ def generateHandString(numCards,cardString):
 		#print handString
 	handString = ''.join(sorted(handString))
 	return handString
-
-def pickRandomCard(cardString):
-	while True:
-		num = random.randint(0,51)
-		card = string.ascii_letters[num]
-		#card = random.choice(string.ascii_letters)
-		#card = random.choice('QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm')
-		if card not in cardString:
-			return card
 
 def evaluateHand(hand):
 	hand = ''.join(sorted(hand, reverse = True))
@@ -157,14 +150,15 @@ def findBestHand(ourHand, tableHand):
 
 def simulate2(myHand, boardCards, numBoardCards, numSimulations):
 	wins = 0
-	handString = ''
-	boardString = ''
-	for card in myHand: handString += (str(convertRoyaltyNum(card[0])) + card[1])
-	for card in boardCards: boardString += (str(convertRoyaltyNum(card[0])) + card[1])
-	handString = translateHand(handString)
-	boardString = translateHand(boardString)
+
 	for x in xrange(0,numSimulations): 
 		#print handString + boardString
+		handString = ''
+		boardString = ''
+		for card in myHand: handString += (str(convertRoyaltyNum(card[0])) + card[1])
+		for card in boardCards: boardString += (str(convertRoyaltyNum(card[0])) + card[1])
+		handString = translateHand(handString)
+		boardString = translateHand(boardString)
 		newCards = generateHandString(9-numBoardCards, handString + boardString)
 		'''
 		newCardList = PP.generateHand(9-numBoardCards, set(myHand + boardCards))
@@ -173,9 +167,7 @@ def simulate2(myHand, boardCards, numBoardCards, numSimulations):
 			newCards +=translateHand((str(convertRoyaltyNum(card[0])) + card[1]))
 		'''
 		fakeBoard = boardString + newCards[0:5-numBoardCards]
-		#print fakeBoard
 		fakeOpponent = newCards[5-numBoardCards:]
-		#print fakeOpponent
 		myBest = findBestHand(handString, fakeBoard)
 		opponentBest = findBestHand(fakeOpponent, fakeBoard)
 		if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
@@ -183,50 +175,7 @@ def simulate2(myHand, boardCards, numBoardCards, numSimulations):
 	winPercentage = 1.0*wins/numSimulations
 
 	return winPercentage
-
-'''
-def simulate(myHand, boardCards, numBoardCards, numSimulations):
-	wins = 0
-	if(numBoardCards == 3):
-		for x in xrange(0,numSimulations):
-			cardSet = set(boardCards)
-			for card in myHand: cardSet.add(card)
-			newCards = PP.generateHand(6, cardSet)
-			fakeBoard = boardCards + newCards[0:2]
-			fakeOpponent = newCards[2:]
-			myBest = PP.findBestHand(myHand, fakeBoard)
-			opponentBest = PP.findBestHand(fakeOpponent, fakeBoard)
-			if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
-		winPercentage = 1.0*wins/numSimulations
-		return winPercentage
-
-	if(numBoardCards == 4):
-		for x in xrange(0,numSimulations):
-			cardSet = set(boardCards)
-			for card in myHand: cardSet.add(card)
-			newCards = PP.generateHand(5, cardSet)
-			fakeBoard = boardCards + newCards[0:1]
-			fakeOpponent = newCards[1:]
-			myBest = PP.findBestHand(myHand, fakeBoard)
-			opponentBest = PP.findBestHand(fakeOpponent, fakeBoard)
-			if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
-		winPercentage = 1.0*wins/numSimulations
-		return winPercentage
-
-	if(numBoardCards == 5):
-		myBest = PP.findBestHand(myHand, boardCards)
-		print myBest
-		for x in xrange(0,numSimulations):
-			cardSet = set(boardCards)
-			for card in myHand: cardSet.add(card)
-			fakeOpponent = PP.generateHand(4, cardSet)
-			opponentBest = PP.findBestHand(fakeOpponent, boardCards)
-			if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
-		winPercentage = 1.0*wins/numSimulations
-		return winPercentage
-'''
 if __name__ == '__main__':
-	print string.ascii_letters
 	translationDict = loadTranslationDict()
 	#createEvalCSV()
 	start =time.time()
@@ -243,15 +192,10 @@ if __name__ == '__main__':
 	print simulate2(hand, board,3,1000)
 	end =time.time()
 	print end - start
-	'''
-	start =time.time()
-	print simulate([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h"),(11,"d")],4,1)
-	end =time.time()
-	print end -start
-	start =time.time()
-	print simulate2([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h"),(11,"d")],4,1)
-	end =time.time()
-	print end -start
+
+
+
+	
 	'''
 	for i in range(100):
 		myHand = [(2,"h"),(12,"s"),(4,"s"),(14,"c")]
@@ -268,9 +212,8 @@ if __name__ == '__main__':
 			print boardCards
 			print sim1
 			print sim2
+	
 
-	print 'done'
-	'''
 	start =time.time()
 	print simulate([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h"),(11,"d"),(10,"s")],5,10)
 	end =time.time()

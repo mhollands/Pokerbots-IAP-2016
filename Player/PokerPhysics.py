@@ -120,7 +120,8 @@ def pickRandomCard(cardSet):
         cardNum = random.randint(2,14)
         cardSuit = random.choice(['h','s','c','d'])
         card = (cardNum, cardSuit)
-        if card not in cardSet: return card
+        if card not in cardSet:
+        	return card
 
 #Picks a random hand of cards of size numCards
 def generateHand(numCards, cardSet):
