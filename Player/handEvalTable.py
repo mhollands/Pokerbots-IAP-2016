@@ -1,11 +1,9 @@
-import PokerPhysics as PP
 from itertools import combinations
 from operator import itemgetter
 import random
 import csv
 import time
 import string
-import Simulation
 
 def createEvalCSV():
 	allCards = []
@@ -62,9 +60,6 @@ def generateHandString(numCards,cardString):
 		card = pickRandomCard(cardString)
 		handString += card
 		cardString += card
-		#print cardString
-		#print handString
-	handString = ''.join(handString)
 	return handString
 
 def evaluateHand(hand):
@@ -117,109 +112,22 @@ def translateHand(hand):
 		key = str(reverseRoyaltyConvert(hand[2*i])) + hand[2*i + 1]
 		handString += translationDict[key]
 	return handString
-
-def findBestHand(ourHand, tableHand):
-
-	#Generate all appropriate length combinations from the tableHand and ourHand
-	#ourHandString = translateHand(ourHand)
-	#tableString = translateHand(tableHand)
-	ourCardsList = list(combinations(ourHand, 2))
-	tableCardsList = list(combinations(tableHand, 3))
-	
-	#Combine the combinations into all possible hands and determine their values
-	possibleHands = []
-	currentMax = 0
-	for ourCombo in ourCardsList:
-		for tableCombo in tableCardsList:
-			hand = ourCombo + tableCombo
-			handValue = evaluateHand(hand)
-			if handValue[0] >= currentMax:
-				currentMax = handValue[0]
-				possibleHands.append((handValue,hand))
-
-	#Cut the sortable list down to just maximum category hands
-	sortHands = []
-	for hand in possibleHands:
-		if hand[0][0] == currentMax:
-			sortHands.append(hand)
-
-	#Sort the hands by value and then return the best
-	sortedByValue = sorted(sortHands, key = lambda x: (x[0][0], x[0][1], x[0][2], x[0][3], x[0][4], x[0][5]), reverse = True)
-	#print sortedByValue[0]
-	return sortedByValue[0]
-
-def simulate2(myHand, boardCards, numBoardCards, numSimulations):
-	wins = 0
-
-	for x in xrange(0,numSimulations): 
-		handString = ''
-		boardString = ''
-		for card in myHand: handString += (str(convertRoyaltyNum(card[0])) + card[1])
-		for card in boardCards: boardString += (str(convertRoyaltyNum(card[0])) + card[1])
-		handString = translateHand(handString)
-		boardString = translateHand(boardString)
-		newCards = generateHandString(9-numBoardCards, handString + boardString)
-
-		"""
-		newCardList = PP.generateHand(9-numBoardCards, set(myHand + boardCards))
-		newCards = ''
-		for card in newCardList:
-			newCards +=translateHand((str(convertRoyaltyNum(card[0])) + card[1]))
-		"""
-
-		fakeBoard = boardString + newCards[0:5-numBoardCards]
-		fakeOpponent = newCards[5-numBoardCards:]
-		myBest = findBestHand(handString, fakeBoard)
-		opponentBest = findBestHand(fakeOpponent, fakeBoard)
-		if PP.isBetterHand(myBest[0], opponentBest[0]) == 1 : wins+=1
-
-	winPercentage = 1.0*wins/numSimulations
-
-	return winPercentage
+'''
 if __name__ == '__main__':
 	translationDict = loadTranslationDict()
 	#createEvalCSV()
 	start =time.time()
 	handEvalDict = loadHandEval()
 	end =time.time()
-	#print end -start
+	print end -start
 	hand = [(3,"h"),(3,"s"),(4,"d"),(8,"c")]
 	board = [(14,"d"),(14,"s"),(12,"d")]
 	start =time.time()
 	print Simulation.simulate(hand, board,3,5000)
 	end =time.time()
-	#print end - start
+	print end - start
 	start =time.time()
 	print simulate2(hand, board,3,5000)
 	end =time.time()
-	#print end - start
-
-
-
-	
-	'''
-	for i in range(100):
-		myHand = [(2,"h"),(12,"s"),(4,"s"),(14,"c")]
-		boardCards = PP.generateHand(5,set(myHand))
-		handString = ''
-		boardString = ''
-		for card in myHand: handString += (str(convertRoyaltyNum(card[0])) + card[1])
-		for card in boardCards: boardString += (str(convertRoyaltyNum(card[0])) + card[1])
-		handString = translateHand(handString)
-		boardString = translateHand(boardString)
-		sim2 = findBestHand(handString, boardString)[0]
-		sim1 = PP.findBestHand(myHand, boardCards)[0]
-		if sim1 != sim2:
-			print boardCards
-			print sim1
-			print sim2
-	
-
-	start =time.time()
-	print simulate([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h"),(11,"d"),(10,"s")],5,10)
-	end =time.time()
-	start =time.time()
-	print simulate2([(2,"h"),(3,"s"),(4,"d"),(14,"c")],[(2,"d"),(7,"d"),(12,"h"),(11,"d"),(10,"s")],5,10)
-	end =time.time()
-	print end -start
-	'''
+	print end - start
+'''

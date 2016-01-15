@@ -3,6 +3,7 @@ import socket
 import sys
 import time
 import PokerPhysics as PP
+import handEvalTable as EvalTable
 import Pokerini
 import Simulation
 
@@ -416,7 +417,12 @@ if __name__ == '__main__':
     bot = Player()
     bot.loadParametersFromFile()
     pokeriniDict = Pokerini.pokeriniInitialise()
-
+    
+    start =time.time()
+    handEvalDict = evalTable.loadHandEval()
+    end =time.time()
+    print end -start
+    
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
     parser.add_argument('-h', dest='host', type=str, default='localhost', help='Host to connect to, defaults to localhost')
     parser.add_argument('port', metavar='PORT', type=int, help='Port on host to connect to')
