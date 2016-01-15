@@ -4,6 +4,7 @@ import random
 import csv
 import time
 import string
+import PokerPhysics as PP
 
 def createEvalCSV():
 	allCards = []
@@ -24,10 +25,11 @@ def createEvalCSV():
 			handString += translationDict[key]
 		handValueString = ''
 		for num in handValue:
-			handValueString += str(convertRoyaltyNum(num))
+			if num < 10: addHand = "0" + str(num)
+			else: addHand = str(num)
+			handValueString += addHand
 		writer.writerow((handString , handValueString))
 	return 0
-
 
 def generateCardList():
 	allCards = []
@@ -47,11 +49,12 @@ def loadHandEval():
 	with open('handFile.csv') as csvfile:
 		reader = csv.reader(csvfile)
 		for row in reader:
-			handValue = []
+			handEvalDict[row[0]] = int(row[1])
+			"""handValue = []
 			for num in row[1]:
 				handValue.append(int(reverseRoyaltyConvert(num)))
 			keyString = row[0]
-			handEvalDict[keyString]  = handValue
+			handEvalDict[keyString]  = handValue"""
 	return handEvalDict
 
 def generateHandString(numCards,cardString):
@@ -112,22 +115,3 @@ def translateHand(hand):
 		key = str(reverseRoyaltyConvert(hand[2*i])) + hand[2*i + 1]
 		handString += translationDict[key]
 	return handString
-'''
-if __name__ == '__main__':
-	translationDict = loadTranslationDict()
-	#createEvalCSV()
-	start =time.time()
-	handEvalDict = loadHandEval()
-	end =time.time()
-	print end -start
-	hand = [(3,"h"),(3,"s"),(4,"d"),(8,"c")]
-	board = [(14,"d"),(14,"s"),(12,"d")]
-	start =time.time()
-	print Simulation.simulate(hand, board,3,5000)
-	end =time.time()
-	print end - start
-	start =time.time()
-	print simulate2(hand, board,3,5000)
-	end =time.time()
-	print end - start
-'''

@@ -3,7 +3,7 @@ import socket
 import sys
 import time
 import PokerPhysics as PP
-import handEvalTable as EvalTable
+import handEvalTable as evalTable
 import Pokerini
 import Simulation
 
@@ -418,6 +418,8 @@ if __name__ == '__main__':
     bot.loadParametersFromFile()
     pokeriniDict = Pokerini.pokeriniInitialise()
     
+    #evalTable.createEvalCSV()
+
     start =time.time()
     handEvalDict = evalTable.loadHandEval()
     end =time.time()
