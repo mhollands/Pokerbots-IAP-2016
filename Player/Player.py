@@ -358,7 +358,7 @@ class Player:
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
                 self.calculatePreflopBetLimit()
             if(self.numBoardCards >= 3):#postflop
-                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 130, handEvalDict, translationDict)
+                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 225, handEvalDict, translationDict)
         self.cardsChanged = False
 
     def calculatePreflopBetLimit(self): #calculate maximum raise/bet in preflop stage
