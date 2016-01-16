@@ -34,11 +34,11 @@ class Player:
     timeBank = 0
     preflopBetLimit = 0
 
-    checkCallThresh = 0.5
-    raiseLinearlyThresh = 0.6
+    checkCallThresh = 0.0
+    raiseLinearlyThresh = 0.5
     raiseFullThresh = 0.8
-    round0CheckCallThresh = 0.5
-    round0RaiseLinearlyThresh = 0.60
+    round0CheckCallThresh = 0.0
+    round0RaiseLinearlyThresh = 0.5
     round0RaiseFullThresh = 0.69
     preflopMinRaiseLimit = 50
     preflopMaxRaiseLimit = 200
@@ -333,7 +333,7 @@ class Player:
             if(self.pokeriniRank < self.round0CheckCallThresh): #if we are in the checkFold region
                 return self.checkFold(canCheck)
             if(self.pokeriniRank < self.round0RaiseLinearlyThresh): #if we are in the checkCall region
-                return self.checkCall(canCheck, canCall)
+                return self.checkCallFold(canCheck, canCall, self.pokeriniRank)
             if(self.pokeriniRank > self.round0RaiseFullThresh): #if we are in the raise full region (above 65%) 
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
@@ -345,7 +345,7 @@ class Player:
             if self.simulationWinChance < self.checkCallThresh: #if we are in the checkCallFold region
                 return self.checkCallFold(canCheck, canCall)
             if(self.simulationWinChance < self.raiseLinearlyThresh): #if we are in the checkCall region
-                return self.checkCall(canCheck, canCall)
+                return self.checkCallFold(canCheck, canCall, self.simulationWinChance)
             if(self.simulationWinChance > self.raiseFullThresh): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
@@ -398,13 +398,11 @@ class Player:
         return "FOLD"
 
     # this function will check if possible, otheriwise, call up to a limit, otherwise fold
-    def checkCallFold(self, canCheck, canCall):
+    def checkCallFold(self, canCheck, canCall, winChance):
         if(canCheck):
             return "CHECK"
-        currentRound = self.numBoardCards - 2
-        maxCall = 0.05 * currentRound * (self.myPot + self.opponentPot)
-        if(self.opponentBet <= maxCall):
-            print "dogBot never folds!"
+        EV = winChance * (self.potSize + (self.opponentBet - self.myBet)) - (self.opponentBet - self.myBet)
+        if(EV > 0):
             return "CALL"
         return "FOLD"
 
