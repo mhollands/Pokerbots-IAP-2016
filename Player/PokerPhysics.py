@@ -109,7 +109,7 @@ def findHandValue(hand):
 				if not ((j == i) or (j == i+1)):
 					handType.append(sortedNum[j])
 			handType.append(0)
-			handType.append(0)
+			#handType.append(0)
 			return handType
 	
 	#Returns the cards in descending order along with the information that there is only a high card
