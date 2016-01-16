@@ -304,7 +304,7 @@ class Player:
         
     def handlePacketRequestKeyValues(self):
         if self.debugPrint: print "FINISHED"
-        #handEvalDict.clear() #MUST CLEAR THE DICTIONARY OR ENGINE COMPLAINS!
+        handEvalDict.clear() #MUST CLEAR THE DICTIONARY OR ENGINE COMPLAINS!
         s.send("FINISH\n") #default behaviour of example player
 
     def handlePacketUnknownType(self):
@@ -414,20 +414,17 @@ class Player:
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
     
 if __name__ == '__main__':
-    
+    start =time.time()
     bot = Player()
     #bot.loadParametersFromFile()
     pokeriniDict = Pokerini.pokeriniInitialise()
     
     #evalTable.createEvalCSV()
 
-    """
-    start =time.time()
+    '''
     handEvalDict = evalTable.loadHandEval()
     translationDict = evalTable.loadTranslationDict()
-    end =time.time()
-    print end -start
-    """
+    '''
 
     parser = argparse.ArgumentParser(description='A Pokerbot.', add_help=False, prog='pokerbot')
     parser.add_argument('-h', dest='host', type=str, default='localhost', help='Host to connect to, defaults to localhost')
@@ -441,5 +438,6 @@ if __name__ == '__main__':
     except socket.error as e:
         print 'Error connecting! Aborting'
         exit()
-
+    end =time.time()
+    print end -start
     bot.run(s)

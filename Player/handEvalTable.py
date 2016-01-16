@@ -51,6 +51,11 @@ def loadHandEval():
 		reader = csv.reader(csvfile)
 		for row in reader:
 			handEvalDict[row[0]] = int(row[1])
+			"""handValue = []
+			for num in row[1]:
+				handValue.append(int(reverseRoyaltyConvert(num)))
+			keyString = row[0]
+			handEvalDict[keyString]  = handValue"""
 		csvfile.close()
 	return handEvalDict
 
