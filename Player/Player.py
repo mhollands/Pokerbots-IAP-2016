@@ -303,6 +303,8 @@ class Player:
         self.cardsChanged = True
         
     def handlePacketRequestKeyValues(self):
+        if self.debugPrint: print "FINISHED"
+        handEvalDict.clear() #MUST CLEAR THE DICTIONARY OR ENGINE COMPLAINS!
         s.send("FINISH\n") #default behaviour of example player
 
     def handlePacketUnknownType(self):

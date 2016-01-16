@@ -29,6 +29,7 @@ def createEvalCSV():
 			else: addHand = str(num)
 			handValueString += addHand
 		writer.writerow((handString , handValueString))
+	handfile.close()
 	return 0
 
 def generateCardList():
@@ -55,6 +56,7 @@ def loadHandEval():
 				handValue.append(int(reverseRoyaltyConvert(num)))
 			keyString = row[0]
 			handEvalDict[keyString]  = handValue"""
+		csvfile.close()
 	return handEvalDict
 
 def generateHandString(numCards,cardString):
