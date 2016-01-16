@@ -34,10 +34,10 @@ class Player:
     timeBank = 0
     preflopBetLimit = 0
 
-    checkCallThresh = 0.4
+    checkCallThresh = 0.5
     raiseLinearlyThresh = 0.6
     raiseFullThresh = 0.8
-    round0CheckCallThresh = 0.4
+    round0CheckCallThresh = 0.5
     round0RaiseLinearlyThresh = 0.60
     round0RaiseFullThresh = 0.69
     preflopMinRaiseLimit = 50
@@ -356,7 +356,7 @@ class Player:
                 self.pokeriniRank = Pokerini.pokeriniLookup(self.myHand, pokeriniDict)
                 self.calculatePreflopBetLimit()
             if(self.numBoardCards >= 3):#postflop
-                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 50, handEvalDict, translationDict)
+                self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 130, handEvalDict, translationDict)
         self.cardsChanged = False
 
     def calculatePreflopBetLimit(self): #calculate maximum raise/bet in preflop stage
@@ -413,9 +413,9 @@ class Player:
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
     
 if __name__ == '__main__':
-
+    
     bot = Player()
-    bot.loadParametersFromFile()
+    #bot.loadParametersFromFile()
     pokeriniDict = Pokerini.pokeriniInitialise()
     
     #evalTable.createEvalCSV()
