@@ -1,6 +1,6 @@
 import os
 
-numMatches = 2
+numMatches = 8
 
 def getResult():
 	f = open("competitor/result.txt")
