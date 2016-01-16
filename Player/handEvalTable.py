@@ -114,3 +114,12 @@ def translateHand(hand, translationDict):
 		handString += translationDict[key]
 
 	return handString
+
+def translateHandToStringType(hand, translationDict):
+	numCards = len(hand)
+	handString = ''
+	for i in range(numCards):
+		key = str(reverseRoyaltyConvert(hand[i][0])) + hand[i][1]
+		handString += translationDict[key]
+
+	return handString
