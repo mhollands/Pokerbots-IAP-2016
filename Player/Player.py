@@ -6,6 +6,7 @@ import PokerPhysics as PP
 import handEvalTable as evalTable
 import Pokerini
 import Simulation
+import math
 
 class Player:
     debugPrint = True
@@ -35,11 +36,11 @@ class Player:
     preflopBetLimit = 0
 
     checkCallThresh = 0.0
-    raiseLinearlyThresh = 0.5
-    raiseFullThresh = 0.8
+    raiseLinearlyThresh = 0.6
+    raiseFullThresh = 1.0
     round0CheckCallThresh = 0.0
     round0RaiseLinearlyThresh = 0.5
-    round0RaiseFullThresh = 0.69
+    round0RaiseFullThresh = 1.0
     preflopMinRaiseLimit = 50
     preflopMaxRaiseLimit = 200
 
@@ -337,20 +338,25 @@ class Player:
             if(self.pokeriniRank > self.round0RaiseFullThresh): #if we are in the raise full region (above 65%) 
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = ((self.pokeriniRank - self.round0RaiseLinearlyThresh)/(self.round0RaiseFullThresh-self.round0RaiseLinearlyThresh))
+            raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, self.round0RaiseLinearlyThresh)
+            print raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
             if self.simulationWinChance < self.checkCallThresh: #if we are in the checkCallFold region
-                return self.checkCallFold(canCheck, canCall)
+                return self.checkFold(canCheck, canCall)
             if(self.simulationWinChance < self.raiseLinearlyThresh): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.simulationWinChance)
             if(self.simulationWinChance > self.raiseFullThresh): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = ((self.simulationWinChance - self.raiseLinearlyThresh)/(self.raiseFullThresh - self.raiseLinearlyThresh))
+            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, self.raiseLinearlyThresh)
+            print raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
+
+    def calculateRaisePercentage(self, myLambda, winChance, raiseThresh):
+        return 1 - math.exp(-1 * myLambda * (winChance - raiseThresh))
 
     def updateHandRanking(self):
         if(self.cardsChanged == True):
@@ -359,7 +365,7 @@ class Player:
                 self.calculatePreflopBetLimit()
             if(self.numBoardCards >= 3):#postflop
                 #self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 200, handEvalDict, translationDict)
-                self.simulationWinChance = Simulation.simulateOld(self.myHand, self.boardCards, self.numBoardCards, 60)
+                self.simulationWinChance = Simulation.simulateOld(self.myHand, self.boardCards, self.numBoardCards,50)
         self.cardsChanged = False
 
     def calculatePreflopBetLimit(self): #calculate maximum raise/bet in preflop stage
