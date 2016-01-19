@@ -429,7 +429,7 @@ class Player:
             percentage = 0.0
 
         if(canBet):
-            betAmount = int(percentage*(maxBet - minBet) + minBet)
+            betAmount = round(percentage*(maxBet - minBet) + minBet)
             if(self.numBoardCards == 0 and betAmount >= self.preflopBetLimit): #make sure our bet is not above our preflop limit
                 betAmount = self.preflopBetLimit
             if(betAmount < minBet):
@@ -437,7 +437,7 @@ class Player:
             return "BET:"+str(betAmount)
 
         if(canRaise):
-            raiseAmount = int(percentage*(maxRaise - minRaise) + minRaise)
+            raiseAmount = round(percentage*(maxRaise - minRaise) + minRaise)
             if(self.numBoardCards == 0 and raiseAmount >= self.preflopBetLimit): #make sure our raise is not above our preflop limit
                 raiseAmount = self.preflopBetLimit
             if(raiseAmount < minRaise):
