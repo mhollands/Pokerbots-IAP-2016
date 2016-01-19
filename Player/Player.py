@@ -7,8 +7,10 @@ import handEvalTable as evalTable
 import Pokerini
 import Simulation
 import math
+import WhoIsIt
 
 class Player:
+
     debugPrint = True
     iAgreeWithBet = False 
     opponentAgreesWithBet = False
@@ -36,6 +38,11 @@ class Player:
     timeBank = 0
     preflopBetLimit = 0
     numSimulations = 40
+
+    opponentRound0Folds = 0
+    opponentRound1Folds = 0
+    opponentRound2Folds = 0
+    opponentRound3Folds = 0
 
     checkCallThresh = 0.0
     raiseLinearlyThresh = 0.6
@@ -123,6 +130,9 @@ class Player:
         if(packetType == "NEWHAND"):
             self.handlePacketNewHand(words)
             return
+        if(packetType == "HANDOVER"):
+            self.handlePacketHandOver(words)
+            return
         self.handlePacketUnknownType()
 
     #updates potSize, numBoardCards, boardCards, myBet, opponentBet
@@ -188,9 +198,13 @@ class Player:
             print "Board Cards: ", self.boardCards
             print "Timebank: ", self.timeBank
             print "Expected Timebank: ", self.getExpectedTimeBank()
+            print "Preflop bet limit: ", self.preflopBetLimit
             print "Response time: ", (actionFinishTime - actionStartTime)
             print "Response: " + response
-            print "Preflop bet limit: ", self.preflopBetLimit
+            print "Round 0 folds: " + str(self.opponentRound0Folds)
+            print "Round 1 folds: " + str(self.opponentRound1Folds)
+            print "Round 2 folds: " + str(self.opponentRound2Folds)
+            print "Round 3 folds: " + str(self.opponentRound3Folds)
 
         #check that the pots and bets agree with the specified pot size
         if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
@@ -199,7 +213,7 @@ class Player:
         
         #x = raw_input('Response: ') #uncomment to enter responses by hand
         #s.send(x+"\n")
-        
+    
     #handles actions performed between GetAction packets
     def parsePerformedAction(self, performedAction):
         words = performedAction.split(':')
@@ -221,6 +235,21 @@ class Player:
         if(words[0] == "DEAL"):
             self.handlePerformedActionDeal(words)
             return
+        if(words[0] == "FOLD"):
+            self.handlePerformedActionFold(words)
+            return
+
+    def handlePerformedActionFold(self, words):
+        if(words[1] == self.opponentName):
+            print "HE FUCKIN FOLDED"
+            if(self.numBoardCards == 0):
+                self.opponentRound0Folds += 1
+            if(self.numBoardCards == 3):
+                self.opponentRound1Folds += 1
+            if(self.numBoardCards == 4):
+                self.opponentRound2Folds += 1
+            if(self.numBoardCards == 5):
+                self.opponentRound3Folds += 1
 
     def handlePerformedActionDeal(self, words):
         self.cardsChanged = True
@@ -270,6 +299,17 @@ class Player:
             return
         self.opponentBet = int(words[1])
         self.opponentAgreesWithBet = False
+
+    def handlePacketHandOver(self, words):
+        self.numBoardCards = int(words[3])
+        
+        numPerformedActions = int(words[4 + self.numBoardCards]) #get the number of actions performed since my last action
+        for word in range(5 + self.numBoardCards, 5 + self.numBoardCards + numPerformedActions): #parse every performed action
+            self.parsePerformedAction(words[word]) #update variables depending on performedActions
+            self.updatePot() #update the pot
+
+        if(self.handId % 50 == 0):
+            print "I think we are playing against: " + WhoIsIt.whoIsIt(self.opponentRound0Folds, self.opponentRound1Folds, self.opponentRound2Folds, self.opponentRound3Folds, self.handId)
 
     #updates myName, opponentName, myStackSize, bigBlind, totalNumHands
     def handlePacketNewGame(self, words):
@@ -338,27 +378,27 @@ class Player:
 
         if(self.numBoardCards == 0):
             if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
-            if(self.pokeriniRank < self.round0CheckCallThresh): #if we are in the checkFold region
+            if(self.pokeriniRank < 0.5): #if we are in the checkFold region
                 return self.checkFold(canCheck)
-            if(self.pokeriniRank < self.round0RaiseLinearlyThresh): #if we are in the checkCall region
+            if(self.pokeriniRank < 0.5): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.pokeriniRank)
             if(self.pokeriniRank > self.round0RaiseFullThresh): #if we are in the raise full region (above 65%) 
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, self.round0RaiseLinearlyThresh)
+            raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, 0.5)
             print raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
-            if self.simulationWinChance < self.checkCallThresh: #if we are in the checkCallFold region
-                return self.checkFold(canCheck, canCall)
-            if(self.simulationWinChance < self.raiseLinearlyThresh): #if we are in the checkCall region
+            if self.simulationWinChance < (0.5 - 0.1 * (self.numBoardCards - 2)): #if we are in the checkCallFold region
+                return self.checkFold(canCheck)
+            if(self.simulationWinChance < 0.5): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.simulationWinChance)
-            if(self.simulationWinChance > self.raiseFullThresh): #if we are in the raise full region
+            if(self.simulationWinChance > 1.0): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, self.raiseLinearlyThresh)
+            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, 0.5)
             print raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
