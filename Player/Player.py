@@ -469,7 +469,7 @@ class Player:
     def calcNumSimulations(self):
         print self.minus50Time
         timePerHand = (self.minus50Time - self.timeBank) / 50
-        timeLeftPerHand = self.timeBank / (self.totalNumHands - self.handId)
+        timeLeftPerHand = self.timeBank / (self.totalNumHands - (self.handId-1))
         print "timeLeftPerHand: ", timeLeftPerHand
         print "timePerHand", timePerHand
         self.minus50Time = self.timeBank
