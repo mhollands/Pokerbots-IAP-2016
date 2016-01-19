@@ -29,11 +29,13 @@ class Player:
     myBet = 0 #keeps track of my current bet
     opponentBet = 0 #keeps track of current opponent bet
     cardsChanged = True
+    minus50Time = 0 #keeps track of the time 50 hands ago
     simulationWinChance = 0
     pokeriniRank = 0
     expectedTimePerHand = 0 #calculated on NewGame packet. = original time bank / total num hands to play
     timeBank = 0
     preflopBetLimit = 0
+    numSimulations = 40
 
     checkCallThresh = 0.0
     raiseLinearlyThresh = 0.6
@@ -177,6 +179,7 @@ class Player:
         actionFinishTime = time.time() #store the time that we responsed
         #print out details that will be used to make decision on move
         if self.debugPrint:
+            print "Hand Number: ", self.handId
             print "My Bet: ", self.myBet
             print "Opponent Bet: ", self.opponentBet
             print "My Pot: ", self.myPot
@@ -277,6 +280,7 @@ class Player:
         self.totalNumHands = int(words[5])
         self.timeBank = float(words[6])
         self.totalTime = self.timeBank
+        self.minus50Time = self.totalTime
         self.expectedTimePerHand = self.timeBank / self.totalNumHands # calculate the expected time per hand
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
@@ -302,6 +306,9 @@ class Player:
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
         self.cardsChanged = True
+        if self.handId % 50 == 0:
+            self.numSimulations = self.calcNumSimulations()
+            print "NumSimulations: ", self.numSimulations
         
     def handlePacketRequestKeyValues(self):
         if self.debugPrint: print "FINISHED"
@@ -365,7 +372,7 @@ class Player:
                 self.calculatePreflopBetLimit()
             if(self.numBoardCards >= 3):#postflop
                 #self.simulationWinChance = Simulation.simulate(self.myHand, self.boardCards, self.numBoardCards, 200, handEvalDict, translationDict)
-                self.simulationWinChance = Simulation.simulateOld(self.myHand, self.boardCards, self.numBoardCards,50)
+                self.simulationWinChance = Simulation.simulateOld(self.myHand, self.boardCards, self.numBoardCards, self.numSimulations)
         self.cardsChanged = False
 
     def calculatePreflopBetLimit(self): #calculate maximum raise/bet in preflop stage
@@ -418,6 +425,18 @@ class Player:
         if(canCheck):
             return "CHECK"
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
+
+    def calcNumSimulations(self):
+        print self.minus50Time
+        timePerHand = (self.minus50Time - self.timeBank) / 50
+        timeLeftPerHand = self.timeBank / (self.totalNumHands - self.handId)
+        print "timeLeftPerHand: ", timeLeftPerHand
+        print "timePerHand", timePerHand
+        self.minus50Time = self.timeBank
+        if (timeLeftPerHand > timePerHand*(1.1)) or (timeLeftPerHand < timePerHand):
+            return int(self.numSimulations * 0.97 * ( timeLeftPerHand / timePerHand ))
+
+        return self.numSimulations
     
 if __name__ == '__main__':
     start =time.time()
