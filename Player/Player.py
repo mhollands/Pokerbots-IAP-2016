@@ -371,27 +371,27 @@ class Player:
 
         if(self.numBoardCards == 0):
             if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
-            if(self.pokeriniRank < self.round0CheckCallThresh): #if we are in the checkFold region
+            if(self.pokeriniRank < 0.5): #if we are in the checkFold region
                 return self.checkFold(canCheck)
-            if(self.pokeriniRank < self.round0RaiseLinearlyThresh): #if we are in the checkCall region
+            if(self.pokeriniRank < 0.5): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.pokeriniRank)
             if(self.pokeriniRank > self.round0RaiseFullThresh): #if we are in the raise full region (above 65%) 
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, self.round0RaiseLinearlyThresh)
+            raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, 0.5)
             print raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
-            if self.simulationWinChance < self.checkCallThresh: #if we are in the checkCallFold region
-                return self.checkFold(canCheck, canCall)
-            if(self.simulationWinChance < self.raiseLinearlyThresh): #if we are in the checkCall region
+            if self.simulationWinChance < (0.5 - 0.1 * (self.numBoardCards - 2)): #if we are in the checkCallFold region
+                return self.checkFold(canCheck)
+            if(self.simulationWinChance < 0.5): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.simulationWinChance)
-            if(self.simulationWinChance > self.raiseFullThresh): #if we are in the raise full region
+            if(self.simulationWinChance > 1.0): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, self.raiseLinearlyThresh)
+            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, 0.5)
             print raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
