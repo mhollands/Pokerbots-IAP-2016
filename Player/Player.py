@@ -32,6 +32,7 @@ class Player:
     opponentBet = 0 #keeps track of current opponent bet
     cardsChanged = True
     minus50Time = 0 #keeps track of the time 50 hands ago
+    totalNumSimulations = 0 # Average numSimulations * number of hands played
     simulationWinChance = 0
     pokeriniRank = 0
     expectedTimePerHand = 0 #calculated on NewGame packet. = original time bank / total num hands to play
@@ -196,15 +197,16 @@ class Player:
             print "Opponent Pot: ", self.opponentPot
             print "My Hand: ", self.myHand
             print "Board Cards: ", self.boardCards
-            print "Timebank: ", self.timeBank
-            print "Expected Timebank: ", self.getExpectedTimeBank()
             print "Preflop bet limit: ", self.preflopBetLimit
             print "Response time: ", (actionFinishTime - actionStartTime)
             print "Response: " + response
+            print "Timebank: ", self.timeBank
+            print "Expected Timebank: ", self.getExpectedTimeBank()
             print "Round 0 folds: " + str(self.opponentRound0Folds)
             print "Round 1 folds: " + str(self.opponentRound1Folds)
             print "Round 2 folds: " + str(self.opponentRound2Folds)
             print "Round 3 folds: " + str(self.opponentRound3Folds)
+
 
         #check that the pots and bets agree with the specified pot size
         if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
@@ -346,7 +348,7 @@ class Player:
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
         self.cardsChanged = True
-        if self.handId % 50 == 0:
+        if self.handId % 10 == 0:
             self.numSimulations = self.calcNumSimulations()
             print "NumSimulations: ", self.numSimulations
         
@@ -399,7 +401,7 @@ class Player:
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
             raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, 0.5)
-            print raisePercentage
+            print 'Raise Percentage: ',  raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
     def calculateRaisePercentage(self, myLambda, winChance, raiseThresh):
@@ -467,17 +469,22 @@ class Player:
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
 
     def calcNumSimulations(self):
-        print self.minus50Time
-        timePerHand = (self.minus50Time - self.timeBank) / 50
+        #print self.minus50Time
+        self.totalNumSimulations += self.numSimulations * 10
+        timePerHand = (self.totalTime - self.timeBank) / (self.handId-1)
         timeLeftPerHand = self.timeBank / (self.totalNumHands - (self.handId-1))
+        meanSimulations = self.totalNumSimulations / (self.handId -1)
         print "timeLeftPerHand: ", timeLeftPerHand
         print "timePerHand", timePerHand
-        self.minus50Time = self.timeBank
-        if (timeLeftPerHand > timePerHand*(1.1)) or (timeLeftPerHand < timePerHand):
-            return int(self.numSimulations * 0.97 * ( timeLeftPerHand / timePerHand ))
+        if self.handId > 980:
+            safetyFactor = 0.60
+        elif self.handId > 940:
+            safetyFactor = 0.80
+        else:
+            safetyFactor = 0.95
+        #self.minus50Time = self.timeBank
+        return int(meanSimulations * safetyFactor * ( timeLeftPerHand / timePerHand ))
 
-        return self.numSimulations
-    
 if __name__ == '__main__':
     start =time.time()
     bot = Player()
