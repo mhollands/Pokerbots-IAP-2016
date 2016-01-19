@@ -9,6 +9,9 @@ import Simulation
 import math
 
 class Player:
+
+    teamID = {'NeverGF': [0.0, 0.24, 0.11299999999999999, 0.068], 'ladyshark': [0.6105, 0.068, 0.03, 0.034], 'Batman': [0.6555, 0.05, 0.036000000000000004, 0.03], 'LeBluff': [0.0, 0.1915, 0.11399999999999999, 0.0875], 'Battlecode': [0.5640000000000001, 0.091, 0.0455, 0.034999999999999996], '0xE29883': [0.1945, 0.186, 0.08, 0.062], 'MADbot': [0.0005, 0.1585, 0.121, 0.088]}
+
     debugPrint = True
     iAgreeWithBet = False 
     opponentAgreesWithBet = False

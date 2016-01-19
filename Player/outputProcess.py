@@ -42,15 +42,23 @@ def parseHand(words, length):
 
 pokeriniDict = Pokerini.pokeriniInitialise()
 
+print "*********************************************************************"
+
+
+teamID = {}
+
 for fn in os.listdir('hands'):
     #print (fn)
+    #Pokerini initialised
+    #Open and process the file
+    #f = open('process.txt', 'r')
+    if fn == ".DS_Store": continue
 
-#Pokerini initialised
 
-#Open and process the file
-#f = open('process.txt', 'r')
     f = open("hands/" + fn, 'r')
     x = f.readlines()
+
+    #print x[0]
 
     #Split the lines into each hand
     start = 0
@@ -87,11 +95,21 @@ for fn in os.listdir('hands'):
     team1folds0 = []
     team2folds0 = []
 
+    team1folds1 = []
+    team2folds1 = []
+
+    team1folds2 = []
+    team2folds2 = []
+
+    team1folds3 = []
+    team2folds3 = []
+
     team1hand = []
     team2hand = []
 
     #Parse the data from hands into a useful format
     for hand in handsDict:
+
         roundNum = 0
         for line in handsDict[hand]:
             split = line.split()
@@ -160,12 +178,12 @@ for fn in os.listdir('hands'):
                 handParse = parseHand(split[4:], 3)
                 team1Hand = PP.findBestHand(handInfo[hand][team1]["round0"]["hand"], handParse)
                 handInfo[hand][team1]["round1"]["hand"] = team1Hand[1]
-                handInfo[hand][team1]["round1"]["winProb"] = Simulation.simulate(handInfo[hand][team1]["round0"]["hand"], handParse, 3, 50)
+                handInfo[hand][team1]["round1"]["winProb"] = Simulation.simulateOld(handInfo[hand][team1]["round0"]["hand"], handParse, 3, 100)
 
 
                 team2Hand = PP.findBestHand(handInfo[hand][team2]["round0"]["hand"], handParse)
                 handInfo[hand][team2]["round1"]["hand"] = team2Hand[1]
-                handInfo[hand][team2]["round1"]["winProb"] = Simulation.simulate(handInfo[hand][team2]["round0"]["hand"], handParse, 3, 50)
+                handInfo[hand][team2]["round1"]["winProb"] = Simulation.simulateOld(handInfo[hand][team2]["round0"]["hand"], handParse, 3, 100)
                 continue
             if split[1] == "TURN":
                 roundNum = 2
@@ -175,12 +193,12 @@ for fn in os.listdir('hands'):
 
                 team1Hand = PP.findBestHand(handInfo[hand][team1]["round0"]["hand"], handParse)
                 handInfo[hand][team1]["round2"]["hand"] = team1Hand[1]
-                handInfo[hand][team1]["round2"]["winProb"] = Simulation.simulate(handInfo[hand][team1]["round0"]["hand"], handParse, 4, 50)
+                handInfo[hand][team1]["round2"]["winProb"] = Simulation.simulateOld(handInfo[hand][team1]["round0"]["hand"], handParse, 4, 100)
 
 
                 team2Hand = PP.findBestHand(handInfo[hand][team2]["round0"]["hand"], handParse)
                 handInfo[hand][team2]["round2"]["hand"] = team2Hand[1]
-                handInfo[hand][team2]["round2"]["winProb"] = Simulation.simulate(handInfo[hand][team2]["round0"]["hand"], handParse, 4, 50)
+                handInfo[hand][team2]["round2"]["winProb"] = Simulation.simulateOld(handInfo[hand][team2]["round0"]["hand"], handParse, 4, 100)
                 continue
             if split[1] == "RIVER":
                 roundNum = 3
@@ -190,52 +208,76 @@ for fn in os.listdir('hands'):
 
                 team1Hand = PP.findBestHand(handInfo[hand][team1]["round0"]["hand"], handParse)
                 handInfo[hand][team1]["round3"]["hand"] = team1Hand[1]
-                handInfo[hand][team1]["round3"]["winProb"] = Simulation.simulate(handInfo[hand][team1]["round0"]["hand"], handParse, 4, 50)
+                handInfo[hand][team1]["round3"]["winProb"] = Simulation.simulateOld(handInfo[hand][team1]["round0"]["hand"], handParse, 4, 100)
 
                 team2Hand = PP.findBestHand(handInfo[hand][team2]["round0"]["hand"], handParse)
                 handInfo[hand][team2]["round3"]["hand"] = team2Hand[1]
-                handInfo[hand][team2]["round3"]["winProb"] = Simulation.simulate(handInfo[hand][team2]["round0"]["hand"], handParse, 4, 50)
+                handInfo[hand][team2]["round3"]["winProb"] = Simulation.simulateOld(handInfo[hand][team2]["round0"]["hand"], handParse, 4, 100)
                 continue
             """
 
-    """print max(team1folds0)
-    print max(team2folds0)
+    """
+    if len(team1folds0) > 0:
+        print "Team 1 Max Folds: " + str(max(team1folds0))
+        print "Team 1 Min Folds: " + str(min(team1folds0))
 
-    total = 0
-    for x in team1folds0:
-        total += x
-    print total*1.0/len(team1folds0)
+        total = 0
+        for x in team1folds0:
+            total += x
+        print "Team 1 Average Folds: " + str(total*1.0/len(team1folds0))
 
-    total = 0
-    for x in team2folds0:
-        total += x
-    print total*1.0/len(team2folds0)"""
+    if len(team2folds0) > 0:
+        print "Team 2 Max Folds: " + str(max(team2folds0))
+        print "Team 2 Min Folds: " + str(min(team2folds0))
 
+        total = 0
+        for x in team2folds0:
+            total += x
+        print "Team 2 Average Folds: " + str(total*1.0/len(team2folds0))
+    """
+
+    if team1 not in teamID:
+        teamID[team1] = [team1Exits["round0fold"]/1000.0, team1Exits["round1fold"]/1000.0, team1Exits["round2fold"]/1000.0, team1Exits["round3fold"]/1000.0]
+    else:
+        listTemp = [team1Exits["round0fold"]/1000.0, team1Exits["round1fold"]/1000.0, team1Exits["round2fold"]/1000.0, team1Exits["round3fold"]/1000.0]
+        teamID[team1] = [sum(x)/2 for x in zip(listTemp, teamID[team1])]
+    if team2 not in teamID:
+        teamID[team2] = [team2Exits["round0fold"]/1000.0, team2Exits["round1fold"]/1000.0, team2Exits["round2fold"]/1000.0, team2Exits["round3fold"]/1000.0]
+    else:
+        listTemp = [team2Exits["round0fold"]/1000.0, team2Exits["round1fold"]/1000.0, team2Exits["round2fold"]/1000.0, team2Exits["round3fold"]/1000.0]
+        teamID[team2] = [sum(x)/2 for x in zip(listTemp, teamID[team2])]
+
+
+
+    """
     #Print useful statistics in a readable manner - add a comparison with win probabilities
-    print
-    print team1 + " Stats:"
-    print "Number of wins: " + str(team1Wins["wins"])
-    print "Total winning pots: " + str(team1Wins["totalScore"])
-    print "Mean win: " + str(team1Wins["totalScore"]*1.0/team1Wins["wins"])
-    print "Median win: " + str(median(team1Wins["listWins"]))
-    print "Round 0 folds : " + str(team1Exits["round0fold"])
-    print "Round 1 folds : " + str(team1Exits["round1fold"])
-    print "Round 2 folds : " + str(team1Exits["round2fold"])
-    print "Round 3 folds : " + str(team1Exits["round3fold"])
-    print "Showdown exits: " + str(team1Exits["showdown"])
-    print
-    print "----------"
-    print
-    print team2 + " Stats:"
-    print "Number of wins: " + str(team2Wins["wins"])
-    print "Total winning pots: " + str(team2Wins["totalScore"])
-    print "Mean win: " + str(team2Wins["totalScore"]*1.0/team2Wins["wins"])
-    print "Median win: " + str(median(team2Wins["listWins"]))
-    print "Round 0 folds : " + str(team2Exits["round0fold"])
-    print "Round 1 folds : " + str(team2Exits["round1fold"])
-    print "Round 2 folds : " + str(team2Exits["round2fold"])
-    print "Round 3 folds : " + str(team2Exits["round3fold"])
-    print "Showdown exits: " + str(team2Exits["showdown"])
+    if team1 != "StraightOuttaCam":
+        #print
+        print team1 #+ " Stats:"
+        #print "Number of wins: " + str(team1Wins["wins"])
+        #print "Total winning pots: " + str(team1Wins["totalScore"])
+        #print "Mean win: " + str(team1Wins["totalScore"]*1.0/team1Wins["wins"])
+        #print "Median win: " + str(median(team1Wins["listWins"]))
+        print "Round 0 folds : " + str(team1Exits["round0fold"])
+        print "Round 1 folds : " + str(team1Exits["round1fold"])
+        print "Round 2 folds : " + str(team1Exits["round2fold"])
+        print "Round 3 folds : " + str(team1Exits["round3fold"])
+        #print "Showdown exits: " + str(team1Exits["showdown"])
+        print
+    if team2 != "StraightOuttaCam":
+        #print "----------"
+        print
+        print team2 #+ " Stats:"
+        #print "Number of wins: " + str(team2Wins["wins"])
+        #print "Total winning pots: " + str(team2Wins["totalScore"])
+        #print "Mean win: " + str(team2Wins["totalScore"]*1.0/team2Wins["wins"])
+        #print "Median win: " + str(median(team2Wins["listWins"]))
+        print "Round 0 folds : " + str(team2Exits["round0fold"])
+        print "Round 1 folds : " + str(team2Exits["round1fold"])
+        print "Round 2 folds : " + str(team2Exits["round2fold"])
+        print "Round 3 folds : " + str(team2Exits["round3fold"])
+        #print "Showdown exits: " + str(team2Exits["showdown"])"""
 
+print teamID
 
 
