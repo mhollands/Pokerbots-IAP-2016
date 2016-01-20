@@ -243,7 +243,6 @@ class Player:
 
     def handlePerformedActionFold(self, words):
         if(words[1] == self.opponentName):
-            print "HE FUCKIN FOLDED"
             if(self.numBoardCards == 0):
                 self.opponentRound0Folds += 1
             if(self.numBoardCards == 3):
@@ -348,7 +347,7 @@ class Player:
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
         self.cardsChanged = True
-        if self.handId % 10 == 0:
+        if (self.handId % 10 == 0) and (self.handId != 1000):
             self.numSimulations = self.calcNumSimulations()
             print "NumSimulations: ", self.numSimulations
         
@@ -380,7 +379,7 @@ class Player:
 
         if(self.numBoardCards == 0):
             if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
-            if(self.pokeriniRank < 0.5): #if we are in the checkFold region
+            if(self.pokeriniRank < 0.3): #if we are in the checkFold region
                 return self.checkFold(canCheck)
             if(self.pokeriniRank < 0.5): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.pokeriniRank)
@@ -388,12 +387,12 @@ class Player:
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
             raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, 0.5)
-            print raisePercentage
+            print 'Raise Percentage: ', raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
-            if self.simulationWinChance < (0.5 - 0.1 * (self.numBoardCards - 2)): #if we are in the checkCallFold region
+            if self.simulationWinChance < (0.5 - 0.1 * (self.numBoardCards - 3)): #if we are in the checkCallFold region
                 return self.checkFold(canCheck)
             if(self.simulationWinChance < 0.5): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.simulationWinChance)
@@ -469,7 +468,6 @@ class Player:
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
 
     def calcNumSimulations(self):
-        #print self.minus50Time
         self.totalNumSimulations += self.numSimulations * 10
         timePerHand = (self.totalTime - self.timeBank) / (self.handId-1)
         timeLeftPerHand = self.timeBank / (self.totalNumHands - (self.handId-1))
@@ -482,7 +480,6 @@ class Player:
             safetyFactor = 0.80
         else:
             safetyFactor = 0.95
-        #self.minus50Time = self.timeBank
         return int(meanSimulations * safetyFactor * ( timeLeftPerHand / timePerHand ))
 
 if __name__ == '__main__':
