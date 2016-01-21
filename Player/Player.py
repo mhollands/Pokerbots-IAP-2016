@@ -474,9 +474,9 @@ class Player:
         meanSimulations = self.totalNumSimulations / (self.handId -1)
         print "timeLeftPerHand: ", timeLeftPerHand
         print "timePerHand", timePerHand
-        if self.handId > 980:
+        if self.handId > totalNumHands - 20:
             safetyFactor = 0.60
-        elif self.handId > 940:
+        elif self.handId > totalNumHands - 60:
             safetyFactor = 0.80
         else:
             safetyFactor = 0.95
