@@ -2,6 +2,7 @@ import PokerPhysics as PP
 import Pokerini
 import Simulation
 import os
+import math
 
 def median(lst):
     lst = sorted(lst)
@@ -54,6 +55,7 @@ for fn in os.listdir('hands'):
     #f = open('process.txt', 'r')
     if fn == ".DS_Store": continue
 
+    print fn
 
     f = open("hands/" + fn, 'r')
     x = f.readlines()
@@ -236,6 +238,8 @@ for fn in os.listdir('hands'):
         print "Team 2 Average Folds: " + str(total*1.0/len(team2folds0))
     """
 
+    print team1Exits
+
     if team1 not in teamID:
         teamID[team1] = [team1Exits["round0fold"]/1000.0, team1Exits["round1fold"]/1000.0, team1Exits["round2fold"]/1000.0, team1Exits["round3fold"]/1000.0]
     else:
@@ -247,11 +251,9 @@ for fn in os.listdir('hands'):
         listTemp = [team2Exits["round0fold"]/1000.0, team2Exits["round1fold"]/1000.0, team2Exits["round2fold"]/1000.0, team2Exits["round3fold"]/1000.0]
         teamID[team2] = [sum(x)/2 for x in zip(listTemp, teamID[team2])]
 
-
-
-    """
+    
     #Print useful statistics in a readable manner - add a comparison with win probabilities
-    if team1 != "StraightOuttaCam":
+    if team1 != "StraightOuttaCam" or True:
         #print
         print team1 #+ " Stats:"
         #print "Number of wins: " + str(team1Wins["wins"])
@@ -262,9 +264,8 @@ for fn in os.listdir('hands'):
         print "Round 1 folds : " + str(team1Exits["round1fold"])
         print "Round 2 folds : " + str(team1Exits["round2fold"])
         print "Round 3 folds : " + str(team1Exits["round3fold"])
-        #print "Showdown exits: " + str(team1Exits["showdown"])
-        print
-    if team2 != "StraightOuttaCam":
+        print "Showdown exits: " + str(team1Exits["showdown"])
+    if team2 != "StraightOuttaCam" or True:
         #print "----------"
         print
         print team2 #+ " Stats:"
@@ -276,8 +277,26 @@ for fn in os.listdir('hands'):
         print "Round 1 folds : " + str(team2Exits["round1fold"])
         print "Round 2 folds : " + str(team2Exits["round2fold"])
         print "Round 3 folds : " + str(team2Exits["round3fold"])
-        #print "Showdown exits: " + str(team2Exits["showdown"])"""
+        print "Showdown exits: " + str(team2Exits["showdown"])
 
 print teamID
+
+ID = {'NeverGF': [0.0, 0.24, 0.11299999999999999, 0.068], 'ladyshark': [0.6105, 0.068, 0.03, 0.034], 'StraightOuttaCam': [0.0001802978515625, 0.0691136474609375, 0.04836376953125, 0.048177124023437504], 'Batman': [0.6555, 0.05, 0.036000000000000004, 0.03], 'LeBluff': [0.0, 0.1915, 0.11399999999999999, 0.0875], 'Battlecode': [0.5640000000000001, 0.091, 0.0455, 0.034999999999999996], '0xE29883': [0.1945, 0.186, 0.08, 0.062], 'MADbot': [0.0005, 0.1585, 0.121, 0.088]}
+
+
+for team in teamID:
+    currentMin = 1000000000
+    bestName = "DOG"
+    for identity in ID:
+        euler = math.pow(abs(teamID[team][0] - ID[identity][0]), 2) + math.pow(abs(teamID[team][1] - ID[identity][1]), 2) + math.pow(abs(teamID[team][2] - ID[identity][2]), 2) + math.pow(abs(teamID[team][3] - ID[identity][3]), 2)
+        #print team + ", " + identity + " " + str(euler)
+        if euler < currentMin:
+            currentMin = euler
+            bestName = identity
+    print team + " IS " + bestName
+
+
+
+
 
 
