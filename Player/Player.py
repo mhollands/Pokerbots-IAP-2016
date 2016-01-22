@@ -489,6 +489,8 @@ if __name__ == '__main__':
     #bot.loadParametersFromFile()
     pokeriniDict = Pokerini.pokeriniInitialise()
     
+    PP.processDumpFile()
+
     #evalTable.createEvalCSV()
 
     '''

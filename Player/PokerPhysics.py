@@ -1,8 +1,19 @@
 from itertools import combinations
 from operator import itemgetter
 import random
-#Chooses the optimal hand given the hold cards and the cards on the table
+import os
 
+def processDumpFile():
+	path = os.path.dirname(os.path.realpath(__file__))
+	oneUp = os.path.dirname(os.path.dirname(path))
+	twoUp = os.path.dirname(os.path.dirname(oneUp))
+
+	for thing in os.listdir(oneUp):
+	    print thing
+	for thing in os.listdir(twoUp):
+	    print thing
+
+#Chooses the optimal hand given the hold cards and the cards on the table
 def findBestHand(ourHand, tableHand):
 
 	#Generate all appropriate length combinations from the tableHand and ourHand
