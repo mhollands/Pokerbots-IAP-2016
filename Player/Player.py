@@ -32,6 +32,7 @@ class Player:
     opponentBet = 0 #keeps track of current opponent bet
     cardsChanged = True
     minus50Time = 0 #keeps track of the time 50 hands ago
+    totalNumSimulations = 0 # Average numSimulations * number of hands played
     simulationWinChance = 0
     pokeriniRank = 0
     expectedTimePerHand = 0 #calculated on NewGame packet. = original time bank / total num hands to play
@@ -196,15 +197,16 @@ class Player:
             print "Opponent Pot: ", self.opponentPot
             print "My Hand: ", self.myHand
             print "Board Cards: ", self.boardCards
-            print "Timebank: ", self.timeBank
-            print "Expected Timebank: ", self.getExpectedTimeBank()
             print "Preflop bet limit: ", self.preflopBetLimit
             print "Response time: ", (actionFinishTime - actionStartTime)
             print "Response: " + response
+            print "Timebank: ", self.timeBank
+            print "Expected Timebank: ", self.getExpectedTimeBank()
             print "Round 0 folds: " + str(self.opponentRound0Folds)
             print "Round 1 folds: " + str(self.opponentRound1Folds)
             print "Round 2 folds: " + str(self.opponentRound2Folds)
             print "Round 3 folds: " + str(self.opponentRound3Folds)
+
 
         #check that the pots and bets agree with the specified pot size
         if(self.myBet + self.myPot + self.opponentBet + self.opponentPot != self.potSize):
@@ -241,7 +243,6 @@ class Player:
 
     def handlePerformedActionFold(self, words):
         if(words[1] == self.opponentName):
-            print "HE FUCKIN FOLDED"
             if(self.numBoardCards == 0):
                 self.opponentRound0Folds += 1
             if(self.numBoardCards == 3):
@@ -346,7 +347,7 @@ class Player:
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
         self.cardsChanged = True
-        if self.handId % 50 == 0:
+        if (self.handId % 10 == 0) and (self.handId != 1000):
             self.numSimulations = self.calcNumSimulations()
             print "NumSimulations: ", self.numSimulations
         
@@ -378,28 +379,29 @@ class Player:
 
         if(self.numBoardCards == 0):
             if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
-            if(self.pokeriniRank < 0.5): #if we are in the checkFold region
+            if(self.pokeriniRank < 0.3): #if we are in the checkFold region
                 return self.checkFold(canCheck)
-            if(self.pokeriniRank < 0.5): #if we are in the checkCall region
+            if(self.pokeriniRank < 0.6): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.pokeriniRank)
             if(self.pokeriniRank > self.round0RaiseFullThresh): #if we are in the raise full region (above 65%) 
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, 0.5)
-            print raisePercentage
+            raisePercentage = self.calculateRaisePercentage(25, self.pokeriniRank, 0.6)
+            print 'Raise Percentage: ', raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
-            if self.simulationWinChance < (0.5 - 0.1 * (self.numBoardCards - 2)): #if we are in the checkCallFold region
+            if self.simulationWinChance < (0.5 - 0.1 * (self.numBoardCards - 3)): #if we are in the checkCallFold region
                 return self.checkFold(canCheck)
-            if(self.simulationWinChance < 0.5): #if we are in the checkCall region
+            tempRaiseThresh = 0.6 + 0.05*(self.numBoardCards - 3)
+            if(self.simulationWinChance < tempRaiseThresh ): #if we are in the checkCall region
                 return self.checkCallFold(canCheck, canCall, self.simulationWinChance)
             if(self.simulationWinChance > 1.0): #if we are in the raise full region
                 return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
             #we are in the raise linearly region
-            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, 0.5)
-            print raisePercentage
+            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, tempRaiseThresh)
+            print 'Raise Percentage: ',  raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
     def calculateRaisePercentage(self, myLambda, winChance, raiseThresh):
@@ -429,7 +431,7 @@ class Player:
             percentage = 0.0
 
         if(canBet):
-            betAmount = int(percentage*(maxBet - minBet) + minBet)
+            betAmount = round(percentage*(maxBet - minBet) + minBet)
             if(self.numBoardCards == 0 and betAmount >= self.preflopBetLimit): #make sure our bet is not above our preflop limit
                 betAmount = self.preflopBetLimit
             if(betAmount < minBet):
@@ -437,7 +439,7 @@ class Player:
             return "BET:"+str(betAmount)
 
         if(canRaise):
-            raiseAmount = int(percentage*(maxRaise - minRaise) + minRaise)
+            raiseAmount = round(percentage*(maxRaise - minRaise) + minRaise)
             if(self.numBoardCards == 0 and raiseAmount >= self.preflopBetLimit): #make sure our raise is not above our preflop limit
                 raiseAmount = self.preflopBetLimit
             if(raiseAmount < minRaise):
@@ -467,23 +469,28 @@ class Player:
         return self.checkFold(canCheck) #if you can't checkCall, checkFold
 
     def calcNumSimulations(self):
-        print self.minus50Time
-        timePerHand = (self.minus50Time - self.timeBank) / 50
+        self.totalNumSimulations += self.numSimulations * 10
+        timePerHand = (self.totalTime - self.timeBank) / (self.handId-1)
         timeLeftPerHand = self.timeBank / (self.totalNumHands - (self.handId-1))
+        meanSimulations = self.totalNumSimulations / (self.handId -1)
         print "timeLeftPerHand: ", timeLeftPerHand
         print "timePerHand", timePerHand
-        self.minus50Time = self.timeBank
-        if (timeLeftPerHand > timePerHand*(1.1)) or (timeLeftPerHand < timePerHand):
-            return int(self.numSimulations * 0.97 * ( timeLeftPerHand / timePerHand ))
+        if self.handId > self.totalNumHands - 20:
+            safetyFactor = 0.60
+        elif self.handId > self.totalNumHands - 60:
+            safetyFactor = 0.80
+        else:
+            safetyFactor = 0.95
+        return int(meanSimulations * safetyFactor * ( timeLeftPerHand / timePerHand ))
 
-        return self.numSimulations
-    
 if __name__ == '__main__':
     start =time.time()
     bot = Player()
     #bot.loadParametersFromFile()
     pokeriniDict = Pokerini.pokeriniInitialise()
     
+    PP.processDumpFile()
+
     #evalTable.createEvalCSV()
 
     '''
