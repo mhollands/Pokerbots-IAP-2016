@@ -2,8 +2,6 @@ import string
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 
-
-
 def readBetVWinChanceFile(fileName, roundNumber):
 	f = open(fileName, 'r')
 	betPercentages = []
@@ -17,7 +15,6 @@ def readBetVWinChanceFile(fileName, roundNumber):
 			else:
 				finalIndex = -1
 			numList = string.split(line[:finalIndex], ',')
-			#print 'numList: ', numList
 			listLength = len(numList)
 			if listLength > 1:
 				winPercentage = float(numList[0])
@@ -25,13 +22,10 @@ def readBetVWinChanceFile(fileName, roundNumber):
 					print 'String: ', numList[i]
 					betPercentage = float(numList[i])
 					print 'betPercentage: ', betPercentage
-					#print 'betpercentage: ', betPercentage
 					if betPercentage >= 0 and betPercentage <= 1.0:
 						betPercentages.append(betPercentage)
 						winPercentages.append(winPercentage)
 		lineNum += 1
-	#print winPercentages
-	#print betPercentages
 	return betPercentages, winPercentages
 
 def line(x,a,b):
@@ -46,11 +40,12 @@ def plotPoints(betPercentages, winPercentages):
 	plt.ylabel('Bet Percentage')
 	plt.show()
 
-
-if __name__ == '__main__':
-	betPercentages, winPercentages = readBetVWinChanceFile('extractBetVWinChanceOutput.txt', 1)
+def analyseFile(fileLocation):
+	betPercentages, winPercentages = readBetVWinChanceFile(fileLocation, 1)
 	parameters, covar = fitCurve(betPercentages, winPercentages)
-	print parameters
 	print 'betPercentage = ' + str(parameters[0]) + '* winPercentage + ' + str(parameters[1])
 	plotPoints(betPercentages, winPercentages)
-	print parameters
+	return parameters
+
+if __name__ == '__main__':
+	analyseFile('extractBetVWinChanceOutput.txt')
