@@ -40,12 +40,12 @@ def plotPoints(betPercentages, winPercentages):
 	plt.ylabel('Bet Percentage')
 	plt.show()
 
-def analyseFile(fileLocation):
-	betPercentages, winPercentages = readBetVWinChanceFile(fileLocation, 1)
+def analyseFile(fileLocation, roundNumber):
+	betPercentages, winPercentages = readBetVWinChanceFile(fileLocation, roundNumber)
 	parameters, covar = fitCurve(betPercentages, winPercentages)
 	print 'betPercentage = ' + str(parameters[0]) + '* winPercentage + ' + str(parameters[1])
 	plotPoints(betPercentages, winPercentages)
 	return parameters
 
 if __name__ == '__main__':
-	analyseFile('extractBetVWinChanceOutput.txt')
+	analyseFile('extractBetVWinChanceOutput.txt', 1)
