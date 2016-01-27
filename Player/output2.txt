@@ -1,0 +1,2551 @@
+pokeriniRank:  0.537
+My Bet:  2
+RAIS
+winLoss:  28
+overallGain:  -26
+pokeriniRank:  0.582
+My Bet:  1
+RAIS
+winLoss:  2
+overallGain:  -27
+pokeriniRank:  0.565
+My Bet:  2
+RAIS
+winLoss:  -67
+overallGain:  42
+pokeriniRank:  0.442
+My Bet:  1
+FOLD
+pokeriniRank:  0.526
+My Bet:  2
+RAIS
+winLoss:  1
+overallGain:  43
+pokeriniRank:  0.464
+My Bet:  1
+FOLD
+pokeriniRank:  0.414
+My Bet:  1
+FOLD
+pokeriniRank:  0.474
+My Bet:  2
+CHEC
+pokeriniRank:  0.587
+My Bet:  1
+RAIS
+winLoss:  2
+overallGain:  42
+pokeriniRank:  0.587
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  47
+pokeriniRank:  0.502
+My Bet:  2
+RAIS
+winLoss:  -1
+overallGain:  50
+pokeriniRank:  0.45
+My Bet:  1
+FOLD
+pokeriniRank:  0.656
+My Bet:  2
+RAIS
+winLoss:  0
+overallGain:  52
+pokeriniRank:  0.569
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  52
+pokeriniRank:  0.372
+My Bet:  2
+CHEC
+pokeriniRank:  0.491
+My Bet:  1
+FOLD
+pokeriniRank:  0.647
+My Bet:  2
+RAIS
+winLoss:  5
+overallGain:  49
+pokeriniRank:  0.523
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  50
+pokeriniRank:  0.515
+My Bet:  2
+RAIS
+winLoss:  0
+overallGain:  52
+pokeriniRank:  0.44
+My Bet:  1
+FOLD
+pokeriniRank:  0.467
+My Bet:  1
+FOLD
+pokeriniRank:  0.39
+My Bet:  1
+FOLD
+pokeriniRank:  0.475
+My Bet:  1
+FOLD
+pokeriniRank:  0.458
+My Bet:  2
+FOLD
+pokeriniRank:  0.585
+My Bet:  1
+RAIS
+winLoss:  -12
+overallGain:  65
+pokeriniRank:  0.585
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  70
+pokeriniRank:  0.585
+My Bet:  42
+CALL
+winLoss:  0
+overallGain:  112
+pokeriniRank:  0.475
+My Bet:  2
+CHEC
+pokeriniRank:  0.501
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  113
+pokeriniRank:  0.529
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  114
+pokeriniRank:  0.474
+My Bet:  2
+FOLD
+pokeriniRank:  0.489
+My Bet:  1
+FOLD
+pokeriniRank:  0.515
+My Bet:  1
+RAIS
+winLoss:  -8
+overallGain:  123
+pokeriniRank:  0.515
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  127
+pokeriniRank:  0.515
+My Bet:  25
+CALL
+winLoss:  0
+overallGain:  152
+pokeriniRank:  0.484
+My Bet:  2
+FOLD
+pokeriniRank:  0.418
+My Bet:  1
+FOLD
+pokeriniRank:  0.497
+My Bet:  1
+FOLD
+pokeriniRank:  0.526
+My Bet:  2
+RAIS
+winLoss:  0
+overallGain:  154
+pokeriniRank:  0.525
+My Bet:  1
+RAIS
+winLoss:  5
+overallGain:  150
+pokeriniRank:  0.44
+My Bet:  2
+CHEC
+pokeriniRank:  0.494
+My Bet:  1
+FOLD
+pokeriniRank:  0.442
+My Bet:  1
+FOLD
+pokeriniRank:  0.495
+My Bet:  2
+CHEC
+pokeriniRank:  0.427
+My Bet:  1
+FOLD
+pokeriniRank:  0.424
+My Bet:  1
+FOLD
+pokeriniRank:  0.572
+My Bet:  2
+RAIS
+winLoss:  40
+overallGain:  112
+pokeriniRank:  0.572
+My Bet:  13
+RAIS
+winLoss:  0
+overallGain:  125
+pokeriniRank:  0.572
+My Bet:  71
+CALL
+winLoss:  0
+overallGain:  196
+pokeriniRank:  0.61
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  196
+pokeriniRank:  0.61
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  201
+pokeriniRank:  0.531
+My Bet:  2
+RAIS
+winLoss:  3
+overallGain:  200
+pokeriniRank:  0.439
+My Bet:  1
+FOLD
+pokeriniRank:  0.544
+My Bet:  2
+RAIS
+winLoss:  1
+overallGain:  201
+pokeriniRank:  0.44
+My Bet:  1
+FOLD
+pokeriniRank:  0.507
+My Bet:  2
+RAIS
+winLoss:  6
+overallGain:  197
+pokeriniRank:  0.507
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  201
+pokeriniRank:  0.49
+My Bet:  1
+FOLD
+pokeriniRank:  0.463
+My Bet:  1
+FOLD
+pokeriniRank:  0.41
+My Bet:  2
+CHEC
+pokeriniRank:  0.37
+My Bet:  1
+FOLD
+pokeriniRank:  0.536
+My Bet:  1
+RAIS
+winLoss:  -10
+overallGain:  212
+pokeriniRank:  0.442
+My Bet:  2
+FOLD
+pokeriniRank:  0.533
+My Bet:  1
+RAIS
+winLoss:  40
+overallGain:  173
+pokeriniRank:  0.533
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  178
+pokeriniRank:  0.499
+My Bet:  2
+CHEC
+pokeriniRank:  0.54
+My Bet:  1
+RAIS
+winLoss:  -5
+overallGain:  184
+pokeriniRank:  0.502
+My Bet:  1
+RAIS
+winLoss:  396
+overallGain:  -211
+pokeriniRank:  0.502
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  -207
+pokeriniRank:  0.502
+My Bet:  12
+CALL
+winLoss:  0
+overallGain:  -195
+pokeriniRank:  0.463
+My Bet:  1
+FOLD
+pokeriniRank:  0.496
+My Bet:  1
+FOLD
+pokeriniRank:  0.572
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  -197
+pokeriniRank:  0.509
+My Bet:  1
+RAIS
+winLoss:  -17
+overallGain:  -179
+pokeriniRank:  0.653
+My Bet:  2
+RAIS
+winLoss:  400
+overallGain:  -577
+pokeriniRank:  0.653
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  -572
+pokeriniRank:  0.653
+My Bet:  38
+CALL
+winLoss:  0
+overallGain:  -534
+pokeriniRank:  0.46
+My Bet:  1
+FOLD
+pokeriniRank:  0.537
+My Bet:  1
+RAIS
+winLoss:  -25
+overallGain:  -508
+pokeriniRank:  0.537
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  -503
+pokeriniRank:  0.518
+My Bet:  1
+RAIS
+winLoss:  67
+overallGain:  -569
+pokeriniRank:  0.518
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  -565
+pokeriniRank:  0.518
+My Bet:  11
+RAIS
+winLoss:  0
+overallGain:  -554
+pokeriniRank:  0.489
+My Bet:  2
+FOLD
+pokeriniRank:  0.496
+My Bet:  1
+FOLD
+pokeriniRank:  0.506
+My Bet:  2
+RAIS
+winLoss:  -241
+overallGain:  -311
+pokeriniRank:  0.506
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  -307
+pokeriniRank:  0.438
+My Bet:  1
+FOLD
+pokeriniRank:  0.381
+My Bet:  2
+FOLD
+pokeriniRank:  0.513
+My Bet:  1
+RAIS
+winLoss:  400
+overallGain:  -706
+pokeriniRank:  0.513
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  -702
+pokeriniRank:  0.513
+My Bet:  17
+RAIS
+winLoss:  0
+overallGain:  -685
+pokeriniRank:  0.513
+My Bet:  1
+RAIS
+winLoss:  28
+overallGain:  -712
+pokeriniRank:  0.509
+My Bet:  1
+RAIS
+winLoss:  -898
+overallGain:  187
+pokeriniRank:  0.48
+My Bet:  2
+CHEC
+pokeriniRank:  0.506
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  188
+pokeriniRank:  0.429
+My Bet:  2
+CHEC
+pokeriniRank:  0.523
+My Bet:  1
+RAIS
+winLoss:  40
+overallGain:  149
+pokeriniRank:  0.523
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  153
+pokeriniRank:  0.436
+My Bet:  1
+FOLD
+pokeriniRank:  0.616
+My Bet:  2
+RAIS
+winLoss:  1
+overallGain:  154
+pokeriniRank:  0.616
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  159
+pokeriniRank:  0.456
+My Bet:  1
+FOLD
+pokeriniRank:  0.518
+My Bet:  2
+RAIS
+winLoss:  -40
+overallGain:  201
+pokeriniRank:  0.518
+My Bet:  10
+RAIS
+winLoss:  0
+overallGain:  211
+pokeriniRank:  0.518
+My Bet:  55
+CALL
+winLoss:  0
+overallGain:  266
+pokeriniRank:  0.424
+My Bet:  1
+FOLD
+pokeriniRank:  0.555
+My Bet:  1
+RAIS
+winLoss:  5
+overallGain:  262
+pokeriniRank:  0.555
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  267
+pokeriniRank:  0.489
+My Bet:  2
+CHEC
+pokeriniRank:  0.534
+My Bet:  1
+RAIS
+winLoss:  4
+overallGain:  264
+pokeriniRank:  0.502
+My Bet:  2
+RAIS
+winLoss:  -1
+overallGain:  267
+pokeriniRank:  0.502
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  271
+pokeriniRank:  0.495
+My Bet:  1
+FOLD
+pokeriniRank:  0.491
+My Bet:  1
+FOLD
+pokeriniRank:  0.472
+My Bet:  1
+FOLD
+pokeriniRank:  0.513
+My Bet:  1
+RAIS
+winLoss:  4
+overallGain:  268
+pokeriniRank:  0.447
+My Bet:  2
+CHEC
+pokeriniRank:  0.622
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  268
+pokeriniRank:  0.441
+My Bet:  1
+FOLD
+pokeriniRank:  0.415
+My Bet:  2
+FOLD
+pokeriniRank:  0.505
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  269
+pokeriniRank:  0.51
+My Bet:  2
+RAIS
+winLoss:  0
+overallGain:  271
+pokeriniRank:  0.559
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  272
+pokeriniRank:  0.501
+My Bet:  2
+RAIS
+winLoss:  3
+overallGain:  271
+pokeriniRank:  0.501
+My Bet:  6
+RAIS
+winLoss:  0
+overallGain:  277
+pokeriniRank:  0.494
+My Bet:  1
+FOLD
+pokeriniRank:  0.549
+My Bet:  1
+RAIS
+winLoss:  681
+overallGain:  -403
+pokeriniRank:  0.43
+My Bet:  2
+CHEC
+pokeriniRank:  0.516
+My Bet:  1
+RAIS
+winLoss:  -40
+overallGain:  -362
+pokeriniRank:  0.516
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  -358
+pokeriniRank:  0.516
+My Bet:  18
+CALL
+winLoss:  0
+overallGain:  -340
+pokeriniRank:  0.452
+My Bet:  1
+FOLD
+pokeriniRank:  0.437
+My Bet:  1
+FOLD
+pokeriniRank:  0.544
+My Bet:  1
+RAIS
+winLoss:  50
+overallGain:  -389
+pokeriniRank:  0.538
+My Bet:  1
+RAIS
+winLoss:  -399
+overallGain:  11
+pokeriniRank:  0.394
+My Bet:  2
+CHEC
+pokeriniRank:  0.513
+My Bet:  1
+RAIS
+winLoss:  -27
+overallGain:  39
+pokeriniRank:  0.513
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  43
+pokeriniRank:  0.513
+My Bet:  10
+RAIS
+winLoss:  0
+overallGain:  53
+pokeriniRank:  0.553
+My Bet:  1
+RAIS
+winLoss:  -4
+overallGain:  58
+pokeriniRank:  0.481
+My Bet:  2
+CHEC
+pokeriniRank:  0.625
+My Bet:  1
+RAIS
+winLoss:  -400
+overallGain:  459
+pokeriniRank:  0.625
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  464
+pokeriniRank:  0.555
+My Bet:  2
+RAIS
+winLoss:  334
+overallGain:  132
+pokeriniRank:  0.501
+My Bet:  1
+RAIS
+winLoss:  -4
+overallGain:  137
+pokeriniRank:  0.491
+My Bet:  1
+FOLD
+pokeriniRank:  0.562
+My Bet:  1
+RAIS
+winLoss:  -275
+overallGain:  413
+pokeriniRank:  0.562
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  418
+pokeriniRank:  0.562
+My Bet:  40
+CALL
+winLoss:  0
+overallGain:  458
+pokeriniRank:  0.534
+My Bet:  1
+RAIS
+winLoss:  -4
+overallGain:  463
+pokeriniRank:  0.527
+My Bet:  2
+RAIS
+winLoss:  -49
+overallGain:  514
+pokeriniRank:  0.527
+My Bet:  11
+RAIS
+winLoss:  0
+overallGain:  525
+pokeriniRank:  0.527
+My Bet:  58
+CALL
+winLoss:  0
+overallGain:  583
+pokeriniRank:  0.443
+My Bet:  1
+FOLD
+pokeriniRank:  0.435
+My Bet:  2
+CHEC
+pokeriniRank:  0.56
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  584
+pokeriniRank:  0.437
+My Bet:  2
+CHEC
+pokeriniRank:  0.416
+My Bet:  1
+FOLD
+pokeriniRank:  0.575
+My Bet:  2
+RAIS
+winLoss:  -40
+overallGain:  626
+pokeriniRank:  0.507
+My Bet:  1
+RAIS
+winLoss:  40
+overallGain:  587
+pokeriniRank:  0.495
+My Bet:  2
+CHEC
+pokeriniRank:  0.458
+My Bet:  1
+FOLD
+pokeriniRank:  0.492
+My Bet:  2
+FOLD
+pokeriniRank:  0.406
+My Bet:  1
+FOLD
+pokeriniRank:  0.456
+My Bet:  1
+FOLD
+pokeriniRank:  0.457
+My Bet:  1
+FOLD
+pokeriniRank:  0.457
+My Bet:  2
+FOLD
+pokeriniRank:  0.545
+My Bet:  1
+RAIS
+winLoss:  -40
+overallGain:  628
+pokeriniRank:  0.545
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  633
+pokeriniRank:  0.545
+My Bet:  35
+CALL
+winLoss:  0
+overallGain:  668
+pokeriniRank:  0.49
+My Bet:  1
+FOLD
+pokeriniRank:  0.451
+My Bet:  1
+FOLD
+pokeriniRank:  0.626
+My Bet:  1
+RAIS
+winLoss:  -40
+overallGain:  709
+pokeriniRank:  0.626
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  714
+pokeriniRank:  0.626
+My Bet:  44
+CALL
+winLoss:  0
+overallGain:  758
+pokeriniRank:  0.431
+My Bet:  1
+FOLD
+pokeriniRank:  0.465
+My Bet:  1
+FOLD
+pokeriniRank:  0.545
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  759
+pokeriniRank:  0.475
+My Bet:  2
+FOLD
+pokeriniRank:  0.439
+My Bet:  1
+FOLD
+pokeriniRank:  0.506
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  759
+pokeriniRank:  0.619
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  759
+pokeriniRank:  0.608
+My Bet:  1
+RAIS
+winLoss:  -1
+overallGain:  761
+pokeriniRank:  0.381
+My Bet:  2
+CHEC
+pokeriniRank:  0.449
+My Bet:  1
+FOLD
+pokeriniRank:  0.413
+My Bet:  1
+FOLD
+pokeriniRank:  0.568
+My Bet:  2
+RAIS
+winLoss:  -8
+overallGain:  771
+pokeriniRank:  0.568
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  776
+pokeriniRank:  0.568
+My Bet:  27
+CALL
+winLoss:  0
+overallGain:  803
+pokeriniRank:  0.514
+My Bet:  1
+RAIS
+winLoss:  4
+overallGain:  800
+pokeriniRank:  0.514
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  804
+pokeriniRank:  0.502
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  805
+pokeriniRank:  0.535
+My Bet:  2
+RAIS
+winLoss:  85
+overallGain:  722
+pokeriniRank:  0.535
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  727
+pokeriniRank:  0.44
+My Bet:  1
+FOLD
+pokeriniRank:  0.505
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  728
+pokeriniRank:  0.472
+My Bet:  1
+FOLD
+pokeriniRank:  0.413
+My Bet:  1
+FOLD
+pokeriniRank:  0.545
+My Bet:  2
+RAIS
+winLoss:  -57
+overallGain:  787
+pokeriniRank:  0.545
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  792
+pokeriniRank:  0.445
+My Bet:  1
+FOLD
+pokeriniRank:  0.409
+My Bet:  1
+FOLD
+pokeriniRank:  0.501
+My Bet:  1
+RAIS
+winLoss:  40
+overallGain:  753
+pokeriniRank:  0.501
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  757
+pokeriniRank:  0.501
+My Bet:  10
+RAIS
+winLoss:  0
+overallGain:  767
+pokeriniRank:  0.501
+My Bet:  16
+CALL
+winLoss:  0
+overallGain:  783
+pokeriniRank:  0.534
+My Bet:  2
+RAIS
+winLoss:  153
+overallGain:  632
+pokeriniRank:  0.534
+My Bet:  12
+RAIS
+winLoss:  0
+overallGain:  644
+pokeriniRank:  0.534
+My Bet:  43
+CALL
+winLoss:  0
+overallGain:  687
+pokeriniRank:  0.517
+My Bet:  1
+RAIS
+winLoss:  -153
+overallGain:  841
+pokeriniRank:  0.517
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  845
+pokeriniRank:  0.52
+My Bet:  1
+RAIS
+winLoss:  -14
+overallGain:  860
+pokeriniRank:  0.52
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  864
+pokeriniRank:  0.52
+My Bet:  16
+RAIS
+winLoss:  0
+overallGain:  880
+pokeriniRank:  0.52
+My Bet:  48
+CALL
+winLoss:  0
+overallGain:  928
+pokeriniRank:  0.595
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  928
+pokeriniRank:  0.513
+My Bet:  1
+RAIS
+winLoss:  -5
+overallGain:  934
+pokeriniRank:  0.513
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  938
+pokeriniRank:  0.513
+My Bet:  22
+CALL
+winLoss:  0
+overallGain:  960
+pokeriniRank:  0.455
+My Bet:  2
+FOLD
+pokeriniRank:  0.49
+My Bet:  1
+FOLD
+pokeriniRank:  0.566
+My Bet:  2
+RAIS
+winLoss:  -31
+overallGain:  993
+pokeriniRank:  0.566
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  998
+pokeriniRank:  0.566
+My Bet:  29
+RAIS
+winLoss:  0
+overallGain:  1027
+pokeriniRank:  0.467
+My Bet:  1
+FOLD
+pokeriniRank:  0.535
+My Bet:  2
+RAIS
+winLoss:  -1
+overallGain:  1030
+pokeriniRank:  0.563
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1030
+pokeriniRank:  0.404
+My Bet:  2
+FOLD
+pokeriniRank:  0.645
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1031
+pokeriniRank:  0.645
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  1036
+pokeriniRank:  0.645
+My Bet:  29
+CALL
+winLoss:  0
+overallGain:  1065
+pokeriniRank:  0.534
+My Bet:  1
+RAIS
+winLoss:  39
+overallGain:  1027
+pokeriniRank:  0.539
+My Bet:  1
+RAIS
+winLoss:  55
+overallGain:  973
+pokeriniRank:  0.539
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  978
+pokeriniRank:  0.539
+My Bet:  21
+RAIS
+winLoss:  0
+overallGain:  999
+pokeriniRank:  0.448
+My Bet:  2
+CHEC
+pokeriniRank:  0.459
+My Bet:  1
+FOLD
+pokeriniRank:  0.509
+My Bet:  2
+RAIS
+winLoss:  -10
+overallGain:  1011
+pokeriniRank:  0.509
+My Bet:  4
+RAIS
+winLoss:  0
+overallGain:  1015
+pokeriniRank:  0.473
+My Bet:  1
+FOLD
+pokeriniRank:  0.434
+My Bet:  2
+FOLD
+pokeriniRank:  0.544
+My Bet:  1
+RAIS
+winLoss:  -98
+overallGain:  1114
+pokeriniRank:  0.555
+My Bet:  2
+RAIS
+winLoss:  3
+overallGain:  1113
+pokeriniRank:  0.555
+My Bet:  5
+RAIS
+winLoss:  0
+overallGain:  1118
+pokeriniRank:  0.483
+My Bet:  1
+FOLD
+pokeriniRank:  0.481
+My Bet:  1
+FOLD
+pokeriniRank:  0.553
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1118
+pokeriniRank:  0.527
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1119
+pokeriniRank:  0.461
+My Bet:  1
+FOLD
+pokeriniRank:  0.426
+My Bet:  1
+FOLD
+pokeriniRank:  0.458
+My Bet:  1
+FOLD
+pokeriniRank:  0.461
+My Bet:  1
+FOLD
+pokeriniRank:  0.288
+My Bet:  1
+FOLD
+pokeriniRank:  0.63
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1120
+pokeriniRank:  0.449
+My Bet:  1
+FOLD
+pokeriniRank:  0.464
+My Bet:  1
+FOLD
+pokeriniRank:  0.541
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1120
+pokeriniRank:  0.352
+My Bet:  1
+FOLD
+pokeriniRank:  0.491
+My Bet:  1
+FOLD
+pokeriniRank:  0.515
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1121
+pokeriniRank:  0.589
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1122
+pokeriniRank:  0.619
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1122
+pokeriniRank:  0.594
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1123
+pokeriniRank:  0.441
+My Bet:  1
+FOLD
+pokeriniRank:  0.541
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1124
+pokeriniRank:  0.406
+My Bet:  1
+FOLD
+pokeriniRank:  0.587
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1125
+pokeriniRank:  0.437
+My Bet:  1
+FOLD
+pokeriniRank:  0.476
+My Bet:  1
+FOLD
+pokeriniRank:  0.479
+My Bet:  1
+FOLD
+pokeriniRank:  0.551
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1125
+pokeriniRank:  0.451
+My Bet:  1
+FOLD
+pokeriniRank:  0.522
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1126
+pokeriniRank:  0.419
+My Bet:  1
+FOLD
+pokeriniRank:  0.502
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1127
+pokeriniRank:  0.512
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1127
+pokeriniRank:  0.492
+My Bet:  1
+FOLD
+pokeriniRank:  0.509
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1128
+pokeriniRank:  0.606
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1129
+pokeriniRank:  0.571
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1129
+pokeriniRank:  0.483
+My Bet:  1
+FOLD
+pokeriniRank:  0.448
+My Bet:  1
+FOLD
+pokeriniRank:  0.484
+My Bet:  1
+FOLD
+pokeriniRank:  0.439
+My Bet:  1
+FOLD
+pokeriniRank:  0.408
+My Bet:  1
+FOLD
+pokeriniRank:  0.403
+My Bet:  1
+FOLD
+pokeriniRank:  0.457
+My Bet:  1
+FOLD
+pokeriniRank:  0.561
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1130
+pokeriniRank:  0.492
+My Bet:  1
+FOLD
+pokeriniRank:  0.462
+My Bet:  1
+FOLD
+pokeriniRank:  0.439
+My Bet:  1
+FOLD
+pokeriniRank:  0.533
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1131
+pokeriniRank:  0.437
+My Bet:  1
+FOLD
+pokeriniRank:  0.4
+My Bet:  1
+FOLD
+pokeriniRank:  0.669
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1132
+pokeriniRank:  0.635
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1132
+pokeriniRank:  0.415
+My Bet:  1
+FOLD
+pokeriniRank:  0.59
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1133
+pokeriniRank:  0.48
+My Bet:  1
+FOLD
+pokeriniRank:  0.455
+My Bet:  1
+FOLD
+pokeriniRank:  0.668
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1134
+pokeriniRank:  0.516
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1134
+pokeriniRank:  0.607
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1135
+pokeriniRank:  0.527
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1136
+pokeriniRank:  0.499
+My Bet:  1
+FOLD
+pokeriniRank:  0.485
+My Bet:  1
+FOLD
+pokeriniRank:  0.458
+My Bet:  1
+FOLD
+pokeriniRank:  0.602
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1136
+pokeriniRank:  0.488
+My Bet:  1
+FOLD
+pokeriniRank:  0.53
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1137
+pokeriniRank:  0.51
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1138
+pokeriniRank:  0.461
+My Bet:  1
+FOLD
+pokeriniRank:  0.429
+My Bet:  1
+FOLD
+pokeriniRank:  0.537
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1139
+pokeriniRank:  0.622
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1139
+pokeriniRank:  0.464
+My Bet:  1
+FOLD
+pokeriniRank:  0.414
+My Bet:  1
+FOLD
+pokeriniRank:  0.502
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1140
+pokeriniRank:  0.523
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1141
+pokeriniRank:  0.452
+My Bet:  1
+FOLD
+pokeriniRank:  0.435
+My Bet:  1
+FOLD
+pokeriniRank:  0.532
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1141
+pokeriniRank:  0.522
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1142
+pokeriniRank:  0.482
+My Bet:  1
+FOLD
+pokeriniRank:  0.549
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1143
+pokeriniRank:  0.64
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1143
+pokeriniRank:  0.526
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1144
+pokeriniRank:  0.448
+My Bet:  1
+FOLD
+pokeriniRank:  0.481
+My Bet:  1
+FOLD
+pokeriniRank:  0.532
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1145
+pokeriniRank:  0.548
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1146
+pokeriniRank:  0.491
+My Bet:  1
+FOLD
+pokeriniRank:  0.48
+My Bet:  1
+FOLD
+pokeriniRank:  0.494
+My Bet:  1
+FOLD
+pokeriniRank:  0.469
+My Bet:  1
+FOLD
+pokeriniRank:  0.437
+My Bet:  1
+FOLD
+pokeriniRank:  0.554
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1146
+pokeriniRank:  0.543
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1147
+pokeriniRank:  0.499
+My Bet:  1
+FOLD
+pokeriniRank:  0.409
+My Bet:  1
+FOLD
+pokeriniRank:  0.422
+My Bet:  1
+FOLD
+pokeriniRank:  0.51
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1148
+pokeriniRank:  0.502
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1148
+pokeriniRank:  0.432
+My Bet:  1
+FOLD
+pokeriniRank:  0.451
+My Bet:  1
+FOLD
+pokeriniRank:  0.408
+My Bet:  1
+FOLD
+pokeriniRank:  0.574
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1149
+pokeriniRank:  0.529
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1150
+pokeriniRank:  0.546
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1150
+pokeriniRank:  0.561
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1151
+pokeriniRank:  0.569
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1152
+pokeriniRank:  0.383
+My Bet:  1
+FOLD
+pokeriniRank:  0.415
+My Bet:  1
+FOLD
+pokeriniRank:  0.469
+My Bet:  1
+FOLD
+pokeriniRank:  0.481
+My Bet:  1
+FOLD
+pokeriniRank:  0.402
+My Bet:  1
+FOLD
+pokeriniRank:  0.62
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1153
+pokeriniRank:  0.505
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1153
+pokeriniRank:  0.397
+My Bet:  1
+FOLD
+pokeriniRank:  0.49
+My Bet:  1
+FOLD
+pokeriniRank:  0.553
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1154
+pokeriniRank:  0.518
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1155
+pokeriniRank:  0.467
+My Bet:  1
+FOLD
+pokeriniRank:  0.448
+My Bet:  1
+FOLD
+pokeriniRank:  0.465
+My Bet:  1
+FOLD
+pokeriniRank:  0.482
+My Bet:  1
+FOLD
+pokeriniRank:  0.529
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1155
+pokeriniRank:  0.52
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1156
+pokeriniRank:  0.462
+My Bet:  1
+FOLD
+pokeriniRank:  0.495
+My Bet:  1
+FOLD
+pokeriniRank:  0.465
+My Bet:  1
+FOLD
+pokeriniRank:  0.595
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1157
+pokeriniRank:  0.426
+My Bet:  1
+FOLD
+pokeriniRank:  0.536
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1157
+pokeriniRank:  0.463
+My Bet:  1
+FOLD
+pokeriniRank:  0.604
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1158
+pokeriniRank:  0.49
+My Bet:  1
+FOLD
+pokeriniRank:  0.58
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1159
+pokeriniRank:  0.386
+My Bet:  1
+FOLD
+pokeriniRank:  0.463
+My Bet:  1
+FOLD
+pokeriniRank:  0.623
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1160
+pokeriniRank:  0.575
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1160
+pokeriniRank:  0.435
+My Bet:  1
+FOLD
+pokeriniRank:  0.541
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1161
+pokeriniRank:  0.459
+My Bet:  1
+FOLD
+pokeriniRank:  0.705
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1162
+pokeriniRank:  0.45
+My Bet:  1
+FOLD
+pokeriniRank:  0.495
+My Bet:  1
+FOLD
+pokeriniRank:  0.579
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1162
+pokeriniRank:  0.488
+My Bet:  1
+FOLD
+pokeriniRank:  0.455
+My Bet:  1
+FOLD
+pokeriniRank:  0.483
+My Bet:  1
+FOLD
+pokeriniRank:  0.562
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1163
+pokeriniRank:  0.5
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1164
+pokeriniRank:  0.652
+My Bet:  1
+RAIS
+winLoss:  1
+overallGain:  1164
+pokeriniRank:  0.546
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1165
+pokeriniRank:  0.55
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1166
+pokeriniRank:  0.612
+My Bet:  1
+RAIS
+winLoss:  0
+overallGain:  1167
+pokeriniRank:  0.494
+My Bet:  1
+FOLD
+pokeriniRank:  0.577
+My Bet:  1
+RAIS
+winLoss:  -87
+overallGain:  1255
+pokeriniRank:  0.446
+My Bet:  1
+FOLD
+pokeriniRank:  0.52
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1253
+pokeriniRank:  0.538
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1251
+pokeriniRank:  0.463
+My Bet:  1
+FOLD
+pokeriniRank:  0.398
+My Bet:  1
+FOLD
+pokeriniRank:  0.423
+My Bet:  1
+FOLD
+pokeriniRank:  0.551
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1249
+pokeriniRank:  0.494
+My Bet:  1
+FOLD
+pokeriniRank:  0.531
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1247
+pokeriniRank:  0.628
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1245
+pokeriniRank:  0.557
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1243
+pokeriniRank:  0.429
+My Bet:  1
+FOLD
+pokeriniRank:  0.441
+My Bet:  1
+FOLD
+pokeriniRank:  0.535
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1241
+pokeriniRank:  0.469
+My Bet:  1
+FOLD
+pokeriniRank:  0.506
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1239
+pokeriniRank:  0.454
+My Bet:  1
+FOLD
+pokeriniRank:  0.574
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1237
+pokeriniRank:  0.407
+My Bet:  1
+FOLD
+pokeriniRank:  0.456
+My Bet:  1
+FOLD
+pokeriniRank:  0.48
+My Bet:  1
+FOLD
+pokeriniRank:  0.513
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1235
+pokeriniRank:  0.456
+My Bet:  1
+FOLD
+pokeriniRank:  0.537
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1233
+pokeriniRank:  0.543
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1231
+pokeriniRank:  0.546
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1229
+pokeriniRank:  0.532
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1227
+pokeriniRank:  0.482
+My Bet:  1
+FOLD
+pokeriniRank:  0.528
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1225
+pokeriniRank:  0.463
+My Bet:  1
+FOLD
+pokeriniRank:  0.45
+My Bet:  1
+FOLD
+pokeriniRank:  0.569
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1223
+pokeriniRank:  0.48
+My Bet:  1
+FOLD
+pokeriniRank:  0.569
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1221
+pokeriniRank:  0.425
+My Bet:  1
+FOLD
+pokeriniRank:  0.517
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1219
+pokeriniRank:  0.433
+My Bet:  1
+FOLD
+pokeriniRank:  0.461
+My Bet:  1
+FOLD
+pokeriniRank:  0.468
+My Bet:  1
+FOLD
+pokeriniRank:  0.531
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1217
+pokeriniRank:  0.538
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1215
+pokeriniRank:  0.556
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1213
+pokeriniRank:  0.526
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1211
+pokeriniRank:  0.602
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1209
+pokeriniRank:  0.523
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1207
+pokeriniRank:  0.429
+My Bet:  1
+FOLD
+pokeriniRank:  0.543
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1205
+pokeriniRank:  0.463
+My Bet:  1
+FOLD
+pokeriniRank:  0.477
+My Bet:  1
+FOLD
+pokeriniRank:  0.415
+My Bet:  1
+FOLD
+pokeriniRank:  0.534
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1203
+pokeriniRank:  0.578
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1201
+pokeriniRank:  0.524
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1199
+pokeriniRank:  0.406
+My Bet:  1
+FOLD
+pokeriniRank:  0.53
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1197
+pokeriniRank:  0.621
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1195
+pokeriniRank:  0.438
+My Bet:  1
+FOLD
+pokeriniRank:  0.504
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1193
+pokeriniRank:  0.522
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1191
+pokeriniRank:  0.544
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1189
+pokeriniRank:  0.504
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1187
+pokeriniRank:  0.505
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1185
+pokeriniRank:  0.468
+My Bet:  1
+FOLD
+pokeriniRank:  0.53
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1183
+pokeriniRank:  0.577
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1181
+pokeriniRank:  0.507
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1179
+pokeriniRank:  0.5
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1177
+pokeriniRank:  0.392
+My Bet:  1
+FOLD
+pokeriniRank:  0.464
+My Bet:  1
+FOLD
+pokeriniRank:  0.493
+My Bet:  1
+FOLD
+pokeriniRank:  0.506
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1175
+pokeriniRank:  0.534
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1173
+pokeriniRank:  0.576
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1171
+pokeriniRank:  0.55
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1169
+pokeriniRank:  0.448
+My Bet:  1
+FOLD
+pokeriniRank:  0.406
+My Bet:  1
+FOLD
+pokeriniRank:  0.469
+My Bet:  1
+FOLD
+pokeriniRank:  0.488
+My Bet:  1
+FOLD
+pokeriniRank:  0.504
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1167
+pokeriniRank:  0.419
+My Bet:  1
+FOLD
+pokeriniRank:  0.484
+My Bet:  1
+FOLD
+pokeriniRank:  0.473
+My Bet:  1
+FOLD
+pokeriniRank:  0.397
+My Bet:  1
+FOLD
+pokeriniRank:  0.482
+My Bet:  1
+FOLD
+pokeriniRank:  0.433
+My Bet:  1
+FOLD
+pokeriniRank:  0.543
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1165
+pokeriniRank:  0.499
+My Bet:  1
+FOLD
+pokeriniRank:  0.538
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1163
+pokeriniRank:  0.48
+My Bet:  1
+FOLD
+pokeriniRank:  0.475
+My Bet:  1
+FOLD
+pokeriniRank:  0.635
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1161
+pokeriniRank:  0.497
+My Bet:  1
+FOLD
+pokeriniRank:  0.362
+My Bet:  1
+FOLD
+pokeriniRank:  0.643
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1159
+pokeriniRank:  0.479
+My Bet:  1
+FOLD
+pokeriniRank:  0.357
+My Bet:  1
+FOLD
+pokeriniRank:  0.52
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1157
+pokeriniRank:  0.54
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1155
+pokeriniRank:  0.422
+My Bet:  1
+FOLD
+pokeriniRank:  0.451
+My Bet:  1
+FOLD
+pokeriniRank:  0.455
+My Bet:  1
+FOLD
+pokeriniRank:  0.48
+My Bet:  1
+FOLD
+pokeriniRank:  0.512
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1153
+pokeriniRank:  0.415
+My Bet:  1
+FOLD
+pokeriniRank:  0.421
+My Bet:  1
+FOLD
+pokeriniRank:  0.465
+My Bet:  1
+FOLD
+pokeriniRank:  0.446
+My Bet:  1
+FOLD
+pokeriniRank:  0.556
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1151
+pokeriniRank:  0.619
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1149
+pokeriniRank:  0.431
+My Bet:  1
+FOLD
+pokeriniRank:  0.5
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1147
+pokeriniRank:  0.553
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1145
+pokeriniRank:  0.545
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1143
+pokeriniRank:  0.547
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1141
+pokeriniRank:  0.434
+My Bet:  1
+FOLD
+pokeriniRank:  0.514
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1139
+pokeriniRank:  0.528
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1137
+pokeriniRank:  0.455
+My Bet:  1
+FOLD
+pokeriniRank:  0.448
+My Bet:  1
+FOLD
+pokeriniRank:  0.548
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1135
+pokeriniRank:  0.641
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1133
+pokeriniRank:  0.442
+My Bet:  1
+FOLD
+pokeriniRank:  0.451
+My Bet:  1
+FOLD
+pokeriniRank:  0.577
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1131
+pokeriniRank:  0.446
+My Bet:  1
+FOLD
+pokeriniRank:  0.545
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1129
+pokeriniRank:  0.538
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1127
+pokeriniRank:  0.494
+My Bet:  1
+FOLD
+pokeriniRank:  0.513
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1125
+pokeriniRank:  0.408
+My Bet:  1
+FOLD
+pokeriniRank:  0.383
+My Bet:  1
+FOLD
+pokeriniRank:  0.483
+My Bet:  1
+FOLD
+pokeriniRank:  0.451
+My Bet:  1
+FOLD
+pokeriniRank:  0.602
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1123
+pokeriniRank:  0.505
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1121
+pokeriniRank:  0.555
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1119
+pokeriniRank:  0.391
+My Bet:  1
+FOLD
+pokeriniRank:  0.488
+My Bet:  1
+FOLD
+pokeriniRank:  0.404
+My Bet:  1
+FOLD
+pokeriniRank:  0.504
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1117
+pokeriniRank:  0.502
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1115
+pokeriniRank:  0.457
+My Bet:  1
+FOLD
+pokeriniRank:  0.531
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1113
+pokeriniRank:  0.48
+My Bet:  1
+FOLD
+pokeriniRank:  0.462
+My Bet:  1
+FOLD
+pokeriniRank:  0.54
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1111
+pokeriniRank:  0.425
+My Bet:  1
+FOLD
+pokeriniRank:  0.497
+My Bet:  1
+FOLD
+pokeriniRank:  0.441
+My Bet:  1
+FOLD
+pokeriniRank:  0.521
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1109
+pokeriniRank:  0.51
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1107
+pokeriniRank:  0.455
+My Bet:  1
+FOLD
+pokeriniRank:  0.496
+My Bet:  1
+FOLD
+pokeriniRank:  0.659
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1105
+pokeriniRank:  0.523
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1103
+pokeriniRank:  0.634
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1101
+pokeriniRank:  0.445
+My Bet:  1
+FOLD
+pokeriniRank:  0.461
+My Bet:  1
+FOLD
+pokeriniRank:  0.504
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1099
+pokeriniRank:  0.404
+My Bet:  1
+FOLD
+pokeriniRank:  0.661
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1097
+pokeriniRank:  0.411
+My Bet:  1
+FOLD
+pokeriniRank:  0.498
+My Bet:  1
+FOLD
+pokeriniRank:  0.539
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1095
+pokeriniRank:  0.51
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1093
+pokeriniRank:  0.575
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1091
+pokeriniRank:  0.582
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1089
+pokeriniRank:  0.514
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1087
+pokeriniRank:  0.607
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1085
+pokeriniRank:  0.437
+My Bet:  1
+FOLD
+pokeriniRank:  0.439
+My Bet:  1
+FOLD
+pokeriniRank:  0.553
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1083
+pokeriniRank:  0.411
+My Bet:  1
+FOLD
+pokeriniRank:  0.397
+My Bet:  1
+FOLD
+pokeriniRank:  0.56
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1081
+pokeriniRank:  0.488
+My Bet:  1
+FOLD
+pokeriniRank:  0.614
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1079
+pokeriniRank:  0.541
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1077
+pokeriniRank:  0.512
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1075
+pokeriniRank:  0.5
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1073
+pokeriniRank:  0.627
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1071
+pokeriniRank:  0.448
+My Bet:  1
+FOLD
+pokeriniRank:  0.503
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1069
+pokeriniRank:  0.424
+My Bet:  1
+FOLD
+pokeriniRank:  0.469
+My Bet:  1
+FOLD
+pokeriniRank:  0.481
+My Bet:  1
+FOLD
+pokeriniRank:  0.502
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1067
+pokeriniRank:  0.559
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1065
+pokeriniRank:  0.42
+My Bet:  1
+FOLD
+pokeriniRank:  0.531
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1063
+pokeriniRank:  0.41
+My Bet:  1
+FOLD
+pokeriniRank:  0.491
+My Bet:  1
+FOLD
+pokeriniRank:  0.47
+My Bet:  1
+FOLD
+pokeriniRank:  0.526
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1061
+pokeriniRank:  0.574
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1059
+pokeriniRank:  0.544
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1057
+pokeriniRank:  0.607
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1055
+pokeriniRank:  0.457
+My Bet:  1
+FOLD
+pokeriniRank:  0.472
+My Bet:  1
+FOLD
+pokeriniRank:  0.533
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1053
+pokeriniRank:  0.482
+My Bet:  1
+FOLD
+pokeriniRank:  0.455
+My Bet:  1
+FOLD
+pokeriniRank:  0.415
+My Bet:  1
+FOLD
+pokeriniRank:  0.535
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1051
+pokeriniRank:  0.476
+My Bet:  1
+FOLD
+pokeriniRank:  0.613
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1049
+pokeriniRank:  0.487
+My Bet:  1
+FOLD
+pokeriniRank:  0.39
+My Bet:  1
+FOLD
+pokeriniRank:  0.491
+My Bet:  1
+FOLD
+pokeriniRank:  0.485
+My Bet:  1
+FOLD
+pokeriniRank:  0.527
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1047
+pokeriniRank:  0.538
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1045
+pokeriniRank:  0.549
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1043
+pokeriniRank:  0.517
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1041
+pokeriniRank:  0.628
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1039
+pokeriniRank:  0.469
+My Bet:  1
+FOLD
+pokeriniRank:  0.462
+My Bet:  1
+FOLD
+pokeriniRank:  0.486
+My Bet:  1
+FOLD
+pokeriniRank:  0.663
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1037
+pokeriniRank:  0.419
+My Bet:  1
+FOLD
+pokeriniRank:  0.461
+My Bet:  1
+FOLD
+pokeriniRank:  0.432
+My Bet:  1
+FOLD
+pokeriniRank:  0.453
+My Bet:  1
+FOLD
+pokeriniRank:  0.522
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1035
+pokeriniRank:  0.522
+My Bet:  1
+RAIS
+winLoss:  3
+overallGain:  1033
+1033

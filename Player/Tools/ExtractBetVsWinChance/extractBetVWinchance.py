@@ -25,6 +25,7 @@ riverBets = []
 
 d = Pokerini.pokeriniInitialise()
 
+
     #If both players agree on bet, moves bet to pot
 def updatePot():
     global iAgreeWithBet, opponentAgreesWithBet, myPot, myBet, opponentPot, opponentBet
@@ -37,7 +38,7 @@ def updatePot():
         opponentAgreesWithBet = False
 
 #handles actions performed between GetAction packets
-def parsePerformedAction(performedAction):
+def parsePerformedAction(performedAction, writeFile):
     words = performedAction.split(':')
     if(words[0] == "POST"):
         handlePerformedActionPost(words)
@@ -61,10 +62,10 @@ def parsePerformedAction(performedAction):
         handlePerformedActionFold(words)
         return
     if(words[0] == "SHOW"):
-        handlePerformedActionShow(words)
+        handlePerformedActionShow(words, writeFile)
         return
 
-def handlePerformedActionShow(words):
+def handlePerformedActionShow(words, writeFile):
     global opponentName
     global numBoardCards
     global preflopBets
@@ -79,16 +80,20 @@ def handlePerformedActionShow(words):
         for card in words[1:5]:
             opponentHand.append(parseCard(card))
         preflopRating = Pokerini.pokeriniLookup(opponentHand, d)
-        print str(preflopRating)+","+','.join(preflopBets)
+        writeFile.write(str(preflopRating)+","+','.join(preflopBets))
+        writeFile.write('\n')
         if(numBoardCards >= 3):
             postflopRanking = Simulation.simulateOld(opponentHand, boardCards[0:3], 3, 100)
-            print str(postflopRanking)+","+','.join(postflopBets)
+            writeFile.write(str(postflopRanking)+","+','.join(postflopBets))
+            writeFile.write('\n')
         if(numBoardCards >= 4):
             turnRanking = Simulation.simulateOld(opponentHand, boardCards[0:4], 4, 100)
-            print str(turnRanking)+","+','.join(turnBets)
+            writeFile.write(str(turnRanking)+","+','.join(turnBets))
+            writeFile.write('\n')
         if(numBoardCards == 5):
             riverRanking = Simulation.simulateOld(opponentHand, boardCards[0:5], 5, 100)
-            print str(riverRanking)+","+','.join(riverBets)
+            writeFile.write(str(riverRanking)+","+','.join(riverBets))
+            writeFile.write('\n')
 
 def handlePerformedActionFold( words):
     global numBoardCards, opponentName, opponentRound0Folds, opponentRound1Folds, opponentRound2Folds, opponentRound3Folds
@@ -202,7 +207,7 @@ def handlePerformedActionPost(words):
     opponentBet = int(words[1])
     opponentAgreesWithBet = False
 
-def handlePacketGetAction(words):  
+def handlePacketGetAction(words, writeFile):  
     global boardCards
     numBoardCardsListed = int(words[2])
     del boardCards[:] #clear board cards list
@@ -211,7 +216,7 @@ def handlePacketGetAction(words):
 
     numPerformedActions = int(words[3 + numBoardCardsListed]) #get the number of actions performed since my last `
     for word in range(4 + numBoardCardsListed, 4 + numBoardCardsListed + numPerformedActions): #parse every performed action
-        parsePerformedAction(words[word]) #update variables depending on performedActions
+        parsePerformedAction(words[word], writeFile) #update variables depending on performedActions
         updatePot() #update the pot 
 
 #takes string such as "Qs" and returns tuple of (11,s)
@@ -256,18 +261,18 @@ def handlePacketNewHand( words):
     del turnBets[:]
     del riverBets[:]
 
-def handlePacketHandOver( words):
+def handlePacketHandOver( words, writeFile):
     numBoardCardsListed = int(words[3])
     del boardCards[:] #clear board cards list
     for word in range(4,4 + numBoardCardsListed): #add board cards to list
         boardCards.append(parseCard(words[word]))
     numPerformedActions = int(words[4 + numBoardCardsListed]) #get the number of actions performed since my last action
     for word in range(5 + numBoardCardsListed, 5 + numBoardCardsListed + numPerformedActions): #parse every performed action
-        parsePerformedAction(words[word]) #update variables depending on performedActions
+        parsePerformedAction(words[word], writeFile) #update variables depending on performedActions
         updatePot() #update the pot
 
 #acts on given packet
-def parsePacket( data):
+def parsePacket( data, writeFile):
     if(len(data) == 0):
         return
     words = data.split() #split packet string at each space to produce array of words
@@ -275,7 +280,7 @@ def parsePacket( data):
         return
     packetType = words[0] #the first word represents the type of packet
     if(packetType == "GETACTION"):
-        handlePacketGetAction(words)
+        handlePacketGetAction(words, writeFile)
         return
     if(packetType == "NEWGAME"):
         handlePacketNewGame(words)
@@ -284,12 +289,25 @@ def parsePacket( data):
         handlePacketNewHand(words)
         return
     if(packetType == "HANDOVER"):
-        handlePacketHandOver(words)
+        handlePacketHandOver(words, writeFile)
         return
 
-f = open("betsvswinchanceinput.txt")
+def createFile(fileLocation):
+    f = open(fileLocation)
+    writeFile = open('output.txt', 'wt')
+    for x in f:
+        parsePacket(x, writeFile)
+    writeFile.close()
+    f.close()
 
-for x in f:
-    parsePacket(x)
+if __name__ == '__main__':
+    createFile("C:\Users\David\Documents\MIT\Pokerbots\Pokerbots-IAP-2016\Player\casino_logs\day 14\Player Dumps\LeBluff_vs_StraightOuttaCam_StraightOuttaCam")
+    '''
+    f = open("C:\Users\David\Documents\MIT\Pokerbots\Pokerbots-IAP-2016\Player\casino_logs\day 14\Player Dumps\LeBluff_vs_StraightOuttaCam_StraightOuttaCam")
+    writeFile = open('output.txt', 'wt')
 
-f.close()
+    for x in f:
+        parsePacket(x,writeFile)
+
+    f.close()
+    '''
