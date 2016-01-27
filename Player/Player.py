@@ -11,7 +11,7 @@ import WhoIsIt
 
 class Player:
 
-    debugPrint = True
+    debugPrint = False
     iAgreeWithBet = False 
     opponentAgreesWithBet = False
     myName = ''
@@ -39,6 +39,8 @@ class Player:
     timeBank = 0
     preflopBetLimit = 0
     numSimulations = 40
+    numRaises = 0
+    maxRaises = 0
 
     opponentRound0Folds = 0
     opponentRound1Folds = 0
@@ -94,8 +96,8 @@ class Player:
             if not data:
                 print "Gameover, engine disconnected."
                 break
-            if self.debugPrint:
-                print data
+            #if self.debugPrint:
+            print data
             # When sending responses, terminate each response with a newline character (\n) or your bot will hang!
             self.parsePacket(data)
             if self.debugPrint: print ""
@@ -195,17 +197,18 @@ class Player:
             print "Opponent Bet: ", self.opponentBet
             print "My Pot: ", self.myPot
             print "Opponent Pot: ", self.opponentPot
-            print "My Hand: ", self.myHand
-            print "Board Cards: ", self.boardCards
             print "Preflop bet limit: ", self.preflopBetLimit
             print "Response time: ", (actionFinishTime - actionStartTime)
-            print "Response: " + response
             print "Timebank: ", self.timeBank
             print "Expected Timebank: ", self.getExpectedTimeBank()
             print "Round 0 folds: " + str(self.opponentRound0Folds)
             print "Round 1 folds: " + str(self.opponentRound1Folds)
             print "Round 2 folds: " + str(self.opponentRound2Folds)
             print "Round 3 folds: " + str(self.opponentRound3Folds)
+
+        print "My Hand: ", self.myHand
+        print "Board Cards: ", self.boardCards
+        print "Response: " + response
 
 
         #check that the pots and bets agree with the specified pot size
@@ -260,6 +263,7 @@ class Player:
             self.iAgreeWithBet = True
             return
         self.opponentAgreesWithBet = True
+        self.maxRaises +=1
     
     #updates myBet or opponentBet
     def handlePerformedActionBet(self, words):
@@ -271,6 +275,9 @@ class Player:
         self.opponentBet = int(words[1])
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = True
+        self.numRaises += 1
+        self.maxRaises +=1
+
         
     #updates myBet or opponentBet
     def handlePerformedActionRaise(self, words):
@@ -282,6 +289,8 @@ class Player:
         self.opponentBet = int(words[1])
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = True
+        self.numRaises += 1
+        self.maxRaises +=1
 
     #updates myBet or opponentBet - but doesn't agree with documentation
     def handlePerformedActionCall(self, words):
@@ -291,6 +300,7 @@ class Player:
             return
         self.opponentBet = self.myBet
         self.opponentAgreesWithBet = True
+        self.maxRaises +=1
 
     #updates either myBet or opponentBet based on the blinds
     def handlePerformedActionPost(self, words):
@@ -347,6 +357,8 @@ class Player:
         self.iAgreeWithBet = False
         self.opponentAgreesWithBet = False
         self.cardsChanged = True
+        self.numRaises = 0
+        self.maxRaises = 0
         if (self.handId % 10 == 0) and (self.handId != 1000):
             self.numSimulations = self.calcNumSimulations()
             print "NumSimulations: ", self.numSimulations
@@ -377,6 +389,8 @@ class Player:
     def choosePlay(self, canBet, minBet, maxBet, canCall, canCheck, canFold, canRaise, minRaise, maxRaise, actionStartTime):
         self.updateHandRanking() #update hand rankings
 
+        print 'numRaises/maxRaises: ' +  str(self.numRaises) + '/' + str(self.maxRaises)
+
         if(self.numBoardCards == 0):
             if self.debugPrint: print "Pokerini Rank: " + str(self.pokeriniRank)
             if(self.pokeriniRank < 0.3): #if we are in the checkFold region
@@ -391,16 +405,22 @@ class Player:
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
         if(self.numBoardCards >= 3):
+            winChanceCompensated = self.simulationWinChance
+            if self.maxRaises > 0:
+                winChanceCompensated  -= (0.2 * self.numRaises / self.maxRaises)
+            if winChanceCompensated < 0:
+                winChanceCompensated = 0
+
             if self.debugPrint: print "Simulation Win Chance: " + str(self.simulationWinChance)
-            if self.simulationWinChance < (0.5 - 0.1 * (self.numBoardCards - 3)): #if we are in the checkCallFold region
+            if winChanceCompensated < (0.5 - 0.1 * (self.numBoardCards - 3)): #if we are in the checkCallFold region
                 return self.checkFold(canCheck)
             tempRaiseThresh = 0.6 + 0.05*(self.numBoardCards - 3)
-            if(self.simulationWinChance < tempRaiseThresh ): #if we are in the checkCall region
-                return self.checkCallFold(canCheck, canCall, self.simulationWinChance)
+            if(winChanceCompensated < tempRaiseThresh ): #if we are in the checkCall region
+                return self.checkCallFold(canCheck, canCall, winChanceCompensated)
             if(self.simulationWinChance > 1.0): #if we are in the raise full region
-                return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet max
+                return self.betRaise(1.0, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet maxf
             #we are in the raise linearly region
-            raisePercentage = self.calculateRaisePercentage(10, self.simulationWinChance, tempRaiseThresh)
+            raisePercentage = self.calculateRaisePercentage(10, winChanceCompensated, tempRaiseThresh)
             print 'Raise Percentage: ',  raisePercentage
             return self.betRaise(raisePercentage, canBet, minBet, maxBet, canRaise, minRaise, maxRaise, canCheck, canCall) #raise/bet by correct percentage
 
