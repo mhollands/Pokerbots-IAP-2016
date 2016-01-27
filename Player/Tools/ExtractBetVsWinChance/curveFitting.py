@@ -2,6 +2,7 @@ import string
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 import extractBetVWinchance as extractData
+import extractBetVWinchanceUS as extractDataUS
 import os
 
 #reads in the data from fileName and returns lists of the winPercentage and respective bet percentage for a specified round of betting
@@ -55,8 +56,9 @@ def analyseFile(fileLocation, roundNumber):
 
 def processMiniTournament(directory):
 	for fileName in os.listdir(directory):
-	
+
 		extractData.createFile(directory + '\\' + fileName)
+		#extractDataUS.createFile(directory + '\\' + fileName)
 		for i in range(4):
 			betPercentages, winPercentages = readBetVWinChanceFile('output.txt', i)
 			plotPoints(betPercentages, winPercentages, 'miniTournament\Betting Graphs\\' + fileName + 'round' + str(i) + '.png')
