@@ -1,0 +1,2082 @@
+6.176 MIT Pokerbots - d vs StraightOuttaCam (stack=200, bb=2)
+Hand #1, d (0), StraightOuttaCam (0)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [8h Kc 5d 5c]
+Dealt to StraightOuttaCam [4h Qh As 4s]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Ts 3h Ad]
+StraightOuttaCam bets 8
+d calls
+*** TURN *** (28) [Ts 3h Ad] [Ks]
+StraightOuttaCam bets 22
+d calls
+*** RIVER *** (72) [Ts 3h Ad Ks] [Td]
+StraightOuttaCam bets 65
+d calls
+d shows [8h Kc 5d 5c]
+StraightOuttaCam shows [4h Qh As 4s]
+StraightOuttaCam wins the pot (202)
+
+Hand #2, StraightOuttaCam (101), d (-101)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Qh Td Js Kd]
+Dealt to d [Kh Qd 5d Jd]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [2d 3d 6d]
+d checks
+StraightOuttaCam bets 12
+d calls
+*** TURN *** (36) [2d 3d 6d] [2h]
+d checks
+StraightOuttaCam bets 12
+d calls
+*** RIVER *** (60) [2d 3d 6d 2h] [5h]
+d checks
+StraightOuttaCam bets 13
+d calls
+StraightOuttaCam shows [Qh Td Js Kd]
+d shows [Kh Qd 5d Jd]
+StraightOuttaCam wins the pot (86)
+
+Hand #3, d (-144), StraightOuttaCam (144)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Jc Ts Ad 8h]
+Dealt to StraightOuttaCam [8s 2c Qs 2d]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Jh 5c 6h]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Jh 5c 6h] [As]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Jh 5c 6h As] [7s]
+StraightOuttaCam checks
+d checks
+d shows [Jc Ts Ad 8h]
+StraightOuttaCam shows [8s 2c Qs 2d]
+d wins the pot (4)
+
+Hand #4, StraightOuttaCam (142), d (-142)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Jc 2h Kh 4h]
+Dealt to d [3h 9d 3s Jd]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [5d Kd 6c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [5d Kd 6c] [5c]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [5d Kd 6c 5c] [6d]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Jc 2h Kh 4h]
+d shows [3h 9d 3s Jd]
+d wins the pot (4)
+
+Hand #5, d (-140), StraightOuttaCam (140)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [9d Td 3d 3c]
+Dealt to StraightOuttaCam [Qc Jd 5c 8c]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Ac 5d 3s]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [Ac 5d 3s] [6c]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [Ac 5d 3s 6c] [5h]
+StraightOuttaCam bets 7
+d calls
+d shows [9d Td 3d 3c]
+StraightOuttaCam shows [Qc Jd 5c 8c]
+d wins the pot (26)
+
+Hand #6, StraightOuttaCam (127), d (-127)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Ah 6s Kd 8d]
+Dealt to d [2c 8h 4h Ts]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [8s 9d Qh]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [8s 9d Qh] [2d]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [8s 9d Qh 2d] [3c]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Ah 6s Kd 8d]
+d shows [2c 8h 4h Ts]
+d wins the pot (12)
+
+Hand #7, d (-121), StraightOuttaCam (121)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [6s 5c 7c 9h]
+Dealt to StraightOuttaCam [5h 3s 8s Kh]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Jh Ts Tc]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Jh Ts Tc] [Qc]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Jh Ts Tc Qc] [4c]
+StraightOuttaCam checks
+d checks
+d shows [6s 5c 7c 9h]
+StraightOuttaCam shows [5h 3s 8s Kh]
+d wins the pot (4)
+
+Hand #8, StraightOuttaCam (119), d (-119)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [7s 3s Js 5c]
+Dealt to d [Jd As 2s 6s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [6d 3c 6h]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [6d 3c 6h] [9s]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [6d 3c 6h 9s] [8s]
+d checks
+StraightOuttaCam bets 2
+d calls
+StraightOuttaCam shows [7s 3s Js 5c]
+d shows [Jd As 2s 6s]
+StraightOuttaCam wins the pot (8)
+
+Hand #9, d (-123), StraightOuttaCam (123)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [9s 9h 2s Ks]
+Dealt to StraightOuttaCam [3s Qs Js 3h]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Ts Qd Jd]
+StraightOuttaCam bets 3
+d calls
+*** TURN *** (10) [Ts Qd Jd] [Ac]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (10) [Ts Qd Jd Ac] [Td]
+StraightOuttaCam checks
+d checks
+d shows [9s 9h 2s Ks]
+StraightOuttaCam shows [3s Qs Js 3h]
+d wins the pot (10)
+
+Hand #10, StraightOuttaCam (118), d (-118)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [7h 6h 9h Ks]
+Dealt to d [5c 3s Th 3d]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [2c Kd Td]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [2c Kd Td] [4s]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [2c Kd Td 4s] [8c]
+d checks
+StraightOuttaCam bets 11
+d calls
+StraightOuttaCam shows [7h 6h 9h Ks]
+d shows [5c 3s Th 3d]
+StraightOuttaCam wins the pot (34)
+
+Hand #11, d (-135), StraightOuttaCam (135)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [2d Jc Kh 7s]
+Dealt to StraightOuttaCam [Ac 4h Td 3c]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Qc 5s Qh]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Qc 5s Qh] [5d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Qc 5s Qh 5d] [4d]
+StraightOuttaCam checks
+d checks
+d shows [2d Jc Kh 7s]
+StraightOuttaCam shows [Ac 4h Td 3c]
+StraightOuttaCam wins the pot (4)
+
+Hand #12, StraightOuttaCam (137), d (-137)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Th 5d 3s Kd]
+Dealt to d [2c Jd 2h 9s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [5h Qh 6c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [5h Qh 6c] [4s]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [5h Qh 6c 4s] [9h]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Th 5d 3s Kd]
+d shows [2c Jd 2h 9s]
+d wins the pot (4)
+
+Hand #13, d (-135), StraightOuttaCam (135)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [2c 4d As Ts]
+Dealt to StraightOuttaCam [8s Kh Jd 4s]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [7s Td 8d]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [7s Td 8d] [5s]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [7s Td 8d 5s] [Jh]
+StraightOuttaCam bets 3
+d calls
+d shows [2c 4d As Ts]
+StraightOuttaCam shows [8s Kh Jd 4s]
+StraightOuttaCam wins the pot (10)
+
+Hand #14, StraightOuttaCam (140), d (-140)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Kc Kd 3d 2h]
+Dealt to d [2d 4h Qd 5d]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Td 6h 8c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [Td 6h 8c] [Ah]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [Td 6h 8c Ah] [Th]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Kc Kd 3d 2h]
+d shows [2d 4h Qd 5d]
+StraightOuttaCam wins the pot (12)
+
+Hand #15, d (-146), StraightOuttaCam (146)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [3d Th 6d 8h]
+Dealt to StraightOuttaCam [Jd 7h 5s 5h]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Ac 3h 9h]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Ac 3h 9h] [Ks]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Ac 3h 9h Ks] [7s]
+StraightOuttaCam checks
+d checks
+d shows [3d Th 6d 8h]
+StraightOuttaCam shows [Jd 7h 5s 5h]
+StraightOuttaCam wins the pot (4)
+
+Hand #16, StraightOuttaCam (148), d (-148)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [6h 9d 2c Ad]
+Dealt to d [5s Ks Th 5c]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [6s 4c Qs]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [6s 4c Qs] [Kd]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [6s 4c Qs Kd] [Ac]
+d checks
+StraightOuttaCam bets 3
+d calls
+StraightOuttaCam shows [6h 9d 2c Ad]
+d shows [5s Ks Th 5c]
+StraightOuttaCam wins the pot (10)
+
+Hand #17, d (-153), StraightOuttaCam (153)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Ts 4s 9c 7s]
+Dealt to StraightOuttaCam [Jd 3s 5h 4d]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [7h 5s 8h]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [7h 5s 8h] [3c]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [7h 5s 8h 3c] [Qh]
+StraightOuttaCam checks
+d checks
+d shows [Ts 4s 9c 7s]
+StraightOuttaCam shows [Jd 3s 5h 4d]
+StraightOuttaCam wins the pot (4)
+
+Hand #18, StraightOuttaCam (155), d (-155)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Ah 8s 4c 7s]
+Dealt to d [3h 9s Js 7c]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Qc 7d Kc]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [Qc 7d Kc] [4d]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [Qc 7d Kc 4d] [6c]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Ah 8s 4c 7s]
+d shows [3h 9s Js 7c]
+StraightOuttaCam wins the pot (12)
+
+Hand #19, d (-161), StraightOuttaCam (161)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Td 7s Js 8h]
+Dealt to StraightOuttaCam [Kc Kh 4c 3c]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [4d 7c 9d]
+StraightOuttaCam bets 8
+d calls
+*** TURN *** (28) [4d 7c 9d] [Jh]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (28) [4d 7c 9d Jh] [2h]
+StraightOuttaCam checks
+d checks
+d shows [Td 7s Js 8h]
+StraightOuttaCam shows [Kc Kh 4c 3c]
+d wins the pot (28)
+
+Hand #20, StraightOuttaCam (147), d (-147)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [2d 3h As 4d]
+Dealt to d [4h 5s 6h 2s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [2c 8s 8h]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [2c 8s 8h] [Ts]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [2c 8s 8h Ts] [Jd]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [2d 3h As 4d]
+d shows [4h 5s 6h 2s]
+StraightOuttaCam wins the pot (4)
+
+Hand #21, d (-149), StraightOuttaCam (149)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Qh 6s Jh Jd]
+Dealt to StraightOuttaCam [9h 9s Ac Kd]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [4c 2s Kc]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [4c 2s Kc] [4h]
+StraightOuttaCam bets 7
+d calls
+*** RIVER *** (26) [4c 2s Kc 4h] [As]
+StraightOuttaCam checks
+d checks
+d shows [Qh 6s Jh Jd]
+StraightOuttaCam shows [9h 9s Ac Kd]
+StraightOuttaCam wins the pot (26)
+
+Hand #22, StraightOuttaCam (162), d (-162)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Ts Ks 6h 4d]
+Dealt to d [2h As Tc Td]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [4h 3h 6c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [4h 3h 6c] [4s]
+d checks
+StraightOuttaCam bets 12
+d calls
+*** RIVER *** (36) [4h 3h 6c 4s] [9s]
+d checks
+StraightOuttaCam bets 36
+d calls
+StraightOuttaCam shows [Ts Ks 6h 4d]
+d shows [2h As Tc Td]
+StraightOuttaCam wins the pot (108)
+
+Hand #23, d (-216), StraightOuttaCam (216)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Kc 7d 8d 2c]
+Dealt to StraightOuttaCam [6c 8s 2d 9s]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Jh 2s 6d]
+StraightOuttaCam bets 2
+d calls
+*** TURN *** (8) [Jh 2s 6d] [8h]
+StraightOuttaCam bets 3
+d calls
+*** RIVER *** (14) [Jh 2s 6d 8h] [Qc]
+StraightOuttaCam bets 11
+d calls
+d shows [Kc 7d 8d 2c]
+StraightOuttaCam shows [6c 8s 2d 9s]
+StraightOuttaCam wins the pot (36)
+
+Hand #24, StraightOuttaCam (234), d (-234)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [9h 6c Kd Kh]
+Dealt to d [5d 7s Kc 7c]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [6h 5s 2h]
+d checks
+StraightOuttaCam bets 9
+d calls
+*** TURN *** (30) [6h 5s 2h] [3d]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (30) [6h 5s 2h 3d] [6s]
+d checks
+StraightOuttaCam bets 21
+d calls
+StraightOuttaCam shows [9h 6c Kd Kh]
+d shows [5d 7s Kc 7c]
+StraightOuttaCam wins the pot (72)
+
+Hand #25, d (-270), StraightOuttaCam (270)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [3c 9s Ks 4c]
+Dealt to StraightOuttaCam [4h Qd 8c 2c]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Qc 8s 9d]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Qc 8s 9d] [6d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Qc 8s 9d 6d] [Ts]
+StraightOuttaCam checks
+d checks
+d shows [3c 9s Ks 4c]
+StraightOuttaCam shows [4h Qd 8c 2c]
+StraightOuttaCam wins the pot (4)
+
+Hand #26, StraightOuttaCam (272), d (-272)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Qc 7c 2h Ac]
+Dealt to d [2c 6s 3h 2d]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Jh 8d 8h]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Jh 8d 8h] [Qh]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Jh 8d 8h Qh] [9s]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Qc 7c 2h Ac]
+d shows [2c 6s 3h 2d]
+StraightOuttaCam wins the pot (4)
+
+Hand #27, d (-274), StraightOuttaCam (274)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Jd 5h 9c 7h]
+Dealt to StraightOuttaCam [8c 4h Qh Qc]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [6s 5c 2h]
+StraightOuttaCam bets 12
+d calls
+*** TURN *** (36) [6s 5c 2h] [9s]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (36) [6s 5c 2h 9s] [Kc]
+StraightOuttaCam checks
+d checks
+d shows [Jd 5h 9c 7h]
+StraightOuttaCam shows [8c 4h Qh Qc]
+d wins the pot (36)
+
+Hand #28, StraightOuttaCam (256), d (-256)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [7h 6s Qh 5c]
+Dealt to d [Ad 5s 9h 3h]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [8h 7s Ac]
+d checks
+StraightOuttaCam bets 3
+d calls
+*** TURN *** (10) [8h 7s Ac] [4c]
+d checks
+StraightOuttaCam bets 10
+d calls
+*** RIVER *** (30) [8h 7s Ac 4c] [9c]
+d checks
+StraightOuttaCam bets 10
+d calls
+StraightOuttaCam shows [7h 6s Qh 5c]
+d shows [Ad 5s 9h 3h]
+StraightOuttaCam wins the pot (50)
+
+Hand #29, d (-281), StraightOuttaCam (281)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [7h 6s 5c 7d]
+Dealt to StraightOuttaCam [4c 7s Jh Ks]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [5h As 6d]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [5h As 6d] [9d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [5h As 6d 9d] [9c]
+StraightOuttaCam checks
+d checks
+d shows [7h 6s 5c 7d]
+StraightOuttaCam shows [4c 7s Jh Ks]
+d wins the pot (12)
+
+Hand #30, StraightOuttaCam (275), d (-275)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [As Ah 7h Jc]
+Dealt to d [3d Jh Kc 9h]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [4c 9d 6c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [4c 9d 6c] [2c]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [4c 9d 6c 2c] [4s]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [As Ah 7h Jc]
+d shows [3d Jh Kc 9h]
+StraightOuttaCam wins the pot (12)
+
+Hand #31, d (-281), StraightOuttaCam (281)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Js 8c 3s 3c]
+Dealt to StraightOuttaCam [4d Qs 3h Td]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Ks 8d Qh]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Ks 8d Qh] [9d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Ks 8d Qh 9d] [8s]
+StraightOuttaCam checks
+d checks
+d shows [Js 8c 3s 3c]
+StraightOuttaCam shows [4d Qs 3h Td]
+d wins the pot (4)
+
+Hand #32, StraightOuttaCam (279), d (-279)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Qh 4c Ks Td]
+Dealt to d [Kd Kc 2c 9h]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [4d Kh 7h]
+d checks
+StraightOuttaCam bets 3
+d calls
+*** TURN *** (10) [4d Kh 7h] [9s]
+d checks
+StraightOuttaCam bets 4
+d calls
+*** RIVER *** (18) [4d Kh 7h 9s] [8h]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Qh 4c Ks Td]
+d shows [Kd Kc 2c 9h]
+d wins the pot (18)
+
+Hand #33, d (-270), StraightOuttaCam (270)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Ad 2h 3h Td]
+Dealt to StraightOuttaCam [8h Ah Ac Ts]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [4h 9h Kc]
+StraightOuttaCam bets 5
+d calls
+*** TURN *** (22) [4h 9h Kc] [4d]
+StraightOuttaCam bets 22
+d calls
+*** RIVER *** (66) [4h 9h Kc 4d] [7c]
+StraightOuttaCam bets 34
+d calls
+d shows [Ad 2h 3h Td]
+StraightOuttaCam shows [8h Ah Ac Ts]
+StraightOuttaCam wins the pot (134)
+
+Hand #34, StraightOuttaCam (337), d (-337)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [9d 2d 8c 4h]
+Dealt to d [6h Qs 7d Qh]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [7c 3s 9h]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [7c 3s 9h] [3c]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [7c 3s 9h 3c] [Kc]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [9d 2d 8c 4h]
+d shows [6h Qs 7d Qh]
+d wins the pot (4)
+
+Hand #35, d (-335), StraightOuttaCam (335)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [3s 6h Kd Th]
+Dealt to StraightOuttaCam [7s 2h 4c Ac]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [9s Tc Jh]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [9s Tc Jh] [Jc]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [9s Tc Jh Jc] [7d]
+StraightOuttaCam checks
+d checks
+d shows [3s 6h Kd Th]
+StraightOuttaCam shows [7s 2h 4c Ac]
+d wins the pot (4)
+
+Hand #36, StraightOuttaCam (333), d (-333)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Tc 9s 2h 6c]
+Dealt to d [Kh Qc Ts 3s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [6s 3c 9c]
+d checks
+StraightOuttaCam bets 2
+d calls
+*** TURN *** (8) [6s 3c 9c] [Ah]
+d checks
+StraightOuttaCam bets 4
+d calls
+*** RIVER *** (16) [6s 3c 9c Ah] [Qh]
+d checks
+StraightOuttaCam bets 6
+d calls
+StraightOuttaCam shows [Tc 9s 2h 6c]
+d shows [Kh Qc Ts 3s]
+d wins the pot (28)
+
+Hand #37, d (-319), StraightOuttaCam (319)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [5h Kh 4s 8d]
+Dealt to StraightOuttaCam [Qs 6d 2c 6c]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [2d Jh 3d]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [2d Jh 3d] [Qh]
+StraightOuttaCam bets 3
+d calls
+*** RIVER *** (10) [2d Jh 3d Qh] [2h]
+StraightOuttaCam bets 10
+d calls
+d shows [5h Kh 4s 8d]
+StraightOuttaCam shows [Qs 6d 2c 6c]
+StraightOuttaCam wins the pot (30)
+
+Hand #38, StraightOuttaCam (334), d (-334)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Td 2s Js 8h]
+Dealt to d [Kc 6s Ts 9d]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [2c Jh Th]
+d checks
+StraightOuttaCam bets 3
+d calls
+*** TURN *** (10) [2c Jh Th] [Tc]
+d checks
+StraightOuttaCam bets 10
+d calls
+*** RIVER *** (30) [2c Jh Th Tc] [Kh]
+d checks
+StraightOuttaCam bets 30
+d calls
+StraightOuttaCam shows [Td 2s Js 8h]
+d shows [Kc 6s Ts 9d]
+d wins the pot (90)
+
+Hand #39, d (-289), StraightOuttaCam (289)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [9c Kd 4s Qd]
+Dealt to StraightOuttaCam [8s 4d 5c 6d]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Ks Ts Kh]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Ks Ts Kh] [4c]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Ks Ts Kh 4c] [Kc]
+StraightOuttaCam checks
+d checks
+d shows [9c Kd 4s Qd]
+StraightOuttaCam shows [8s 4d 5c 6d]
+d wins the pot (4)
+
+Hand #40, StraightOuttaCam (287), d (-287)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Jh Kd 9c 9s]
+Dealt to d [Qh 8d 7d 8h]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Ac 9h 7c]
+d checks
+StraightOuttaCam bets 6
+d calls
+*** TURN *** (24) [Ac 9h 7c] [4s]
+d checks
+StraightOuttaCam bets 24
+d calls
+*** RIVER *** (72) [Ac 9h 7c 4s] [3c]
+d checks
+StraightOuttaCam bets 30
+d calls
+StraightOuttaCam shows [Jh Kd 9c 9s]
+d shows [Qh 8d 7d 8h]
+StraightOuttaCam wins the pot (132)
+
+Hand #41, d (-353), StraightOuttaCam (353)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [5s 2s Js 5h]
+Dealt to StraightOuttaCam [6h 4s 8c 7c]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Jc 6s 6d]
+StraightOuttaCam bets 4
+d calls
+*** TURN *** (12) [Jc 6s 6d] [3h]
+StraightOuttaCam bets 6
+d calls
+*** RIVER *** (24) [Jc 6s 6d 3h] [Ah]
+StraightOuttaCam bets 4
+d calls
+d shows [5s 2s Js 5h]
+StraightOuttaCam shows [6h 4s 8c 7c]
+StraightOuttaCam wins the pot (32)
+
+Hand #42, StraightOuttaCam (369), d (-369)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Td 2d Ah 8d]
+Dealt to d [5d Ks 7s 2s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Qs 4h Kh]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Qs 4h Kh] [Jd]
+d checks
+StraightOuttaCam bets 4
+d calls
+*** RIVER *** (12) [Qs 4h Kh Jd] [9c]
+d checks
+StraightOuttaCam bets 12
+d calls
+StraightOuttaCam shows [Td 2d Ah 8d]
+d shows [5d Ks 7s 2s]
+StraightOuttaCam wins the pot (36)
+
+Hand #43, d (-387), StraightOuttaCam (387)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Qs Kc 8s Jd]
+Dealt to StraightOuttaCam [As Kh 8d 7c]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [7d 9h Qc]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [7d 9h Qc] [7s]
+StraightOuttaCam bets 12
+d calls
+*** RIVER *** (36) [7d 9h Qc 7s] [Ah]
+StraightOuttaCam bets 36
+d calls
+d shows [Qs Kc 8s Jd]
+StraightOuttaCam shows [As Kh 8d 7c]
+StraightOuttaCam wins the pot (108)
+
+Hand #44, StraightOuttaCam (441), d (-441)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Ac 2c 3d 6d]
+Dealt to d [2d Ts 9d 6c]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [2h Ah Qs]
+d checks
+StraightOuttaCam bets 3
+d calls
+*** TURN *** (10) [2h Ah Qs] [3s]
+d checks
+StraightOuttaCam bets 9
+d calls
+*** RIVER *** (28) [2h Ah Qs 3s] [6s]
+d checks
+StraightOuttaCam bets 15
+d calls
+StraightOuttaCam shows [Ac 2c 3d 6d]
+d shows [2d Ts 9d 6c]
+StraightOuttaCam wins the pot (58)
+
+Hand #45, d (-470), StraightOuttaCam (470)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [3s 7d 9h Tc]
+Dealt to StraightOuttaCam [Js Ks 7h 8h]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Qd 8s Jh]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [Qd 8s Jh] [7c]
+StraightOuttaCam bets 10
+d calls
+*** RIVER *** (32) [Qd 8s Jh 7c] [4d]
+StraightOuttaCam bets 29
+d calls
+d shows [3s 7d 9h Tc]
+StraightOuttaCam shows [Js Ks 7h 8h]
+d wins the pot (90)
+
+Hand #46, StraightOuttaCam (425), d (-425)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [3c Js Qc Jh]
+Dealt to d [2s Qs 2h 9c]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [2c Jd 4h]
+d checks
+StraightOuttaCam bets 12
+d calls
+*** TURN *** (36) [2c Jd 4h] [8d]
+d checks
+StraightOuttaCam bets 36
+d calls
+*** RIVER *** (108) [2c Jd 4h 8d] [9h]
+d checks
+StraightOuttaCam bets 108
+d calls
+StraightOuttaCam shows [3c Js Qc Jh]
+d shows [2s Qs 2h 9c]
+StraightOuttaCam wins the pot (324)
+
+Hand #47, d (-587), StraightOuttaCam (587)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [5c Ts 7s 6c]
+Dealt to StraightOuttaCam [9c 2d Kd 5d]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [3s 3h 4c]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [3s 3h 4c] [Qc]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [3s 3h 4c Qc] [Jd]
+StraightOuttaCam checks
+d checks
+d shows [5c Ts 7s 6c]
+StraightOuttaCam shows [9c 2d Kd 5d]
+StraightOuttaCam wins the pot (4)
+
+Hand #48, StraightOuttaCam (589), d (-589)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [3s Jc 6d 7s]
+Dealt to d [5d Js 6h 3d]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [3h 4s 6s]
+d checks
+StraightOuttaCam bets 4
+d calls
+*** TURN *** (12) [3h 4s 6s] [9s]
+d checks
+StraightOuttaCam bets 2
+d calls
+*** RIVER *** (16) [3h 4s 6s 9s] [9d]
+d checks
+StraightOuttaCam bets 4
+d calls
+StraightOuttaCam shows [3s Jc 6d 7s]
+d shows [5d Js 6h 3d]
+StraightOuttaCam wins the pot (24)
+
+Hand #49, d (-601), StraightOuttaCam (601)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Ac Kd 7c 8c]
+Dealt to StraightOuttaCam [Qh 2d Ah Kh]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [4c 5s 3h]
+StraightOuttaCam bets 7
+d calls
+*** TURN *** (26) [4c 5s 3h] [9d]
+StraightOuttaCam bets 26
+d calls
+*** RIVER *** (78) [4c 5s 3h 9d] [7s]
+StraightOuttaCam bets 78
+d calls
+d shows [Ac Kd 7c 8c]
+StraightOuttaCam shows [Qh 2d Ah Kh]
+StraightOuttaCam wins the pot (234)
+
+Hand #50, StraightOuttaCam (718), d (-718)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [9h Qh Kh Js]
+Dealt to d [2c 7d 9s 5h]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [As 4d 8h]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [As 4d 8h] [Kd]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [As 4d 8h Kd] [5d]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [9h Qh Kh Js]
+d shows [2c 7d 9s 5h]
+StraightOuttaCam wins the pot (12)
+
+Hand #51, d (-724), StraightOuttaCam (724)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Th Ts Kc 7c]
+Dealt to StraightOuttaCam [7s 5h Qd 8h]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Kh Qc Td]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Kh Qc Td] [7d]
+StraightOuttaCam bets 4
+d calls
+*** RIVER *** (12) [Kh Qc Td 7d] [9c]
+StraightOuttaCam checks
+d checks
+d shows [Th Ts Kc 7c]
+StraightOuttaCam shows [7s 5h Qd 8h]
+d wins the pot (12)
+
+Hand #52, StraightOuttaCam (718), d (-718)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [5s 7c Qd 9h]
+Dealt to d [Qc 3h 7s 2h]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [9d 8h 8d]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [9d 8h 8d] [Js]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [9d 8h 8d Js] [9s]
+d checks
+StraightOuttaCam bets 2
+d calls
+StraightOuttaCam shows [5s 7c Qd 9h]
+d shows [Qc 3h 7s 2h]
+StraightOuttaCam wins the pot (8)
+
+Hand #53, d (-722), StraightOuttaCam (722)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Qh Ah 5d 8c]
+Dealt to StraightOuttaCam [9d Kc Kh 4d]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [9c 2h Th]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [9c 2h Th] [As]
+StraightOuttaCam bets 12
+d calls
+*** RIVER *** (36) [9c 2h Th As] [Js]
+StraightOuttaCam checks
+d checks
+d shows [Qh Ah 5d 8c]
+StraightOuttaCam shows [9d Kc Kh 4d]
+d wins the pot (36)
+
+Hand #54, StraightOuttaCam (704), d (-704)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [6c Kh 2h 8h]
+Dealt to d [Kc Ts 8d Qh]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [4c Th 7d]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [4c Th 7d] [9c]
+d checks
+StraightOuttaCam bets 3
+d calls
+*** RIVER *** (10) [4c Th 7d 9c] [4h]
+d checks
+StraightOuttaCam bets 2
+d calls
+StraightOuttaCam shows [6c Kh 2h 8h]
+d shows [Kc Ts 8d Qh]
+StraightOuttaCam wins the pot (14)
+
+Hand #55, d (-711), StraightOuttaCam (711)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Kd 4h 6d Ks]
+Dealt to StraightOuttaCam [Qc As 9h 6h]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Js 9d 7h]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [Js 9d 7h] [Kh]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [Js 9d 7h Kh] [2s]
+StraightOuttaCam checks
+d checks
+d shows [Kd 4h 6d Ks]
+StraightOuttaCam shows [Qc As 9h 6h]
+d wins the pot (12)
+
+Hand #56, StraightOuttaCam (705), d (-705)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [2c 9s Qc Ac]
+Dealt to d [Qs 7d Qh 5s]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Kc 5d Ad]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [Kc 5d Ad] [2s]
+d checks
+StraightOuttaCam bets 8
+d calls
+*** RIVER *** (28) [Kc 5d Ad 2s] [6h]
+d checks
+StraightOuttaCam bets 9
+d calls
+StraightOuttaCam shows [2c 9s Qc Ac]
+d shows [Qs 7d Qh 5s]
+StraightOuttaCam wins the pot (46)
+
+Hand #57, d (-728), StraightOuttaCam (728)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [2c 5d 6h 8c]
+Dealt to StraightOuttaCam [4d Ah 3c 9h]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [As Th 5c]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [As Th 5c] [Jd]
+StraightOuttaCam bets 3
+d folds
+Uncalled bet of 3 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #58, StraightOuttaCam (730), d (-730)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [4s 6h Td 8s]
+Dealt to d [8c Ac 3d Jd]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Ts 2d 2h]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Ts 2d 2h] [Ad]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Ts 2d 2h Ad] [5d]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [4s 6h Td 8s]
+d shows [8c Ac 3d Jd]
+d wins the pot (4)
+
+Hand #59, d (-728), StraightOuttaCam (728)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [2h 3s Ts 6h]
+Dealt to StraightOuttaCam [2s As 6s Ac]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Tc 4d 5c]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [Tc 4d 5c] [9h]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [Tc 4d 5c 9h] [Td]
+StraightOuttaCam bets 5
+d calls
+d shows [2h 3s Ts 6h]
+StraightOuttaCam shows [2s As 6s Ac]
+d wins the pot (22)
+
+Hand #60, StraightOuttaCam (717), d (-717)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Tc 5c 9h 7s]
+Dealt to d [Ac Th 8c 4s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Js 8d 7h]
+d checks
+StraightOuttaCam bets 4
+d calls
+*** TURN *** (12) [Js 8d 7h] [Kd]
+d checks
+StraightOuttaCam bets 12
+d calls
+*** RIVER *** (36) [Js 8d 7h Kd] [Kh]
+d checks
+StraightOuttaCam bets 32
+d calls
+StraightOuttaCam shows [Tc 5c 9h 7s]
+d shows [Ac Th 8c 4s]
+StraightOuttaCam wins the pot (100)
+
+Hand #61, d (-767), StraightOuttaCam (767)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [6d 8h 8s Qs]
+Dealt to StraightOuttaCam [Ac Js 2c 4c]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [4d Kd Tc]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [4d Kd Tc] [Kh]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [4d Kd Tc Kh] [Td]
+StraightOuttaCam checks
+d checks
+d shows [6d 8h 8s Qs]
+StraightOuttaCam shows [Ac Js 2c 4c]
+d wins the pot (4)
+
+Hand #62, StraightOuttaCam (765), d (-765)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [4d 5s Tc 2d]
+Dealt to d [7h Td Jc Qc]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Jd 2c 6h]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Jd 2c 6h] [Qs]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Jd 2c 6h Qs] [8h]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [4d 5s Tc 2d]
+d shows [7h Td Jc Qc]
+d wins the pot (4)
+
+Hand #63, d (-763), StraightOuttaCam (763)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [9d Kd 4d 9s]
+Dealt to StraightOuttaCam [3s 7c 2d 8h]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Qc 5d 3h]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Qc 5d 3h] [9h]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Qc 5d 3h 9h] [Ad]
+StraightOuttaCam checks
+d checks
+d shows [9d Kd 4d 9s]
+StraightOuttaCam shows [3s 7c 2d 8h]
+d wins the pot (4)
+
+Hand #64, StraightOuttaCam (761), d (-761)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [2d 8h 4s 8d]
+Dealt to d [Ah Tc Ks 3d]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [9h Jd 4d]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [9h Jd 4d] [Qd]
+d checks
+StraightOuttaCam bets 2
+d calls
+*** RIVER *** (8) [9h Jd 4d Qd] [Td]
+d checks
+StraightOuttaCam bets 8
+d folds
+Uncalled bet of 8 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (8)
+
+Hand #65, d (-765), StraightOuttaCam (765)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [9d Qd 7s 9s]
+Dealt to StraightOuttaCam [Th Tc 7h 6h]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Ks Kc 2c]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [Ks Kc 2c] [8d]
+StraightOuttaCam bets 9
+d calls
+*** RIVER *** (30) [Ks Kc 2c 8d] [6c]
+StraightOuttaCam checks
+d checks
+d shows [9d Qd 7s 9s]
+StraightOuttaCam shows [Th Tc 7h 6h]
+StraightOuttaCam wins the pot (30)
+
+Hand #66, StraightOuttaCam (780), d (-780)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [3s Kd Ks 4d]
+Dealt to d [9d 5s 8s Qh]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [6d Ts Tc]
+d checks
+StraightOuttaCam bets 9
+d calls
+*** TURN *** (30) [6d Ts Tc] [4c]
+d checks
+StraightOuttaCam bets 18
+d calls
+*** RIVER *** (66) [6d Ts Tc 4c] [7h]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [3s Kd Ks 4d]
+d shows [9d 5s 8s Qh]
+d wins the pot (66)
+
+Hand #67, d (-747), StraightOuttaCam (747)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [5d 6c 2s Ks]
+Dealt to StraightOuttaCam [2c As Jc 2d]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [8d 7h 3h]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [8d 7h 3h] [9h]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [8d 7h 3h 9h] [4h]
+StraightOuttaCam checks
+d checks
+d shows [5d 6c 2s Ks]
+StraightOuttaCam shows [2c As Jc 2d]
+d wins the pot (4)
+
+Hand #68, StraightOuttaCam (745), d (-745)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [2d 5s 9c 2c]
+Dealt to d [6c 7d 8c 7s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Jd 6h Qh]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Jd 6h Qh] [8s]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Jd 6h Qh 8s] [Tc]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [2d 5s 9c 2c]
+d shows [6c 7d 8c 7s]
+d wins the pot (4)
+
+Hand #69, d (-743), StraightOuttaCam (743)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Qc 4s 9d Qh]
+Dealt to StraightOuttaCam [Kh 8d 6d Ts]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [3d 4h Qd]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [3d 4h Qd] [Ac]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [3d 4h Qd Ac] [5d]
+StraightOuttaCam bets 12
+d calls
+d shows [Qc 4s 9d Qh]
+StraightOuttaCam shows [Kh 8d 6d Ts]
+StraightOuttaCam wins the pot (36)
+
+Hand #70, StraightOuttaCam (761), d (-761)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [5d 3s Td 8c]
+Dealt to d [6c Qs 7h 9h]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [2d Kc 6d]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [2d Kc 6d] [As]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [2d Kc 6d As] [7d]
+d checks
+StraightOuttaCam bets 4
+d calls
+StraightOuttaCam shows [5d 3s Td 8c]
+d shows [6c Qs 7h 9h]
+StraightOuttaCam wins the pot (12)
+
+Hand #71, d (-767), StraightOuttaCam (767)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [2c 6d Ac 5d]
+Dealt to StraightOuttaCam [4d 9s 9c 2s]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [8d Ts Ks]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [8d Ts Ks] [4h]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [8d Ts Ks 4h] [Kd]
+StraightOuttaCam checks
+d checks
+d shows [2c 6d Ac 5d]
+StraightOuttaCam shows [4d 9s 9c 2s]
+StraightOuttaCam wins the pot (4)
+
+Hand #72, StraightOuttaCam (769), d (-769)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [6c 6h 7d Td]
+Dealt to d [Jc 8c 3d Ac]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [5h Ad Jh]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [5h Ad Jh] [2d]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [5h Ad Jh 2d] [4h]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [6c 6h 7d Td]
+d shows [Jc 8c 3d Ac]
+d wins the pot (12)
+
+Hand #73, d (-763), StraightOuttaCam (763)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Qd Ks Tc 6h]
+Dealt to StraightOuttaCam [Kc Kh Jd As]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Kd 6s 8h]
+StraightOuttaCam bets 12
+d calls
+*** TURN *** (36) [Kd 6s 8h] [8s]
+StraightOuttaCam bets 36
+d calls
+*** RIVER *** (108) [Kd 6s 8h 8s] [Jh]
+StraightOuttaCam bets 108
+d calls
+d shows [Qd Ks Tc 6h]
+StraightOuttaCam shows [Kc Kh Jd As]
+StraightOuttaCam wins the pot (324)
+
+Hand #74, StraightOuttaCam (925), d (-925)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [4s 4h Ts Js]
+Dealt to d [Ad Ks 7s Th]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [8h Qd 8c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [8h Qd 8c] [8d]
+d checks
+StraightOuttaCam bets 4
+d calls
+*** RIVER *** (12) [8h Qd 8c 8d] [Td]
+d checks
+StraightOuttaCam bets 10
+d calls
+StraightOuttaCam shows [4s 4h Ts Js]
+d shows [Ad Ks 7s Th]
+StraightOuttaCam wins the pot (32)
+
+Hand #75, d (-941), StraightOuttaCam (941)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [6c 6h Ks 8h]
+Dealt to StraightOuttaCam [Kd Ac 6s Th]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Qc 9s Jh]
+StraightOuttaCam bets 12
+d calls
+*** TURN *** (36) [Qc 9s Jh] [7c]
+StraightOuttaCam bets 36
+d calls
+*** RIVER *** (108) [Qc 9s Jh 7c] [Kh]
+StraightOuttaCam bets 108
+d calls
+d shows [6c 6h Ks 8h]
+StraightOuttaCam shows [Kd Ac 6s Th]
+StraightOuttaCam wins the pot (324)
+
+Hand #76, StraightOuttaCam (1103), d (-1103)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [3d Qs 7c 9c]
+Dealt to d [Ac 2c Js 9d]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Qd 4d Ah]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Qd 4d Ah] [As]
+d checks
+StraightOuttaCam bets 2
+d calls
+*** RIVER *** (8) [Qd 4d Ah As] [9s]
+d checks
+StraightOuttaCam bets 6
+d calls
+StraightOuttaCam shows [3d Qs 7c 9c]
+d shows [Ac 2c Js 9d]
+d wins the pot (20)
+
+Hand #77, d (-1093), StraightOuttaCam (1093)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Jc Ad Js 2c]
+Dealt to StraightOuttaCam [5s 8d As Qc]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Ac 2h 5d]
+StraightOuttaCam bets 7
+d calls
+*** TURN *** (26) [Ac 2h 5d] [6s]
+StraightOuttaCam bets 18
+d calls
+*** RIVER *** (62) [Ac 2h 5d 6s] [9h]
+StraightOuttaCam bets 44
+d calls
+d shows [Jc Ad Js 2c]
+StraightOuttaCam shows [5s 8d As Qc]
+StraightOuttaCam wins the pot (150)
+
+Hand #78, StraightOuttaCam (1168), d (-1168)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [8s 2c 2h 4s]
+Dealt to d [7d 4d 5h 3s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [7s 8c Qc]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [7s 8c Qc] [8d]
+d checks
+StraightOuttaCam bets 2
+d calls
+*** RIVER *** (8) [7s 8c Qc 8d] [Kh]
+d checks
+StraightOuttaCam bets 8
+d calls
+StraightOuttaCam shows [8s 2c 2h 4s]
+d shows [7d 4d 5h 3s]
+StraightOuttaCam wins the pot (24)
+
+Hand #79, d (-1180), StraightOuttaCam (1180)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Jd 6d Ac 7s]
+Dealt to StraightOuttaCam [6s Ks Ad 9c]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [2h Qd Kc]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [2h Qd Kc] [7d]
+StraightOuttaCam bets 12
+d calls
+*** RIVER *** (36) [2h Qd Kc 7d] [9s]
+StraightOuttaCam bets 8
+d calls
+d shows [Jd 6d Ac 7s]
+StraightOuttaCam shows [6s Ks Ad 9c]
+StraightOuttaCam wins the pot (52)
+
+Hand #80, StraightOuttaCam (1206), d (-1206)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [6h Ac Td 7s]
+Dealt to d [Qh Js 2d 3d]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [8c Jh Jc]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [8c Jh Jc] [4h]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [8c Jh Jc 4h] [8d]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [6h Ac Td 7s]
+d shows [Qh Js 2d 3d]
+d wins the pot (12)
+
+Hand #81, d (-1200), StraightOuttaCam (1200)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Jc 5c 5h Qc]
+Dealt to StraightOuttaCam [8c 7s 9s 9c]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Qh Jd Jh]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [Qh Jd Jh] [6d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [Qh Jd Jh 6d] [Ks]
+StraightOuttaCam checks
+d checks
+d shows [Jc 5c 5h Qc]
+StraightOuttaCam shows [8c 7s 9s 9c]
+d wins the pot (12)
+
+Hand #82, StraightOuttaCam (1194), d (-1194)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [As Kh 6c 9h]
+Dealt to d [9s Td 7c 9d]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [8c 9c 5s]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [8c 9c 5s] [8h]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [8c 9c 5s 8h] [Ah]
+d checks
+StraightOuttaCam bets 8
+d calls
+StraightOuttaCam shows [As Kh 6c 9h]
+d shows [9s Td 7c 9d]
+d wins the pot (28)
+
+Hand #83, d (-1180), StraightOuttaCam (1180)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [7h Ts 4s 5h]
+Dealt to StraightOuttaCam [5d 6c 3d 2d]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [Kc Qh 4d]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [Kc Qh 4d] [3h]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [Kc Qh 4d 3h] [6h]
+StraightOuttaCam bets 3
+d calls
+d shows [7h Ts 4s 5h]
+StraightOuttaCam shows [5d 6c 3d 2d]
+d wins the pot (10)
+
+Hand #84, StraightOuttaCam (1175), d (-1175)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [3s 9d Qh Js]
+Dealt to d [2d Th 5c Jc]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [5s Ad 8c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [5s Ad 8c] [6h]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [5s Ad 8c 6h] [4c]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [3s 9d Qh Js]
+d shows [2d Th 5c Jc]
+d wins the pot (4)
+
+Hand #85, d (-1173), StraightOuttaCam (1173)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [9c 8h Js Jh]
+Dealt to StraightOuttaCam [Jc Ac As 4c]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Qs Ah 2h]
+StraightOuttaCam bets 12
+d calls
+*** TURN *** (36) [Qs Ah 2h] [Jd]
+StraightOuttaCam bets 36
+d calls
+*** RIVER *** (108) [Qs Ah 2h Jd] [8d]
+StraightOuttaCam bets 23
+d calls
+d shows [9c 8h Js Jh]
+StraightOuttaCam shows [Jc Ac As 4c]
+StraightOuttaCam wins the pot (154)
+
+Hand #86, StraightOuttaCam (1250), d (-1250)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [2h 6c Kh Td]
+Dealt to d [7d 2d Qc 8d]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [3c 7c Jd]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [3c 7c Jd] [Jc]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [3c 7c Jd Jc] [Js]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [2h 6c Kh Td]
+d shows [7d 2d Qc 8d]
+StraightOuttaCam wins the pot (4)
+
+Hand #87, d (-1252), StraightOuttaCam (1252)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [4c 2d 4d 2h]
+Dealt to StraightOuttaCam [Kh 6d 5c Jh]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [2s 6s 9h]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [2s 6s 9h] [3d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [2s 6s 9h 3d] [Ah]
+StraightOuttaCam checks
+d checks
+d shows [4c 2d 4d 2h]
+StraightOuttaCam shows [Kh 6d 5c Jh]
+d wins the pot (12)
+
+Hand #88, StraightOuttaCam (1246), d (-1246)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [2c 9h 5h 7d]
+Dealt to d [3h Kc 2s 9s]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Ah Ts 4d]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Ah Ts 4d] [Jd]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Ah Ts 4d Jd] [9c]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [2c 9h 5h 7d]
+d shows [3h Kc 2s 9s]
+d wins the pot (4)
+
+Hand #89, d (-1244), StraightOuttaCam (1244)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Kd Kc Td 5d]
+Dealt to StraightOuttaCam [8c 3c Jh 7s]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [3s 9h 5c]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [3s 9h 5c] [7h]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [3s 9h 5c 7h] [9d]
+StraightOuttaCam checks
+d checks
+d shows [Kd Kc Td 5d]
+StraightOuttaCam shows [8c 3c Jh 7s]
+d wins the pot (4)
+
+Hand #90, StraightOuttaCam (1242), d (-1242)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Ad As 4c 6h]
+Dealt to d [4s Kc Ah 2c]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [5c 6d 5s]
+d checks
+StraightOuttaCam bets 5
+d calls
+*** TURN *** (22) [5c 6d 5s] [3c]
+d checks
+StraightOuttaCam bets 18
+d calls
+*** RIVER *** (58) [5c 6d 5s 3c] [2d]
+d checks
+StraightOuttaCam bets 18
+d calls
+StraightOuttaCam shows [Ad As 4c 6h]
+d shows [4s Kc Ah 2c]
+StraightOuttaCam ties for the pot (47)
+d ties for the pot (47)
+
+Hand #91, d (-1242), StraightOuttaCam (1242)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [2c 2h 7h Ad]
+Dealt to StraightOuttaCam [5d Kh 4d 4h]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Td 7c Th]
+StraightOuttaCam checks
+d checks
+*** TURN *** (12) [Td 7c Th] [2d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (12) [Td 7c Th 2d] [4c]
+StraightOuttaCam bets 12
+d calls
+d shows [2c 2h 7h Ad]
+StraightOuttaCam shows [5d Kh 4d 4h]
+StraightOuttaCam wins the pot (36)
+
+Hand #92, StraightOuttaCam (1260), d (-1260)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [7d Th 2d 8h]
+Dealt to d [7c 4s Qd 6h]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [8s 7h 5d]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [8s 7h 5d] [Qs]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [8s 7h 5d Qs] [Ah]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [7d Th 2d 8h]
+d shows [7c 4s Qd 6h]
+d wins the pot (4)
+
+Hand #93, d (-1258), StraightOuttaCam (1258)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [7d Tc 3c 4d]
+Dealt to StraightOuttaCam [9d Jh Ah Ac]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [5s 2d 8h]
+StraightOuttaCam bets 10
+d calls
+*** TURN *** (32) [5s 2d 8h] [Qc]
+StraightOuttaCam bets 20
+d calls
+*** RIVER *** (72) [5s 2d 8h Qc] [Jd]
+StraightOuttaCam checks
+d checks
+d shows [7d Tc 3c 4d]
+StraightOuttaCam shows [9d Jh Ah Ac]
+StraightOuttaCam wins the pot (72)
+
+Hand #94, StraightOuttaCam (1294), d (-1294)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [5h 9c Ts 4c]
+Dealt to d [3c Kd 7s 7c]
+StraightOuttaCam calls
+d checks
+*** FLOP *** (4) [Kc Qh 6c]
+d checks
+StraightOuttaCam checks
+*** TURN *** (4) [Kc Qh 6c] [Qs]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Kc Qh 6c Qs] [6h]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [5h 9c Ts 4c]
+d shows [3c Kd 7s 7c]
+d wins the pot (4)
+
+Hand #95, d (-1292), StraightOuttaCam (1292)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Ac 9d Qh Ad]
+Dealt to StraightOuttaCam [Kd 5c 3d 6s]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [5h 8d Js]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [5h 8d Js] [Kc]
+StraightOuttaCam bets 2
+d calls
+*** RIVER *** (8) [5h 8d Js Kc] [7h]
+StraightOuttaCam bets 6
+d calls
+d shows [Ac 9d Qh Ad]
+StraightOuttaCam shows [Kd 5c 3d 6s]
+StraightOuttaCam wins the pot (20)
+
+Hand #96, StraightOuttaCam (1302), d (-1302)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [9c Js 7d Tc]
+Dealt to d [Ac 5s Ks Ts]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [2h Ah 3d]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [2h Ah 3d] [8c]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [2h Ah 3d 8c] [9d]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [9c Js 7d Tc]
+d shows [Ac 5s Ks Ts]
+d wins the pot (12)
+
+Hand #97, d (-1296), StraightOuttaCam (1296)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Qh 4h 7c 4c]
+Dealt to StraightOuttaCam [Ks 3h 2h 4d]
+d calls
+StraightOuttaCam checks
+*** FLOP *** (4) [8c Ac 2c]
+StraightOuttaCam checks
+d checks
+*** TURN *** (4) [8c Ac 2c] [7d]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (4) [8c Ac 2c 7d] [5d]
+StraightOuttaCam bets 3
+d calls
+d shows [Qh 4h 7c 4c]
+StraightOuttaCam shows [Ks 3h 2h 4d]
+d wins the pot (10)
+
+Hand #98, StraightOuttaCam (1291), d (-1291)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Ac 9c 3c Ts]
+Dealt to d [5c 7c 2s 4s]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [6h 9h 3s]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [6h 9h 3s] [7d]
+d checks
+StraightOuttaCam checks
+*** RIVER *** (12) [6h 9h 3s 7d] [Kc]
+d checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Ac 9c 3c Ts]
+d shows [5c 7c 2s 4s]
+d wins the pot (12)
+
+Hand #99, d (-1285), StraightOuttaCam (1285)
+d posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to d [Td 5h Jd 2d]
+Dealt to StraightOuttaCam [9d 9h 2c 8h]
+d calls
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [6h 3s 7s]
+StraightOuttaCam bets 10
+d calls
+*** TURN *** (32) [6h 3s 7s] [2s]
+StraightOuttaCam checks
+d checks
+*** RIVER *** (32) [6h 3s 7s 2s] [Th]
+StraightOuttaCam bets 32
+d calls
+d shows [Td 5h Jd 2d]
+StraightOuttaCam shows [9d 9h 2c 8h]
+StraightOuttaCam wins the pot (96)
+
+Hand #100, StraightOuttaCam (1333), d (-1333)
+StraightOuttaCam posts the blind of 1
+d posts the blind of 2
+Dealt to StraightOuttaCam [Kh 2d As Qd]
+Dealt to d [9d 7s 2c 4c]
+StraightOuttaCam raises to 6
+d calls
+*** FLOP *** (12) [Qs Jh Js]
+d checks
+StraightOuttaCam checks
+*** TURN *** (12) [Qs Jh Js] [Ad]
+d checks
+StraightOuttaCam bets 5
+d calls
+*** RIVER *** (22) [Qs Jh Js Ad] [Ac]
+d checks
+StraightOuttaCam bets 22
+d calls
+StraightOuttaCam shows [Kh 2d As Qd]
+d shows [9d 7s 2c 4c]
+StraightOuttaCam wins the pot (66)
+

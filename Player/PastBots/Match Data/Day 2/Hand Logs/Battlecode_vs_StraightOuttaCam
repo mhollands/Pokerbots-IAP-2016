@@ -1,0 +1,1284 @@
+6.176 MIT Pokerbots - Battlecode vs StraightOuttaCam (stack=200, bb=2)
+Hand #1, Battlecode (0), StraightOuttaCam (0)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [9s Tc 8h Js]
+Dealt to StraightOuttaCam [4s Qc 2d Ah]
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [9h Th 2s]
+StraightOuttaCam checks
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #2, StraightOuttaCam (-6), Battlecode (6)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [5h 4c Qc Kd]
+Dealt to Battlecode [Qd Jd 6d Ah]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #3, Battlecode (4), StraightOuttaCam (-4)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [6s Ad 3d 7c]
+Dealt to StraightOuttaCam [5d Th 3c 6c]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #4, StraightOuttaCam (-3), Battlecode (3)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [3d 3c 2s 9c]
+Dealt to Battlecode [9d 4c Qh 9s]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [8h 5s 5h]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [8h 5s 5h] [3h]
+Battlecode checks
+StraightOuttaCam bets 4
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #5, Battlecode (1), StraightOuttaCam (-1)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [5c 4h 8h 6s]
+Dealt to StraightOuttaCam [Td 9d 5d Kd]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #6, StraightOuttaCam (0), Battlecode (0)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [9s 8h Qs 4d]
+Dealt to Battlecode [Tc 4s 2s 4c]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [Qd 3s Kh]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [Qd 3s Kh] [4h]
+Battlecode bets 4
+StraightOuttaCam calls
+*** RIVER *** (12) [Qd 3s Kh 4h] [Jh]
+Battlecode bets 7
+StraightOuttaCam calls
+StraightOuttaCam shows [9s 8h Qs 4d]
+Battlecode shows [Tc 4s 2s 4c]
+Battlecode wins the pot (26)
+
+Hand #7, Battlecode (13), StraightOuttaCam (-13)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [3s 4h 9h 3d]
+Dealt to StraightOuttaCam [6s 5h Js Qd]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #8, StraightOuttaCam (-12), Battlecode (12)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Kc Jc 8s 2d]
+Dealt to Battlecode [7s 3h Jd 8c]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [9c 8d 6h]
+Battlecode bets 4
+StraightOuttaCam calls
+*** TURN *** (12) [9c 8d 6h] [9d]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (12) [9c 8d 6h 9d] [Ac]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Kc Jc 8s 2d]
+Battlecode shows [7s 3h Jd 8c]
+StraightOuttaCam wins the pot (12)
+
+Hand #9, Battlecode (6), StraightOuttaCam (-6)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Kd 9h Qd 8c]
+Dealt to StraightOuttaCam [8d 7c 4s 7d]
+Battlecode raises to 6
+StraightOuttaCam raises to 18
+Battlecode folds
+Uncalled bet of 12 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #10, StraightOuttaCam (0), Battlecode (0)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Jh 7d Qh Ks]
+Dealt to Battlecode [7h 6s 4h 5s]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #11, Battlecode (-2), StraightOuttaCam (2)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [4h As Jc Ac]
+Dealt to StraightOuttaCam [2s 9h 8c Tc]
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [4s 3c 5s]
+StraightOuttaCam checks
+Battlecode checks
+*** TURN *** (12) [4s 3c 5s] [Th]
+StraightOuttaCam checks
+Battlecode bets 7
+StraightOuttaCam folds
+Uncalled bet of 7 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #12, StraightOuttaCam (-4), Battlecode (4)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [8c Qs Jh Ah]
+Dealt to Battlecode [4c 4h Ts Td]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #13, Battlecode (2), StraightOuttaCam (-2)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [2c 2s 8d 3d]
+Dealt to StraightOuttaCam [Kh 2h 3h Qs]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #14, StraightOuttaCam (-1), Battlecode (1)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Ac Td 6h 6d]
+Dealt to Battlecode [5d 7s 3d 8c]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #15, Battlecode (-1), StraightOuttaCam (1)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [4s 5c 2h 3d]
+Dealt to StraightOuttaCam [3h Ks 2d Kc]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #16, StraightOuttaCam (2), Battlecode (-2)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [3d 2c 4d 6c]
+Dealt to Battlecode [Th 5s 9d 8d]
+StraightOuttaCam calls
+Battlecode raises to 5
+StraightOuttaCam calls
+*** FLOP *** (10) [Kd Qc 6d]
+Battlecode bets 10
+StraightOuttaCam calls
+*** TURN *** (30) [Kd Qc 6d] [7h]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (30) [Kd Qc 6d 7h] [5d]
+Battlecode bets 30
+StraightOuttaCam raises to 120
+Battlecode raises to 185
+StraightOuttaCam calls
+StraightOuttaCam shows [3d 2c 4d 6c]
+Battlecode shows [Th 5s 9d 8d]
+Battlecode wins the pot (400)
+
+Hand #17, Battlecode (198), StraightOuttaCam (-198)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [7s 7d 8d Jc]
+Dealt to StraightOuttaCam [Ks As 8s 4d]
+Battlecode raises to 6
+StraightOuttaCam raises to 18
+Battlecode folds
+Uncalled bet of 12 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #18, StraightOuttaCam (-192), Battlecode (192)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Qh 4d 3d Ks]
+Dealt to Battlecode [7s Qc 6s 2h]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [5s Tc 9s]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [5s Tc 9s] [Jd]
+Battlecode checks
+StraightOuttaCam bets 4
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #19, Battlecode (190), StraightOuttaCam (-190)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [7c 2h 2d 3h]
+Dealt to StraightOuttaCam [Kd Ah Jh Kc]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #20, StraightOuttaCam (-189), Battlecode (189)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [4h 8h Jc 2h]
+Dealt to Battlecode [7c Th 9h 9d]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [Kd 9s 2c]
+Battlecode bets 12
+StraightOuttaCam calls
+*** TURN *** (36) [Kd 9s 2c] [As]
+Battlecode bets 36
+StraightOuttaCam folds
+Uncalled bet of 36 returned to Battlecode
+Battlecode wins the pot (36)
+
+Hand #21, Battlecode (207), StraightOuttaCam (-207)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [9d 3d Qc Qd]
+Dealt to StraightOuttaCam [8s 7d Ah 3h]
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [Jd 8c Ac]
+StraightOuttaCam bets 11
+Battlecode folds
+Uncalled bet of 11 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #22, StraightOuttaCam (-201), Battlecode (201)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Qc 3d Jd 6c]
+Dealt to Battlecode [Qd Ah Td 5c]
+StraightOuttaCam raises to 6
+Battlecode calls
+*** FLOP *** (12) [6h Th 4d]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (12) [6h Th 4d] [5s]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #23, Battlecode (207), StraightOuttaCam (-207)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Kd Qd 2c 7h]
+Dealt to StraightOuttaCam [Qc Js 9c Qh]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #24, StraightOuttaCam (-206), Battlecode (206)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [6h 2s 4h 3h]
+Dealt to Battlecode [9h 8h Td 2h]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [Qs 7h 4c]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [Qs 7h 4c] [5s]
+Battlecode checks
+StraightOuttaCam bets 2
+Battlecode folds
+Uncalled bet of 2 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #25, Battlecode (204), StraightOuttaCam (-204)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [9c 3s 7h As]
+Dealt to StraightOuttaCam [4h Jd Ks 7d]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #26, StraightOuttaCam (-203), Battlecode (203)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [8c Jh 2h 7c]
+Dealt to Battlecode [5d As 3s 5c]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [Js 4h 9c]
+Battlecode checks
+StraightOuttaCam bets 3
+Battlecode folds
+Uncalled bet of 3 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #27, Battlecode (201), StraightOuttaCam (-201)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [3s Qh Js 9h]
+Dealt to StraightOuttaCam [Th 6s 2s 8h]
+Battlecode calls
+StraightOuttaCam checks
+*** FLOP *** (4) [8c 2c Tc]
+StraightOuttaCam bets 2
+Battlecode folds
+Uncalled bet of 2 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #28, StraightOuttaCam (-199), Battlecode (199)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [7h 2d 8d Ad]
+Dealt to Battlecode [Jd Qh 6d 7d]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [8c Kh Kd]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (12) [8c Kh Kd] [2c]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (12) [8c Kh Kd 2c] [5h]
+Battlecode checks
+StraightOuttaCam bets 9
+Battlecode folds
+Uncalled bet of 9 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #29, Battlecode (193), StraightOuttaCam (-193)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [3c 3s 7d 2d]
+Dealt to StraightOuttaCam [As Jd 8c Th]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #30, StraightOuttaCam (-192), Battlecode (192)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [7h Ts Ks 4d]
+Dealt to Battlecode [Kd Td As Th]
+StraightOuttaCam raises to 6
+Battlecode raises to 18
+StraightOuttaCam raises to 54
+Battlecode raises to 162
+StraightOuttaCam raises to 200
+Battlecode calls
+*** FLOP *** (400) [5h 3c Qd]
+*** TURN *** (400) [5h 3c Qd] [Tc]
+*** RIVER *** (400) [5h 3c Qd Tc] [4c]
+StraightOuttaCam shows [7h Ts Ks 4d]
+Battlecode shows [Kd Td As Th]
+Battlecode wins the pot (400)
+
+Hand #31, Battlecode (392), StraightOuttaCam (-392)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [2d As 2h Kh]
+Dealt to StraightOuttaCam [7d 9c 8c 5c]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #32, StraightOuttaCam (-391), Battlecode (391)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [6h 4s 7h 9h]
+Dealt to Battlecode [9d Kc 3c Ad]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [2c Ah Js]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #33, Battlecode (397), StraightOuttaCam (-397)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [5h Jh 7s 4d]
+Dealt to StraightOuttaCam [4s As Qc 6s]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #34, StraightOuttaCam (-396), Battlecode (396)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Ad Jd 3h Ah]
+Dealt to Battlecode [9d 8h 5h 7c]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #35, Battlecode (394), StraightOuttaCam (-394)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Js Jc Kd Jh]
+Dealt to StraightOuttaCam [Ac 6s 7s Jd]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #36, StraightOuttaCam (-393), Battlecode (393)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [7h 2c Jd 4s]
+Dealt to Battlecode [Td 6d 4d 7c]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [Kc 7s Ts]
+Battlecode bets 4
+StraightOuttaCam folds
+Uncalled bet of 4 returned to Battlecode
+Battlecode wins the pot (4)
+
+Hand #37, Battlecode (395), StraightOuttaCam (-395)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Jh Js 6s Tc]
+Dealt to StraightOuttaCam [Jc 2s 5d 3c]
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [7d Kh Ah]
+StraightOuttaCam checks
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #38, StraightOuttaCam (-401), Battlecode (401)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [7d Kd 7c Ad]
+Dealt to Battlecode [6s 5c 4h 4c]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #39, Battlecode (399), StraightOuttaCam (-399)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [6h 3c 8c Th]
+Dealt to StraightOuttaCam [Ks 8s Td 7s]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #40, StraightOuttaCam (-398), Battlecode (398)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [3d Kc 3h Qs]
+Dealt to Battlecode [6d 8c 8h 2h]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [5h Jc 4c]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #41, Battlecode (404), StraightOuttaCam (-404)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [4d 2h 7h Qd]
+Dealt to StraightOuttaCam [8d Qc Jd 7c]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #42, StraightOuttaCam (-403), Battlecode (403)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [8c Qd Tc Kd]
+Dealt to Battlecode [8h 2s 4s 8d]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #43, Battlecode (401), StraightOuttaCam (-401)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Tc Jh 3d 5h]
+Dealt to StraightOuttaCam [7d 4h 4c Td]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #44, StraightOuttaCam (-400), Battlecode (400)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [8h 7h 2s 2c]
+Dealt to Battlecode [2h 9d Ts Ad]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [4h 3d Th]
+Battlecode bets 12
+StraightOuttaCam calls
+*** TURN *** (36) [4h 3d Th] [As]
+Battlecode bets 36
+StraightOuttaCam folds
+Uncalled bet of 36 returned to Battlecode
+Battlecode wins the pot (36)
+
+Hand #45, Battlecode (418), StraightOuttaCam (-418)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Th As Ad Kc]
+Dealt to StraightOuttaCam [2s 7d 8h Qd]
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [3c Ts 9c]
+StraightOuttaCam checks
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #46, StraightOuttaCam (-424), Battlecode (424)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [8d 9c 5c Th]
+Dealt to Battlecode [8h Kh 5s 7c]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [2d Ah Js]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [2d Ah Js] [3c]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (4) [2d Ah Js 3c] [Ac]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [8d 9c 5c Th]
+Battlecode shows [8h Kh 5s 7c]
+Battlecode wins the pot (4)
+
+Hand #47, Battlecode (426), StraightOuttaCam (-426)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [9c 6h Ks 7h]
+Dealt to StraightOuttaCam [6c 9h Ad As]
+Battlecode calls
+StraightOuttaCam raises to 6
+Battlecode calls
+*** FLOP *** (12) [2c 5c Ah]
+StraightOuttaCam bets 12
+Battlecode folds
+Uncalled bet of 12 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #48, StraightOuttaCam (-420), Battlecode (420)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Kh 7h Jc 6c]
+Dealt to Battlecode [Js 2d Ks Th]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #49, Battlecode (418), StraightOuttaCam (-418)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [8s 4s Qh Qd]
+Dealt to StraightOuttaCam [Qc Ks 2c Qs]
+Battlecode raises to 6
+StraightOuttaCam raises to 18
+Battlecode calls
+*** FLOP *** (36) [7c 5s Kd]
+StraightOuttaCam bets 25
+Battlecode folds
+Uncalled bet of 25 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (36)
+
+Hand #50, StraightOuttaCam (-400), Battlecode (400)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Kc Ac 7h Qs]
+Dealt to Battlecode [7s 8d 8c 9h]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #51, Battlecode (398), StraightOuttaCam (-398)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Ah Qs 9d 4d]
+Dealt to StraightOuttaCam [3d 7d Ks 4c]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #52, StraightOuttaCam (-397), Battlecode (397)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [2d 7c Jd Ks]
+Dealt to Battlecode [3d 6d Td Jc]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [4d 9c Kh]
+Battlecode checks
+StraightOuttaCam bets 3
+Battlecode folds
+Uncalled bet of 3 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #53, Battlecode (395), StraightOuttaCam (-395)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Tc 6c 4h 9d]
+Dealt to StraightOuttaCam [7s Qs 5h Jd]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #54, StraightOuttaCam (-394), Battlecode (394)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [As 2d 7d 7c]
+Dealt to Battlecode [5h Kd 6s 4d]
+StraightOuttaCam calls
+Battlecode raises to 5
+StraightOuttaCam calls
+*** FLOP *** (10) [Js 9s Th]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (10) [Js 9s Th] [4c]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (10) [Js 9s Th 4c] [2c]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [As 2d 7d 7c]
+Battlecode shows [5h Kd 6s 4d]
+StraightOuttaCam wins the pot (10)
+
+Hand #55, Battlecode (389), StraightOuttaCam (-389)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [2c 8c 9c 9s]
+Dealt to StraightOuttaCam [Qh 4s 9h Kc]
+Battlecode calls
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #56, StraightOuttaCam (-387), Battlecode (387)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Ks 4c Jh 4d]
+Dealt to Battlecode [Tc 2c 6h 9c]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [Kd 7h Ad]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [Kd 7h Ad] [8h]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Kd 7h Ad 8h] [2d]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Ks 4c Jh 4d]
+Battlecode shows [Tc 2c 6h 9c]
+StraightOuttaCam wins the pot (4)
+
+Hand #57, Battlecode (385), StraightOuttaCam (-385)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [5s Ts 4c 3s]
+Dealt to StraightOuttaCam [Jh Kc 8h Ah]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #58, StraightOuttaCam (-384), Battlecode (384)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Td 8h 3h 8c]
+Dealt to Battlecode [5d 3c 6h 9h]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #59, Battlecode (382), StraightOuttaCam (-382)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Ah Qc 5s 3h]
+Dealt to StraightOuttaCam [3d Jh 9d Ac]
+Battlecode calls
+StraightOuttaCam raises to 6
+Battlecode calls
+*** FLOP *** (12) [Ts 4c Qs]
+StraightOuttaCam checks
+Battlecode bets 12
+StraightOuttaCam calls
+*** TURN *** (36) [Ts 4c Qs] [Jc]
+StraightOuttaCam checks
+Battlecode bets 36
+StraightOuttaCam calls
+*** RIVER *** (108) [Ts 4c Qs Jc] [Tc]
+StraightOuttaCam checks
+Battlecode checks
+Battlecode shows [Ah Qc 5s 3h]
+StraightOuttaCam shows [3d Jh 9d Ac]
+Battlecode wins the pot (108)
+
+Hand #60, StraightOuttaCam (-436), Battlecode (436)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [8h 2s Qd Jd]
+Dealt to Battlecode [2c Kd 6c Qc]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [7s Ah Th]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [7s Ah Th] [7h]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (4) [7s Ah Th 7h] [4s]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [8h 2s Qd Jd]
+Battlecode shows [2c Kd 6c Qc]
+Battlecode wins the pot (4)
+
+Hand #61, Battlecode (438), StraightOuttaCam (-438)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [7d Jd 5s Th]
+Dealt to StraightOuttaCam [Qh Jc 8s 9c]
+Battlecode calls
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #62, StraightOuttaCam (-436), Battlecode (436)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [6d Jd 9c 5d]
+Dealt to Battlecode [8c 5c 3s 4s]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [4c 4h Jc]
+Battlecode bets 4
+StraightOuttaCam calls
+*** TURN *** (12) [4c 4h Jc] [Ac]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #63, Battlecode (442), StraightOuttaCam (-442)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Kd As 2d Qc]
+Dealt to StraightOuttaCam [3c 4s 3s 2s]
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [Ac Kc 6d]
+StraightOuttaCam checks
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #64, StraightOuttaCam (-448), Battlecode (448)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Td 4h 6d 6s]
+Dealt to Battlecode [Qd 3d 7s 8d]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [Jd 8h 4s]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [Jd 8h 4s] [Ac]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Jd 8h 4s Ac] [Kc]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Td 4h 6d 6s]
+Battlecode shows [Qd 3d 7s 8d]
+Battlecode wins the pot (4)
+
+Hand #65, Battlecode (450), StraightOuttaCam (-450)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Jh 8c 3s Td]
+Dealt to StraightOuttaCam [Ts Ac Kc 4d]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #66, StraightOuttaCam (-449), Battlecode (449)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [5s 6h 4c 8s]
+Dealt to Battlecode [3c Ac 9h 8h]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [3h Qs 7c]
+Battlecode bets 12
+StraightOuttaCam calls
+*** TURN *** (36) [3h Qs 7c] [Ks]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (36) [3h Qs 7c Ks] [6c]
+Battlecode checks
+StraightOuttaCam bets 36
+Battlecode folds
+Uncalled bet of 36 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (36)
+
+Hand #67, Battlecode (431), StraightOuttaCam (-431)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [3s 4d 4c Qc]
+Dealt to StraightOuttaCam [6h 4h Td 9s]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #68, StraightOuttaCam (-430), Battlecode (430)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [6s Qs 7h 7c]
+Dealt to Battlecode [Ac Ah Ad Kh]
+StraightOuttaCam raises to 6
+Battlecode raises to 18
+StraightOuttaCam raises to 54
+Battlecode raises to 162
+StraightOuttaCam raises to 200
+Battlecode calls
+*** FLOP *** (400) [5s Qc 3d]
+*** TURN *** (400) [5s Qc 3d] [5c]
+*** RIVER *** (400) [5s Qc 3d 5c] [Jh]
+StraightOuttaCam shows [6s Qs 7h 7c]
+Battlecode shows [Ac Ah Ad Kh]
+Battlecode wins the pot (400)
+
+Hand #69, Battlecode (630), StraightOuttaCam (-630)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [As Jc Kc Ah]
+Dealt to StraightOuttaCam [9c 6s 2s Qd]
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [9h 4d Kd]
+StraightOuttaCam checks
+Battlecode bets 12
+StraightOuttaCam calls
+*** TURN *** (36) [9h 4d Kd] [4c]
+StraightOuttaCam checks
+Battlecode bets 36
+StraightOuttaCam calls
+*** RIVER *** (108) [9h 4d Kd 4c] [2h]
+StraightOuttaCam checks
+Battlecode bets 108
+StraightOuttaCam calls
+Battlecode shows [As Jc Kc Ah]
+StraightOuttaCam shows [9c 6s 2s Qd]
+Battlecode wins the pot (324)
+
+Hand #70, StraightOuttaCam (-792), Battlecode (792)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Kd Qd Qc 2d]
+Dealt to Battlecode [5s Ah Jc Ad]
+StraightOuttaCam raises to 6
+Battlecode raises to 18
+StraightOuttaCam raises to 54
+Battlecode raises to 162
+StraightOuttaCam raises to 200
+Battlecode calls
+*** FLOP *** (400) [Js Td Kc]
+*** TURN *** (400) [Js Td Kc] [Ac]
+*** RIVER *** (400) [Js Td Kc Ac] [8h]
+StraightOuttaCam shows [Kd Qd Qc 2d]
+Battlecode shows [5s Ah Jc Ad]
+StraightOuttaCam wins the pot (400)
+
+Hand #71, Battlecode (592), StraightOuttaCam (-592)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [5h Ts 2d As]
+Dealt to StraightOuttaCam [2h Kh 6d 3h]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #72, StraightOuttaCam (-591), Battlecode (591)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [4c Ks 8h Td]
+Dealt to Battlecode [2h 2s Kc 7d]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [Ts 6s 6c]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [Ts 6s 6c] [8d]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (4) [Ts 6s 6c 8d] [9h]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [4c Ks 8h Td]
+Battlecode shows [2h 2s Kc 7d]
+StraightOuttaCam wins the pot (4)
+
+Hand #73, Battlecode (589), StraightOuttaCam (-589)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [As 3h Ad 7c]
+Dealt to StraightOuttaCam [4d Ah Ac 3d]
+Battlecode raises to 6
+StraightOuttaCam raises to 18
+Battlecode raises to 54
+StraightOuttaCam raises to 162
+Battlecode raises to 200
+StraightOuttaCam calls
+*** FLOP *** (400) [Kc 3s 9h]
+*** TURN *** (400) [Kc 3s 9h] [7h]
+*** RIVER *** (400) [Kc 3s 9h 7h] [6d]
+Battlecode shows [As 3h Ad 7c]
+StraightOuttaCam shows [4d Ah Ac 3d]
+Battlecode wins the pot (400)
+
+Hand #74, StraightOuttaCam (-789), Battlecode (789)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [8s 6h 3c 8h]
+Dealt to Battlecode [9d 8d 2d Js]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #75, Battlecode (787), StraightOuttaCam (-787)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [3s Ks Jc 5s]
+Dealt to StraightOuttaCam [6h 3h Qh 5d]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #76, StraightOuttaCam (-786), Battlecode (786)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [5c 5s 5d 9s]
+Dealt to Battlecode [7d Td Kc Qs]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [Qc 4c 4s]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #77, Battlecode (792), StraightOuttaCam (-792)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [8d 2c 3d Jh]
+Dealt to StraightOuttaCam [Qc 5c Kd 4d]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #78, StraightOuttaCam (-791), Battlecode (791)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [9h Ah 5h Qs]
+Dealt to Battlecode [5d Qd Kc 8c]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #79, Battlecode (789), StraightOuttaCam (-789)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Kd 4h 9s 6h]
+Dealt to StraightOuttaCam [Jc 8h 3h Kh]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #80, StraightOuttaCam (-788), Battlecode (788)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Qd 4s Jc 8s]
+Dealt to Battlecode [9s 5d Qc Th]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [9d 4c Qs]
+Battlecode bets 4
+StraightOuttaCam raises to 8
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #81, Battlecode (782), StraightOuttaCam (-782)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [2h Jd 7d Qd]
+Dealt to StraightOuttaCam [Jc Td Ks 2c]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #82, StraightOuttaCam (-781), Battlecode (781)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [6c 4s Ts Jd]
+Dealt to Battlecode [5h 9s As Ah]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [4d Ks Qs]
+Battlecode bets 12
+StraightOuttaCam raises to 38
+Battlecode folds
+Uncalled bet of 26 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (36)
+
+Hand #83, Battlecode (763), StraightOuttaCam (-763)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [6h Jc 8d 5c]
+Dealt to StraightOuttaCam [8c 6d 4s 9s]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #84, StraightOuttaCam (-762), Battlecode (762)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Td Jc 4d 7h]
+Dealt to Battlecode [9d 7d Js Ts]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [2d 6s 9s]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #85, Battlecode (768), StraightOuttaCam (-768)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [6d Jc 7d 6h]
+Dealt to StraightOuttaCam [Ad 2s Ac 8s]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #86, StraightOuttaCam (-767), Battlecode (767)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [6h 3h Tc 9h]
+Dealt to Battlecode [Ac 3s 7s Ad]
+StraightOuttaCam calls
+Battlecode raises to 6
+StraightOuttaCam calls
+*** FLOP *** (12) [3d 2d Jc]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #87, Battlecode (773), StraightOuttaCam (-773)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [2d 2s 8h 4h]
+Dealt to StraightOuttaCam [Jd 2c Qd 8d]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #88, StraightOuttaCam (-772), Battlecode (772)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [9h Kc Ad 8c]
+Dealt to Battlecode [Jh 4s Ks 7s]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #89, Battlecode (770), StraightOuttaCam (-770)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [9s Jc 6s Ts]
+Dealt to StraightOuttaCam [8d 8h As 5c]
+Battlecode calls
+StraightOuttaCam raises to 6
+Battlecode calls
+*** FLOP *** (12) [Ad 5d 3c]
+StraightOuttaCam bets 12
+Battlecode folds
+Uncalled bet of 12 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #90, StraightOuttaCam (-764), Battlecode (764)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [5c Td 7d Tc]
+Dealt to Battlecode [8c 8s 4h 3c]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #91, Battlecode (762), StraightOuttaCam (-762)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [Qc 3d Kh 3c]
+Dealt to StraightOuttaCam [3h Ah 9d Jh]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #92, StraightOuttaCam (-761), Battlecode (761)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Qs 8d 3s 4h]
+Dealt to Battlecode [Tc 6c 9d 4s]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [7d 8c Kd]
+Battlecode bets 4
+StraightOuttaCam calls
+*** TURN *** (12) [7d 8c Kd] [5c]
+Battlecode bets 12
+StraightOuttaCam folds
+Uncalled bet of 12 returned to Battlecode
+Battlecode wins the pot (12)
+
+Hand #93, Battlecode (767), StraightOuttaCam (-767)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [5s Ks Jc Th]
+Dealt to StraightOuttaCam [Kc 7c Qc 9c]
+Battlecode raises to 6
+StraightOuttaCam raises to 18
+Battlecode folds
+Uncalled bet of 12 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #94, StraightOuttaCam (-761), Battlecode (761)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [9s 5h Tc 5s]
+Dealt to Battlecode [Ts 4d 9h 4h]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [6s Qh Qc]
+Battlecode checks
+StraightOuttaCam bets 3
+Battlecode folds
+Uncalled bet of 3 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #95, Battlecode (759), StraightOuttaCam (-759)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [9c 6d 7s Jh]
+Dealt to StraightOuttaCam [Ks 9d 2d 4h]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #96, StraightOuttaCam (-758), Battlecode (758)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [Jd 6h 2s Kc]
+Dealt to Battlecode [3d 6d 3c 2h]
+StraightOuttaCam calls
+Battlecode checks
+*** FLOP *** (4) [5h 9h Ac]
+Battlecode checks
+StraightOuttaCam checks
+*** TURN *** (4) [5h 9h Ac] [8h]
+Battlecode checks
+StraightOuttaCam checks
+*** RIVER *** (4) [5h 9h Ac 8h] [Td]
+Battlecode checks
+StraightOuttaCam checks
+StraightOuttaCam shows [Jd 6h 2s Kc]
+Battlecode shows [3d 6d 3c 2h]
+Battlecode wins the pot (4)
+
+Hand #97, Battlecode (760), StraightOuttaCam (-760)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [5d 5h Kh Jc]
+Dealt to StraightOuttaCam [Ad Th As Qh]
+Battlecode calls
+StraightOuttaCam raises to 6
+Battlecode calls
+*** FLOP *** (12) [4c 3d 9c]
+StraightOuttaCam checks
+Battlecode checks
+*** TURN *** (12) [4c 3d 9c] [2h]
+StraightOuttaCam checks
+Battlecode checks
+*** RIVER *** (12) [4c 3d 9c 2h] [4s]
+StraightOuttaCam bets 11
+Battlecode folds
+Uncalled bet of 11 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (12)
+
+Hand #98, StraightOuttaCam (-754), Battlecode (754)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [6c 6s Js Qd]
+Dealt to Battlecode [9d Kh 4h 3h]
+StraightOuttaCam raises to 6
+Battlecode folds
+Uncalled bet of 4 returned to StraightOuttaCam
+StraightOuttaCam wins the pot (4)
+
+Hand #99, Battlecode (752), StraightOuttaCam (-752)
+Battlecode posts the blind of 1
+StraightOuttaCam posts the blind of 2
+Dealt to Battlecode [3h 5c 3c Kc]
+Dealt to StraightOuttaCam [6c 5d As 9c]
+Battlecode folds
+StraightOuttaCam wins the pot (3)
+
+Hand #100, StraightOuttaCam (-751), Battlecode (751)
+StraightOuttaCam posts the blind of 1
+Battlecode posts the blind of 2
+Dealt to StraightOuttaCam [5c Ts 9h Ks]
+Dealt to Battlecode [8c Ah 6d Ad]
+StraightOuttaCam raises to 6
+Battlecode raises to 18
+StraightOuttaCam raises to 54
+Battlecode raises to 162
+StraightOuttaCam raises to 200
+Battlecode calls
+*** FLOP *** (400) [8h Jd 3s]
+*** TURN *** (400) [8h Jd 3s] [As]
+*** RIVER *** (400) [8h Jd 3s As] [2d]
+StraightOuttaCam shows [5c Ts 9h Ks]
+Battlecode shows [8c Ah 6d Ad]
+Battlecode wins the pot (400)
+
