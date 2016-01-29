@@ -13,7 +13,7 @@ def whoIsIt(round0, round1, round2, round3, handNumber):
 
 	print "Euler distances: "
 	minDist = 4
-	name = "I don't have a fucking clue"
+	name = "I don't know"
 	for team in teamID:
 		rounds = teamID[team]
 		distance = math.pow(round0 - rounds[0], 2) + math.pow(round1 - rounds[1], 2) + math.pow(round2 - rounds[2], 2) + math.pow(round3 - rounds[3], 2)
