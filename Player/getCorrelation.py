@@ -42,7 +42,6 @@ def parseHand(words, length):
 
 pokeriniDict = Pokerini.pokeriniInitialise()
 
-
 #Pokerini initialised
 
 #Open and process the file
@@ -89,36 +88,6 @@ for hand in handsDict:
             team = split[2]
             if team == team1: team1hole = handParse
             if team == team2: team2hole = handParse
-        """
-        if split[1] == "folds":
-            team = split[0]
-            if team == team1:
-
-                    if roundNum == 0: winChance = Pokerini.pokeriniLookup(team1hole, pokeriniDict)
-                    team1Action[roundNum]["fold"].append(winChance)
-                    team1act[roundNum] == True
-            if team == team2: 
-                if team1act[roundNum] == False:
-                    if roundNum == 0: winChance = Pokerini.pokeriniLookup(team1hole, pokeriniDict)
-                    team1Action[roundNum]["fold"].append(winChance)
-                    team1act[roundNum] == True
-            continue
-        if split[1] == "wins":
-            team = split[0]
-            if team == team1: 
-                team1Wins["wins"] += 1
-                team1Wins["totalScore"] += int(split[4][1:-1])
-                team1Wins["listWins"].append(int(split[4][1:-1]))
-            if team == team2: 
-                team2Wins["wins"] += 1
-                team2Wins["totalScore"] += int(split[4][1:-1])
-                team2Wins["listWins"].append(int(split[4][1:-1]))
-            continue
-        if split[1] == "shows":
-            team = split[0]
-            if team == team1: team1Exits["showdown"] += 1
-            if team == team2: team2Exits["showdown"] += 1
-            continue """
         if split[1] == "FLOP":
             roundNum = 1
             tableCards = parseHand(split[4:], 3)
@@ -139,18 +108,3 @@ for hand in handsDict:
             team = split[0]
             handInfo[hand][team]["round" + str(roundNum)]["betSize"] = int(split[2])
             continue
-
-        #Previous code that calculated win probabilities - will use again later
-        """        
-
-
-
-            team1Hand = PP.findBestHand(handInfo[hand][team1]["round0"]["hand"], handParse)
-            handInfo[hand][team1]["round3"]["hand"] = team1Hand[1]
-            handInfo[hand][team1]["round3"]["winProb"] = Simulation.simulateOld(handInfo[hand][team1]["round0"]["hand"], handParse, 4, 100)
-
-            team2Hand = PP.findBestHand(handInfo[hand][team2]["round0"]["hand"], handParse)
-            handInfo[hand][team2]["round3"]["hand"] = team2Hand[1]
-            handInfo[hand][team2]["round3"]["winProb"] = Simulation.simulateOld(handInfo[hand][team2]["round0"]["hand"], handParse, 4, 100)
-            continue
-        """
