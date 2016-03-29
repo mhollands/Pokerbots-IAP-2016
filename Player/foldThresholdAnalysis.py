@@ -3,12 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 def calcDifference(fileName, newThreshold):
-	
-
-
-
-
-
+	placeholder = 0
 
 def calcDifferencePreFlop(fileName, newThreshold):
 	logFile = open(fileName, 'r')
@@ -40,7 +35,7 @@ def calcDifferencePreFlop(fileName, newThreshold):
 		#print 'My Bet: ', myBet
 		#print 'response: ', response
 		#print 'winnings: ', winningsresponse
-		
+
 		if (response != 'FOLD') and (response != 'CHEC') and pokeriniRank < newThreshold:
 			winLoss = winnings - prevWinnings
 			#print 'winLoss: ', winLoss
@@ -74,8 +69,6 @@ def graphThresholds(day):
 	plt.xlabel('Fold Threshold')
 	plt.ylabel('Gain')
 	plt.show()
-
-
 
 if __name__ == '__main__':
 	graphThresholds(3)
